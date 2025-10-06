@@ -1,0 +1,1586 @@
+[
+  {
+    "category": "Image generator",
+    "name": "Stable Diffusion XL",
+    "description": "Open-source text-to-image model that runs locally or on any cloud GPU.",
+    "priceTier": 1,
+    "pricingDesc": "Apache-2.0 licence, zero cost, unlimited usage.",
+    "benchmark": "CLIP-FID 31.2",
+    "url": "https://stability.ai"
+  },
+  {
+    "category": "Image generator",
+    "name": "DALL·E 3",
+    "description": "ChatGPT-integrated image model with native prompt rewriting.",
+    "priceTier": 2,
+    "pricingDesc": "2 images/day free, then $20/mo ChatGPT Plus.",
+    "benchmark": "FID 8.4",
+    "url": "https://openai.com/dall-e-3"
+  },
+  {
+    "category": "Image generator",
+    "name": "Midjourney v6",
+    "description": "Discord-based generator known for artistic style.",
+    "priceTier": 3,
+    "pricingDesc": "$10–120/mo subscription tiers.",
+    "benchmark": "FID 7.8",
+    "url": "https://midjourney.com"
+  },
+  {
+    "category": "Writing",
+    "name": "DeepSeek-Chat",
+    "description": "236 B open-source LLM competitive with GPT-4.",
+    "priceTier": 1,
+    "pricingDesc": "4K tokens/day free via API or web.",
+    "benchmark": "MMLU 82.8",
+    "url": "https://deepseek.com"
+  },
+  {
+    "category": "Writing",
+    "name": "Claude 3.5 Sonnet",
+    "description": "Anthropic’s balanced-speed flagship model.",
+    "priceTier": 2,
+    "pricingDesc": "30 messages/day free, $20/mo Pro.",
+    "benchmark": "MMLU 88.7",
+    "url": "https://anthropic.com/claude"
+  },
+  {
+    "category": "Writing",
+    "name": "Jasper",
+    "description": "Marketing copy suite with brand-voice training.",
+    "priceTier": 3,
+    "pricingDesc": "$39–99/mo per seat.",
+    "benchmark": "BLEU 46.8",
+    "url": "https://jasper.ai"
+  },
+  {
+    "category": "Productivity",
+    "name": "Notion AI",
+    "description": "Writing assistant inside Notion pages.",
+    "priceTier": 2,
+    "pricingDesc": "20 AI blocks free, $8/mo unlimited.",
+    "benchmark": "",
+    "url": "https://notion.so"
+  },
+  {
+    "category": "Productivity",
+    "name": "Mem",
+    "description": "Self-organising notes with AI summaries.",
+    "priceTier": 3,
+    "pricingDesc": "$8–15/mo.",
+    "benchmark": "",
+    "url": "https://mem.ai"
+  },
+  {
+    "category": "Avatar",
+    "name": "Ready Player Me",
+    "description": "Cross-game 3-D avatar creator.",
+    "priceTier": 1,
+    "pricingDesc": "Free exports (CC-BY).",
+    "benchmark": "",
+    "url": "https://readyplayer.me"
+  },
+  {
+    "category": "Avatar",
+    "name": "Synthesia STUDIO",
+    "description": "AI presenter videos with 140+ avatars.",
+    "priceTier": 3,
+    "pricingDesc": "$22–67/mo.",
+    "benchmark": "SSIM 0.92",
+    "url": "https://synthesia.io"
+  },
+  {
+    "category": "Customer support",
+    "name": "Chatwoot",
+    "description": "Open-source omnichannel help-desk.",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence, self-host or free cloud tier.",
+    "benchmark": "",
+    "url": "https://chatwoot.com"
+  },
+  {
+    "category": "Customer support",
+    "name": "Intercom Fin",
+    "description": "GPT-4 powered support bot.",
+    "priceTier": 3,
+    "pricingDesc": "$0.99 per resolution.",
+    "benchmark": "MMLU 88.7",
+    "url": "https://intercom.com/fin"
+  },
+  {
+    "category": "Design",
+    "name": "Canva Magic Design",
+    "description": "Template generator with AI layouts.",
+    "priceTier": 2,
+    "pricingDesc": "50 queries free, $12.99/mo Pro.",
+    "benchmark": "",
+    "url": "https://canva.com"
+  },
+  {
+    "category": "Design",
+    "name": "Figma AI",
+    "description": "Design-system suggestions & auto-layout.",
+    "priceTier": 3,
+    "pricingDesc": "$12–45/mo editor seat.",
+    "benchmark": "",
+    "url": "https://figma.com"
+  },
+  {
+    "category": "Video generator",
+    "name": "Pika 1.5",
+    "description": "Idea-to-short-video in browser.",
+    "priceTier": 1,
+    "pricingDesc": "250 credits/mo free.",
+    "benchmark": "FVD 16.3",
+    "url": "https://pika.art"
+  },
+  {
+    "category": "Video generator",
+    "name": "Runway Gen-3",
+    "description": "High-res text/video-to-video.",
+    "priceTier": 2,
+    "pricingDesc": "125 s free, $12/mo Standard.",
+    "benchmark": "FVD 14.1",
+    "url": "https://runwayml.com"
+  },
+  {
+    "category": "Developer tools",
+    "name": "GitHub Copilot Free",
+    "description": "Code completion for students & OSS.",
+    "priceTier": 2,
+    "pricingDesc": "2 000 suggestions/mo free.",
+    "benchmark": "HumanEval 78.9",
+    "url": "https://github.com/features/copilot"
+  },
+  {
+    "category": "Developer tools",
+    "name": "Cursor.sh",
+    "description": "VS-Code fork with GPT-4o inline.",
+    "priceTier": 3,
+    "pricingDesc": "$20/mo Pro.",
+    "benchmark": "HumanEval 85.2",
+    "url": "https://cursor.sh"
+  },
+  {
+    "category": "Copy-writing",
+    "name": "Rytr",
+    "description": "40 copy templates, 30 languages.",
+    "priceTier": 2,
+    "pricingDesc": "10 k chars/mo free.",
+    "benchmark": "BLEU 44.1",
+    "url": "https://rytr.me"
+  },
+  {
+    "category": "Education",
+    "name": "Khanmigo",
+    "description": "GPT-4 tutor embedded in Khan Academy.",
+    "priceTier": 2,
+    "pricingDesc": "$4/mo donation.",
+    "benchmark": "MMLU 88.7",
+    "url": "https://khanacademy.org/khanmigo"
+  },
+  {
+    "category": "Audio editing",
+    "name": "Adobe Enhance",
+    "description": "One-click voice clean-up.",
+    "priceTier": 1,
+    "pricingDesc": "Unlimited free.",
+    "benchmark": "MOS 4.4",
+    "url": "https://adobe.com/enhance"
+  },
+  {
+    "category": "Audio editing",
+    "name": "ElevenLabs",
+    "description": "Voice cloning & synthesis.",
+    "priceTier": 2,
+    "pricingDesc": "10 k chars/mo free.",
+    "benchmark": "MOS 4.5",
+    "url": "https://elevenlabs.io"
+  },
+  {
+    "category": "Startup tools",
+    "name": "Mixo",
+    "description": "AI landing-page + email capture.",
+    "priceTier": 2,
+    "pricingDesc": "1 site free, $9/mo.",
+    "benchmark": "",
+    "url": "https://mixo.io"
+  },
+  {
+    "category": "Social media",
+    "name": "Buffer AI Assistant",
+    "description": "Post ideas & rewrites.",
+    "priceTier": 2,
+    "pricingDesc": "3 channels free, $6/mo.",
+    "benchmark": "",
+    "url": "https://buffer.com"
+  },
+  {
+    "category": "Art",
+    "name": "NightCafe",
+    "description": "Community hub for Stable & DALL·E.",
+    "priceTier": 2,
+    "pricingDesc": "5 credits/day free.",
+    "benchmark": "",
+    "url": "https://creator.nightcafe.studio"
+  },
+  {
+    "category": "SEO",
+    "name": "Seobility",
+    "description": "Site crawler & on-page checker.",
+    "priceTier": 1,
+    "pricingDesc": "1 project free forever.",
+    "benchmark": "",
+    "url": "https://seobility.net"
+  },
+  {
+    "category": "Research",
+    "name": "Elicit",
+    "description": "Semantic search across 125 M papers.",
+    "priceTier": 2,
+    "pricingDesc": "5 k credits free, $10/mo.",
+    "benchmark": "",
+    "url": "https://elicit.org"
+  },
+  {
+    "category": "Assistant",
+    "name": "Perplexity Free",
+    "description": "GPT-4 + live web answers.",
+    "priceTier": 2,
+    "pricingDesc": "5 searches/day free.",
+    "benchmark": "MRR 0.93",
+    "url": "https://perplexity.ai"
+  },
+  {
+    "category": "Low-code",
+    "name": "Bubble AI",
+    "description": "Visual app builder + AI plugins.",
+    "priceTier": 2,
+    "pricingDesc": "Dev free, $29/mo personal.",
+    "benchmark": "",
+    "url": "https://bubble.io"
+  },
+  {
+    "category": "Code assistant",
+    "name": "CodeT5+",
+    "description": "Open-source 16 B code model.",
+    "priceTier": 1,
+    "pricingDesc": "Apache-2.0, self-host.",
+    "benchmark": "HumanEval 78.1",
+    "url": "https://github.com/salesforce/CodeT5"
+  },
+  {
+    "category": "Fun tools",
+    "name": "FakeYou",
+    "description": "Deep-fake voice clips.",
+    "priceTier": 2,
+    "pricingDesc": "12 s/day free.",
+    "benchmark": "",
+    "url": "https://fakeyou.com"
+  },
+  {
+    "category": "Summarizer",
+    "name": "Scholarcy",
+    "description": "Paper flash-cards & highlights.",
+    "priceTier": 2,
+    "pricingDesc": "3 summaries/day free.",
+    "benchmark": "",
+    "url": "https://scholarcy.com"
+  },
+  {
+    "category": "Finance",
+    "name": "Monarch Money",
+    "description": "AI budgeting & cash-flow forecast.",
+    "priceTier": 3,
+    "pricingDesc": "$14.99/mo.",
+    "benchmark": "",
+    "url": "https://monarchmoney.com"
+  },
+  {
+    "category": "HR",
+    "name": "JuiceBox",
+    "description": "Talent-search AI (PeopleGPT).",
+    "priceTier": 3,
+    "pricingDesc": "$499/mo.",
+    "benchmark": "",
+    "url": "https://juicebox.ai"
+  },
+  {
+    "category": "Image editing",
+    "name": "Remove.bg",
+    "description": "Auto background removal.",
+    "priceTier": 2,
+    "pricingDesc": "50 previews free, $0.20/img.",
+    "benchmark": "",
+    "url": "https://remove.bg"
+  },
+  {
+    "category": "Email",
+    "name": "Mailmeteor",
+    "description": "Gmail mail-merge with AI.",
+    "priceTier": 2,
+    "pricingDesc": "50 emails/day free.",
+    "benchmark": "",
+    "url": "https://mailmeteor.com"
+  },
+  {
+    "category": "Prompts",
+    "name": "PromptBase",
+    "description": "Marketplace for DALL·E / Midjourney prompts.",
+    "priceTier": 2,
+    "pricingDesc": "5 % fee on sales.",
+    "benchmark": "",
+    "url": "https://promptbase.com"
+  },
+  {
+    "category": "Transcriber",
+    "name": "Whisper.cpp",
+    "description": "OpenAI Whisper in C++ (local).",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence.",
+    "benchmark": "WER 4.2",
+    "url": "https://github.com/ggerganov/whisper.cpp"
+  },
+  {
+    "category": "Search engine",
+    "name": "You.com",
+    "description": "Privacy-first GPT-powered search.",
+    "priceTier": 1,
+    "pricingDesc": "Unlimited free.",
+    "benchmark": "MRR 0.91",
+    "url": "https://you.com"
+  },
+  {
+    "category": "Text-to-speech",
+    "name": "Bark",
+    "description": "Transformer-based emotional TTS.",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence.",
+    "benchmark": "MOS 4.1",
+    "url": "https://github.com/suno-ai/bark"
+  },
+  {
+    "category": "Travel",
+    "name": "Roam Around",
+    "description": "GPT-4 itinerary generator.",
+    "priceTier": 2,
+    "pricingDesc": "5 trips free, $9.99/mo.",
+    "benchmark": "",
+    "url": "https://roamaround.io"
+  },
+  {
+    "category": "Experiments",
+    "name": "Hugging Face Spaces",
+    "description": "Host ML demos for free.",
+    "priceTier": 1,
+    "pricingDesc": "Free CPU tier.",
+    "benchmark": "",
+    "url": "https://huggingface.co/spaces"
+  },
+  {
+    "category": "Video editing",
+    "name": "CapCut AI",
+    "description": "TikTok desktop editor with AI effects.",
+    "priceTier": 1,
+    "pricingDesc": "Unlimited free.",
+    "benchmark": "",
+    "url": "https://capcut.com"
+  },
+  {
+    "category": "E-commerce",
+    "name": "Shopify Sidekick",
+    "description": "AI admin assistant for stores.",
+    "priceTier": 3,
+    "pricingDesc": "$39/mo Shopify plan.",
+    "benchmark": "",
+    "url": "https://shopify.com/sidekick"
+  },
+  {
+    "category": "Sales",
+    "name": "Apollo.io",
+    "description": "Lead-scoring & sequencing.",
+    "priceTier": 2,
+    "pricingDesc": "50 credits free, $49/mo.",
+    "benchmark": "",
+    "url": "https://apollo.io"
+  },
+  {
+    "category": "Fitness",
+    "name": "Fitbod AI",
+    "description": "Adaptive workout planner.",
+    "priceTier": 3,
+    "pricingDesc": "$12.99/mo.",
+    "benchmark": "",
+    "url": "https://fitbod.me"
+  },
+  {
+    "category": "Healthcare",
+    "name": "Glass AI",
+    "description": "Draft differential diagnoses.",
+    "priceTier": 3,
+    "pricingDesc": "Contact sales.",
+    "benchmark": "",
+    "url": "https://glass.health"
+  },
+  {
+    "category": "Music",
+    "name": "Suno v3",
+    "description": "Text-to-song with vocals.",
+    "priceTier": 2,
+    "pricingDesc": "5 songs/day free.",
+    "benchmark": "",
+    "url": "https://suno.ai"
+  },
+  {
+    "category": "Story teller",
+    "name": "NovelAI",
+    "description": "RPG-style story generator.",
+    "priceTier": 3,
+    "pricingDesc": "$10–25/mo.",
+    "benchmark": "",
+    "url": "https://novelai.net"
+  },
+  {
+    "category": "3-D",
+    "name": "Meshy.ai",
+    "description": "Text-to-3-D & text-to-texture.",
+    "priceTier": 2,
+    "pricingDesc": "10 models free, $16/mo.",
+    "benchmark": "",
+    "url": "https://meshy.ai"
+  },
+  {
+    "category": "Dating",
+    "name": "Rizz GPT",
+    "description": "AI chat suggestions for dating apps.",
+    "priceTier": 2,
+    "pricingDesc": "5 swipes/day free.",
+    "benchmark": "",
+    "url": "https://rizzgpt.app"
+  },
+  {
+    "category": "Gaming",
+    "name": "Inworld",
+    "description": "NPC dialogue engine.",
+    "priceTier": 3,
+    "pricingDesc": "$0.002/1K chars.",
+    "benchmark": "",
+    "url": "https://inworld.ai"
+  },
+  {
+    "category": "Gift",
+    "name": "Gift Genie",
+    "description": "Question-based gift ideas.",
+    "priceTier": 1,
+    "pricingDesc": "Unlimited free.",
+    "benchmark": "",
+    "url": "https://giftgenie.ai"
+  },
+  {
+    "category": "Legal",
+    "name": "DoNotPay",
+    "description": "Robot lawyer for small claims.",
+    "priceTier": 3,
+    "pricingDesc": "$36/quarter.",
+    "benchmark": "",
+    "url": "https://donotpay.com"
+  },
+  {
+    "category": "Real estate",
+    "name": "Rezi",
+    "description": "AI lease & contract generator.",
+    "priceTier": 3,
+    "pricingDesc": "$29/mo.",
+    "benchmark": "",
+    "url": "https://rezi.io"
+  },
+  {
+    "category": "Spreadsheets",
+    "name": "Numerous.ai",
+    "description": "GPT inside Excel / Sheets.",
+    "priceTier": 2,
+    "pricingDesc": "5 formulas free, $10/mo.",
+    "benchmark": "",
+    "url": "https://numerous.ai"
+  },
+  {
+    "category": "SQL",
+    "name": "Seek.ai",
+    "description": "Text-to-SQL for analytics.",
+    "priceTier": 3,
+    "pricingDesc": "$50/mo.",
+    "benchmark": "",
+    "url": "https://seek.ai"
+  },
+  {
+    "category": "Logo generator",
+    "name": "Hatchful",
+    "description": "Shopify’s free logo maker.",
+    "priceTier": 1,
+    "pricingDesc": "Free export (PNG).",
+    "benchmark": "",
+    "url": "https://hatchful.shopify.com"
+  },
+  {
+    "category": "Memory",
+    "name": "Personal.ai",
+    "description": "Personal vector memory layer.",
+    "priceTier": 2,
+    "pricingDesc": "1K memories free.",
+    "benchmark": "",
+    "url": "https://personal.ai"
+  },
+  {
+    "category": "Presentations",
+    "name": "Gamma.app",
+    "description": "One-prompt slide decks.",
+    "priceTier": 2,
+    "pricingDesc": "400 credits free, $8/mo.",
+    "benchmark": "",
+    "url": "https://gamma.app"
+  },
+  {
+    "category": "Personalized video",
+    "name": "HeyGen Free",
+    "description": "Avatar video with your face.",
+    "priceTier": 2,
+    "pricingDesc": "1-min video free, $24/mo.",
+    "benchmark": "",
+    "url": "https://heygen.com"
+  },
+  {
+    "category": "Religion",
+    "name": "Bible.ai",
+    "description": "Chat with scripture verses.",
+    "priceTier": 1,
+    "pricingDesc": "Unlimited free.",
+    "benchmark": "",
+    "url": "https://bible.ai"
+  },
+  {
+    "category": "Chatbot dev",
+    "name": "Botpress",
+    "description": "Open-source visual builder.",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence.",
+    "benchmark": "",
+    "url": "https://botpress.com"
+  },
+  {
+    "category": "Fashion",
+    "name": "YesPlz",
+    "description": "AI stylist for e-commerce.",
+    "priceTier": 3,
+    "pricingDesc": "$499/mo.",
+    "benchmark": "",
+    "url": "https://yesplz.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Spline AI",
+    "description": "Prompt-to-3D scenes & animations.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $9/mo Pro.",
+    "benchmark": "",
+    "url": "https://spline.design/ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Kaedim",
+    "description": "Image-to-game-ready 3D model.",
+    "priceTier": 3,
+    "pricingDesc": "$599/mo.",
+    "benchmark": "",
+    "url": "https://kaedim3d.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Luma AI",
+    "description": "NeRF captures from phone video.",
+    "priceTier": 1,
+    "pricingDesc": "Free uploads.",
+    "benchmark": "",
+    "url": "https://lumalabs.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Masterpiece Studio",
+    "description": "Text-to-3D assets.",
+    "priceTier": 3,
+    "pricingDesc": "$39/mo.",
+    "benchmark": "",
+    "url": "https://masterpiecestudio.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Avaturn",
+    "description": "Selfie-to-3D avatar.",
+    "priceTier": 2,
+    "pricingDesc": "Free exports (watermark).",
+    "benchmark": "",
+    "url": "https://avaturn.me"
+  },
+  {
+    "category": "3-D",
+    "name": "Rodin",
+    "description": "Open-source 3-D asset generator.",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence.",
+    "benchmark": "",
+    "url": "https://github.com/rodin-ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Move AI",
+    "description": "Phone-to-3D motion capture.",
+    "priceTier": 3,
+    "pricingDesc": "$199/mo.",
+    "benchmark": "",
+    "url": "https://move.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Polyhive",
+    "description": "Texturing for game meshes.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $20/mo Pro.",
+    "benchmark": "",
+    "url": "https://polyhive.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Alpha3D",
+    "description": "2D-to-3D asset pipeline.",
+    "priceTier": 2,
+    "pricingDesc": "10 exports free, $49/mo.",
+    "benchmark": "",
+    "url": "https://alpha3d.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "3DFY.ai",
+    "description": "Text-to-3D models.",
+    "priceTier": 3,
+    "pricingDesc": "$15/mo starter.",
+    "benchmark": "",
+    "url": "https://3dfy.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Pixela",
+    "description": "AI 3-D pixel art generator.",
+    "priceTier": 1,
+    "pricingDesc": "Free exports.",
+    "benchmark": "",
+    "url": "https://pixela.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Mirage",
+    "description": "3-D worlds from sketches.",
+    "priceTier": 3,
+    "pricingDesc": "$99/mo.",
+    "benchmark": "",
+    "url": "https://mirage3d.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Scenario",
+    "description": "Style-consistent 3-D assets.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $29/mo.",
+    "benchmark": "",
+    "url": "https://scenario.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Promethean AI",
+    "description": "World-building for games.",
+    "priceTier": 3,
+    "pricingDesc": "$199/mo.",
+    "benchmark": "",
+    "url": "https://promethean.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "MeshAI",
+    "description": "Text-to-3D printable objects.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $19/mo.",
+    "benchmark": "",
+    "url": "https://meshai.app"
+  },
+  {
+    "category": "3-D",
+    "name": "Replicate 3D",
+    "description": "3-D asset API.",
+    "priceTier": 2,
+    "pricingDesc": "Pay-per-use.",
+    "benchmark": "",
+    "url": "https://replicate.com/explore?filter=3d"
+  },
+  {
+    "category": "3-D",
+    "name": "NVIDIA GET3D",
+    "description": "GAN-generated 3D shapes.",
+    "priceTier": 1,
+    "pricingDesc": "Open-source.",
+    "benchmark": "",
+    "url": "https://github.com/nv-tlabs/GET3D"
+  },
+  {
+    "category": "3-D",
+    "name": "DreamFusion",
+    "description": "Text-to-3D via Imagen.",
+    "priceTier": 1,
+    "pricingDesc": "Research code.",
+    "benchmark": "",
+    "url": "https://dreamfusion3d.github.io"
+  },
+  {
+    "category": "3-D",
+    "name": "Magic3D",
+    "description": "High-res text-to-3D.",
+    "priceTier": 1,
+    "pricingDesc": "Research repo.",
+    "benchmark": "",
+    "url": "https://github.com/NVlabs/Magic3D"
+  },
+  {
+    "category": "3-D",
+    "name": "Point-E",
+    "description": "OpenAI point-cloud generator.",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence.",
+    "benchmark": "",
+    "url": "https://github.com/openai/point-e"
+  },
+  {
+    "category": "3-D",
+    "name": "Shap-E",
+    "description": "OpenAI implicit-function 3D.",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence.",
+    "benchmark": "",
+    "url": "https://github.com/openai/shap-e"
+  },
+  {
+    "category": "3-D",
+    "name": "Atlas",
+    "description": "3-D generation platform.",
+    "priceTier": 3,
+    "pricingDesc": "$299/mo.",
+    "benchmark": "",
+    "url": "https://atlas3d.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "RODIN",
+    "description": "AI 3-D avatar diffusion.",
+    "priceTier": 1,
+    "pricingDesc": "Research code.",
+    "benchmark": "",
+    "url": "https://github.com/microsoft/RODIN"
+  },
+  {
+    "category": "3-D",
+    "name": "Instant-NGP",
+    "description": "Neural graphics primitives.",
+    "priceTier": 1,
+    "pricingDesc": "BSD licence.",
+    "benchmark": "",
+    "url": "https://github.com/NVlabs/instant-ngp"
+  },
+  {
+    "category": "3-D",
+    "name": "Nerfies",
+    "description": "Deformable NeRF selfies.",
+    "priceTier": 1,
+    "pricingDesc": "Apache-2.0.",
+    "benchmark": "",
+    "url": "https://github.com/nerfies/nerfies"
+  },
+  {
+    "category": "3-D",
+    "name": "HyperNeRF",
+    "description": "Dynamic scene NeRF.",
+    "priceTier": 1,
+    "pricingDesc": "Apache-2.0.",
+    "benchmark": "",
+    "url": "https://github.com/google/hypernerf"
+  },
+  {
+    "category": "3-D",
+    "name": "D-NeRF",
+    "description": "Deformable neural radiance fields.",
+    "priceTier": 1,
+    "pricingDesc": "MIT licence.",
+    "benchmark": "",
+    "url": "https://github.com/albertpumarola/D-NeRF"
+  },
+  {
+    "category": "3-D",
+    "name": "NeRFStudio",
+    "description": "Modular NeRF framework.",
+    "priceTier": 1,
+    "pricingDesc": "BSD licence.",
+    "benchmark": "",
+    "url": "https://github.com/nerfstudio-project/nerfstudio"
+  },
+  {
+    "category": "3-D",
+    "name": "Luma NeRF",
+    "description": "iPhone NeRF capture.",
+    "priceTier": 1,
+    "pricingDesc": "Free app.",
+    "benchmark": "",
+    "url": "https://lumalabs.ai/nerf"
+  },
+  {
+    "category": "3-D",
+    "name": "Polycam",
+    "description": "LiDAR / photo 3-D scanner.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $9.99/mo Pro.",
+    "benchmark": "",
+    "url": "https://polycam.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Scaniverse",
+    "description": "iPhone 3-D scanning.",
+    "priceTier": 1,
+    "pricingDesc": "Free app.",
+    "benchmark": "",
+    "url": "https://scaniverse.com"
+  },
+  {
+    "category": "3-D",
+    "name": "EM3D",
+    "description": "AI-enhanced 3-D reconstruction.",
+    "priceTier": 3,
+    "pricingDesc": "$199/mo.",
+    "benchmark": "",
+    "url": "https://em3d.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Matterport AI",
+    "description": "3-D tours from 360° photos.",
+    "priceTier": 2,
+    "pricingDesc": "Free 1 space, $9.99/mo.",
+    "benchmark": "",
+    "url": "https://matterport.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Cupix",
+    "description": "AI 3-D walkthroughs.",
+    "priceTier": 3,
+    "pricingDesc": "$99/mo.",
+    "benchmark": "",
+    "url": "https://cupix.com"
+  },
+  {
+    "category": "3-D",
+    "name": "EyeSpy360",
+    "description": "AI virtual tours.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $15/mo.",
+    "benchmark": "",
+    "url": "https://eyespy360.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Zillow 3D Home",
+    "description": "Free 3-D home tours.",
+    "priceTier": 1,
+    "pricingDesc": "Free app.",
+    "benchmark": "",
+    "url": "https://zillow.com/3dhome"
+  },
+  {
+    "category": "3-D",
+    "name": "RoomGPT",
+    "description": "AI room redesign in 3-D.",
+    "priceTier": 2,
+    "pricingDesc": "3 renders free, $9/mo.",
+    "benchmark": "",
+    "url": "https://roomgpt.io"
+  },
+  {
+    "category": "3-D",
+    "name": "Interior AI",
+    "description": "3-D interior mock-ups.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $29/mo Pro.",
+    "benchmark": "",
+    "url": "https://interiorai.com"
+  },
+  {
+    "category": "3-D",
+    "name": "DecorMatters",
+    "description": "AR/AI interior design.",
+    "priceTier": 2,
+    "pricingDesc": "Free app, $7.99/mo.",
+    "benchmark": "",
+    "url": "https://decormatters.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Planner 5D AI",
+    "description": "AI floor-plan generator.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $9.99/mo.",
+    "benchmark": "",
+    "url": "https://planner5d.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Homestyler AI",
+    "description": "3-D home design auto-furnish.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $19.99/mo.",
+    "benchmark": "",
+    "url": "https://homestyler.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Modsy AI",
+    "description": "3-D room redesigns.",
+    "priceTier": 3,
+    "pricingDesc": "$159/room.",
+    "benchmark": "",
+    "url": "https://modsy.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Havenly AI",
+    "description": "AI interior plans.",
+    "priceTier": 3,
+    "pricingDesc": "$99/room.",
+    "benchmark": "",
+    "url": "https://havenly.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Decorilla AI",
+    "description": "Virtual 3-D room staging.",
+    "priceTier": 3,
+    "pricingDesc": "$75/room.",
+    "benchmark": "",
+    "url": "https://decorilla.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Foyr AI",
+    "description": "3-D interior visualisation.",
+    "priceTier": 3,
+    "pricingDesc": "$199/mo.",
+    "benchmark": "",
+    "url": "https://foyr.com"
+  },
+  {
+    "category": "3-D",
+    "name": "AI Room Planner",
+    "description": "Free 3-D room concepts.",
+    "priceTier": 1,
+    "pricingDesc": "Unlimited free.",
+    "benchmark": "",
+    "url": "https://airoomplanner.com"
+  },
+  {
+    "category": "3-D",
+    "name": "SpaceDesigner 3D",
+    "description": "AI floor-plan visualiser.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $29/mo.",
+    "benchmark": "",
+    "url": "https://spacedesigner3d.com"
+  },
+  {
+    "category": "3-D",
+    "name": "RoomSketcher AI",
+    "description": "Auto 3-D floor plans.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $49/mo.",
+    "benchmark": "",
+    "url": "https://roomsketcher.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Floorplanner AI",
+    "description": "3-D floor-plan generator.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $24/mo.",
+    "benchmark": "",
+    "url": "https://floorplanner.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Cedreo AI",
+    "description": "3-D home design for pros.",
+    "priceTier": 3,
+    "pricingDesc": "$99/mo.",
+    "benchmark": "",
+    "url": "https://cedreo.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Archicad AI",
+    "description": "AI visualisations for architects.",
+    "priceTier": 3,
+    "pricingDesc": "$225/mo.",
+    "benchmark": "",
+    "url": "https://graphisoft.com/archicad"
+  },
+  {
+    "category": "3-D",
+    "name": "SketchUp Diffusion",
+    "description": "AI renders for SketchUp.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $119/yr.",
+    "benchmark": "",
+    "url": "https://sketchup.com/products/diffusion"
+  },
+  {
+    "category": "3-D",
+    "name": "Blender AI Render",
+    "description": "AI denoise & upsample.",
+    "priceTier": 1,
+    "pricingDesc": "Free add-on.",
+    "benchmark": "",
+    "url": "https://blender.org"
+  },
+  {
+    "category": "3-D",
+    "name": "NVIDIA Omniverse",
+    "description": "RTX AI 3-D collaboration.",
+    "priceTier": 1,
+    "pricingDesc": "Free for individuals.",
+    "benchmark": "",
+    "url": "https://nvidia.com/omniverse"
+  },
+  {
+    "category": "3-D",
+    "name": "Unity Sentis",
+    "description": "AI inference in Unity 3-D.",
+    "priceTier": 1,
+    "pricingDesc": "Free core.",
+    "benchmark": "",
+    "url": "https://unity.com/products/sentis"
+  },
+  {
+    "category": "3-D",
+    "name": "Unreal Engine ML",
+    "description": "AI plugins for UE5.",
+    "priceTier": 1,
+    "pricingDesc": "Free licence.",
+    "benchmark": "",
+    "url": "https://unrealengine.com"
+  },
+  {
+    "category": "3-D",
+    "name": "AutoDesk Forma",
+    "description": "AI early-stage planning.",
+    "priceTier": 3,
+    "pricingDesc": "$1,690/yr.",
+    "benchmark": "",
+    "url": "https://autodesk.com/products/forma"
+  },
+  {
+    "category": "3-D",
+    "name": "TestFit AI",
+    "description": "AI site feasibility.",
+    "priceTier": 3,
+    "pricingDesc": "$200/mo.",
+    "benchmark": "",
+    "url": "https://testfit.io"
+  },
+  {
+    "category": "3-D",
+    "name": "Hypar AI",
+    "description": "Generative building design.",
+    "priceTier": 3,
+    "pricingDesc": "$250/mo.",
+    "benchmark": "",
+    "url": "https://hypar.io"
+  },
+  {
+    "category": "3-D",
+    "name": "Spacemaker AI",
+    "description": "Site optimisation for architects.",
+    "priceTier": 3,
+    "pricingDesc": "Contact sales.",
+    "benchmark": "",
+    "url": "https://spacemaker.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Digital Blue Foam",
+    "description": "AI generative design.",
+    "priceTier": 3,
+    "pricingDesc": "$180/mo.",
+    "benchmark": "",
+    "url": "https://digitalbluefoam.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Veras",
+    "description": "AI rendering for Revit / SketchUp.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $49/mo.",
+    "benchmark": "",
+    "url": "https://verasai.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Arko AI",
+    "description": "One-click 3-D renders.",
+    "priceTier": 2,
+    "pricingDesc": "$39/mo.",
+    "benchmark": "",
+    "url": "https://arko.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "LookX AI",
+    "description": "3-D architectural visualisation.",
+    "priceTier": 2,
+    "pricingDesc": "Free credits, $29/mo.",
+    "benchmark": "",
+    "url": "https://lookx.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "Maket AI",
+    "description": "3-D floor-plan creator.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $19/mo.",
+    "benchmark": "",
+    "url": "https://maket.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "ARCHITEChTURES",
+    "description": "AI 3-D building design.",
+    "priceTier": 3,
+    "pricingDesc": "$150/mo.",
+    "benchmark": "",
+    "url": "https://architechtures.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Finch3D AI",
+    "description": "Generative 3-D floor plates.",
+    "priceTier": 3,
+    "pricingDesc": "$120/mo.",
+    "benchmark": "",
+    "url": "https://finch3d.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Preoptima AI",
+    "description": "Carbon-aware 3-D design.",
+    "priceTier": 3,
+    "pricingDesc": "Contact sales.",
+    "benchmark": "",
+    "url": "https://preoptima.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Snaptrude AI",
+    "description": "3-D BIM conceptual design.",
+    "priceTier": 3,
+    "pricingDesc": "$180/mo.",
+    "benchmark": "",
+    "url": "https://snaptrude.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Monograph AI",
+    "description": "3-D space planning analytics.",
+    "priceTier": 3,
+    "pricingDesc": "$250/mo.",
+    "benchmark": "",
+    "url": "https://monograph.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Cove.tool AI",
+    "description": "3-D performance analysis.",
+    "priceTier": 3,
+    "pricingDesc": "$200/mo.",
+    "benchmark": "",
+    "url": "https://covetool.com"
+  },
+  {
+    "category": "3-D",
+    "name": "One Click LCA AI",
+    "description": "3-D life-cycle assessment.",
+    "priceTier": 3,
+    "pricingDesc": "$1,200/yr.",
+    "benchmark": "",
+    "url": "https://oneclicklca.com"
+  },
+  {
+    "category": "3-D",
+    "name": "BIMobject AI",
+    "description": "Smart 3-D BIM components.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $49/mo.",
+    "benchmark": "",
+    "url": "https://bimobject.com"
+  },
+  {
+    "category": "3-D",
+    "name": "GenMEP AI",
+    "description": "3-D MEP routing.",
+    "priceTier": 3,
+    "pricingDesc": "$4,995/yr.",
+    "benchmark": "",
+    "url": "https://genmep.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "BricsCAD AI",
+    "description": "AI 3-D CAD workflows.",
+    "priceTier": 3,
+    "pricingDesc": "$1,340/yr.",
+    "benchmark": "",
+    "url": "https://bricsys.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Vectorworks AI",
+    "description": "AI-assisted 3-D BIM.",
+    "priceTier": 3,
+    "pricingDesc": "$3,045/yr.",
+    "benchmark": "",
+    "url": "https://vectorworks.net"
+  },
+  {
+    "category": "3-D",
+    "name": "Allplan AI",
+    "description": "3-D BIM with AI objects.",
+    "priceTier": 3,
+    "pricingDesc": "$2,800/yr.",
+    "benchmark": "",
+    "url": "https://allplan.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Datakit AI",
+    "description": "3-D CAD data exchange.",
+    "priceTier": 3,
+    "pricingDesc": "$1,500/yr.",
+    "benchmark": "",
+    "url": "https://datakit.com"
+  },
+  {
+    "category": "3-D",
+    "name": "CAD Exchanger AI",
+    "description": "3-D format translation.",
+    "priceTier": 2,
+    "pricingDesc": "Free viewer, $99/mo.",
+    "benchmark": "",
+    "url": "https://cadexchanger.com"
+  },
+  {
+    "category": "3-D",
+    "name": "TransMagic AI",
+    "description": "3-D repair & translation.",
+    "priceTier": 3,
+    "pricingDesc": "$2,495/yr.",
+    "benchmark": "",
+    "url": "https://transmagic.com"
+  },
+  {
+    "category": "3-D",
+    "name": "CorelCAD AI",
+    "description": "AI 3-D drafting.",
+    "priceTier": 3,
+    "pricingDesc": "$699/yr.",
+    "benchmark": "",
+    "url": "https://corel.com/corelcad"
+  },
+  {
+    "category": "3-D",
+    "name": "ZWCAD AI",
+    "description": "AI 3-D mechanical design.",
+    "priceTier": 3,
+    "pricingDesc": "$1,199/yr.",
+    "benchmark": "",
+    "url": "https://zwsoft.com/zwcad"
+  },
+  {
+    "category": "3-D",
+    "name": "GstarCAD AI",
+    "description": "3-D CAD with AI blocks.",
+    "priceTier": 3,
+    "pricingDesc": "$1,299/yr.",
+    "benchmark": "",
+    "url": "https://gstarcad.net"
+  },
+  {
+    "category": "3-D",
+    "name": "DraftSight AI",
+    "description": "AI 3-D DWG editing.",
+    "priceTier": 3,
+    "pricingDesc": "$499/yr.",
+    "benchmark": "",
+    "url": "https://draftsight.com"
+  },
+  {
+    "category": "3-D",
+    "name": "TurboCAD AI",
+    "description": "AI-assisted 3-D modeling.",
+    "priceTier": 3,
+    "pricingDesc": "$1,495/yr.",
+    "benchmark": "",
+    "url": "https://turbocad.com"
+  },
+  {
+    "category": "3-D",
+    "name": "IronCAD AI",
+    "description": "AI 3-D design collaboration.",
+    "priceTier": 3,
+    "pricingDesc": "$1,800/yr.",
+    "benchmark": "",
+    "url": "https://ironcad.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Alibre AI",
+    "description": "AI 3-D mechanical CAD.",
+    "priceTier": 3,
+    "pricingDesc": "$1,997/yr.",
+    "benchmark": "",
+    "url": "https://alibre.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Creo AI",
+    "description": "Generative 3-D CAD by PTC.",
+    "priceTier": 3,
+    "pricingDesc": "$2,420/yr.",
+    "benchmark": "",
+    "url": "https://ptc.com/en/products/creo"
+  },
+  {
+    "category": "3-D",
+    "name": "Solid Edge AI",
+    "description": "AI generative 3-D design.",
+    "priceTier": 3,
+    "pricingDesc": "$2,350/yr.",
+    "benchmark": "",
+    "url": "https://solidedge.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Inventor AI",
+    "description": "AI 3-D mechanical design.",
+    "priceTier": 3,
+    "pricingDesc": "$2,315/yr.",
+    "benchmark": "",
+    "url": "https://autodesk.com/products/inventor"
+  },
+  {
+    "category": "3-D",
+    "name": "Fusion 360 AI",
+    "description": "AI generative 3-D modeling.",
+    "priceTier": 3,
+    "pricingDesc": "$495/yr.",
+    "benchmark": "",
+    "url": "https://autodesk.com/products/fusion-360"
+  },
+  {
+    "category": "3-D",
+    "name": "SolidWorks AI",
+    "description": "AI 3-D design assistant.",
+    "priceTier": 3,
+    "pricingDesc": "$4,295/yr.",
+    "benchmark": "",
+    "url": "https://solidworks.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Onshape AI",
+    "description": "Cloud 3-D CAD with AI.",
+    "priceTier": 3,
+    "pricingDesc": "$2,100/yr.",
+    "benchmark": "",
+    "url": "https://onshape.com"
+  },
+  {
+    "category": "3-D",
+    "name": "CATIA AI",
+    "description": "AI 3-D product design.",
+    "priceTier": 3,
+    "pricingDesc": "$12,000/yr.",
+    "benchmark": "",
+    "url": "https://3ds.com/catia"
+  },
+  {
+    "category": "3-D",
+    "name": "Siemens NX AI",
+    "description": "AI 3-D design & manufacturing.",
+    "priceTier": 3,
+    "pricingDesc": "$15,000/yr.",
+    "benchmark": "",
+    "url": "https://plm.automation.siemens.com/nx"
+  },
+  {
+    "category": "3-D",
+    "name": "PTC Windchill AI",
+    "description": "AI 3-D PLM analytics.",
+    "priceTier": 3,
+    "pricingDesc": "$10,000/yr.",
+    "benchmark": "",
+    "url": "https://ptc.com/en/products/windchill"
+  },
+  {
+    "category": "3-D",
+    "name": "Dassault ENOVIA AI",
+    "description": "AI 3-D lifecycle management.",
+    "priceTier": 3,
+    "pricingDesc": "$20,000/yr.",
+    "benchmark": "",
+    "url": "https://3ds.com/enovia"
+  },
+  {
+    "category": "3-D",
+    "name": "Aras AI",
+    "description": "AI 3-D product lifecycle.",
+    "priceTier": 3,
+    "pricingDesc": "$25,000/yr.",
+    "benchmark": "",
+    "url": "https://aras.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Oracle Agile AI",
+    "description": "AI 3-D PLM analytics.",
+    "priceTier": 3,
+    "pricingDesc": "$18,000/yr.",
+    "benchmark": "",
+    "url": "https://oracle.com/agile"
+  },
+  {
+    "category": "3-D",
+    "name": "SAP PLM AI",
+    "description": "AI 3-D product insights.",
+    "priceTier": 3,
+    "pricingDesc": "$22,000/yr.",
+    "benchmark": "",
+    "url": "https://sap.com/plm"
+  },
+  {
+    "category": "3-D",
+    "name": "IBM Engineering AI",
+    "description": "AI 3-D systems lifecycle.",
+    "priceTier": 3,
+    "pricingDesc": "$30,000/yr.",
+    "benchmark": "",
+    "url": "https://ibm.com/products/engineering-lifecycle-management"
+  },
+  {
+    "category": "3-D",
+    "name": "Arena PLM AI",
+    "description": "Cloud 3-D PLM analytics.",
+    "priceTier": 3,
+    "pricingDesc": "$15,000/yr.",
+    "benchmark": "",
+    "url": "https://arenasolutions.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Propel AI",
+    "description": "3-D product collaboration.",
+    "priceTier": 3,
+    "pricingDesc": "$20,000/yr.",
+    "benchmark": "",
+    "url": "https://propelplm.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Upchain AI",
+    "description": "AI 3-D supply-chain PLM.",
+    "priceTier": 3,
+    "pricingDesc": "$12,000/yr.",
+    "benchmark": "",
+    "url": "https://upchain.com"
+  },
+  {
+    "category": "3-D",
+    "name": "Vault AI (Autodesk)",
+    "description": "AI 3-D data management.",
+    "priceTier": 3,
+    "pricingDesc": "$2,400/yr.",
+    "benchmark": "",
+    "url": "https://autodesk.com/products/vault"
+  },
+  {
+    "category": "3-D",
+    "name": "Teamcenter AI",
+    "description": "Siemens 3-D PLM analytics.",
+    "priceTier": 3,
+    "pricingDesc": "$25,000/yr.",
+    "benchmark": "",
+    "url": "https://plm.automation.siemens.com/teamcenter"
+  },
+  {
+    "category": "3-D",
+    "name": "PDM AI",
+    "description": "AI 3-D document management.",
+    "priceTier": 3,
+    "pricingDesc": "$8,000/yr.",
+    "benchmark": "",
+    "url": "https://pdm.ai"
+  },
+  {
+    "category": "3-D",
+    "name": "GrabCAD AI",
+    "description": "3-D model collaboration.",
+    "priceTier": 1,
+    "pricingDesc": "Free public workspace.",
+    "benchmark": "",
+    "url": "https://grabcad.com"
+  },
+  {
+    "category": "3-D",
+    "name": "TraceParts AI",
+    "description": "AI 3-D component search.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, $49/mo.",
+    "benchmark": "",
+    "url": "https://traceparts.com"
+  },
+  {
+    "category": "3-D",
+    "name": "3D ContentCentral AI",
+    "description": "AI 3-D supplier models.",
+    "priceTier": 1,
+    "pricingDesc": "Free.",
+    "benchmark": "",
+    "url": "https://3dcontentcentral.com"
+  },
+  {
+    "category": "3-D",
+    "name": "PARTcommunity AI",
+    "description": "AI 3-D part search.",
+    "priceTier": 1,
+    "pricingDesc": "Free.",
+    "benchmark": "",
+    "url": "https://partcommunity.com"
+  },
+  {
+    "category": "3-D",
+    "name": "CADENAS AI",
+    "description": "AI 3-D part classification.",
+    "priceTier": 2,
+    "pricingDesc": "Free tier, €99/mo.",
+    "benchmark": "",
+    "url": "https://https://cadena.ai/"
+  }
+]
