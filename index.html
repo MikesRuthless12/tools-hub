@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Tools Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+  <header class="p-6 text-center">
+    <h1 class="text-3xl font-bold mb-2">AI Tools Hub</h1>
+    <p class="text-gray-400">1 000+ tools, always up-to-date</p>
+  </header>
+
+  <section class="max-w-6xl mx-auto px-4">
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-4 mb-6">
+      <div>
+        <label class="text-sm text-gray-400">Price</label>
+        <div class="flex gap-2 mt-1">
+          <button data-tier="0" class="tier-btn px-3 py-1 rounded bg-blue-600">All</button>
+          <button data-tier="1" class="tier-btn px-3 py-1 rounded bg-gray-700">Free</button>
+          <button data-tier="2" class="tier-btn px-3 py-1 rounded bg-gray-700">Freemium</button>
+          <button data-tier="3" class="tier-btn px-3 py-1 rounded bg-gray-700">Paid</button>
+        </div>
+      </div>
+
+      <div>
+        <label class="text-sm text-gray-400">Category</label>
+        <select id="catFilter" class="ml-2 rounded px-3 py-1 bg-gray-800 text-gray-100">
+          <option value="">All categories</option>
+        </select>
+      </div>
+
+      <div class="flex-1">
+        <input id="search" type="text" placeholder="Search…" class="w-full rounded px-3 py-1 bg-gray-800 text-gray-100" />
+      </div>
+    </div>
+
+    <!-- Cards grid -->
+    <div id="grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+  </section>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
