@@ -2,7 +2,7 @@ name: Build & Deploy
 on:
   schedule:
     - cron: '0 6 * * 0'   # every Sunday 06:00 UTC
-  workflow_dispatch:      # manual trigger button
+  workflow_dispatch:
   push:
     branches: ['main']
 
@@ -16,9 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # (optional) fetch fresh JSON – leave commented if you host the file yourself
       # - name: Grab latest JSON
       #   run: |
-          curl -o tools.json https://raw.githubusercontent.com/ai-tools-directory/ai-tools-json/main/dist/tools.json
+      #     curl -L -o tools.json https://raw.githubusercontent.com/AI-Tool-List/ai-json-mirror/main/ai-tools.json
 
       - name: Commit if changed
         run: |
@@ -30,7 +31,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'   # index.html + main.js + tools.json live here
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
