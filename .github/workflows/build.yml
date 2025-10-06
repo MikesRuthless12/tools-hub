@@ -16,8 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Grab latest JSON
-        run: |
           curl -o tools.json https://raw.githubusercontent.com/ai-tools-directory/ai-tools-json/main/dist/tools.json
 
       - name: Commit if changed
