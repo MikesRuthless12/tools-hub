@@ -1,0 +1,38 @@
+name: Build & Deploy
+on:
+  schedule:
+    - cron: '0 6 * * 0'   # every Sunday 06:00 UTC
+  workflow_dispatch:
+  push:
+    branches: ['main']
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # (optional) fetch fresh JSON – leave commented if you host the file yourself
+      # - name: Grab latest JSON
+      #   run: |
+      #     curl -L -o tools.json https://raw.githubusercontent.com/AI-Tool-List/ai-json-mirror/main/ai-tools.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tools.json
+          git diff --cached --quiet || (git commit -m "chore: sync ai-tools.json" && git push)
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
