@@ -1,0 +1,31 @@
+name: Update YouTube Stats (Free Estimation)
+on:
+  schedule:
+    # Run daily at 6:00 PM CST (00:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual triggers
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: ⎔ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: 📊 Estimate YouTube statistics
+        run: node scripts/update-estimation.js
+          
+      - name: 💾 Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add tools.json
+          git commit -m "📈 Automated stats estimation $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
