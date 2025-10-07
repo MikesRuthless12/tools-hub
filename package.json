@@ -1,0 +1,12 @@
+{
+  "name": "tools-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tools and resources hub with automated stats",
+  "scripts": {
+    "update-stats": "node scripts/update-estimation.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
