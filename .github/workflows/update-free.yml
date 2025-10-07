@@ -1,0 +1,63 @@
+name: Update YouTube Stats (Free Estimation)
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily at 00:00 UTC (6:00 PM CST)
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ⎔ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          # Remove cache line since we don't have package-lock.json
+
+      - name: 📦 Create package.json if missing
+        run: |
+          if [ ! -f package.json ]; then
+            echo '{
+              "name": "tools-hub",
+              "version": "1.0.0",
+              "type": "module",
+              "scripts": {
+                "update-stats": "node scripts/update-estimation.js"
+              }
+            }' > package.json
+          fi
+
+      - name: 📊 Estimate YouTube statistics
+        run: node scripts/update-estimation.js
+
+      - name: 🔍 Check for changes
+        id: git-check
+        run: |
+          if git diff --quiet tools.json 2>/dev/null; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in tools.json"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in tools.json"
+          fi
+
+      - name: 💾 Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add tools.json
+          git commit -m "📈 Automated stats estimation $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "✅ Changes committed and pushed"
+
+      - name: ℹ️ No changes needed
+        if: steps.git-check.outputs.changes == 'false'
+        run: echo "✅ tools.json is already up to date - no changes to commit"
