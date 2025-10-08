@@ -96,7 +96,7 @@ function setupMainFilters() {
       
       if (hasPlat) {
         $('#platform-filter-container').classList.remove('hidden');
-        // Regenerate platform filters based on current type
+        // ALWAYS regenerate platform filters when switching to a platform-enabled type
         generatePlatformFilters(state.type);
       } else {
         $('#platform-filter-container').classList.add('hidden');
@@ -136,6 +136,8 @@ function setupMainFilters() {
 /* ---------- PLATFORM FILTER GENERATION ---------- */
 function generatePlatformFilters(currentType) {
   const platformFiltersContainer = $('#platform-filters');
+  if (!platformFiltersContainer) return;
+  
   platformFiltersContainer.innerHTML = '';
   
   // Get all unique platforms from all data
@@ -144,16 +146,20 @@ function generatePlatformFilters(currentType) {
   // Filter platforms based on current type
   let platformsToShow = [...allPlatforms];
   
+  console.log('Generating platform filters for type:', currentType, 'All platforms:', allPlatforms);
+  
   if (currentType === "Music Production VSTs") {
     // Only show Windows, macOS, Linux for VSTs
     platformsToShow = platformsToShow.filter(platform => 
       platform === "Windows" || platform === "macOS" || platform === "Linux"
     );
+    console.log('Filtered VST platforms:', platformsToShow);
   } else if (currentType === "Music DAW") {
     // Exclude iPhone, iPad, iPadOS, ChromeOS for DAWs
     platformsToShow = platformsToShow.filter(platform => 
       platform !== "iPhone" && platform !== "iPad" && platform !== "iPadOS" && platform !== "ChromeOS"
     );
+    console.log('Filtered DAW platforms:', platformsToShow);
   }
   
   // Sort platforms alphabetically
@@ -196,6 +202,8 @@ function generatePlatformFilters(currentType) {
       render();
     });
   });
+  
+  console.log('Generated platform filters for', currentType, ':', platformsToShow);
 }
 
 /* ---------- COURSE CATEGORY FILTERS ---------- */
