@@ -31015,5 +31015,1168 @@
         "priceTier": 5,
         "pricingDesc": "$64,726 per year",
         "popularityScore": 89000
+    },
+    {
+        "_comment": "_____________________________________________________________________________________________________________________________________________________ MUSIC PRODUCTION WEBSITES"
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "KVR Audio",
+        "description": "The largest community and marketplace for audio plugins, software, and samples.",
+        "url": "https://www.kvraudio.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 890000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Splice",
+        "description": "Cloud-based music creation and collaboration platform with samples, plugins, and rent-to-own programs.",
+        "url": "https://splice.com",
+        "priceTier": 2,
+        "pricingDesc": "$7.99/month for samples",
+        "popularityScore": 1230000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Loopmasters",
+        "description": "Premium sample packs, loops, and presets for all genres of music production.",
+        "url": "https://www.loopmasters.com",
+        "priceTier": 3,
+        "pricingDesc": "$15-50 per sample pack",
+        "popularityScore": 567000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Cymatics",
+        "description": "Free and premium sample packs, presets, and production tools for modern producers.",
+        "url": "https://cymatics.fm",
+        "priceTier": 2,
+        "pricingDesc": "Free + premium packs",
+        "popularityScore": 890000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Sound on Sound",
+        "description": "Premier music technology magazine with in-depth reviews, tutorials, and industry news.",
+        "url": "https://www.soundonsound.com",
+        "priceTier": 2,
+        "pricingDesc": "Subscription required for full access",
+        "popularityScore": 456000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Gearslutz",
+        "description": "Largest online community for professional recording, mixing, and mastering engineers.",
+        "url": "https://www.gearslutz.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Plugin Boutique",
+        "description": "Leading marketplace for VST plugins, virtual instruments, and music software deals.",
+        "url": "https://www.pluginboutique.com",
+        "priceTier": 3,
+        "pricingDesc": "Paid plugins with deals",
+        "popularityScore": 678000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Splice Sounds",
+        "description": "Extensive library of royalty-free samples, loops, and presets with AI-powered search.",
+        "url": "https://splice.com/sounds",
+        "priceTier": 2,
+        "pricingDesc": "$7.99/month subscription",
+        "popularityScore": 1230000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Ask.Audio",
+        "description": "Music production tutorials, reviews, and news for all DAWs and genres.",
+        "url": "https://ask.audio",
+        "priceTier": 1,
+        "pricingDesc": "Free tutorials and reviews",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Reddit - r/edmproduction",
+        "description": "Active community of electronic music producers sharing tips, feedback, and resources.",
+        "url": "https://www.reddit.com/r/edmproduction",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 567000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "LANDR Samples",
+        "description": "AI-curated sample library with intelligent search and key/tempo matching.",
+        "url": "https://samples.landr.com",
+        "priceTier": 2,
+        "pricingDesc": "$6.99/month subscription",
+        "popularityScore": 345000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Pensado's Place",
+        "description": "Industry-leading mixing and mastering tutorials with Grammy-winning engineers.",
+        "url": "https://pensadosplace.tv",
+        "priceTier": 2,
+        "pricingDesc": "Free with premium content",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "AudioDeluxe",
+        "description": "Premium audio plugins and software with exclusive deals and bundles.",
+        "url": "https://www.audiodeluxe.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium plugins",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Prime Loops",
+        "description": "Professional sample packs and loops for electronic, hip-hop, and pop music.",
+        "url": "https://www.primeloops.com",
+        "priceTier": 3,
+        "pricingDesc": "$20-60 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Future Producers",
+        "description": "Long-running forum for music producers, beat makers, and audio engineers.",
+        "url": "https://www.futureproducers.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Recording Revolution",
+        "description": "Home recording tutorials and mixing/mastering courses for bedroom producers.",
+        "url": "https://www.recordingrevolution.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 345000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Sample Magic",
+        "description": "High-quality sample packs and loops for electronic music production.",
+        "url": "https://www.samplemagic.com",
+        "priceTier": 3,
+        "pricingDesc": "$25-70 per pack",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "ADSR Sounds",
+        "description": "Sample packs, presets, and MIDI files for various genres and DAWs.",
+        "url": "https://www.adsrsounds.com",
+        "priceTier": 2,
+        "pricingDesc": "$5-30 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "IDM Forums",
+        "description": "Electronic music production community focused on IDM and experimental genres.",
+        "url": "https://www.idmforums.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "PureMix",
+        "description": "Professional mixing and mastering tutorials from Grammy-winning engineers.",
+        "url": "https://www.puremix.net",
+        "priceTier": 3,
+        "pricingDesc": "$24.99/month subscription",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Noiiz",
+        "description": "Unlimited sample downloads with subscription-based model and AI search.",
+        "url": "https://noiiz.com",
+        "priceTier": 2,
+        "pricingDesc": "$9.99/month unlimited",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "JRR Shop",
+        "description": "Audio plugins, virtual instruments, and software with competitive pricing.",
+        "url": "https://www.jrrshop.com",
+        "priceTier": 3,
+        "pricingDesc": "Paid plugins with deals",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "VI-Control",
+        "description": "Virtual instrument and orchestral composition community forum.",
+        "url": "https://vi-control.net",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Mix With The Masters",
+        "description": "Exclusive mixing seminars with legendary producers and engineers.",
+        "url": "https://www.mixwiththemasters.com",
+        "priceTier": 4,
+        "pricingDesc": "$349/year subscription",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Black Octopus Sound",
+        "description": "Premium sample packs for electronic dance music production.",
+        "url": "https://blackoctopus-sound.com",
+        "priceTier": 3,
+        "pricingDesc": "$30-80 per pack",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Don't Crack",
+        "description": "Audio software and plugin store with special deals and bundles.",
+        "url": "https://www.dontcrack.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium audio software",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Geek Music",
+        "description": "Music production forum for technical discussions and gear reviews.",
+        "url": "https://geekmusic.net",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "The Pro Audio Files",
+        "description": "Professional audio tutorials, mixing tips, and production techniques.",
+        "url": "https://theproaudiofiles.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + premium content",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "W.A. Production",
+        "description": "Sample packs, presets, and production tools for electronic music.",
+        "url": "https://www.waproduction.com",
+        "priceTier": 2,
+        "pricingDesc": "$5-25 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Best Service",
+        "description": "Virtual instruments, sample libraries, and audio software retailer.",
+        "url": "https://www.bestservice.de",
+        "priceTier": 3,
+        "pricingDesc": "Premium sample libraries",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "AudioSEX",
+        "description": "Professional audio community for engineers and producers.",
+        "url": "https://audiosex.pro",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Mastering The Mix",
+        "description": "Professional mixing and mastering tutorials with plugin recommendations.",
+        "url": "https://www.masteringthemix.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid plugins",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Ghosthack",
+        "description": "Royalty-free sample packs and sound design tools for modern producers.",
+        "url": "https://ghosthack.de",
+        "priceTier": 2,
+        "pricingDesc": "$15-40 per pack",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Time+Space",
+        "description": "Virtual instruments, effects, and sample libraries for music production.",
+        "url": "https://www.timespace.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium audio software",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "ReasonTalk",
+        "description": "Community forum for Propellerhead Reason users and music producers.",
+        "url": "https://reasontalk.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Bobby Owsinski's Big Picture Music Production Blog",
+        "description": "Industry insights, mixing tips, and production techniques from a legendary producer.",
+        "url": "https://bobbyowsinski.blogspot.com",
+        "priceTier": 1,
+        "pricingDesc": "Free blog content",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Function Loops",
+        "description": "Sample packs, loops, and MIDI files for electronic music production.",
+        "url": "https://www.functionloops.com",
+        "priceTier": 2,
+        "pricingDesc": "$10-30 per pack",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "VST Buzz",
+        "description": "Daily deals on VST plugins, sample libraries, and music software.",
+        "url": "https://www.vstbuzz.com",
+        "priceTier": 3,
+        "pricingDesc": "Discounted plugins",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Logic Pro Help",
+        "description": "Community support and resources for Logic Pro users.",
+        "url": "https://www.logicprohelp.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Home Studio Corner",
+        "description": "Home recording tutorials, mixing tips, and studio setup advice.",
+        "url": "https://homestudiocorner.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Vengeance Sound",
+        "description": "Professional sample packs and sound design tools for electronic music.",
+        "url": "https://www.vengeance-sound.com",
+        "priceTier": 3,
+        "pricingDesc": "$40-100 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "ProducerSpot",
+        "description": "Sample packs, VST plugins, and production resources for music producers.",
+        "url": "https://www.producerspot.com",
+        "priceTier": 2,
+        "pricingDesc": "$10-40 per item",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Image-Line Forum",
+        "description": "Official community forum for FL Studio users and music producers.",
+        "url": "https://forum.image-line.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Audio Issues",
+        "description": "Home recording and mixing tutorials for bedroom producers.",
+        "url": "https://audio-issues.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Samplephonics",
+        "description": "High-quality sample libraries and virtual instruments.",
+        "url": "https://www.samplephonics.com",
+        "priceTier": 3,
+        "pricingDesc": "$20-60 per pack",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Plugin Fox",
+        "description": "Audio plugins and virtual instruments with competitive pricing.",
+        "url": "https://www.pluginfox.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium plugins",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Ableton Forum",
+        "description": "Official community forum for Ableton Live users.",
+        "url": "https://forum.ableton.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "MusicTech",
+        "description": "Music technology magazine with reviews, tutorials, and industry news.",
+        "url": "https://www.musictech.net",
+        "priceTier": 1,
+        "pricingDesc": "Free content",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Bluezone Corporation",
+        "description": "Cinematic and electronic sample libraries for film and game composers.",
+        "url": "https://www.bluezone-corporation.com",
+        "priceTier": 3,
+        "pricingDesc": "$30-80 per pack",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Audio Plugin Deals",
+        "description": "Daily deals and discounts on audio plugins and software.",
+        "url": "https://www.audioplugin.deals",
+        "priceTier": 3,
+        "pricingDesc": "Discounted plugins",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Reaper Forum",
+        "description": "Official community forum for REAPER DAW users.",
+        "url": "https://forum.cockos.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "The Recording Revolution",
+        "description": "Home recording tutorials and mixing/mastering courses.",
+        "url": "https://www.recordingrevolution.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 345000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "ModeAudio",
+        "description": "Sample packs, presets, and MIDI files for electronic music production.",
+        "url": "https://www.modeaudio.com",
+        "priceTier": 2,
+        "pricingDesc": "$10-25 per pack",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Plugin Discount",
+        "description": "Discounted audio plugins and software deals.",
+        "url": "https://www.plugindiscount.com",
+        "priceTier": 3,
+        "pricingDesc": "Discounted plugins",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "VI-Control",
+        "description": "Virtual instrument and orchestral composition community.",
+        "url": "https://vi-control.net",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Bedroom Producers Blog",
+        "description": "Free VST plugins, samples, and music production tutorials.",
+        "url": "https://bedroomproducersblog.com",
+        "priceTier": 1,
+        "pricingDesc": "Free content",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "99Sounds",
+        "description": "Free sound effects and sample libraries created by industry professionals.",
+        "url": "https://99sounds.org",
+        "priceTier": 1,
+        "pricingDesc": "Free samples",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "AudioDeluxe",
+        "description": "Premium audio plugins and software with exclusive deals.",
+        "url": "https://www.audiodeluxe.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium audio software",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "KVR Audio Forum",
+        "description": "Largest audio plugin and software discussion forum.",
+        "url": "https://www.kvraudio.com/forum",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 890000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "The Pro Audio Files",
+        "description": "Professional mixing and mastering tutorials.",
+        "url": "https://theproaudiofiles.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + premium content",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Riemann Kollektion",
+        "description": "Techno and house music sample packs from Berlin-based producers.",
+        "url": "https://www.riemann-kollektion.com",
+        "priceTier": 3,
+        "pricingDesc": "€20-50 per pack",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "VST Buzz",
+        "description": "Daily deals on VST plugins and sample libraries.",
+        "url": "https://www.vstbuzz.com",
+        "priceTier": 3,
+        "pricingDesc": "Discounted deals",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Gearspace",
+        "description": "Professional audio and music production community forum.",
+        "url": "https://gearspace.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Mastering The Mix",
+        "description": "Professional mixing and mastering tutorials with plugin recommendations.",
+        "url": "https://www.masteringthemix.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid plugins",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Singomakers",
+        "description": "Electronic dance music sample packs and presets.",
+        "url": "https://www.singomakers.com",
+        "priceTier": 2,
+        "pricingDesc": "$15-35 per pack",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "ProducerSpot",
+        "description": "Sample packs, VST plugins, and production resources.",
+        "url": "https://www.producerspot.com",
+        "priceTier": 2,
+        "pricingDesc": "$10-40 per item",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "AudioSEX",
+        "description": "Professional audio community for engineers and producers.",
+        "url": "https://audiosex.pro",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Home Studio Corner",
+        "description": "Home recording tutorials and studio setup advice.",
+        "url": "https://homestudiocorner.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Zenhiser",
+        "description": "Electronic music sample packs and presets.",
+        "url": "https://www.zenhiser.com",
+        "priceTier": 2,
+        "pricingDesc": "$20-50 per pack",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Plugin Boutique",
+        "description": "Leading marketplace for VST plugins and music software.",
+        "url": "https://www.pluginboutique.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium plugins",
+        "popularityScore": 678000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Future Producers",
+        "description": "Music production forum for beat makers and audio engineers.",
+        "url": "https://www.futureproducers.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Audio Issues",
+        "description": "Home recording and mixing tutorials for bedroom producers.",
+        "url": "https://audio-issues.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Samplephonics",
+        "description": "High-quality sample libraries and virtual instruments.",
+        "url": "https://www.samplephonics.com",
+        "priceTier": 3,
+        "pricingDesc": "$20-60 per pack",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Best Service",
+        "description": "Virtual instruments and sample libraries retailer.",
+        "url": "https://www.bestservice.de",
+        "priceTier": 3,
+        "pricingDesc": "Premium sample libraries",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "IDM Forums",
+        "description": "Electronic music production community forum.",
+        "url": "https://www.idmforums.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "MusicTech",
+        "description": "Music technology magazine with tutorials and reviews.",
+        "url": "https://www.musictech.net",
+        "priceTier": 1,
+        "pricingDesc": "Free content",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Capsun ProAudio",
+        "description": "Electronic music sample packs and presets.",
+        "url": "https://capsunaudio.com",
+        "priceTier": 2,
+        "pricingDesc": "$15-35 per pack",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Time+Space",
+        "description": "Virtual instruments, effects, and sample libraries.",
+        "url": "https://www.timespace.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium audio software",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "ReasonTalk",
+        "description": "Community forum for Propellerhead Reason users.",
+        "url": "https://reasontalk.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Bobby Owsinski Blog",
+        "description": "Industry insights and mixing tips from legendary producer.",
+        "url": "https://bobbyowsinski.blogspot.com",
+        "priceTier": 1,
+        "pricingDesc": "Free blog content",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Rankin Audio",
+        "description": "Electronic music sample packs and presets.",
+        "url": "https://www.rankinaudio.com",
+        "priceTier": 2,
+        "pricingDesc": "$15-30 per pack",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Audio Plugin Deals",
+        "description": "Daily deals and discounts on audio plugins.",
+        "url": "https://www.audioplugin.deals",
+        "priceTier": 3,
+        "pricingDesc": "Discounted plugins",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Logic Pro Help",
+        "description": "Community support for Logic Pro users.",
+        "url": "https://www.logicprohelp.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Bedroom Producers Blog",
+        "description": "Free VST plugins, samples, and production tutorials.",
+        "url": "https://bedroomproducersblog.com",
+        "priceTier": 1,
+        "pricingDesc": "Free content",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "99Sounds",
+        "description": "Free sound effects and sample libraries.",
+        "url": "https://99sounds.org",
+        "priceTier": 1,
+        "pricingDesc": "Free samples",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Don't Crack",
+        "description": "Audio software and plugin store with deals.",
+        "url": "https://www.dontcrack.com",
+        "priceTier": 3,
+        "pricingDesc": "Premium audio software",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Ableton Forum",
+        "description": "Official community forum for Ableton Live users.",
+        "url": "https://forum.ableton.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Recording Revolution",
+        "description": "Home recording and mixing tutorials.",
+        "url": "https://www.recordingrevolution.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 345000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "ModeAudio",
+        "description": "Sample packs, presets, and MIDI files for electronic music.",
+        "url": "https://www.modeaudio.com",
+        "priceTier": 2,
+        "pricingDesc": "$10-25 per pack",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Ghosthack",
+        "description": "Royalty-free sample packs and sound design tools.",
+        "url": "https://ghosthack.de",
+        "priceTier": 2,
+        "pricingDesc": "$15-40 per pack",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Reaper Forum",
+        "description": "Official community forum for REAPER DAW users.",
+        "url": "https://forum.cockos.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "PureMix",
+        "description": "Professional mixing and mastering tutorials.",
+        "url": "https://www.puremix.net",
+        "priceTier": 3,
+        "pricingDesc": "$24.99/month subscription",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "W.A. Production",
+        "description": "Sample packs and production tools for electronic music.",
+        "url": "https://www.waproduction.com",
+        "priceTier": 2,
+        "pricingDesc": "$5-25 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "ADSR Sounds",
+        "description": "Sample packs, presets, and MIDI files.",
+        "url": "https://www.adsrsounds.com",
+        "priceTier": 2,
+        "pricingDesc": "$5-30 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Future Producers",
+        "description": "Music production forum for beat makers.",
+        "url": "https://www.futureproducers.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Mix With The Masters",
+        "description": "Exclusive mixing seminars with legendary producers.",
+        "url": "https://www.mixwiththemasters.com",
+        "priceTier": 4,
+        "pricingDesc": "$349/year subscription",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Black Octopus Sound",
+        "description": "Premium sample packs for electronic dance music.",
+        "url": "https://blackoctopus-sound.com",
+        "priceTier": 3,
+        "pricingDesc": "$30-80 per pack",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "ProducerSpot",
+        "description": "Sample packs and production resources.",
+        "url": "https://www.producerspot.com",
+        "priceTier": 2,
+        "pricingDesc": "$10-40 per item",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "VI-Control",
+        "description": "Virtual instrument and orchestral composition community.",
+        "url": "https://vi-control.net",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Pensado's Place",
+        "description": "Industry-leading mixing tutorials with Grammy-winning engineers.",
+        "url": "https://pensadosplace.tv",
+        "priceTier": 2,
+        "pricingDesc": "Free with premium content",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Prime Loops",
+        "description": "Professional sample packs for electronic, hip-hop, and pop.",
+        "url": "https://www.primeloops.com",
+        "priceTier": 3,
+        "pricingDesc": "$20-60 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "JRR Shop",
+        "description": "Audio plugins with competitive pricing.",
+        "url": "https://www.jrrshop.com",
+        "priceTier": 3,
+        "pricingDesc": "Paid plugins with deals",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "IDM Forums",
+        "description": "Electronic music production community focused on IDM.",
+        "url": "https://www.idmforums.com",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Sound on Sound",
+        "description": "Premier music technology magazine.",
+        "url": "https://www.soundonsound.com",
+        "priceTier": 2,
+        "pricingDesc": "Subscription required",
+        "popularityScore": 456000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "LANDR Samples",
+        "description": "AI-curated sample library with intelligent search.",
+        "url": "https://samples.landr.com",
+        "priceTier": 2,
+        "pricingDesc": "$6.99/month subscription",
+        "popularityScore": 345000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Best Service",
+        "description": "Virtual instruments and sample libraries.",
+        "url": "https://www.bestservice.de",
+        "priceTier": 3,
+        "pricingDesc": "Premium sample libraries",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "KVR Audio Forum",
+        "description": "Largest audio plugin discussion forum.",
+        "url": "https://www.kvraudio.com/forum",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 890000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Mastering The Mix",
+        "description": "Professional mixing and mastering tutorials.",
+        "url": "https://www.masteringthemix.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid plugins",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Noiiz",
+        "description": "Unlimited sample downloads with subscription.",
+        "url": "https://noiiz.com",
+        "priceTier": 2,
+        "pricingDesc": "$9.99/month unlimited",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Vengeance Sound",
+        "description": "Professional sample packs for electronic music.",
+        "url": "https://www.vengeance-sound.com",
+        "priceTier": 3,
+        "pricingDesc": "$40-100 per pack",
+        "popularityScore": 234000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "Geek Music",
+        "description": "Technical music production discussions.",
+        "url": "https://geekmusic.net",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "The Pro Audio Files",
+        "description": "Professional audio tutorials and techniques.",
+        "url": "https://theproaudiofiles.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + premium content",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Samples",
+        "name": "Function Loops",
+        "description": "Electronic music sample packs and MIDI files.",
+        "url": "https://www.functionloops.com",
+        "priceTier": 2,
+        "pricingDesc": "$10-30 per pack",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Marketplace",
+        "name": "Sample Magic",
+        "description": "High-quality sample packs for electronic music.",
+        "url": "https://www.samplemagic.com",
+        "priceTier": 3,
+        "pricingDesc": "$25-70 per pack",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Community",
+        "name": "AudioSEX",
+        "description": "Professional audio community forum.",
+        "url": "https://audiosex.pro",
+        "priceTier": 1,
+        "pricingDesc": "Free community access",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Production Website",
+        "category": "Learning",
+        "name": "Home Studio Corner",
+        "description": "Home recording tutorials and studio advice.",
+        "url": "https://homestudiocorner.com",
+        "priceTier": 2,
+        "pricingDesc": "Free + paid courses",
+        "popularityScore": 123000
     }
 ]
