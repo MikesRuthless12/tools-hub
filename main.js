@@ -16,7 +16,6 @@ const state = {
   currentPage: 1,
 };
 
-// Previous state backup for fallback
 const previousState = {
   type: 'All',
   tier: 0,
@@ -24,7 +23,6 @@ const previousState = {
   resultCount: 0
 };
 
-/* ---------- HELPERS ---------- */
 const $  = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 
@@ -36,11 +34,44 @@ function setupVisitorCounter() {
   $('#visitor-count').textContent = `Visitor count: ${n.toLocaleString()}`;
 }
 
+/* ---------- TYPE MATCHER ---------- */
+function buildTypeMatcher(stateType, item) {
+  if (stateType === 'Frontend YouTube' || stateType === 'Backend YouTube' || stateType === 'Dev YouTube' || stateType === 'Graphics YouTube') {
+    if (item.type !== 'YouTube Channel') return false;
+    const cat = (item.category || '').toLowerCase();
+    if (stateType === 'Frontend YouTube') return cat.includes('frontend') || cat.includes('javascript') || cat.includes('react') || cat.includes('vue');
+    if (stateType === 'Backend YouTube') return cat.includes('backend') || cat.includes('node') || cat.includes('api') || cat.includes('database');
+    if (stateType === 'Graphics YouTube') return ['graphic design','motion design','3d modeling','ui/ux design','web design','photo editing','illustration','animation','vfx','typography','product design','packaging design','color theory','game design'].some(c => cat.includes(c));
+    return true;
+  }
+
+  if (stateType === 'Frontend Websites' || stateType === 'Backend Websites' || stateType === 'Dev Website') {
+    if (item.type !== 'Dev Website') return false;
+    const cat = (item.category || '').toLowerCase();
+    if (stateType === 'Frontend Websites') return cat.includes('frontend') || cat.includes('javascript') || cat.includes('react') || cat.includes('vue');
+    if (stateType === 'Backend Websites') return cat.includes('backend') || cat.includes('node') || cat.includes('api') || cat.includes('database');
+    return true;
+  }
+
+  if (stateType === 'Frontend Courses' || stateType === 'Backend Courses' || stateType === 'Dev Course') {
+    if (item.type !== 'Dev Course') return false;
+    const cat = (item.category || '').toLowerCase();
+    if (stateType === 'Frontend Courses') return cat.includes('frontend') || cat.includes('javascript') || cat.includes('react') || cat.includes('vue');
+    if (stateType === 'Backend Courses') return cat.includes('backend') || cat.includes('node') || cat.includes('api') || cat.includes('database');
+    return true;
+  }
+
+  if (stateType === 'Music Production Websites') return item.type === 'Music Production Website';
+  if (stateType === 'Music Production VSTs') return item.type === 'Music VST';
+  if (stateType === 'Music Production Courses') return item.type === 'Music Course';
+
+  return stateType === 'All' || (item.type || 'AI Tool') === stateType;
+}
+
 /* ---------- MAIN TOPIC BUTTONS ---------- */
 function setupMainFilters() {
   $$('.type-btn').forEach(btn => {
     btn.addEventListener('click', e => {
-      // Save current state before changing
       previousState.type = state.type;
       previousState.tier = state.tier;
       previousState.currentPage = state.currentPage;
@@ -53,89 +84,43 @@ function setupMainFilters() {
       e.target.classList.remove('theme-button');
       e.target.classList.add('btn-active', 'theme-button-active');
 
-      state.type        = e.target.dataset.type;
+      state.type = e.target.dataset.type;
       state.currentPage = 1;
 
-      // Clear course categories when switching away from Dev Course or Music Production Courses
-      if (state.type !== 'Dev Course' && state.type !== 'Music Production Courses') {
+      if (state.type !== 'Dev Course' && state.type !== 'Music Production Courses' && state.type !== 'Frontend Courses' && state.type !== 'Backend Courses') {
         state.courseCategories.clear();
         $$('.course-category-checkbox').forEach(cb => cb.checked = false);
       }
-
-      // Clear website categories when switching away from Dev Website
-      if (state.type !== 'Dev Website') {
+      if (state.type !== 'Dev Website' && state.type !== 'Frontend Websites' && state.type !== 'Backend Websites') {
         state.websiteCategories.clear();
         $$('.website-category-checkbox').forEach(cb => cb.checked = false);
       }
-
-      // Clear graphics course categories when switching away from Graphics Course
       if (state.type !== 'Graphics Course') {
         state.graphicsCourseCategories.clear();
         $$('.graphics-course-category-checkbox').forEach(cb => cb.checked = false);
       }
 
-      const isYT       = state.type.includes('YouTube') || state.type === 'YouTube Channel' || state.type === 'Graphics YouTube';
-      const isAI       = state.type === 'AI Tool';
+      const isYT = state.type.includes('YouTube');
+      const isAI = state.type === 'AI Tool';
       const isGraphics = state.type.includes('Graphics');
-      const isMusic    = state.type.includes('Music Production') || 
-                         state.type === 'Music Samples' || 
-                         state.type === 'Music DAW' ||
-                         state.type === 'Music Production Courses' ||
-                         state.type === 'Music Production Websites';
-      const isDevCourse = state.type === 'Dev Course';
-      const isDevWebsite = state.type === 'Dev Website';
+      const isMusic = state.type.includes('Music Production') || state.type === 'Music Samples' || state.type === 'Music DAW';
+      const isDevCourse = state.type === 'Dev Course' || state.type === 'Frontend Courses' || state.type === 'Backend Courses';
+      const isDevWebsite = state.type === 'Dev Website' || state.type === 'Frontend Websites' || state.type === 'Backend Websites';
       const isGraphicsCourse = state.type === 'Graphics Course';
       const isMusicProductionCourses = state.type === 'Music Production Courses';
-      
-      // Show language filter only for specific types
-      const showLang = !isYT && !isAI && !isGraphics && !isMusic && !isDevCourse && !isDevWebsite && !isGraphicsCourse && !isMusicProductionCourses;
 
-      const hasPlat  = ['IDE','Graphics Program','Graphics Utility',
-                        'Music DAW','Music Production VSTs'].includes(state.type);
+      const showLang = !isYT && !isAI && !isGraphics && !isMusic && !isDevCourse && !isDevWebsite && !isGraphicsCourse && !isMusicProductionCourses;
+      const hasPlat = ['IDE','Graphics Program','Music DAW','Music Production VSTs'].includes(state.type);
       const hasPrice = !isYT && !state.type.includes('Website');
 
-      // Use classList.add/remove instead of toggle for more predictable behavior
-      if (showLang) {
-        $('#lang-filter-container').classList.remove('hidden');
-      } else {
-        $('#lang-filter-container').classList.add('hidden');
-      }
-      
-      if (hasPlat) {
-        $('#platform-filter-container').classList.remove('hidden');
-      } else {
-        $('#platform-filter-container').classList.add('hidden');
-      }
-      
-      if (hasPrice) {
-        $('#price-filter-container').classList.remove('hidden');
-      } else {
-        $('#price-filter-container').classList.add('hidden');
-      }
-      
-      // Show course category filter for both Dev Course and Music Production Courses
-      if (isDevCourse || isMusicProductionCourses) {
-        $('#course-category-filter-container').classList.remove('hidden');
-      } else {
-        $('#course-category-filter-container').classList.add('hidden');
-      }
+      if (showLang) $('#lang-filter-container').classList.remove('hidden'); else $('#lang-filter-container').classList.add('hidden');
+      if (hasPlat) $('#platform-filter-container').classList.remove('hidden'); else $('#platform-filter-container').classList.add('hidden');
+      if (hasPrice) $('#price-filter-container').classList.remove('hidden'); else $('#price-filter-container').classList.add('hidden');
+      if (isDevCourse || isMusicProductionCourses) $('#course-category-filter-container').classList.remove('hidden'); else $('#course-category-filter-container').classList.add('hidden');
+      if (isDevWebsite) $('#website-category-filter-container').classList.remove('hidden'); else $('#website-category-filter-container').classList.add('hidden');
+      if (isGraphicsCourse) $('#graphics-course-category-filter-container').classList.remove('hidden'); else $('#graphics-course-category-filter-container').classList.add('hidden');
 
-      if (isDevWebsite) {
-        $('#website-category-filter-container').classList.remove('hidden');
-      } else {
-        $('#website-category-filter-container').classList.add('hidden');
-      }
-
-      if (isGraphicsCourse) {
-        $('#graphics-course-category-filter-container').classList.remove('hidden');
-      } else {
-        $('#graphics-course-category-filter-container').classList.add('hidden');
-      }
-
-      // Show popularity sort option for music-related types
-      const showPopularity = state.type === 'Music Samples' || 
-                            state.type === 'Music Production VSTs' || 
-                            state.type === 'Music DAW';
+      const showPopularity = state.type === 'Music Samples' || state.type === 'Music Production VSTs' || state.type === 'Music DAW';
       $('.sort-option-yt').classList.toggle('hidden', !isYT);
       $('.sort-option-pop').classList.toggle('hidden', !showPopularity);
 
@@ -144,7 +129,7 @@ function setupMainFilters() {
   });
 }
 
-/* ---------- COURSE CATEGORY FILTERS ---------- */
+/* ---------- COURSE / WEBSITE / GRAPHICS FILTERS ---------- */
 function setupCourseCategoryFilters() {
   const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
   $('#course-category-filters').innerHTML = categories.map(cat => `
@@ -152,20 +137,13 @@ function setupCourseCategoryFilters() {
       <input type="checkbox" data-category="${cat}" class="course-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
       <span class="text-sm theme-text-secondary">${cat}</span>
     </label>`).join('');
-  
   $$('.course-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      const category = e.target.dataset.category;
-      e.target.checked 
-        ? state.courseCategories.add(category)
-        : state.courseCategories.delete(category);
-      state.currentPage = 1;
-      render();
+      e.target.checked ? state.courseCategories.add(e.target.dataset.category) : state.courseCategories.delete(e.target.dataset.category);
+      state.currentPage = 1; render();
     })
   );
 }
-
-/* ---------- GRAPHICS COURSE CATEGORY FILTERS ---------- */
 function setupGraphicsCourseCategoryFilters() {
   const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
   $('#graphics-course-category-filters').innerHTML = categories.map(cat => `
@@ -173,20 +151,13 @@ function setupGraphicsCourseCategoryFilters() {
       <input type="checkbox" data-category="${cat}" class="graphics-course-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
       <span class="text-sm theme-text-secondary">${cat}</span>
     </label>`).join('');
-  
   $$('.graphics-course-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      const category = e.target.dataset.category;
-      e.target.checked 
-        ? state.graphicsCourseCategories.add(category)
-        : state.graphicsCourseCategories.delete(category);
-      state.currentPage = 1;
-      render();
+      e.target.checked ? state.graphicsCourseCategories.add(e.target.dataset.category) : state.graphicsCourseCategories.delete(e.target.dataset.category);
+      state.currentPage = 1; render();
     })
   );
 }
-
-/* ---------- WEBSITE CATEGORY FILTERS ---------- */
 function setupWebsiteCategoryFilters() {
   const categories = ['Community', 'Documentation', 'Learning', 'Reference', 'Tools'];
   $('#website-category-filters').innerHTML = categories.map(cat => `
@@ -194,41 +165,27 @@ function setupWebsiteCategoryFilters() {
       <input type="checkbox" data-category="${cat}" class="website-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
       <span class="text-sm theme-text-secondary">${cat}</span>
     </label>`).join('');
-  
   $$('.website-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      const category = e.target.dataset.category;
-      e.target.checked 
-        ? state.websiteCategories.add(category)
-        : state.websiteCategories.delete(category);
-      state.currentPage = 1;
-      render();
+      e.target.checked ? state.websiteCategories.add(e.target.dataset.category) : state.websiteCategories.delete(e.target.dataset.category);
+      state.currentPage = 1; render();
     })
   );
 }
 
-/* ---------- PRICE BUTTONS ---------- */
+/* ---------- PRICE / LANG / PLATFORM / SEARCH / SORT ---------- */
 function setupPriceFilters() {
   const buttons = $$('.tier-btn');
-  const paint   = () => {
-    buttons.forEach((b, i) => {
-      b.classList.toggle('btn-active', i === state.tier);
-      b.classList.toggle('theme-button-active', i === state.tier);
-      b.classList.toggle('theme-button', i !== state.tier);
-    });
-  };
-  buttons.forEach((btn, idx) => {
-    btn.addEventListener('click', () => {
-      state.tier = idx;
-      state.currentPage = 1;
-      paint();
-      render();
-    });
+  const paint = () => buttons.forEach((b, i) => {
+    b.classList.toggle('btn-active', i === state.tier);
+    b.classList.toggle('theme-button-active', i === state.tier);
+    b.classList.toggle('theme-button', i !== state.tier);
   });
-  paint();   // initial colours
+  buttons.forEach((btn, idx) => {
+    btn.addEventListener('click', () => { state.tier = idx; state.currentPage = 1; paint(); render(); });
+  });
+  paint();
 }
-
-/* ---------- LANGUAGE ---------- */
 function setupLanguageFilters() {
   const all = new Set(allData.flatMap(i => i.languages || []));
   $('#lang-filters').innerHTML = [...all].sort().map(l => `
@@ -238,16 +195,11 @@ function setupLanguageFilters() {
     </label>`).join('');
   $$('.lang-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      e.target.checked
-        ? state.languages.add(e.target.dataset.lang)
-        : state.languages.delete(e.target.dataset.lang);
-      state.currentPage = 1;
-      render();
+      e.target.checked ? state.languages.add(e.target.dataset.lang) : state.languages.delete(e.target.dataset.lang);
+      state.currentPage = 1; render();
     })
   );
 }
-
-/* ---------- PLATFORM ---------- */
 function setupPlatformFilters() {
   const all = new Set(allData.flatMap(i => i.platforms || []));
   $('#platform-filters').innerHTML = [...all].sort().map(p => `
@@ -257,25 +209,18 @@ function setupPlatformFilters() {
     </label>`).join('');
   $$('.platform-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      const p = e.target.dataset.platform;
-      e.target.checked ? state.platforms.add(p) : state.platforms.delete(p);
-      state.currentPage = 1;
-      render();
+      e.target.checked ? state.platforms.add(e.target.dataset.platform) : state.platforms.delete(e.target.dataset.platform);
+      state.currentPage = 1; render();
     })
   );
 }
-
-/* ---------- SEARCH ---------- */
 function setupSearch() {
   $('#search').addEventListener('input', e => {
     state.query = e.target.value.trim().toLowerCase();
     state.currentPage = 1;
-    console.log('Search query:', state.query);
     render();
   });
 }
-
-/* ---------- SORT ---------- */
 function setupSorting() {
   $('#sort-by').addEventListener('change', e => {
     state.sortBy = e.target.value;
@@ -302,57 +247,22 @@ function getFilteredCount() {
   const graphicsCourseCatArr = [...state.graphicsCourseCategories];
 
   return allData.filter(item => {
-    // Handle YouTube Channel matching for both Dev YouTube and Graphics YouTube buttons
-    let typeMatch;
-    if (state.type === 'Dev YouTube') {
-      typeMatch = item.type === 'YouTube Channel' && item.category !== 'Graphic Design' && 
-                  item.category !== 'Motion Design' && item.category !== '3D Modeling' && 
-                  item.category !== 'UI/UX Design' && item.category !== 'Web Design' && 
-                  item.category !== 'Photo Editing' && item.category !== 'Illustration' && 
-                  item.category !== 'Animation' && item.category !== 'VFX' && 
-                  item.category !== 'Typography' && item.category !== 'Product Design' && 
-                  item.category !== 'Packaging Design' && item.category !== 'Color Theory' &&
-                  item.category !== 'Game Design';
-    } else if (state.type === 'Graphics YouTube') {
-      typeMatch = item.type === 'YouTube Channel' && (
-        item.category === 'Graphic Design' || item.category === 'Motion Design' || 
-        item.category === '3D Modeling' || item.category === 'UI/UX Design' || 
-        item.category === 'Web Design' || item.category === 'Photo Editing' || 
-        item.category === 'Illustration' || item.category === 'Animation' || 
-        item.category === 'VFX' || item.category === 'Typography' || 
-        item.category === 'Product Design' || item.category === 'Packaging Design' || 
-        item.category === 'Color Theory' || item.category === 'Game Design'
-      );
-    } else if (state.type === 'Music Production VSTs') {
-      typeMatch = item.type === 'Music VST';
-    } else if (state.type === 'Music Production Courses') {
-      typeMatch = item.type === 'Music Course';
-    } else {
-      typeMatch = state.type === 'All' || (item.type || 'AI Tool') === state.type;
-    }
-    
+    const typeMatch = buildTypeMatcher(state.type, item);
     const tierMatch = state.tier === 0 || item.priceTier === state.tier;
-    
-    // Search query matching
-    const queryMatch = !state.query || 
+    const queryMatch = !state.query ||
       (item.name && typeof item.name === 'string' && item.name.toLowerCase().includes(state.query)) ||
       (item.description && typeof item.description === 'string' && item.description.toLowerCase().includes(state.query));
-    
     const langMatch = langArr.length === 0 ||
       (item.languages && Array.isArray(item.languages) && langArr.every(l => item.languages.includes(l)));
-    
     const platMatch = platArr.length === 0 ||
       (item.platforms && Array.isArray(item.platforms) && platArr.some(p => item.platforms.includes(p)));
-    
     const courseCatMatch = courseCatArr.length === 0 ||
       (item.category && courseCatArr.includes(item.category));
-    
     const websiteCatMatch = websiteCatArr.length === 0 ||
       (item.category && websiteCatArr.includes(item.category));
-    
     const graphicsCourseCatMatch = graphicsCourseCatArr.length === 0 ||
       (item.category && graphicsCourseCatArr.includes(item.category));
-    
+
     return typeMatch && tierMatch && queryMatch && langMatch && platMatch && courseCatMatch && websiteCatMatch && graphicsCourseCatMatch;
   }).length;
 }
@@ -362,36 +272,28 @@ function restorePreviousState() {
   state.type = previousState.type;
   state.tier = previousState.tier;
   state.currentPage = previousState.currentPage;
-  
-  // Update UI to reflect restored state
+
   $$('.type-btn').forEach(btn => {
     const isActive = btn.dataset.type === state.type;
     btn.classList.toggle('btn-active', isActive);
     btn.classList.toggle('theme-button-active', isActive);
     btn.classList.toggle('theme-button', !isActive);
   });
-  
-  // Restore price filter UI
   $$('.tier-btn').forEach((btn, idx) => {
     const isActive = idx === state.tier;
     btn.classList.toggle('btn-active', isActive);
     btn.classList.toggle('theme-button-active', isActive);
     btn.classList.toggle('theme-button', !isActive);
   });
-  
-  // Clear course categories if we're not on Dev Course or Music Production Courses
-  if (state.type !== 'Dev Course' && state.type !== 'Music Production Courses') {
+
+  if (state.type !== 'Dev Course' && state.type !== 'Music Production Courses' && state.type !== 'Frontend Courses' && state.type !== 'Backend Courses') {
     state.courseCategories.clear();
     $$('.course-category-checkbox').forEach(cb => cb.checked = false);
   }
-  
-  // Clear website categories if we're not on Dev Website
-  if (state.type !== 'Dev Website') {
+  if (state.type !== 'Dev Website' && state.type !== 'Frontend Websites' && state.type !== 'Backend Websites') {
     state.websiteCategories.clear();
     $$('.website-category-checkbox').forEach(cb => cb.checked = false);
   }
-  
-  // Clear graphics course categories if we're not on Graphics Course
   if (state.type !== 'Graphics Course') {
     state.graphicsCourseCategories.clear();
     $$('.graphics-course-category-checkbox').forEach(cb => cb.checked = false);
@@ -401,31 +303,22 @@ function restorePreviousState() {
 /* ---------- CARD ---------- */
 function card(t) {
   const badge = t.priceTier === 1 ? 'Free' : t.priceTier === 2 ? 'Freemium' : 'Paid';
-  
-  // Use static color classes
   let badgeClass = '';
-  
-  if (t.priceTier === 1) {
-    badgeClass = 'bg-green-100 text-green-800';
-  } else if (t.priceTier === 2) {
-    badgeClass = 'bg-yellow-100 text-yellow-800';
-  } else if (t.priceTier === 3) {
-    badgeClass = 'bg-red-100 text-red-800';
-  }
-  
-  const langHtml = (t.languages  || []).map(l => `<span class="text-xs font-semibold px-2 py-0.5 rounded bg-gray-200 theme-text-secondary">${l}</span>`).join(' ');
+  if (t.priceTier === 1) badgeClass = 'bg-green-100 text-green-800';
+  else if (t.priceTier === 2) badgeClass = 'bg-yellow-100 text-yellow-800';
+  else if (t.priceTier === 3) badgeClass = 'bg-red-100 text-red-800';
+
+  const langHtml = (t.languages || []).map(l => `<span class="text-xs font-semibold px-2 py-0.5 rounded bg-gray-200 theme-text-secondary">${l}</span>`).join(' ');
   const platHtml = (t.platforms || []).map(p => `<span class="text-xs font-semibold px-2 py-0.5 rounded bg-gray-200 theme-text-secondary">${p}</span>`).join(' ');
 
   const ytStats = t.type && (t.type.includes('YouTube') || t.type === 'YouTube Channel') && t.subscribers && t.monthlyViews
     ? `<p class="text-sm theme-text-secondary mb-2">Subscribers: <strong>${t.subscribers}</strong> · Monthly Views: <strong>${t.monthlyViews}</strong></p>`
     : '';
 
-  // Add popularity score for music-related items if available
   const popularityStats = t.popularityScore && (state.type === 'Music DAW' || state.type === 'Music Samples' || state.type === 'Music Production VSTs')
     ? `<p class="text-sm theme-text-secondary mb-2">Popularity Score: <strong>${t.popularityScore.toLocaleString()}</strong></p>`
     : '';
 
-  // Add pricing description if available
   const pricingInfo = t.pricingDesc
     ? `<p class="text-sm theme-text-secondary mb-2">${t.pricingDesc}</p>`
     : '';
@@ -461,8 +354,8 @@ function renderPagination(totalPages) {
   const btn = (label, page, disabled = false) => {
     const b = document.createElement('button');
     b.textContent = label;
-    b.disabled    = disabled;
-    b.className   = disabled
+    b.disabled = disabled;
+    b.className = disabled
       ? 'px-3 py-1 rounded border bg-gray-200 text-gray-400 cursor-not-allowed'
       : 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
     if (!disabled) b.addEventListener('click', () => { state.currentPage = page; render(); });
@@ -471,24 +364,17 @@ function renderPagination(totalPages) {
 
   ctr.appendChild(btn('Prev', state.currentPage - 1, state.currentPage === 1));
 
-  // Show page numbers with ellipsis for large page counts
   const maxVisiblePages = 7;
   let startPage = Math.max(1, state.currentPage - Math.floor(maxVisiblePages / 2));
   let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-  
-  // Adjust start if we're near the end
-  if (endPage - startPage < maxVisiblePages - 1) {
-    startPage = Math.max(1, endPage - maxVisiblePages + 1);
-  }
+  if (endPage - startPage < maxVisiblePages - 1) startPage = Math.max(1, endPage - maxVisiblePages + 1);
 
-  // First page
   if (startPage > 1) {
     const b = document.createElement('button');
     b.textContent = '1';
     b.className = 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
     b.addEventListener('click', () => { state.currentPage = 1; render(); });
     ctr.appendChild(b);
-    
     if (startPage > 2) {
       const ellipsis = document.createElement('span');
       ellipsis.textContent = '...';
@@ -497,19 +383,17 @@ function renderPagination(totalPages) {
     }
   }
 
-  // Page numbers
   for (let p = startPage; p <= endPage; p++) {
     const active = p === state.currentPage;
     const b = document.createElement('button');
     b.textContent = p;
-    b.className   = active
+    b.className = active
       ? 'px-3 py-1 rounded border bg-blue-600 text-white border-blue-600'
       : 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
     b.addEventListener('click', () => { state.currentPage = p; render(); });
     ctr.appendChild(b);
   }
 
-  // Last page
   if (endPage < totalPages) {
     if (endPage < totalPages - 1) {
       const ellipsis = document.createElement('span');
@@ -517,7 +401,6 @@ function renderPagination(totalPages) {
       ellipsis.className = 'px-2 theme-text-secondary';
       ctr.appendChild(ellipsis);
     }
-    
     const b = document.createElement('button');
     b.textContent = totalPages;
     b.className = 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
@@ -530,8 +413,6 @@ function renderPagination(totalPages) {
 
 /* ---------- RENDER ---------- */
 function render() {
-  console.log('Current state:', state);
-  
   const langArr = [...state.languages];
   const platArr = [...state.platforms];
   const courseCatArr = [...state.courseCategories];
@@ -539,100 +420,50 @@ function render() {
   const graphicsCourseCatArr = [...state.graphicsCourseCategories];
 
   let filtered = allData.filter(item => {
-    // Handle YouTube Channel matching for both Dev YouTube and Graphics YouTube buttons
-    let typeMatch;
-    if (state.type === 'Dev YouTube') {
-      typeMatch = item.type === 'YouTube Channel' && item.category !== 'Graphic Design' && 
-                  item.category !== 'Motion Design' && item.category !== '3D Modeling' && 
-                  item.category !== 'UI/UX Design' && item.category !== 'Web Design' && 
-                  item.category !== 'Photo Editing' && item.category !== 'Illustration' && 
-                  item.category !== 'Animation' && item.category !== 'VFX' && 
-                  item.category !== 'Typography' && item.category !== 'Product Design' && 
-                  item.category !== 'Packaging Design' && item.category !== 'Color Theory' &&
-                  item.category !== 'Game Design';
-    } else if (state.type === 'Graphics YouTube') {
-      typeMatch = item.type === 'YouTube Channel' && (
-        item.category === 'Graphic Design' || item.category === 'Motion Design' || 
-        item.category === '3D Modeling' || item.category === 'UI/UX Design' || 
-        item.category === 'Web Design' || item.category === 'Photo Editing' || 
-        item.category === 'Illustration' || item.category === 'Animation' || 
-        item.category === 'VFX' || item.category === 'Typography' || 
-        item.category === 'Product Design' || item.category === 'Packaging Design' || 
-        item.category === 'Color Theory' || item.category === 'Game Design'
-      );
-    } else if (state.type === 'Music Production VSTs') {
-      typeMatch = item.type === 'Music VST';
-    } else if (state.type === 'Music Production Courses') {
-      typeMatch = item.type === 'Music Course';
-    } else {
-      typeMatch = state.type === 'All' || (item.type || 'AI Tool') === state.type;
-    }
-    
+    const typeMatch = buildTypeMatcher(state.type, item);
     const tierMatch = state.tier === 0 || item.priceTier === state.tier;
-    
-    // Search query matching
-    const queryMatch = !state.query || 
+    const queryMatch = !state.query ||
       (item.name && typeof item.name === 'string' && item.name.toLowerCase().includes(state.query)) ||
       (item.description && typeof item.description === 'string' && item.description.toLowerCase().includes(state.query));
-    
     const langMatch = langArr.length === 0 ||
       (item.languages && Array.isArray(item.languages) && langArr.every(l => item.languages.includes(l)));
-    
     const platMatch = platArr.length === 0 ||
       (item.platforms && Array.isArray(item.platforms) && platArr.some(p => item.platforms.includes(p)));
-    
     const courseCatMatch = courseCatArr.length === 0 ||
       (item.category && courseCatArr.includes(item.category));
-    
     const websiteCatMatch = websiteCatArr.length === 0 ||
       (item.category && websiteCatArr.includes(item.category));
-    
     const graphicsCourseCatMatch = graphicsCourseCatArr.length === 0 ||
       (item.category && graphicsCourseCatArr.includes(item.category));
-    
-    const result = typeMatch && tierMatch && queryMatch && langMatch && platMatch && courseCatMatch && websiteCatMatch && graphicsCourseCatMatch;
-    
-    // Debug logging for search
-    if (state.query && result) {
-      console.log('Search match found:', item.name, 'for query:', state.query);
-    }
-    
-    return result;
+
+    return typeMatch && tierMatch && queryMatch && langMatch && platMatch && courseCatMatch && websiteCatMatch && graphicsCourseCatMatch;
   });
 
-  console.log(`Filtered ${filtered.length} items from ${allData.length} total`);
-
-  /* EMPTY-SET GUARD – restore previous state if no results and not on "All" */
   if (filtered.length === 0 && state.type !== 'All' && previousState.resultCount > 0) {
-    console.log(`No results found for "${state.type}". Restoring previous category: "${previousState.type}"`);
     restorePreviousState();
-    // Re-run render with restored state
     render();
     return;
   }
 
-  /* SORT */
   const sorted = [...filtered].sort((a, b) => {
     switch (state.sortBy) {
-      case 'name_asc':  return a.name.localeCompare(b.name);
+      case 'name_asc': return a.name.localeCompare(b.name);
       case 'name_desc': return b.name.localeCompare(a.name);
       case 'subs_desc': return parseSubscribers(b.subscribers) - parseSubscribers(a.subscribers);
       case 'popularity_desc': return (b.popularityScore || 0) - (a.popularityScore || 0);
-      default:          return 0;
+      default: return 0;
     }
   });
 
-  /* PAGINATE */
   const totalPages = Math.ceil(sorted.length / ITEMS_PER_PAGE);
   state.currentPage = Math.min(state.currentPage, totalPages || 1);
   const start = (state.currentPage - 1) * ITEMS_PER_PAGE;
-  const page  = sorted.slice(start, start + ITEMS_PER_PAGE);
+  const page = sorted.slice(start, start + ITEMS_PER_PAGE);
 
-  // Calculate the range of results being shown
   const startResult = sorted.length > 0 ? start + 1 : 0;
   const endResult = Math.min(start + ITEMS_PER_PAGE, sorted.length);
   
-  $('#results-count').textContent = sorted.length > 0 
+  $('#results-count').textContent = sorted.length > 0
     ? `Showing results ${startResult}-${endResult} of ${sorted.length}`
     : 'Showing 0 results';
   
@@ -645,13 +476,8 @@ function render() {
 (async () => {
   try {
     const response = await fetch(API);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     allData = await response.json();
-    console.log('Data loaded successfully. Total items:', allData.length);
-    console.log('Sample item:', allData[0]);
-    
     setupVisitorCounter();
     setupMainFilters();
     setupPriceFilters();
