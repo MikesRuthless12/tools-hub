@@ -25709,5 +25709,1208 @@
         "priceTier": 3,
         "pricingDesc": "$599",
         "popularityScore": 4300000
-    }
+    },
+    {
+        "_comment": "_____________________________________________________________________________________________________________________________________________________ GRAPHICS COURSES"
+    },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Canva Design School",
+    "description": "Free design courses and tutorials covering Canva, design principles, and graphic design basics.",
+    "url": "https://www.canva.com/learn/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Adobe Live",
+    "description": "Free live streams and tutorials from Adobe experts covering Photoshop, Illustrator, and more.",
+    "url": "https://www.adobe.com/products/live.html",
+    "priceTier": 1,
+    "pricingDesc": "Free live sessions",
+    "popularityScore": 1200000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Piximperfect",
+    "description": "High-quality Photoshop and graphic design tutorials on YouTube with detailed explanations.",
+    "url": "https://www.youtube.com/c/Piximperfect",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 2800000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "The Futur",
+    "description": "Design education platform covering graphic design, branding, and creative business strategies.",
+    "url": "https://www.thefutur.com/",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 1850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Skillshare Graphic Design",
+    "description": "Thousands of graphic design courses covering everything from basics to advanced techniques.",
+    "url": "https://www.skillshare.com/browse/graphic-design",
+    "priceTier": 2,
+    "pricingDesc": "Subscription based",
+    "popularityScore": 3200000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Coursera Graphic Design Specialization",
+    "description": "Professional graphic design certification from CalArts covering fundamental principles.",
+    "url": "https://www.coursera.org/specializations/graphic-design",
+    "priceTier": 2,
+    "pricingDesc": "Free audit, paid certificate",
+    "popularityScore": 2100000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Shaw Academy Graphic Design",
+    "description": "Comprehensive graphic design diploma course with live online classes and projects.",
+    "url": "https://www.shawacademy.com/graphic-design/",
+    "priceTier": 2,
+    "pricingDesc": "Free trial then subscription",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Yes I'm a Designer",
+    "description": "Professional Adobe Creative Cloud tutorials focusing on practical design skills.",
+    "url": "https://www.yesimadesigner.com/",
+    "priceTier": 3,
+    "pricingDesc": "Paid courses and membership",
+    "popularityScore": 750000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Documentation",
+    "name": "Adobe Help Center",
+    "description": "Official Adobe tutorials and documentation for all Creative Cloud applications.",
+    "url": "https://helpx.adobe.com/creative-cloud/tutorials-explore.html",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 1800000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Behance Live",
+    "description": "Live creative sessions and tutorials from top designers worldwide on Adobe's platform.",
+    "url": "https://www.behance.net/live",
+    "priceTier": 1,
+    "pricingDesc": "Free live sessions",
+    "popularityScore": 1400000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "GFXMentor",
+    "description": "Comprehensive graphic design tutorials in multiple languages focusing on practical skills.",
+    "url": "https://www.youtube.com/c/GFXMentor",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 1600000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Udemy Graphic Design Masterclass",
+    "description": "Complete graphic design theory and software course covering Photoshop, Illustrator, and InDesign.",
+    "url": "https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know/",
+    "priceTier": 3,
+    "pricingDesc": "Paid course with frequent discounts",
+    "popularityScore": 1950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Designlab",
+    "description": "Mentor-led online design bootcamp with 1-on-1 mentorship and career support.",
+    "url": "https://designlab.com/",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp program",
+    "popularityScore": 850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Figma Academy",
+    "description": "Learn Figma from basics to advanced prototyping and design system creation.",
+    "url": "https://www.figma.com/resources/learn/",
+    "priceTier": 1,
+    "pricingDesc": "Free official resources",
+    "popularityScore": 2200000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Flux Academy",
+    "description": "Learn web design and freelance business strategies for designers.",
+    "url": "https://flux-academy.com/",
+    "priceTier": 3,
+    "pricingDesc": "Paid courses and programs",
+    "popularityScore": 1100000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Documentation",
+    "name": "Google Design Certificates",
+    "description": "Google's UX Design Professional Certificate on Coursera for career-ready skills.",
+    "url": "https://grow.google/certificates/ux-design/",
+    "priceTier": 2,
+    "pricingDesc": "Subscription based",
+    "popularityScore": 1900000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "LinkedIn Learning Graphic Design",
+    "description": "Professional graphic design courses with industry experts and exercise files.",
+    "url": "https://www.linkedin.com/learning/topics/graphic-design",
+    "priceTier": 2,
+    "pricingDesc": "Subscription based",
+    "popularityScore": 1750000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Envato Tuts+ Design & Illustration",
+    "description": "Thousands of free and premium design tutorials covering various software and techniques.",
+    "url": "https://design.tutsplus.com/",
+    "priceTier": 2,
+    "pricingDesc": "Free content + premium subscription",
+    "popularityScore": 1350000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Kadenze Graphic Design History",
+    "description": "Academic courses in graphic design history and theory from leading institutions.",
+    "url": "https://www.kadenze.com/programs/graphic-design-history",
+    "priceTier": 2,
+    "pricingDesc": "Free audit, paid certificate",
+    "popularityScore": 650000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "BrainStation Design Bootcamp",
+    "description": "Immersive UX/UI design bootcamp with hands-on projects and career services.",
+    "url": "https://brainstation.io/design-bootcamp",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp program",
+    "popularityScore": 800000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Photoshop Training Channel",
+    "description": "Comprehensive Photoshop tutorials from basics to advanced techniques by Jesús Ramirez.",
+    "url": "https://www.youtube.com/c/PhotoshopTrainingChannel",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 1450000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Adobe Creative Cloud Tutorials",
+    "description": "Official Adobe tutorials covering all Creative Cloud applications with step-by-step guides.",
+    "url": "https://creativecloud.adobe.com/learn",
+    "priceTier": 1,
+    "pricingDesc": "Free with Creative Cloud subscription",
+    "popularityScore": 2200000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "RISD Graphic Design Online",
+    "description": "Rhode Island School of Design online courses in graphic design fundamentals and advanced concepts.",
+    "url": "https://www.risd.edu/continuing-education/online-courses/graphic-design",
+    "priceTier": 3,
+    "pricingDesc": "Paid university courses",
+    "popularityScore": 850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "General Assembly Visual Design",
+    "description": "Immersive visual design course covering design principles, typography, and digital tools.",
+    "url": "https://generalassemb.ly/education/visual-design",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Blender Guru",
+    "description": "Comprehensive 3D modeling and rendering tutorials using Blender for beginners to advanced users.",
+    "url": "https://www.youtube.com/c/BlenderGuruOfficial",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 2100000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Figma for Beginners",
+    "description": "Complete Figma course covering interface design, prototyping, and design systems.",
+    "url": "https://www.figma.com/resources/learn/design/",
+    "priceTier": 1,
+    "pricingDesc": "Free official course",
+    "popularityScore": 1800000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "CalArts UI/UX Design Specialization",
+    "description": "UI/UX design certification program from California Institute of the Arts on Coursera.",
+    "url": "https://www.coursera.org/specializations/ui-ux-design",
+    "priceTier": 2,
+    "pricingDesc": "Free audit, paid certificate",
+    "popularityScore": 1200000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Tutorials by Tasty",
+    "description": "Motion graphics and animation tutorials for After Effects and Cinema 4D.",
+    "url": "https://www.youtube.com/c/TutorialsbyTasty",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "InVision Design System Manager",
+    "description": "Learn to create and manage design systems using InVision's platform.",
+    "url": "https://www.invisionapp.com/design-system-manager/education",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid tiers",
+    "popularityScore": 750000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Springboard UI/UX Design Bootcamp",
+    "description": "Mentor-led UI/UX design bootcamp with career coaching and job guarantee.",
+    "url": "https://www.springboard.com/courses/ui-ux-design-career-track/",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp with financing",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Ben Marriott Motion Design",
+    "description": "Advanced motion design tutorials and creative process breakdowns for After Effects.",
+    "url": "https://www.youtube.com/c/BenMarriott",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 420000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Sketch Learn",
+    "description": "Official Sketch tutorials covering interface design, prototyping, and collaboration features.",
+    "url": "https://www.sketch.com/learn/",
+    "priceTier": 2,
+    "pricingDesc": "Free with Sketch subscription",
+    "popularityScore": 890000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "MIT OpenCourseWare - Design",
+    "description": "Free design courses from MIT covering computational design and visual communication.",
+    "url": "https://ocw.mit.edu/courses/architecture/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 1100000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Mohamed Achraf Digital Art",
+    "description": "Digital painting and illustration tutorials focusing on character design and environments.",
+    "url": "https://www.youtube.com/c/MohamedAchraf",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 380000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Procreate Handbook",
+    "description": "Official Procreate tutorials for digital painting and illustration on iPad.",
+    "url": "https://procreate.art/handbook",
+    "priceTier": 1,
+    "pricingDesc": "Free with Procreate app",
+    "popularityScore": 1500000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "CareerFoundry UI Design",
+    "description": "Comprehensive UI design program with mentor support and career services.",
+    "url": "https://careerfoundry.com/en/courses/become-a-ui-designer/",
+    "priceTier": 3,
+    "pricingDesc": "Paid program with job guarantee",
+    "popularityScore": 720000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Jazza Animation",
+    "description": "Character design, animation, and digital art tutorials for all skill levels.",
+    "url": "https://www.youtube.com/c/JazzaStudio",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 6800000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Affinity Designer Tutorials",
+    "description": "Official Affinity Designer tutorials for vector graphic design and illustration.",
+    "url": "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Stanford d.school Design Thinking",
+    "description": "Design thinking methodology and creative problem-solving courses from Stanford.",
+    "url": "https://dschool.stanford.edu/executive-education",
+    "priceTier": 3,
+    "pricingDesc": "Paid executive education",
+    "popularityScore": 890000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "BaM Animation",
+    "description": "2D animation tutorials and industry insights for aspiring animators.",
+    "url": "https://www.youtube.com/c/BaMAnimation",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 320000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "CorelDRAW Learning",
+    "description": "Official CorelDRAW tutorials for vector illustration and page layout design.",
+    "url": "https://learn.coreldraw.com/",
+    "priceTier": 2,
+    "pricingDesc": "Free with CorelDRAW subscription",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Thinkful UX/UI Design",
+    "description": "Mentor-led UX/UI design bootcamp with 1-on-1 mentorship and career support.",
+    "url": "https://www.thinkful.com/bootcamp/ux-ui-design/",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp program",
+    "popularityScore": 550000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Spoon Graphics",
+    "description": "Graphic design tutorials focusing on Adobe Creative Cloud and design techniques.",
+    "url": "https://www.youtube.com/c/SpoonGraphics",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Gravit Designer Learning",
+    "description": "Free vector design software tutorials for web and print design.",
+    "url": "https://www.designer.io/learn/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 420000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Harvard CS50 Web Programming",
+    "description": "Web programming course covering UI/UX principles and front-end development.",
+    "url": "https://cs50.harvard.edu/web/2020/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 1850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Polygon Runway",
+    "description": "3D modeling and low-poly art tutorials using Blender and other 3D software.",
+    "url": "https://www.youtube.com/c/PolygonRunway",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 380000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Vectornator Academy",
+    "description": "Vector graphic design tutorials for iPad and macOS using Vectornator.",
+    "url": "https://www.vectornator.io/academy",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Ironhack UX/UI Design",
+    "description": "Immersive UX/UI design bootcamp with global campuses and career services.",
+    "url": "https://www.ironhack.com/en/ux-ui-design",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp program",
+    "popularityScore": 480000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Aaron Blaise Digital Painting",
+    "description": "Digital painting and animation tutorials from former Disney animator Aaron Blaise.",
+    "url": "https://www.youtube.com/c/AaronBlaiseArt",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 320000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Krita Documentation",
+    "description": "Official Krita tutorials for digital painting and open-source illustration.",
+    "url": "https://docs.krita.org/en/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Berkeley Extension Graphic Design",
+    "description": "Professional graphic design certificate program from UC Berkeley Extension.",
+    "url": "https://extension.berkeley.edu/search/publicCourseSearchDetails.do?method=load&courseId=9260603",
+    "priceTier": 3,
+    "pricingDesc": "Paid certificate program",
+    "popularityScore": 450000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Draw with Jazza",
+    "description": "Drawing and character design tutorials with emphasis on creativity and technique.",
+    "url": "https://www.youtube.com/c/DrawWithJazza",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 5200000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Clip Studio Paint Learn",
+    "description": "Official tutorials for Clip Studio Paint covering manga, comics, and illustration.",
+    "url": "https://www.clipstudio.net/en/how-to-draw/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid software",
+    "popularityScore": 750000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Flatiron School UX/UI Design",
+    "description": "Comprehensive UX/UI design program with career coaching and job support.",
+    "url": "https://flatironschool.com/courses/ux-ui-design-course/",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp program",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Boro CG",
+    "description": "Cinema 4D and 3D motion graphics tutorials for broadcast and commercial work.",
+    "url": "https://www.youtube.com/c/BoroCG",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 180000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Inkscape Tutorials",
+    "description": "Open-source vector graphics editor tutorials for illustration and design.",
+    "url": "https://inkscape.org/learn/tutorials/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Parsons Design and Technology",
+    "description": "Online courses in design technology and digital creation from Parsons School of Design.",
+    "url": "https://www.newschool.edu/parsons/online-courses/",
+    "priceTier": 3,
+    "pricingDesc": "Paid university courses",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Level Up! with Adobe",
+    "description": "Official Adobe creative challenges and tutorials from Adobe experts.",
+    "url": "https://www.youtube.com/c/AdobeCreativeCloud",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 1850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Framer Academy",
+    "description": "Learn interactive prototyping and design with Framer's powerful toolset.",
+    "url": "https://www.framer.com/academy/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid plans",
+    "popularityScore": 420000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Designation UI/UX Design",
+    "description": "Immersive UI/UX design program with portfolio development and career prep.",
+    "url": "https://www.designation.io/",
+    "priceTier": 3,
+    "pricingDesc": "Paid design program",
+    "popularityScore": 380000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Motion Design School",
+    "description": "Professional motion design courses covering After Effects, Cinema 4D, and animation.",
+    "url": "https://www.youtube.com/c/MotionDesignSchool",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Principle for Mac Tutorials",
+    "description": "Learn interactive design and animation prototyping with Principle.",
+    "url": "https://principleformac.com/tutorials.html",
+    "priceTier": 2,
+    "pricingDesc": "Free with software purchase",
+    "popularityScore": 350000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Yale Graphic Design Online",
+    "description": "Graphic design principles and theory courses from Yale University online.",
+    "url": "https://online.yale.edu/courses",
+    "priceTier": 3,
+    "pricingDesc": "Paid university courses",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "JHill Design",
+    "description": "Logo design and branding tutorials focusing on creative process and technique.",
+    "url": "https://www.youtube.com/c/JHillDesign",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 150000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Marvel App Education",
+    "description": "Learn prototyping, wireframing, and design collaboration with Marvel platform.",
+    "url": "https://marvelapp.com/education/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid tiers",
+    "popularityScore": 480000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Avocademy UX/UI Foundations",
+    "description": "Beginner-friendly UX/UI design course with mentorship and career guidance.",
+    "url": "https://www.avocademy.com/",
+    "priceTier": 2,
+    "pricingDesc": "Affordable paid program",
+    "popularityScore": 250000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Texturelabs",
+    "description": "Photoshop texture creation and graphic design technique tutorials.",
+    "url": "https://www.youtube.com/c/Texturelabs",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 120000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Balsamiq Wireframing Academy",
+    "description": "Learn rapid wireframing and UX design with Balsamiq's intuitive tools.",
+    "url": "https://balsamiq.com/learn/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Pratt Institute Digital Design",
+    "description": "Online digital design courses from Pratt Institute covering various design disciplines.",
+    "url": "https://www.pratt.edu/academics/continuing-education-and-professional/online/",
+    "priceTier": 3,
+    "pricingDesc": "Paid institute courses",
+    "popularityScore": 420000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Art with Flo",
+    "description": "Procreate digital art tutorials with step-by-step creative processes.",
+    "url": "https://www.youtube.com/c/ArtwithFlo",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "UXPin Merge Education",
+    "description": "Learn design systems and component-driven design with UXPin Merge.",
+    "url": "https://www.uxpin.com/merge/education",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid platform",
+    "popularityScore": 320000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Memorisely UI Design Bootcamp",
+    "description": "Live, cohort-based UI design bootcamp focusing on real-world projects.",
+    "url": "https://www.memorisely.com/",
+    "priceTier": 3,
+    "pricingDesc": "Paid bootcamp program",
+    "popularityScore": 180000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Sara Tepes Illustration",
+    "description": "Digital illustration and character design tutorials with creative techniques.",
+    "url": "https://www.youtube.com/c/SaraTepes",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 95000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Proto.io Academy",
+    "description": "Learn high-fidelity prototyping and interactive design with Proto.io.",
+    "url": "https://proto.io/academy/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid plans",
+    "popularityScore": 380000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "SCAD eLearning Graphic Design",
+    "description": "Online graphic design courses from Savannah College of Art and Design.",
+    "url": "https://www.scad.edu/academics/online-learning",
+    "priceTier": 3,
+    "pricingDesc": "Paid university courses",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Trent Kaniuga Art",
+    "description": "Concept art and illustration tutorials from industry professional Trent Kaniuga.",
+    "url": "https://www.youtube.com/c/TrentKaniuga",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Axure RP Training",
+    "description": "Learn complex prototyping and wireframing with Axure RP platform.",
+    "url": "https://www.axure.com/learning",
+    "priceTier": 2,
+    "pricingDesc": "Free with software license",
+    "popularityScore": 450000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Designlab UX Academy",
+    "description": "Comprehensive UX design program with 1-on-1 mentorship and career prep.",
+    "url": "https://designlab.com/ux-academy/",
+    "priceTier": 3,
+    "pricingDesc": "Paid academy program",
+    "popularityScore": 420000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Kyle T. Webster Brushes",
+    "description": "Digital painting and brush creation tutorials from Adobe brush master.",
+    "url": "https://www.youtube.com/c/KyleTWebster",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 120000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Justinmind Academy",
+    "description": "Learn prototyping and wireframing for web and mobile applications.",
+    "url": "https://www.justinmind.com/academy/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid plans",
+    "popularityScore": 320000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Maryland Institute College of Art Online",
+    "description": "Online art and design courses from prestigious MICA institution.",
+    "url": "https://www.mica.edu/study-at-mica/continuing-education/online-courses/",
+    "priceTier": 3,
+    "pricingDesc": "Paid art institute courses",
+    "popularityScore": 380000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Bobby Chiu Digital Painting",
+    "description": "Digital painting and creature design tutorials from Schoolism founder.",
+    "url": "https://www.youtube.com/c/BobbyChiu1",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 180000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Fluid UI Tutorials",
+    "description": "Learn rapid prototyping and collaborative design with Fluid UI platform.",
+    "url": "https://www.fluidui.com/learn/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid tiers",
+    "popularityScore": 250000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Coursera UI/UX Design Specialization",
+    "description": "UI/UX design certification from multiple universities on Coursera platform.",
+    "url": "https://www.coursera.org/specializations/ui-ux-design",
+    "priceTier": 2,
+    "pricingDesc": "Free audit, paid certificate",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Mohamed Ajeen Digital Art",
+    "description": "Digital painting and illustration tutorials focusing on fantasy and character art.",
+    "url": "https://www.youtube.com/c/MohamedAjeen",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 85000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Mockplus Tutorials",
+    "description": "Learn prototyping and design collaboration with Mockplus platform.",
+    "url": "https://www.mockplus.com/tutorial",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid plans",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "ArtCenter Extension Graphic Design",
+    "description": "Professional graphic design courses from ArtCenter College of Design.",
+    "url": "https://www.artcenter.edu/academics/extension-programs/",
+    "priceTier": 3,
+    "pricingDesc": "Paid design courses",
+    "popularityScore": 350000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Jasmina Susak Colored Pencil",
+    "description": "Hyperrealistic drawing and colored pencil technique tutorials.",
+    "url": "https://www.youtube.com/c/JasminaSusak",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 120000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Pidoco Prototyping Tutorials",
+    "description": "Learn interactive prototyping and UX design with Pidoco platform.",
+    "url": "https://pidoco.com/en/help/tutorials",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid plans",
+    "popularityScore": 180000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Udacity UX Designer Nanodegree",
+    "description": "Comprehensive UX design program with project-based learning and mentorship.",
+    "url": "https://www.udacity.com/course/ux-designer-nanodegree--nd578",
+    "priceTier": 3,
+    "pricingDesc": "Paid nanodegree program",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Sycra Yasin Anatomy Drawing",
+    "description": "Figure drawing and anatomy tutorials for character design and illustration.",
+    "url": "https://www.youtube.com/c/Sycra",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "UXFlow Tutorials",
+    "description": "Learn user flow design and interactive prototyping with UXFlow platform.",
+    "url": "https://uxflow.com/learn/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid tiers",
+    "popularityScore": 150000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "RISD CE Graphic Design Online",
+    "description": "Continuing education graphic design courses from Rhode Island School of Design.",
+    "url": "https://ce.risd.edu/graphic-design/",
+    "priceTier": 3,
+    "pricingDesc": "Paid design courses",
+    "popularityScore": 420000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Alphonso Dunn Pen & Ink",
+    "description": "Pen and ink drawing tutorials focusing on technique and creative process.",
+    "url": "https://www.youtube.com/c/AlphonsoDunn",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Pencil Project Tutorials",
+    "description": "Learn open-source prototyping and GUI design with Pencil Project.",
+    "url": "https://pencil.evolus.vn/Tutorials.html",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 320000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Google UX Design Certificate",
+    "description": "Professional UX design certificate program developed by Google on Coursera.",
+    "url": "https://grow.google/certificates/ux-design/",
+    "priceTier": 2,
+    "pricingDesc": "Subscription based",
+    "popularityScore": 1850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Proko Figure Drawing",
+    "description": "Comprehensive figure drawing and anatomy tutorials for artists of all levels.",
+    "url": "https://www.youtube.com/c/ProkoTV",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 3200000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Lunacy by Icons8 Tutorials",
+    "description": "Learn graphic design and prototyping with free Lunacy design software.",
+    "url": "https://icons8.com/lunacy/tutorials",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "SVA Continuing Education Design",
+    "description": "Graphic design and digital arts courses from School of Visual Arts.",
+    "url": "https://www.sva.edu/ce/courses/graphic-design",
+    "priceTier": 3,
+    "pricingDesc": "Paid design courses",
+    "popularityScore": 450000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Marc Brunet Digital Art",
+    "description": "Digital painting and illustration tutorials from industry professional Marc Brunet.",
+    "url": "https://www.youtube.com/c/ArtOfMarcBrunet",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "GIMP Tutorials",
+    "description": "Learn photo editing and graphic design with free open-source GIMP software.",
+    "url": "https://www.gimp.org/tutorials/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Interaction Design Foundation",
+    "description": "Comprehensive UX design courses and certification programs online.",
+    "url": "https://www.interaction-design.org/",
+    "priceTier": 2,
+    "pricingDesc": "Subscription based",
+    "popularityScore": 850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Kienan Lafferty Digital Painting",
+    "description": "Digital painting and illustration tutorials focusing on technique and style.",
+    "url": "https://www.youtube.com/c/KienanLafferty",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 180000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Photopea Tutorials",
+    "description": "Learn photo editing and design with free online Photoshop alternative.",
+    "url": "https://www.photopea.com/learn/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Academy of Art University Online",
+    "description": "Online graphic design and digital arts degree programs and courses.",
+    "url": "https://www.academyart.edu/academics/online/",
+    "priceTier": 3,
+    "pricingDesc": "Paid university programs",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Brushes and Bunnies Digital Art",
+    "description": "Digital painting and creative process tutorials for aspiring artists.",
+    "url": "https://www.youtube.com/c/BrushesandBunnies",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 85000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Vectr Tutorials",
+    "description": "Learn vector graphic design with free online Vectr editor.",
+    "url": "https://vectr.com/learn/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 320000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Nielsen Norman Group UX Certification",
+    "description": "Professional UX certification from industry leaders in user experience.",
+    "url": "https://www.nngroup.com/training/certification-programs/",
+    "priceTier": 3,
+    "pricingDesc": "Paid certification program",
+    "popularityScore": 750000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Sinix Design Anatomy",
+    "description": "Anatomy and figure drawing tutorials with emphasis on artistic application.",
+    "url": "https://www.youtube.com/c/SinixDesign",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 520000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Figma for Education",
+    "description": "Comprehensive Figma learning resources tailored for educational use.",
+    "url": "https://www.figma.com/education/",
+    "priceTier": 1,
+    "pricingDesc": "Free for education",
+    "popularityScore": 950000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Laguna College of Art & Design Online",
+    "description": "Online art and design courses from prestigious LCAD institution.",
+    "url": "https://www.lcad.edu/academics/online-courses",
+    "priceTier": 3,
+    "pricingDesc": "Paid art college courses",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Moderndayjames Drawing",
+    "description": "Drawing and perspective tutorials focusing on technical skills and creative application.",
+    "url": "https://www.youtube.com/c/moderndayjames",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 320000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Canva Design Courses",
+    "description": "Official Canva design courses covering various design disciplines and techniques.",
+    "url": "https://www.canva.com/design-school/courses/",
+    "priceTier": 1,
+    "pricingDesc": "Completely free",
+    "popularityScore": 1850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "CareerFoundry UX Design Program",
+    "description": "Comprehensive UX design certification with mentor support and career coaching.",
+    "url": "https://careerfoundry.com/en/courses/become-a-ux-designer/",
+    "priceTier": 3,
+    "pricingDesc": "Paid program with job guarantee",
+    "popularityScore": 680000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "Love Life Drawing Figure Art",
+    "description": "Figure drawing and life drawing tutorials with emphasis on gesture and form.",
+    "url": "https://www.youtube.com/c/LoveLifeDrawing",
+    "priceTier": 1,
+    "pricingDesc": "Free YouTube channel",
+    "popularityScore": 280000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "Adobe XD Learning",
+    "description": "Official Adobe XD tutorials for UX/UI design and prototyping.",
+    "url": "https://helpx.adobe.com/xd/tutorials.html",
+    "priceTier": 1,
+    "pricingDesc": "Free with Creative Cloud",
+    "popularityScore": 1500000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "University",
+    "name": "Otis College Extension Graphic Design",
+    "description": "Graphic design courses from Otis College of Art and Design extension program.",
+    "url": "https://www.otis.edu/continuing-education",
+    "priceTier": 3,
+    "pricingDesc": "Paid design courses",
+    "popularityScore": 250000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Video",
+    "name": "The Art of Aaron Blaise",
+    "description": "Traditional and digital animation tutorials from former Disney animator.",
+    "url": "https://www.youtube.com/c/TheArtofAaronBlaise",
+    "priceTier": 2,
+    "pricingDesc": "Free content + paid courses",
+    "popularityScore": 180000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Interactive",
+    "name": "SketchUp Learn",
+    "description": "3D modeling and design tutorials for architecture and product design.",
+    "url": "https://learn.sketchup.com/",
+    "priceTier": 2,
+    "pricingDesc": "Free with paid plans",
+    "popularityScore": 850000
+  },
+  {
+    "type": "Graphics Course",
+    "category": "Bootcamp",
+    "name": "Springboard Graphic Design",
+    "description": "Mentor-led graphic design program with portfolio development and career support.",
+    "url": "https://www.springboard.com/courses/graphic-design-career-track/",
+    "priceTier": 3,
+    "pricingDesc": "Paid career track program",
+    "popularityScore": 420000
+  }
 ]
