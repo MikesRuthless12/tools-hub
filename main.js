@@ -134,8 +134,7 @@ function setupWebsiteCategoryFilters() {
   $$('.website-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
       e.target.checked ? state.websiteCategories.add(e.target.dataset.category) : state.websiteCategories.delete(e.target.dataset.category);
-      state.currentPage = 1;
-      render();
+      state.currentPage = 1; render();
     })
   );
 }
@@ -411,6 +410,9 @@ function renderPagination(totalPages) {
   }
 
   ctr.appendChild(btn('Next', state.currentPage + 1, state.currentPage === totalPages));
+
+  // scroll to top after any pagination click
+  window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 /* ---------- RENDER ---------- */
