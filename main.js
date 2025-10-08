@@ -11,6 +11,7 @@ const state = {
   platforms: new Set(),
   courseCategories: new Set(),
   websiteCategories: new Set(),
+  graphicsCourseCategories: new Set(),
   sortBy: 'default',
   currentPage: 1,
 };
@@ -67,10 +68,15 @@ function setupMainFilters() {
         $$('.website-category-checkbox').forEach(cb => cb.checked = false);
       }
 
+      // Clear graphics course categories when switching away from Graphics Course
+      if (state.type !== 'Graphics Course') {
+        state.graphicsCourseCategories.clear();
+        $$('.graphics-course-category-checkbox').forEach(cb => cb.checked = false);
+      }
+
       const isYT       = state.type.includes('YouTube') || state.type === 'YouTube Channel';
       const isAI       = state.type === 'AI Tool';
       const isGraphics = state.type.includes('Graphics');
-      // FIXED: Music detection - only Music Production VSTs and other music types
       const isMusic    = state.type.includes('Music Production') || 
                          state.type === 'Music Samples' || 
                          state.type === 'Music DAW' ||
@@ -78,11 +84,11 @@ function setupMainFilters() {
                          state.type === 'Music Production Websites';
       const isDevCourse = state.type === 'Dev Course';
       const isDevWebsite = state.type === 'Dev Website';
+      const isGraphicsCourse = state.type === 'Graphics Course';
       
       // Show language filter only for specific types
-      const showLang = !isYT && !isAI && !isGraphics && !isMusic && !isDevCourse && !isDevWebsite;
+      const showLang = !isYT && !isAI && !isGraphics && !isMusic && !isDevCourse && !isDevWebsite && !isGraphicsCourse;
 
-      // FIXED: Platform filter for Music Production VSTs (which filters Music VST items)
       const hasPlat  = ['IDE','Graphics Program','Graphics Utility',
                         'Music DAW','Music Production VSTs'].includes(state.type);
       const hasPrice = !isYT && !state.type.includes('Website');
@@ -96,8 +102,6 @@ function setupMainFilters() {
       
       if (hasPlat) {
         $('#platform-filter-container').classList.remove('hidden');
-        // ALWAYS regenerate platform filters when switching to a platform-enabled type
-        generatePlatformFilters(state.type);
       } else {
         $('#platform-filter-container').classList.add('hidden');
       }
@@ -120,8 +124,13 @@ function setupMainFilters() {
         $('#website-category-filter-container').classList.add('hidden');
       }
 
+      if (isGraphicsCourse) {
+        $('#graphics-course-category-filter-container').classList.remove('hidden');
+      } else {
+        $('#graphics-course-category-filter-container').classList.add('hidden');
+      }
+
       // Show popularity sort option for music-related types
-      // FIXED: Music Production VSTs should show popularity sort
       const showPopularity = state.type === 'Music Samples' || 
                             state.type === 'Music Production VSTs' || 
                             state.type === 'Music DAW';
@@ -131,79 +140,6 @@ function setupMainFilters() {
       render();
     });
   });
-}
-
-/* ---------- PLATFORM FILTER GENERATION ---------- */
-function generatePlatformFilters(currentType) {
-  const platformFiltersContainer = $('#platform-filters');
-  if (!platformFiltersContainer) return;
-  
-  platformFiltersContainer.innerHTML = '';
-  
-  // Get all unique platforms from all data
-  const allPlatforms = [...new Set(allData.flatMap(item => item.platforms || []))];
-  
-  // Filter platforms based on current type
-  let platformsToShow = [...allPlatforms];
-  
-  console.log('Generating platform filters for type:', currentType, 'All platforms:', allPlatforms);
-  
-  if (currentType === "Music Production VSTs") {
-    // Only show Windows, macOS, Linux for VSTs
-    platformsToShow = platformsToShow.filter(platform => 
-      platform === "Windows" || platform === "macOS" || platform === "Linux"
-    );
-    console.log('Filtered VST platforms:', platformsToShow);
-  } else if (currentType === "Music DAW") {
-    // Exclude iPhone, iPad, iPadOS, ChromeOS for DAWs
-    platformsToShow = platformsToShow.filter(platform => 
-      platform !== "iPhone" && platform !== "iPad" && platform !== "iPadOS" && platform !== "ChromeOS"
-    );
-    console.log('Filtered DAW platforms:', platformsToShow);
-  }
-  
-  // Sort platforms alphabetically
-  platformsToShow.sort();
-  
-  // Create checkboxes for each platform
-  platformsToShow.forEach(platform => {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'flex items-center';
-    
-    const checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.id = `platform-${platform.replace(/\s+/g, '-')}`;
-    checkbox.value = platform;
-    checkbox.dataset.platform = platform;
-    checkbox.className = 'platform-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500';
-    
-    // Check if this platform is already selected in state
-    if (state.platforms.has(platform)) {
-      checkbox.checked = true;
-    }
-    
-    const label = document.createElement('label');
-    label.htmlFor = checkbox.id;
-    label.className = 'ml-2 text-sm theme-text-secondary';
-    label.textContent = platform;
-    
-    wrapper.appendChild(checkbox);
-    wrapper.appendChild(label);
-    platformFiltersContainer.appendChild(wrapper);
-  });
-  
-  // Add event listeners to platform checkboxes
-  const platformCheckboxes = platformFiltersContainer.querySelectorAll('.platform-checkbox');
-  platformCheckboxes.forEach(checkbox => {
-    checkbox.addEventListener('change', e => {
-      const platform = e.target.dataset.platform;
-      e.target.checked ? state.platforms.add(platform) : state.platforms.delete(platform);
-      state.currentPage = 1;
-      render();
-    });
-  });
-  
-  console.log('Generated platform filters for', currentType, ':', platformsToShow);
 }
 
 /* ---------- COURSE CATEGORY FILTERS ---------- */
@@ -221,6 +157,27 @@ function setupCourseCategoryFilters() {
       e.target.checked 
         ? state.courseCategories.add(category)
         : state.courseCategories.delete(category);
+      state.currentPage = 1;
+      render();
+    })
+  );
+}
+
+/* ---------- GRAPHICS COURSE CATEGORY FILTERS ---------- */
+function setupGraphicsCourseCategoryFilters() {
+  const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
+  $('#graphics-course-category-filters').innerHTML = categories.map(cat => `
+    <label class="flex items-center gap-2 cursor-pointer">
+      <input type="checkbox" data-category="${cat}" class="graphics-course-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+      <span class="text-sm theme-text-secondary">${cat}</span>
+    </label>`).join('');
+  
+  $$('.graphics-course-category-checkbox').forEach(box =>
+    box.addEventListener('change', e => {
+      const category = e.target.dataset.category;
+      e.target.checked 
+        ? state.graphicsCourseCategories.add(category)
+        : state.graphicsCourseCategories.delete(category);
       state.currentPage = 1;
       render();
     })
@@ -290,8 +247,20 @@ function setupLanguageFilters() {
 
 /* ---------- PLATFORM ---------- */
 function setupPlatformFilters() {
-  // Initial platform setup - will be regenerated when type changes
-  generatePlatformFilters(state.type);
+  const all = new Set(allData.flatMap(i => i.platforms || []));
+  $('#platform-filters').innerHTML = [...all].sort().map(p => `
+    <label class="flex items-center gap-2 cursor-pointer">
+      <input type="checkbox" data-platform="${p}" class="platform-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+      <span class="text-sm theme-text-secondary">${p}</span>
+    </label>`).join('');
+  $$('.platform-checkbox').forEach(box =>
+    box.addEventListener('change', e => {
+      const p = e.target.dataset.platform;
+      e.target.checked ? state.platforms.add(p) : state.platforms.delete(p);
+      state.currentPage = 1;
+      render();
+    })
+  );
 }
 
 /* ---------- SEARCH ---------- */
@@ -328,6 +297,7 @@ function getFilteredCount() {
   const platArr = [...state.platforms];
   const courseCatArr = [...state.courseCategories];
   const websiteCatArr = [...state.websiteCategories];
+  const graphicsCourseCatArr = [...state.graphicsCourseCategories];
 
   return allData.filter(item => {
     // Handle YouTube Channel matching for Dev YouTube button
@@ -335,7 +305,7 @@ function getFilteredCount() {
     if (state.type === 'Dev YouTube') {
       typeMatch = item.type === 'YouTube Channel';
     } else if (state.type === 'Music Production VSTs') {
-      // FIXED: Music Production VSTs button should filter Music VST items
+      // Music Production VSTs button should filter Music VST items
       typeMatch = item.type === 'Music VST';
     } else {
       typeMatch = state.type === 'All' || (item.type || 'AI Tool') === state.type;
@@ -360,7 +330,10 @@ function getFilteredCount() {
     const websiteCatMatch = websiteCatArr.length === 0 ||
       (item.category && websiteCatArr.includes(item.category));
     
-    return typeMatch && tierMatch && queryMatch && langMatch && platMatch && courseCatMatch && websiteCatMatch;
+    const graphicsCourseCatMatch = graphicsCourseCatArr.length === 0 ||
+      (item.category && graphicsCourseCatArr.includes(item.category));
+    
+    return typeMatch && tierMatch && queryMatch && langMatch && platMatch && courseCatMatch && websiteCatMatch && graphicsCourseCatMatch;
   }).length;
 }
 
@@ -396,6 +369,12 @@ function restorePreviousState() {
   if (state.type !== 'Dev Website') {
     state.websiteCategories.clear();
     $$('.website-category-checkbox').forEach(cb => cb.checked = false);
+  }
+  
+  // Clear graphics course categories if we're not on Graphics Course
+  if (state.type !== 'Graphics Course') {
+    state.graphicsCourseCategories.clear();
+    $$('.graphics-course-category-checkbox').forEach(cb => cb.checked = false);
   }
 }
 
@@ -537,6 +516,7 @@ function render() {
   const platArr = [...state.platforms];
   const courseCatArr = [...state.courseCategories];
   const websiteCatArr = [...state.websiteCategories];
+  const graphicsCourseCatArr = [...state.graphicsCourseCategories];
 
   let filtered = allData.filter(item => {
     // Handle YouTube Channel matching for Dev YouTube button
@@ -544,7 +524,7 @@ function render() {
     if (state.type === 'Dev YouTube') {
       typeMatch = item.type === 'YouTube Channel';
     } else if (state.type === 'Music Production VSTs') {
-      // FIXED: Music Production VSTs button should filter Music VST items
+      // Music Production VSTs button should filter Music VST items
       typeMatch = item.type === 'Music VST';
     } else {
       typeMatch = state.type === 'All' || (item.type || 'AI Tool') === state.type;
@@ -569,7 +549,10 @@ function render() {
     const websiteCatMatch = websiteCatArr.length === 0 ||
       (item.category && websiteCatArr.includes(item.category));
     
-    const result = typeMatch && tierMatch && queryMatch && langMatch && platMatch && courseCatMatch && websiteCatMatch;
+    const graphicsCourseCatMatch = graphicsCourseCatArr.length === 0 ||
+      (item.category && graphicsCourseCatArr.includes(item.category));
+    
+    const result = typeMatch && tierMatch && queryMatch && langMatch && platMatch && courseCatMatch && websiteCatMatch && graphicsCourseCatMatch;
     
     // Debug logging for search
     if (state.query && result) {
@@ -637,6 +620,7 @@ function render() {
     setupLanguageFilters();
     setupPlatformFilters();
     setupCourseCategoryFilters();
+    setupGraphicsCourseCategoryFilters();
     setupWebsiteCategoryFilters();
     setupSearch();
     setupSorting();
