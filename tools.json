@@ -23859,12 +23859,6 @@
         "priceTier": 1,
         "platforms": ["Windows", "macOS"],
         "popularityScore": 2300000
-    }
-].native-instruments.com/en/products/komplete/synths/massive-x/",
-        "priceTier": 3,
-        "pricingDesc": "$199",
-        "platforms": ["Windows", "macOS"],
-        "popularityScore": 5400000
     },
     {
         "type": "Music VST",
@@ -25313,4 +25307,5 @@
         "pricingDesc": "$599",
         "popularityScore": 4300000
     }
+
 ]
