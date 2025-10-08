@@ -23,7 +23,7 @@ const previousState = {
   resultCount: 0
 };
 
-const $  = s => document.querySelector(s);
+const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 
 /* ---------- VISITOR COUNTER ---------- */
@@ -36,34 +36,30 @@ function setupVisitorCounter() {
 
 /* ---------- TYPE MATCHER ---------- */
 function buildTypeMatcher(stateType, item) {
-  if (stateType === 'Frontend YouTube' || stateType === 'Backend YouTube' || stateType === 'Dev YouTube' || stateType === 'Graphics YouTube') {
-    if (item.type !== 'YouTube Channel') return false;
-    const cat = (item.category || '').toLowerCase();
-    if (stateType === 'Frontend YouTube') return cat.includes('frontend') || cat.includes('javascript') || cat.includes('react') || cat.includes('vue');
-    if (stateType === 'Backend YouTube') return cat.includes('backend') || cat.includes('node') || cat.includes('api') || cat.includes('database');
-    if (stateType === 'Graphics YouTube') return ['graphic design','motion design','3d modeling','ui/ux design','web design','photo editing','illustration','animation','vfx','typography','product design','packaging design','color theory','game design'].some(c => cat.includes(c));
-    return true;
-  }
-
-  if (stateType === 'Frontend Websites' || stateType === 'Backend Websites' || stateType === 'Dev Website') {
-    if (item.type !== 'Dev Website') return false;
-    const cat = (item.category || '').toLowerCase();
-    if (stateType === 'Frontend Websites') return cat.includes('frontend') || cat.includes('javascript') || cat.includes('react') || cat.includes('vue');
-    if (stateType === 'Backend Websites') return cat.includes('backend') || cat.includes('node') || cat.includes('api') || cat.includes('database');
-    return true;
-  }
-
-  if (stateType === 'Frontend Courses' || stateType === 'Backend Courses' || stateType === 'Dev Course') {
-    if (item.type !== 'Dev Course') return false;
-    const cat = (item.category || '').toLowerCase();
-    if (stateType === 'Frontend Courses') return cat.includes('frontend') || cat.includes('javascript') || cat.includes('react') || cat.includes('vue');
-    if (stateType === 'Backend Courses') return cat.includes('backend') || cat.includes('node') || cat.includes('api') || cat.includes('database');
-    return true;
-  }
-
   if (stateType === 'Music Production Websites') return item.type === 'Music Production Website';
   if (stateType === 'Music Production VSTs') return item.type === 'Music VST';
   if (stateType === 'Music Production Courses') return item.type === 'Music Course';
+  if (stateType === 'Music DAW') return item.type === 'Music DAW';
+  if (stateType === 'Music Samples') return item.type === 'Music Samples';
+
+  if (stateType.includes('YouTube')) {
+    if (item.type !== 'YouTube Channel') return false;
+    const cat = (item.category || '').toLowerCase();
+    if (stateType === 'Graphics YouTube') {
+      return ['graphic design','motion design','3d modeling','ui/ux design','web design','photo editing','illustration','animation','vfx','typography','product design','packaging design','color theory','game design'].some(c => cat.includes(c));
+    }
+    return true;
+  }
+
+  if (stateType.includes('Websites')) {
+    if (item.type !== 'Dev Website' && item.type !== 'Music Production Website') return false;
+    return true;
+  }
+
+  if (stateType.includes('Courses')) {
+    if (item.type !== 'Dev Course' && item.type !== 'Music Course') return false;
+    return true;
+  }
 
   return stateType === 'All' || (item.type || 'AI Tool') === stateType;
 }
@@ -87,41 +83,39 @@ function setupMainFilters() {
       state.type = e.target.dataset.type;
       state.currentPage = 1;
 
-      if (state.type !== 'Dev Course' && state.type !== 'Music Production Courses' && state.type !== 'Frontend Courses' && state.type !== 'Backend Courses') {
+      const isCourse = state.type.includes('Courses');
+      const isWebsite = state.type.includes('Websites');
+      const isGraphics = state.type === 'Graphics Course';
+      const isMusic = state.type.includes('Music Production') || state.type === 'Music DAW' || state.type === 'Music Samples';
+      const isYouTube = state.type.includes('YouTube');
+      const isAI = state.type === 'AI Tool';
+
+      if (!isCourse) {
         state.courseCategories.clear();
         $$('.course-category-checkbox').forEach(cb => cb.checked = false);
       }
-      if (state.type !== 'Dev Website' && state.type !== 'Frontend Websites' && state.type !== 'Backend Websites') {
+      if (!isWebsite) {
         state.websiteCategories.clear();
         $$('.website-category-checkbox').forEach(cb => cb.checked = false);
       }
-      if (state.type !== 'Graphics Course') {
+      if (!isGraphics) {
         state.graphicsCourseCategories.clear();
         $$('.graphics-course-category-checkbox').forEach(cb => cb.checked = false);
       }
 
-      const isYT = state.type.includes('YouTube');
-      const isAI = state.type === 'AI Tool';
-      const isGraphics = state.type.includes('Graphics');
-      const isMusic = state.type.includes('Music Production') || state.type === 'Music Samples' || state.type === 'Music DAW';
-      const isDevCourse = state.type === 'Dev Course' || state.type === 'Frontend Courses' || state.type === 'Backend Courses';
-      const isDevWebsite = state.type === 'Dev Website' || state.type === 'Frontend Websites' || state.type === 'Backend Websites';
-      const isGraphicsCourse = state.type === 'Graphics Course';
-      const isMusicProductionCourses = state.type === 'Music Production Courses';
-
-      const showLang = !isYT && !isAI && !isGraphics && !isMusic && !isDevCourse && !isDevWebsite && !isGraphicsCourse && !isMusicProductionCourses;
+      const showLang = !isYouTube && !isAI && !isGraphics && !isMusic && !isCourse && !isWebsite;
       const hasPlat = ['IDE','Graphics Program','Music DAW','Music Production VSTs'].includes(state.type);
-      const hasPrice = !isYT && !state.type.includes('Website');
+      const hasPrice = !isYouTube && !isWebsite;
 
       if (showLang) $('#lang-filter-container').classList.remove('hidden'); else $('#lang-filter-container').classList.add('hidden');
       if (hasPlat) $('#platform-filter-container').classList.remove('hidden'); else $('#platform-filter-container').classList.add('hidden');
       if (hasPrice) $('#price-filter-container').classList.remove('hidden'); else $('#price-filter-container').classList.add('hidden');
-      if (isDevCourse || isMusicProductionCourses) $('#course-category-filter-container').classList.remove('hidden'); else $('#course-category-filter-container').classList.add('hidden');
-      if (isDevWebsite) $('#website-category-filter-container').classList.remove('hidden'); else $('#website-category-filter-container').classList.add('hidden');
-      if (isGraphicsCourse) $('#graphics-course-category-filter-container').classList.remove('hidden'); else $('#graphics-course-category-filter-container').classList.add('hidden');
+      if (isCourse) $('#course-category-filter-container').classList.remove('hidden'); else $('#course-category-filter-container').classList.add('hidden');
+      if (isWebsite) $('#website-category-filter-container').classList.remove('hidden'); else $('#website-category-filter-container').classList.add('hidden');
+      if (isGraphics) $('#graphics-course-category-filter-container').classList.remove('hidden'); else $('#graphics-course-category-filter-container').classList.add('hidden');
 
       const showPopularity = state.type === 'Music Samples' || state.type === 'Music Production VSTs' || state.type === 'Music DAW';
-      $('.sort-option-yt').classList.toggle('hidden', !isYT);
+      $('.sort-option-yt').classList.toggle('hidden', !isYouTube);
       $('.sort-option-pop').classList.toggle('hidden', !showPopularity);
 
       render();
@@ -129,7 +123,24 @@ function setupMainFilters() {
   });
 }
 
-/* ---------- COURSE / WEBSITE / GRAPHICS FILTERS ---------- */
+/* ---------- WEBSITE CATEGORY FILTERS ---------- */
+function setupWebsiteCategoryFilters() {
+  const categories = ['Community', 'Marketplace', 'Samples', 'Learning', 'Reference', 'Tools'];
+  $('#website-category-filters').innerHTML = categories.map(cat => `
+    <label class="flex items-center gap-2 cursor-pointer">
+      <input type="checkbox" data-category="${cat}" class="website-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+      <span class="text-sm theme-text-secondary">${cat}</span>
+    </label>`).join('');
+  $$('.website-category-checkbox').forEach(box =>
+    box.addEventListener('change', e => {
+      e.target.checked ? state.websiteCategories.add(e.target.dataset.category) : state.websiteCategories.delete(e.target.dataset.category);
+      state.currentPage = 1;
+      render();
+    })
+  );
+}
+
+/* ---------- COURSE / GRAPHICS FILTERS ---------- */
 function setupCourseCategoryFilters() {
   const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
   $('#course-category-filters').innerHTML = categories.map(cat => `
@@ -144,6 +155,7 @@ function setupCourseCategoryFilters() {
     })
   );
 }
+
 function setupGraphicsCourseCategoryFilters() {
   const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
   $('#graphics-course-category-filters').innerHTML = categories.map(cat => `
@@ -154,20 +166,6 @@ function setupGraphicsCourseCategoryFilters() {
   $$('.graphics-course-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
       e.target.checked ? state.graphicsCourseCategories.add(e.target.dataset.category) : state.graphicsCourseCategories.delete(e.target.dataset.category);
-      state.currentPage = 1; render();
-    })
-  );
-}
-function setupWebsiteCategoryFilters() {
-  const categories = ['Community', 'Documentation', 'Learning', 'Reference', 'Tools'];
-  $('#website-category-filters').innerHTML = categories.map(cat => `
-    <label class="flex items-center gap-2 cursor-pointer">
-      <input type="checkbox" data-category="${cat}" class="website-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-      <span class="text-sm theme-text-secondary">${cat}</span>
-    </label>`).join('');
-  $$('.website-category-checkbox').forEach(box =>
-    box.addEventListener('change', e => {
-      e.target.checked ? state.websiteCategories.add(e.target.dataset.category) : state.websiteCategories.delete(e.target.dataset.category);
       state.currentPage = 1; render();
     })
   );
@@ -186,6 +184,7 @@ function setupPriceFilters() {
   });
   paint();
 }
+
 function setupLanguageFilters() {
   const all = new Set(allData.flatMap(i => i.languages || []));
   $('#lang-filters').innerHTML = [...all].sort().map(l => `
@@ -200,6 +199,7 @@ function setupLanguageFilters() {
     })
   );
 }
+
 function setupPlatformFilters() {
   const all = new Set(allData.flatMap(i => i.platforms || []));
   $('#platform-filters').innerHTML = [...all].sort().map(p => `
@@ -214,6 +214,7 @@ function setupPlatformFilters() {
     })
   );
 }
+
 function setupSearch() {
   $('#search').addEventListener('input', e => {
     state.query = e.target.value.trim().toLowerCase();
@@ -221,6 +222,7 @@ function setupSearch() {
     render();
   });
 }
+
 function setupSorting() {
   $('#sort-by').addEventListener('change', e => {
     state.sortBy = e.target.value;
@@ -286,11 +288,11 @@ function restorePreviousState() {
     btn.classList.toggle('theme-button', !isActive);
   });
 
-  if (state.type !== 'Dev Course' && state.type !== 'Music Production Courses' && state.type !== 'Frontend Courses' && state.type !== 'Backend Courses') {
+  if (!state.type.includes('Courses')) {
     state.courseCategories.clear();
     $$('.course-category-checkbox').forEach(cb => cb.checked = false);
   }
-  if (state.type !== 'Dev Website' && state.type !== 'Frontend Websites' && state.type !== 'Backend Websites') {
+  if (!state.type.includes('Websites')) {
     state.websiteCategories.clear();
     $$('.website-category-checkbox').forEach(cb => cb.checked = false);
   }
