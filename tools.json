@@ -4149,6 +4149,2325 @@
         "url": "https://powerautomate.microsoft.com"
     },
     {
+        "category": "Image generator",
+        "name": "Lexica",
+        "description": "Search-engine for Stable-Diffusion prompts & images.",
+        "priceTier": 1,
+        "pricingDesc": "Free, unlimited search.",
+        "url": "https://lexica.art"
+    },
+    {
+        "category": "Image generator",
+        "name": "Civitai",
+        "description": "Community hub for sharing Stable-Diffusion models & LoRA.",
+        "priceTier": 1,
+        "pricingDesc": "Free, open-source models.",
+        "url": "https://civitai.com"
+    },
+    {
+        "category": "Image generator",
+        "name": "GetIMG",
+        "description": "Web-based SD/XL generator with custom-model upload.",
+        "priceTier": 2,
+        "pricingDesc": "100 imgs/mo free, $12/mo.",
+        "url": "https://getimg.ai"
+    },
+    {
+        "category": "Image generator",
+        "name": "Neural.love",
+        "description": "AI art, portrait & video-enhancement suite.",
+        "priceTier": 2,
+        "pricingDesc": "5 credits free, $30 one-time.",
+        "url": "https://neural.love"
+    },
+    {
+        "category": "Image generator",
+        "name": "DeepAI",
+        "description": "Text-to-image API with 60+ styles.",
+        "priceTier": 2,
+        "pricingDesc": "Free watermarked, $5/100 calls.",
+        "url": "https://deepai.org"
+    },
+    {
+        "category": "Image generator",
+        "name": "Hotpot.ai",
+        "description": "Template-driven art, mock-ups & social posts.",
+        "priceTier": 2,
+        "pricingDesc": "Free with ads, $10/mo.",
+        "url": "https://hotpot.ai"
+    },
+    {
+        "category": "Image generator",
+        "name": "ArtSmart",
+        "description": "Budget SD playground with face-fix & upscaler.",
+        "priceTier": 2,
+        "pricingDesc": "50 images free, $9/mo.",
+        "url": "https://artsmart.ai"
+    },
+    {
+        "category": "Image generator",
+        "name": "ImgCreator",
+        "description": "Anime, realistic & design illustration generator.",
+        "priceTier": 2,
+        "pricingDesc": "30 credits free, $9.9/mo.",
+        "url": "https://imgcreator.zmo.ai"
+    },
+    {
+        "category": "Image generator",
+        "name": "RunDiffusion",
+        "description": "Cloud SD/XL pods by the hour.",
+        "priceTier": 2,
+        "pricingDesc": "$0.50/hour; no subs.",
+        "url": "https://rundiffusion.com"
+    },
+    {
+        "category": "Image generator",
+        "name": "Mage.Space",
+        "description": "Free unlimited SDXL, ControlNet & GIFs.",
+        "priceTier": 1,
+        "pricingDesc": "Free tier; $8/mo Pro.",
+        "url": "https://mage.space"
+    },
+    {
+        "category": "Writing",
+        "name": "Rytr",
+        "description": "40 copy templates, 30 languages.",
+        "priceTier": 2,
+        "pricingDesc": "10 k chars/mo free.",
+        "url": "https://rytr.me"
+    },
+    {
+        "category": "Writing",
+        "name": "CopySmith",
+        "description": "E-commerce & product-description writer.",
+        "priceTier": 3,
+        "pricingDesc": "$19/mo starter.",
+        "url": "https://copysmith.ai"
+    },
+    {
+        "category": "Writing",
+        "name": "LongShot",
+        "description": "Fact-checked long-form blog writer.",
+        "priceTier": 2,
+        "pricingDesc": "50 credits free, $19/mo.",
+        "url": "https://longshot.ai"
+    },
+    {
+        "category": "Writing",
+        "name": "Narrato",
+        "description": "Content workflow & AI writer combined.",
+        "priceTier": 2,
+        "pricingDesc": "Free 5 pieces/mo, $45/mo.",
+        "url": "https://narrato.io"
+    },
+    {
+        "category": "Writing",
+        "name": "TextCortex",
+        "description": "Browser sidebar for re-phrasing & emails.",
+        "priceTier": 2,
+        "pricingDesc": "10 creations/day free.",
+        "url": "https://textcortex.com"
+    },
+    {
+        "category": "Writing",
+        "name": "HyperWrite",
+        "description": "Chrome extension for auto-completion.",
+        "priceTier": 2,
+        "pricingDesc": "Free 3k chars/day.",
+        "url": "https://hyperwriteai.com"
+    },
+    {
+        "category": "Writing",
+        "name": "AI-Writer",
+        "description": "SEO article generator with citations.",
+        "priceTier": 3,
+        "pricingDesc": "$29/mo basic.",
+        "url": "https://ai-writer.com"
+    },
+    {
+        "category": "Writing",
+        "name": "Peppertype",
+        "description": "Short-form copy for ads & social.",
+        "priceTier": 3,
+        "pricingDesc": "$35/mo starter.",
+        "url": "https://peppertype.ai"
+    },
+    {
+        "category": "Writing",
+        "name": "ClosersCopy",
+        "description": "Sales-focused copy with custom frameworks.",
+        "priceTier": 3,
+        "pricingDesc": "$49/mo.",
+        "url": "https://closerscopy.com"
+    },
+    {
+        "category": "Writing",
+        "name": "WriteSonic",
+        "description": "Long & short-form marketing copy.",
+        "priceTier": 2,
+        "pricingDesc": "10 k words free, $16/mo.",
+        "url": "https://writesonic.com"
+    },
+    {
+        "category": "Productivity",
+        "name": "Mem",
+        "description": "Self-organising notes with AI summaries.",
+        "priceTier": 3,
+        "pricingDesc": "$8–15/mo.",
+        "url": "https://mem.ai"
+    },
+    {
+        "category": "Productivity",
+        "name": "Notion AI",
+        "description": "Writing assistant inside Notion pages.",
+        "priceTier": 2,
+        "pricingDesc": "20 AI blocks free, $8/mo.",
+        "url": "https://notion.so"
+    },
+    {
+        "category": "Productivity",
+        "name": "Taskade",
+        "description": "AI project & task manager.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $8/mo.",
+        "url": "https://taskade.com"
+    },
+    {
+        "category": "Productivity",
+        "name": "ClickUp AI",
+        "description": "Docs, tasks & AI assistant in one.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $7/mo.",
+        "url": "https://clickup.com"
+    },
+    {
+        "category": "Productivity",
+        "name": "Trevor AI",
+        "description": "AI daily planner & calendar.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $3.99/mo.",
+        "url": "https://trevorai.com"
+    },
+    {
+        "category": "Productivity",
+        "name": "Motion",
+        "description": "AI task & calendar auto-scheduler.",
+        "priceTier": 3,
+        "pricingDesc": "$34/mo.",
+        "url": "https://usemotion.com"
+    },
+    {
+        "category": "Productivity",
+        "name": "Reclaim.ai",
+        "description": "Smart calendar blocking for teams.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $8/mo.",
+        "url": "https://reclaim.ai"
+    },
+    {
+        "category": "Productivity",
+        "name": "Clockwise",
+        "description": "AI calendar optimization.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $6.75/mo.",
+        "url": "https://clockwise.com"
+    },
+    {
+        "category": "Productivity",
+        "name": "Superhuman AI",
+        "description": "AI-powered email client.",
+        "priceTier": 3,
+        "pricingDesc": "$30/mo.",
+        "url": "https://superhuman.com"
+    },
+    {
+        "category": "Productivity",
+        "name": "Fireflies.ai",
+        "description": "AI meeting notes & search.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $10/mo.",
+        "url": "https://fireflies.ai"
+    },
+    {
+        "category": "Avatar",
+        "name": "Ready Player Me",
+        "description": "Cross-game 3-D avatar creator.",
+        "priceTier": 1,
+        "pricingDesc": "Free exports (CC-BY).",
+        "url": "https://readyplayer.me"
+    },
+    {
+        "category": "Avatar",
+        "name": "Synthesia STUDIO",
+        "description": "AI presenter videos with 140+ avatars.",
+        "priceTier": 3,
+        "pricingDesc": "$22–67/mo.",
+        "url": "https://synthesia.io"
+    },
+    {
+        "category": "Avatar",
+        "name": "D-ID Creative Reality",
+        "description": "Talking-head video from a single photo.",
+        "priceTier": 2,
+        "pricingDesc": "5 min free, $5.9/mo.",
+        "url": "https://d-id.com"
+    },
+    {
+        "category": "Avatar",
+        "name": "HeyGen Free",
+        "description": "Avatar video with your face.",
+        "priceTier": 2,
+        "pricingDesc": "1-min video free, $24/mo.",
+        "url": "https://heygen.com"
+    },
+    {
+        "category": "Avatar",
+        "name": "Voki",
+        "description": "Educational talking avatar widget.",
+        "priceTier": 2,
+        "pricingDesc": "Free basic, $5.99/mo.",
+        "url": "https://voki.com"
+    },
+    {
+        "category": "Avatar",
+        "name": "Zepeto Studio",
+        "description": "3-D avatar & fashion marketplace.",
+        "priceTier": 1,
+        "pricingDesc": "Free creation & export.",
+        "url": "https://zepeto.me"
+    },
+    {
+        "category": "Avatar",
+        "name": "LoomieLive",
+        "description": "Turn selfie into animated avatar for calls.",
+        "priceTier": 1,
+        "pricingDesc": "Free desktop app.",
+        "url": "https://loomielive.com"
+    },
+    {
+        "category": "Avatar",
+        "name": "Avaturn",
+        "description": "Selfie-to-3D avatar.",
+        "priceTier": 2,
+        "pricingDesc": "Free exports (watermark).",
+        "url": "https://avaturn.me"
+    },
+    {
+        "category": "Avatar",
+        "name": "Inworld",
+        "description": "NPC dialogue engine.",
+        "priceTier": 3,
+        "pricingDesc": "$0.002/1K chars.",
+        "url": "https://inworld.ai"
+    },
+    {
+        "category": "Avatar",
+        "name": "Character Creator",
+        "description": "Realistic 3-D human design tool.",
+        "priceTier": 3,
+        "pricingDesc": "$199 licence.",
+        "url": "https://www.reallusion.com/character-creator"
+    },
+    {
+        "category": "Customer support",
+        "name": "Chatwoot",
+        "description": "Open-source omnichannel help-desk.",
+        "priceTier": 1,
+        "pricingDesc": "MIT licence, self-host or free cloud tier.",
+        "url": "https://chatwoot.com"
+    },
+    {
+        "category": "Customer support",
+        "name": "Intercom Fin",
+        "description": "GPT-4 powered support bot.",
+        "priceTier": 3,
+        "pricingDesc": "$0.99 per resolution.",
+        "url": "https://intercom.com/fin"
+    },
+    {
+        "category": "Customer support",
+        "name": "Tidio AI",
+        "description": "AI chatbot for websites.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $29/mo.",
+        "url": "https://tidio.com"
+    },
+    {
+        "category": "Customer support",
+        "name": "Freshdesk AI",
+        "description": "AI ticketing system.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $15/mo.",
+        "url": "https://freshdesk.com"
+    },
+    {
+        "category": "Customer support",
+        "name": "Zendesk AI",
+        "description": "AI-powered help desk.",
+        "priceTier": 3,
+        "pricingDesc": "$55/mo per agent.",
+        "url": "https://zendesk.com"
+    },
+    {
+        "category": "Customer support",
+        "name": "Ada CX",
+        "description": "Automated customer service.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://ada.cx"
+    },
+    {
+        "category": "Customer support",
+        "name": "Drift AI",
+        "description": "Conversational marketing bot.",
+        "priceTier": 3,
+        "pricingDesc": "$2,500/mo.",
+        "url": "https://drift.com"
+    },
+    {
+        "category": "Customer support",
+        "name": "Kustomer AI",
+        "description": "AI CRM for support.",
+        "priceTier": 3,
+        "pricingDesc": "$89/mo per agent.",
+        "url": "https://kustomer.com"
+    },
+    {
+        "category": "Customer support",
+        "name": "Forethought AI",
+        "description": "Predictive support automation.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://forethought.ai"
+    },
+    {
+        "category": "Customer support",
+        "name": "Ultimate.ai",
+        "description": "Multilingual support bot.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://ultimate.ai"
+    },
+    {
+        "category": "Design",
+        "name": "Canva Magic Design",
+        "description": "Template generator with AI layouts.",
+        "priceTier": 2,
+        "pricingDesc": "50 queries free, $12.99/mo Pro.",
+        "url": "https://canva.com"
+    },
+    {
+        "category": "Design",
+        "name": "Figma AI",
+        "description": "Design-system suggestions & auto-layout.",
+        "priceTier": 3,
+        "pricingDesc": "$12–45/mo editor seat.",
+        "url": "https://figma.com"
+    },
+    {
+        "category": "Design",
+        "name": "Uizard",
+        "description": "AI mockup generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $12/mo.",
+        "url": "https://uizard.io"
+    },
+    {
+        "category": "Design",
+        "name": "Designs.ai",
+        "description": "All-in-one creative suite.",
+        "priceTier": 2,
+        "pricingDesc": "$29/mo.",
+        "url": "https://designs.ai"
+    },
+    {
+        "category": "Design",
+        "name": "Khroma",
+        "description": "AI color-palette generator.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://khroma.co"
+    },
+    {
+        "category": "Design",
+        "name": "Colormind",
+        "description": "AI color-scheme generator.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://colormind.io"
+    },
+    {
+        "category": "Design",
+        "name": "Autodraw",
+        "description": "Google’s AI drawing tool.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://autodraw.com"
+    },
+    {
+        "category": "Design",
+        "name": "Looka",
+        "description": "AI logo & brand kit.",
+        "priceTier": 2,
+        "pricingDesc": "$20 logo package.",
+        "url": "https://looka.com"
+    },
+    {
+        "category": "Design",
+        "name": "Brandmark",
+        "description": "AI logo generator.",
+        "priceTier": 2,
+        "pricingDesc": "$25 basic package.",
+        "url": "https://brandmark.io"
+    },
+    {
+        "category": "Design",
+        "name": "Logomaster.ai",
+        "description": "AI logo creation.",
+        "priceTier": 2,
+        "pricingDesc": "$29 logo package.",
+        "url": "https://logomaster.ai"
+    },
+    {
+        "category": "Design",
+        "name": "Namecheap Logo",
+        "description": "Free AI logo maker.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://namecheap.com/logo-maker"
+    },
+    {
+        "category": "Design",
+        "name": "Adobe Firefly",
+        "description": "AI creative generation.",
+        "priceTier": 2,
+        "pricingDesc": "25 credits free, $4.99/mo.",
+        "url": "https://adobe.com/firefly"
+    },
+    {
+        "category": "Video generator",
+        "name": "Pika 1.5",
+        "description": "Idea-to-short-video in browser.",
+        "priceTier": 1,
+        "pricingDesc": "250 credits/mo free.",
+        "benchmark": "FVD 16.3",
+        "url": "https://pika.art"
+    },
+    {
+        "category": "Video generator",
+        "name": "Runway Gen-3",
+        "description": "High-res text/video-to-video.",
+        "priceTier": 2,
+        "pricingDesc": "125 s free, $12/mo Standard.",
+        "benchmark": "FVD 14.1",
+        "url": "https://runwayml.com"
+    },
+    {
+        "category": "Video generator",
+        "name": "Synthesia",
+        "description": "AI avatar video creation.",
+        "priceTier": 3,
+        "pricingDesc": "$30/mo.",
+        "url": "https://synthesia.io"
+    },
+    {
+        "category": "Video generator",
+        "name": "D-ID",
+        "description": "AI talking-head videos.",
+        "priceTier": 2,
+        "pricingDesc": "5 min free, $5.9/mo.",
+        "url": "https://d-id.com"
+    },
+    {
+        "category": "Video generator",
+        "name": "Invideo AI",
+        "description": "Text-to-video with templates.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://invideo.io"
+    },
+    {
+        "category": "Video generator",
+        "name": "Pictory",
+        "description": "Article-to-video converter.",
+        "priceTier": 2,
+        "pricingDesc": "$19/mo.",
+        "url": "https://pictory.ai"
+    },
+    {
+        "category": "Video generator",
+        "name": "Fliki",
+        "description": "Text-to-video with voices.",
+        "priceTier": 2,
+        "pricingDesc": "5 min free, $28/mo.",
+        "url": "https://fliki.ai"
+    },
+    {
+        "category": "Video generator",
+        "name": "Lumen5",
+        "description": "Social video creation.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $19/mo.",
+        "url": "https://lumen5.com"
+    },
+    {
+        "category": "Video generator",
+        "name": "Descript",
+        "description": "Video editing by text.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $12/mo.",
+        "url": "https://descript.com"
+    },
+    {
+        "category": "Video generator",
+        "name": "Colossyan",
+        "description": "AI video for training.",
+        "priceTier": 3,
+        "pricingDesc": "$35/mo.",
+        "url": "https://colossyan.com"
+    },
+    {
+        "category": "Developer tools",
+        "name": "GitHub Copilot Free",
+        "description": "Code completion for students & OSS.",
+        "priceTier": 2,
+        "pricingDesc": "2 000 suggestions/mo free.",
+        "benchmark": "HumanEval 78.9",
+        "url": "https://github.com/features/copilot"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Cursor.sh",
+        "description": "VS-Code fork with GPT-4o inline.",
+        "priceTier": 3,
+        "pricingDesc": "$20/mo Pro.",
+        "benchmark": "HumanEval 85.2",
+        "url": "https://cursor.sh"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Tabnine",
+        "description": "AI code completion.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $12/mo.",
+        "url": "https://tabnine.com"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Codeium",
+        "description": "Free AI code autocomplete.",
+        "priceTier": 1,
+        "pricingDesc": "Unlimited free.",
+        "url": "https://codeium.com"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Amazon CodeWhisperer",
+        "description": "AWS code suggestions.",
+        "priceTier": 1,
+        "pricingDesc": "Free tier.",
+        "url": "https://aws.amazon.com/codewhisperer"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Replit AI",
+        "description": "Cloud IDE with AI coding.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://replit.com"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Mintlify",
+        "description": "AI documentation generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $120/mo.",
+        "url": "https://mintlify.com"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Phind",
+        "description": "AI search for developers.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $15/mo.",
+        "url": "https://phind.com"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Safurai",
+        "description": "AI IDE extension.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://safurai.com"
+    },
+    {
+        "category": "Developer tools",
+        "name": "Bito AI",
+        "description": "AI code review assistant.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $15/mo.",
+        "url": "https://bito.ai"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "Rytr",
+        "description": "40 copy templates, 30 languages.",
+        "priceTier": 2,
+        "pricingDesc": "10 k chars/mo free.",
+        "benchmark": "BLEU 44.1",
+        "url": "https://rytr.me"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "CopySmith",
+        "description": "E-commerce & product-description writer.",
+        "priceTier": 3,
+        "pricingDesc": "$19/mo starter.",
+        "url": "https://copysmith.ai"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "LongShot",
+        "description": "Fact-checked long-form blog writer.",
+        "priceTier": 2,
+        "pricingDesc": "50 credits free, $19/mo.",
+        "url": "https://longshot.ai"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "Narrato",
+        "description": "Content workflow & AI writer combined.",
+        "priceTier": 2,
+        "pricingDesc": "Free 5 pieces/mo, $45/mo.",
+        "url": "https://narrato.io"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "TextCortex",
+        "description": "Browser sidebar for re-phrasing & emails.",
+        "priceTier": 2,
+        "pricingDesc": "10 creations/day free.",
+        "url": "https://textcortex.com"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "HyperWrite",
+        "description": "Chrome extension for auto-completion.",
+        "priceTier": 2,
+        "pricingDesc": "Free 3k chars/day.",
+        "url": "https://hyperwriteai.com"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "AI-Writer",
+        "description": "SEO article generator with citations.",
+        "priceTier": 3,
+        "pricingDesc": "$29/mo basic.",
+        "url": "https://ai-writer.com"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "Peppertype",
+        "description": "Short-form copy for ads & social.",
+        "priceTier": 3,
+        "pricingDesc": "$35/mo starter.",
+        "url": "https://peppertype.ai"
+    },
+    {
+        "category": "Copy-writing",
+        "name": "ClosersCopy",
+        "description": "Sales-focused copy with custom frameworks.",
+        "priceTier": 3,
+        "pricingDesc": "$49/mo.",
+        "url": "https://closerscopy.com"
+    },
+    {
+        "category": "Education",
+        "name": "Khanmigo",
+        "description": "GPT-4 tutor embedded in Khan Academy.",
+        "priceTier": 2,
+        "pricingDesc": "$4/mo donation.",
+        "benchmark": "MMLU 88.7",
+        "url": "https://khanacademy.org/khanmigo"
+    },
+    {
+        "category": "Education",
+        "name": "Duolingo Max",
+        "description": "AI language tutor with GPT-4.",
+        "priceTier": 2,
+        "pricingDesc": "$30/mo.",
+        "url": "https://duolingo.com"
+    },
+    {
+        "category": "Education",
+        "name": "Quizlet AI",
+        "description": "AI study sets and practice.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $7.99/mo.",
+        "url": "https://quizlet.com"
+    },
+    {
+        "category": "Education",
+        "name": "Coursera AI",
+        "description": "AI learning recommendations.",
+        "priceTier": 2,
+        "pricingDesc": "Free courses, $49/mo Plus.",
+        "url": "https://coursera.org"
+    },
+    {
+        "category": "Education",
+        "name": "Socratic by Google",
+        "description": "AI homework helper.",
+        "priceTier": 1,
+        "pricingDesc": "Free app.",
+        "url": "https://socratic.org"
+    },
+    {
+        "category": "Education",
+        "name": "Photomath",
+        "description": "Math problem solver AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://photomath.com"
+    },
+    {
+        "category": "Education",
+        "name": "Wolfram Alpha",
+        "description": "Computational knowledge engine.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $6.99/mo.",
+        "url": "https://wolframalpha.com"
+    },
+    {
+        "category": "Education",
+        "name": "Brainly AI",
+        "description": "Homework Q&A with AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $18/mo.",
+        "url": "https://brainly.com"
+    },
+    {
+        "category": "Education",
+        "name": "Gradescope AI",
+        "description": "AI-assisted grading.",
+        "priceTier": 2,
+        "pricingDesc": "Free for instructors.",
+        "url": "https://gradescope.com"
+    },
+    {
+        "category": "Education",
+        "name": "Knowji",
+        "description": "AI vocabulary learning.",
+        "priceTier": 2,
+        "pricingDesc": "$2.99 app.",
+        "url": "https://knowji.com"
+    },
+    {
+        "category": "Audio editing",
+        "name": "Adobe Enhance",
+        "description": "One-click voice clean-up.",
+        "priceTier": 1,
+        "pricingDesc": "Unlimited free.",
+        "benchmark": "MOS 4.4",
+        "url": "https://adobe.com/enhance"
+    },
+    {
+        "category": "Audio editing",
+        "name": "ElevenLabs",
+        "description": "Voice cloning & synthesis.",
+        "priceTier": 2,
+        "pricingDesc": "10 k chars/mo free.",
+        "benchmark": "MOS 4.5",
+        "url": "https://elevenlabs.io"
+    },
+    {
+        "category": "Audio editing",
+        "name": "Descript Audio",
+        "description": "Podcast editing by text.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $12/mo.",
+        "url": "https://descript.com"
+    },
+    {
+        "category": "Audio editing",
+        "name": "Cleanvoice AI",
+        "description": "Remove filler words and noise.",
+        "priceTier": 2,
+        "pricingDesc": "30 min free, $10/mo.",
+        "url": "https://cleanvoice.ai"
+    },
+    {
+        "category": "Audio editing",
+        "name": "Krisp",
+        "description": "AI noise cancellation.",
+        "priceTier": 2,
+        "pricingDesc": "60 min free, $8/mo.",
+        "url": "https://krisp.ai"
+    },
+    {
+        "category": "Audio editing",
+        "name": "Lalal.ai",
+        "description": "Stem separation AI.",
+        "priceTier": 2,
+        "pricingDesc": "10 min free, $15/mo.",
+        "url": "https://lalal.ai"
+    },
+    {
+        "category": "Audio editing",
+        "name": "Splitter.ai",
+        "description": "Audio track separation.",
+        "priceTier": 2,
+        "pricingDesc": "2 songs free, $9.99/mo.",
+        "url": "https://splitter.ai"
+    },
+    {
+        "category": "Audio editing",
+        "name": "Auphonic",
+        "description": "Automated audio mastering.",
+        "priceTier": 2,
+        "pricingDesc": "2 hrs free, $11/mo.",
+        "url": "https://auphonic.com"
+    },
+    {
+        "category": "Audio editing",
+        "name": "iZotope RX",
+        "description": "AI audio repair suite.",
+        "priceTier": 3,
+        "pricingDesc": "$399 one-time.",
+        "url": "https://izotope.com/rx"
+    },
+    {
+        "category": "Startup tools",
+        "name": "Mixo",
+        "description": "AI landing-page + email capture.",
+        "priceTier": 2,
+        "pricingDesc": "1 site free, $9/mo.",
+        "url": "https://mixo.io"
+    },
+    {
+        "category": "Startup tools",
+        "name": "Durable",
+        "description": "AI website builder in 30 s.",
+        "priceTier": 2,
+        "pricingDesc": "Free subdomain, $12/mo.",
+        "url": "https://durable.co"
+    },
+    {
+        "category": "Startup tools",
+        "name": "10Web",
+        "description": "AI WordPress builder & hosting.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $10/mo.",
+        "url": "https://10web.io"
+    },
+    {
+        "category": "Startup tools",
+        "name": "Butternut AI",
+        "description": "AI full-site generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free 1 site, $20/mo.",
+        "url": "https://butternut.ai"
+    },
+    {
+        "category": "Startup tools",
+        "name": "Sitekick",
+        "description": "Landing-page copy + design AI.",
+        "priceTier": 2,
+        "pricingDesc": "1 page free, $20/mo.",
+        "url": "https://sitekick.ai"
+    },
+    {
+        "category": "Startup tools",
+        "name": "Yola AI",
+        "description": "AI site builder with ecommerce.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.95/mo.",
+        "url": "https://yola.com"
+    },
+    {
+        "category": "Startup tools",
+        "name": "TeleportHQ",
+        "description": "AI front-end generator from wireframes.",
+        "priceTier": 1,
+        "pricingDesc": "Free tier, €9/mo.",
+        "url": "https://teleporthq.io"
+    },
+    {
+        "category": "Startup tools",
+        "name": "Strikingly AI",
+        "description": "One-page site builder.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $8/mo.",
+        "url": "https://strikingly.com"
+    },
+    {
+        "category": "Startup tools",
+        "name": "Unicorn Platform",
+        "description": "Tailwind landing-page AI builder.",
+        "priceTier": 1,
+        "pricingDesc": "Free tier, $8/mo.",
+        "url": "https://unicornplatform.com"
+    },
+    {
+        "category": "Social media",
+        "name": "Buffer AI Assistant",
+        "description": "Post ideas & rewrites.",
+        "priceTier": 2,
+        "pricingDesc": "3 channels free, $6/mo.",
+        "url": "https://buffer.com"
+    },
+    {
+        "category": "Social media",
+        "name": "Later AI",
+        "description": "Instagram scheduling with AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $25/mo.",
+        "url": "https://later.com"
+    },
+    {
+        "category": "Social media",
+        "name": "Predis.ai",
+        "description": "AI social-media content generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $32/mo.",
+        "url": "https://predis.ai"
+    },
+    {
+        "category": "Social media",
+        "name": "Lately AI",
+        "description": "AI content atomization.",
+        "priceTier": 3,
+        "pricingDesc": "$49/mo.",
+        "url": "https://lately.ai"
+    },
+    {
+        "category": "Social media",
+        "name": "Publer AI",
+        "description": "Social scheduler with AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $10/mo.",
+        "url": "https://publer.io"
+    },
+    {
+        "category": "Social media",
+        "name": "SocialBee AI",
+        "description": "Social posting with AI.",
+        "priceTier": 2,
+        "pricingDesc": "$29/mo.",
+        "url": "https://socialbee.com"
+    },
+    {
+        "category": "Social media",
+        "name": "Sprout Social AI",
+        "description": "Enterprise social management.",
+        "priceTier": 3,
+        "pricingDesc": "$249/mo.",
+        "url": "https://sproutsocial.com"
+    },
+    {
+        "category": "Social media",
+        "name": "Brandwatch AI",
+        "description": "Social listening with AI.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://brandwatch.com"
+    },
+    {
+        "category": "Social media",
+        "name": "Mention AI",
+        "description": "Brand monitoring with AI.",
+        "priceTier": 2,
+        "pricingDesc": "$41/mo.",
+        "url": "https://mention.com"
+    },
+    {
+        "category": "Social media",
+        "name": "Ocoya",
+        "description": "AI social-media automation.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $19/mo.",
+        "url": "https://ocoya.com"
+    },
+    {
+        "category": "Art",
+        "name": "NightCafe",
+        "description": "Community hub for Stable & DALL·E.",
+        "priceTier": 2,
+        "pricingDesc": "5 credits/day free.",
+        "url": "https://creator.nightcafe.studio"
+    },
+    {
+        "category": "Art",
+        "name": "DeepArt",
+        "description": "Turn photos into famous-painting styles.",
+        "priceTier": 2,
+        "pricingDesc": "Free watermarked, $9.90/hq.",
+        "url": "https://deepart.io"
+    },
+    {
+        "category": "Art",
+        "name": "Artbreeder",
+        "description": "Collaborative image mixing & breeding.",
+        "priceTier": 2,
+        "pricingDesc": "10 credits free, $8.99/mo.",
+        "url": "https://artbreeder.com"
+    },
+    {
+        "category": "Art",
+        "name": "Wombo Dream",
+        "description": "Mobile-first AI art generator.",
+        "priceTier": 1,
+        "pricingDesc": "Free with ads.",
+        "url": "https://dream.ai"
+    },
+    {
+        "category": "Art",
+        "name": "Starryai",
+        "description": "Mobile AI art generator.",
+        "priceTier": 2,
+        "pricingDesc": "5 images/day free, $11.99/mo.",
+        "url": "https://starryai.com"
+    },
+    {
+        "category": "Art",
+        "name": "CF Spark",
+        "description": "Creative Fabrica text-to-image generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free 20 imgs/day, $9/mo.",
+        "url": "https://cspark.art"
+    },
+    {
+        "category": "Art",
+        "name": "Pixray",
+        "description": "Open-source CLIP-guided generator.",
+        "priceTier": 1,
+        "pricingDesc": "Free GitHub repo.",
+        "url": "https://pixray.github.io"
+    },
+    {
+        "category": "Art",
+        "name": "InstantArt",
+        "description": "Free unlimited SD/XL with 50+ models.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://instantart.io"
+    },
+    {
+        "category": "Art",
+        "name": "OpenArt",
+        "description": "SD model-hosting & prompt marketplace.",
+        "priceTier": 2,
+        "pricingDesc": "Free 50 credits, $12/mo.",
+        "url": "https://openart.ai"
+    },
+    {
+        "category": "Art",
+        "name": "ImagineArt",
+        "description": "Mobile AI art & avatar generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $7/mo.",
+        "url": "https://imagine.art"
+    },
+    {
+        "category": "SEO",
+        "name": "Seobility",
+        "description": "Site crawler & on-page checker.",
+        "priceTier": 1,
+        "pricingDesc": "1 project free forever.",
+        "url": "https://seobility.net"
+    },
+    {
+        "category": "SEO",
+        "name": "Surfer SEO",
+        "description": "AI content optimization.",
+        "priceTier": 3,
+        "pricingDesc": "$89/mo.",
+        "url": "https://surferseo.com"
+    },
+    {
+        "category": "SEO",
+        "name": "Clearscope",
+        "description": "AI SEO content optimization.",
+        "priceTier": 3,
+        "pricingDesc": "$170/mo.",
+        "url": "https://clearscope.io"
+    },
+    {
+        "category": "SEO",
+        "name": "MarketMuse",
+        "description": "AI content research & planning.",
+        "priceTier": 3,
+        "pricingDesc": "$149/mo.",
+        "url": "https://marketmuse.com"
+    },
+    {
+        "category": "SEO",
+        "name": "SEMrush AI",
+        "description": "SEO analytics with AI insights.",
+        "priceTier": 3,
+        "pricingDesc": "$129.95/mo.",
+        "url": "https://semrush.com"
+    },
+    {
+        "category": "SEO",
+        "name": "Ahrefs AI",
+        "description": "SEO toolset with AI features.",
+        "priceTier": 3,
+        "pricingDesc": "$99/mo.",
+        "url": "https://ahrefs.com"
+    },
+    {
+        "category": "SEO",
+        "name": "Moz AI",
+        "description": "SEO tools with AI recommendations.",
+        "priceTier": 3,
+        "pricingDesc": "$99/mo.",
+        "url": "https://moz.com"
+    },
+    {
+        "category": "SEO",
+        "name": "BrightEdge",
+        "description": "Enterprise SEO AI platform.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://brightedge.com"
+    },
+    {
+        "category": "SEO",
+        "name": "Conductor",
+        "description": "SEO & content intelligence.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://conductor.com"
+    },
+    {
+        "category": "SEO",
+        "name": "Yoast SEO AI",
+        "description": "WordPress SEO with AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $99/yr.",
+        "url": "https://yoast.com"
+    },
+    {
+        "category": "SEO",
+        "name": "RankMath AI",
+        "description": "WordPress SEO automation.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $59/yr.",
+        "url": "https://rankmath.com"
+    },
+    {
+        "category": "Research",
+        "name": "Elicit",
+        "description": "Semantic search across 125 M papers.",
+        "priceTier": 2,
+        "pricingDesc": "5 k credits free, $10/mo.",
+        "url": "https://elicit.org"
+    },
+    {
+        "category": "Research",
+        "name": "Consensus",
+        "description": "AI research-paper search.",
+        "priceTier": 2,
+        "pricingDesc": "20 searches free, $8.99/mo.",
+        "url": "https://consensus.app"
+    },
+    {
+        "category": "Research",
+        "name": "Scite.ai",
+        "description": "Citation-analysis AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://scite.ai"
+    },
+    {
+        "category": "Research",
+        "name": "Semantic Scholar",
+        "description": "AI research-paper discovery.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://semanticscholar.org"
+    },
+    {
+        "category": "Research",
+        "name": "Connected Papers",
+        "description": "Visual paper exploration.",
+        "priceTier": 2,
+        "pricingDesc": "5 graphs free, $6.50/mo.",
+        "url": "https://connectedpapers.com"
+    },
+    {
+        "category": "Research",
+        "name": "ResearchRabbit",
+        "description": "AI paper recommendations.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://researchrabbit.ai"
+    },
+    {
+        "category": "Research",
+        "name": "Litmaps",
+        "description": "Visual literature mapping.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://litmaps.com"
+    },
+    {
+        "category": "Research",
+        "name": "Zotero AI",
+        "description": "Reference manager with AI.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://zotero.org"
+    },
+    {
+        "category": "Research",
+        "name": "Mendeley AI",
+        "description": "Reference management.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://mendeley.com"
+    },
+    {
+        "category": "Research",
+        "name": "Jenni AI",
+        "description": "AI research-writing assistant.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://jenni.ai"
+    },
+    {
+        "category": "Research",
+        "name": "Scispace",
+        "description": "AI paper explanation.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://scispace.com"
+    },
+    {
+        "category": "Assistant",
+        "name": "Perplexity Free",
+        "description": "GPT-4 + live web answers.",
+        "priceTier": 2,
+        "pricingDesc": "5 searches/day free.",
+        "benchmark": "MRR 0.93",
+        "url": "https://perplexity.ai"
+    },
+    {
+        "category": "Assistant",
+        "name": "You.com",
+        "description": "Privacy-first GPT-powered search.",
+        "priceTier": 1,
+        "pricingDesc": "Unlimited free.",
+        "benchmark": "MRR 0.91",
+        "url": "https://you.com"
+    },
+    {
+        "category": "Assistant",
+        "name": "Pi AI",
+        "description": "Personal AI assistant.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://pi.ai"
+    },
+    {
+        "category": "Assistant",
+        "name": "Inflection Pi",
+        "description": "Personal intelligence chatbot.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://inflection.ai"
+    },
+    {
+        "category": "Assistant",
+        "name": "YouChat",
+        "description": "AI search chat.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://you.com"
+    },
+    {
+        "category": "Assistant",
+        "name": "Chatsonic",
+        "description": "AI chatbot with internet access.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $16/mo.",
+        "url": "https://writesonic.com/chat"
+    },
+    {
+        "category": "Assistant",
+        "name": "Anthropic Claude",
+        "description": "Constitutional AI assistant.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://anthropic.com"
+    },
+    {
+        "category": "Assistant",
+        "name": "Jasper Chat",
+        "description": "Marketing AI chatbot.",
+        "priceTier": 3,
+        "pricingDesc": "$39/mo.",
+        "url": "https://jasper.ai/chat"
+    },
+    {
+        "category": "Assistant",
+        "name": "Character.AI",
+        "description": "AI character conversations.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://character.ai"
+    },
+    {
+        "category": "Assistant",
+        "name": "Replika",
+        "description": "AI companion chatbot.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $19.99/mo.",
+        "url": "https://replika.com"
+    },
+    {
+        "category": "Low-code",
+        "name": "Bubble AI",
+        "description": "Visual app builder + AI plugins.",
+        "priceTier": 2,
+        "pricingDesc": "Dev free, $29/mo personal.",
+        "url": "https://bubble.io"
+    },
+    {
+        "category": "Low-code",
+        "name": "Glide AI",
+        "description": "AI data-to-app builder.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $49/mo.",
+        "url": "https://glideapps.com"
+    },
+    {
+        "category": "Low-code",
+        "name": "Mendix AI",
+        "description": "Enterprise low-code with AI copilot.",
+        "priceTier": 3,
+        "pricingDesc": "Free dev, €60/mo prod.",
+        "url": "https://mendix.com"
+    },
+    {
+        "category": "Low-code",
+        "name": "OutSystems AI",
+        "description": "AI-assisted enterprise apps.",
+        "priceTier": 3,
+        "pricingDesc": "Free dev, contact sales.",
+        "url": "https://outsystems.com"
+    },
+    {
+        "category": "Low-code",
+        "name": "AppSheet AI",
+        "description": "Google Cloud no-code apps.",
+        "priceTier": 2,
+        "pricingDesc": "Free 10 users, $5/user.",
+        "url": "https://appsheet.com"
+    },
+    {
+        "category": "Low-code",
+        "name": "Retool AI",
+        "description": "Internal-tool builder with AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free 5 users, $10/user.",
+        "url": "https://retool.com"
+    },
+    {
+        "category": "Low-code",
+        "name": "Softr AI",
+        "description": "Turn Airtable into portals.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $49/mo.",
+        "url": "https://softr.io"
+    },
+    {
+        "category": "Low-code",
+        "name": "Quickbase AI",
+        "description": "Workflow apps for enterprise.",
+        "priceTier": 3,
+        "pricingDesc": "$35/user/mo.",
+        "url": "https://quickbase.com"
+    },
+    {
+        "category": "Low-code",
+        "name": "ToolJet AI",
+        "description": "Open-source internal-tool builder.",
+        "priceTier": 1,
+        "pricingDesc": "MIT licence.",
+        "url": "https://tooljet.com"
+    },
+    {
+        "category": "Code assistant",
+        "name": "CodeT5+",
+        "description": "Open-source 16 B code model.",
+        "priceTier": 1,
+        "pricingDesc": "Apache-2.0, self-host.",
+        "benchmark": "HumanEval 78.1",
+        "url": "https://github.com/salesforce/CodeT5"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Tabnine",
+        "description": "AI code completion.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $12/mo.",
+        "url": "https://tabnine.com"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Codeium",
+        "description": "Free AI code autocomplete.",
+        "priceTier": 1,
+        "pricingDesc": "Unlimited free.",
+        "url": "https://codeium.com"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Amazon CodeWhisperer",
+        "description": "AWS code suggestions.",
+        "priceTier": 1,
+        "pricingDesc": "Free tier.",
+        "url": "https://aws.amazon.com/codewhisperer"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Replit AI",
+        "description": "Cloud IDE with AI coding.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://replit.com"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Mintlify",
+        "description": "AI documentation generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $120/mo.",
+        "url": "https://mintlify.com"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Phind",
+        "description": "AI search for developers.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $15/mo.",
+        "url": "https://phind.com"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Safurai",
+        "description": "AI IDE extension.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://safurai.com"
+    },
+    {
+        "category": "Code assistant",
+        "name": "Bito AI",
+        "description": "AI code-review assistant.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $15/mo.",
+        "url": "https://bito.ai"
+    },
+    {
+        "category": "Fun tools",
+        "name": "FakeYou",
+        "description": "Deep-fake voice clips.",
+        "priceTier": 2,
+        "pricingDesc": "12 s/day free.",
+        "url": "https://fakeyou.com"
+    },
+    {
+        "category": "Fun tools",
+        "name": "Voicery",
+        "description": "AI voice-over generator.",
+        "priceTier": 2,
+        "pricingDesc": "Free demo, $29/mo.",
+        "url": "https://voicery.com"
+    },
+    {
+        "category": "Fun tools",
+        "name": "DanceNet",
+        "description": "Animate still photos dancing.",
+        "priceTier": 2,
+        "pricingDesc": "Free watermarked.",
+        "url": "https://dancenet.app"
+    },
+    {
+        "category": "Fun tools",
+        "name": "Toonify",
+        "description": "Turn selfies into cartoon characters.",
+        "priceTier": 1,
+        "pricingDesc": "Free low-res.",
+        "url": "https://toonify.photos"
+    },
+    {
+        "category": "Fun tools",
+        "name": "Reface",
+        "description": "Face-swap videos & GIFs.",
+        "priceTier": 2,
+        "pricingDesc": "Free daily swaps, $6.99/wk.",
+        "url": "https://reface.app"
+    },
+    {
+        "category": "Fun tools",
+        "name": "Jiggy",
+        "description": "AI deep-fake dance GIFs.",
+        "priceTier": 2,
+        "pricingDesc": "3 free, $5.99/wk.",
+        "url": "https://jiggy.ai"
+    },
+    {
+        "category": "Fun tools",
+        "name": "MemeCam",
+        "description": "AI meme caption generator.",
+        "priceTier": 1,
+        "pricingDesc": "Free with watermark.",
+        "url": "https://memecam.io"
+    },
+    {
+        "category": "Fun tools",
+        "name": "Wombo Meme",
+        "description": "AI meme generator.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://meme.wombo.ai"
+    },
+    {
+        "category": "Fun tools",
+        "name": "BoredHumans",
+        "description": "100+ silly AI mini-apps.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://boredhumans.com"
+    },
+    {
+        "category": "Summarizer",
+        "name": "Scholarcy",
+        "description": "Paper flash-cards & highlights.",
+        "priceTier": 2,
+        "pricingDesc": "3 summaries/day free.",
+        "url": "https://scholarcy.com"
+    },
+    {
+        "category": "Summarizer",
+        "name": "TLDR This",
+        "description": "Free article summarizer.",
+        "priceTier": 1,
+        "pricingDesc": "Free.",
+        "url": "https://tldrthis.com"
+    },
+    {
+        "category": "Summarizer",
+        "name": "Resoomer",
+        "description": "Text-summarizer for students.",
+        "priceTier": 1,
+        "pricingDesc": "Free tier.",
+        "url": "https://resoomer.com"
+    },
+    {
+        "category": "Summarizer",
+        "name": "SummarizeBot",
+        "description": "Multilingual doc summarizer.",
+        "priceTier": 2,
+        "pricingDesc": "Free 5 docs/mo, $179/mo.",
+        "url": "https://summarizebot.com"
+    },
+    {
+        "category": "Summarizer",
+        "name": "Genei",
+        "description": "PDF & article summarizer.",
+        "priceTier": 2,
+        "pricingDesc": "Free 14 days, £9.99/mo.",
+        "url": "https://genei.co.uk"
+    },
+    {
+        "category": "Summarizer",
+        "name": "QuillBot Summarizer",
+        "description": "Paraphrase & summary tool.",
+        "priceTier": 2,
+        "pricingDesc": "Free 1 200 words, $8.33/mo.",
+        "url": "https://quillbot.com/summarize"
+    },
+    {
+        "category": "Summarizer",
+        "name": "Summari",
+        "description": "AI article & link summaries.",
+        "priceTier": 2,
+        "pricingDesc": "Free 10/mo, $15/mo.",
+        "url": "https://summari.com"
+    },
+    {
+        "category": "Summarizer",
+        "name": "PaperDigest",
+        "description": "Academic paper summaries.",
+        "priceTier": 2,
+        "pricingDesc": "Free 5 papers/mo.",
+        "url": "https://paperdigest.org"
+    },
+    {
+        "category": "Summarizer",
+        "name": "HIX Summarizer",
+        "description": "Browser-based text summarizer.",
+        "priceTier": 2,
+        "pricingDesc": "Free 1 000 words, $9.99/mo.",
+        "url": "https://hix.ai/summarizer"
+    },
+    {
+        "category": "Finance",
+        "name": "Monarch Money",
+        "description": "AI budgeting & cash-flow forecast.",
+        "priceTier": 3,
+        "pricingDesc": "$14.99/mo.",
+        "url": "https://monarchmoney.com"
+    },
+    {
+        "category": "Finance",
+        "name": "Cleo",
+        "description": "AI budgeting chatbot.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $5.99/mo.",
+        "url": "https://meetcleo.com"
+    },
+    {
+        "category": "Finance",
+        "name": "PocketSmith",
+        "description": "AI cash-flow forecasting.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.95/mo.",
+        "url": "https://pocketsmith.com"
+    },
+    {
+        "category": "Finance",
+        "name": "Rocket Money",
+        "description": "AI bill-cancellation helper.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, 40 % saved fee.",
+        "url": "https://rocketmoney.com"
+    },
+    {
+        "category": "Finance",
+        "name": "YNAB AI",
+        "description": "AI-enhanced zero-based budget.",
+        "priceTier": 3,
+        "pricingDesc": "$14.99/mo.",
+        "url": "https://ynab.com"
+    },
+    {
+        "category": "Finance",
+        "name": "Wallet AI",
+        "description": "Personal-finance insights.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $4.99/mo.",
+        "url": "https://wallet.ai"
+    },
+    {
+        "category": "Finance",
+        "name": "Plum AI",
+        "description": "AI savings & investment app.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, £2.99/mo.",
+        "url": "https://withplum.com"
+    },
+    {
+        "category": "Finance",
+        "name": "Toshl Finance AI",
+        "description": "AI expense categorizer.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, €2.99/mo.",
+        "url": "https://toshl.com"
+    },
+    {
+        "category": "Finance",
+        "name": "Fyle AI",
+        "description": "AI expense reports for teams.",
+        "priceTier": 3,
+        "pricingDesc": "$4.99/user/mo.",
+        "url": "https://fylehq.com"
+    },
+    {
+        "category": "HR",
+        "name": "JuiceBox",
+        "description": "Talent-search AI (PeopleGPT).",
+        "priceTier": 3,
+        "pricingDesc": "$499/mo.",
+        "url": "https://juicebox.ai"
+    },
+    {
+        "category": "HR",
+        "name": "Eightfold AI",
+        "description": "Talent-intelligence platform.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://eightfold.ai"
+    },
+    {
+        "category": "HR",
+        "name": "Phenom AI",
+        "description": "Talent-experience platform.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://phenom.com"
+    },
+    {
+        "category": "HR",
+        "name": "Paradox AI",
+        "description": "Recruiting automation.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://paradox.ai"
+    },
+    {
+        "category": "HR",
+        "name": "HireVue",
+        "description": "AI video interviewing.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://hirevue.com"
+    },
+    {
+        "category": "HR",
+        "name": "Pymetrics",
+        "description": "AI behavioral assessment.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://pymetrics.ai"
+    },
+    {
+        "category": "HR",
+        "name": "Workday AI",
+        "description": "Enterprise HR platform.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://workday.com"
+    },
+    {
+        "category": "HR",
+        "name": "BambooHR AI",
+        "description": "HR management with AI.",
+        "priceTier": 2,
+        "pricingDesc": "Contact sales.",
+        "url": "https://bamboohr.com"
+    },
+    {
+        "category": "HR",
+        "name": "Lattice AI",
+        "description": "Performance management.",
+        "priceTier": 3,
+        "pricingDesc": "$11/mo per user.",
+        "url": "https://lattice.com"
+    },
+    {
+        "category": "Image editing",
+        "name": "Remove.bg",
+        "description": "Auto background removal.",
+        "priceTier": 2,
+        "pricingDesc": "50 previews free, $0.20/img.",
+        "url": "https://remove.bg"
+    },
+    {
+        "category": "Image editing",
+        "name": "Topaz Photo AI",
+        "description": "AI photo enhancement.",
+        "priceTier": 3,
+        "pricingDesc": "$199 one-time.",
+        "url": "https://topazlabs.com"
+    },
+    {
+        "category": "Image editing",
+        "name": "Luminar Neo",
+        "description": "AI photo editor.",
+        "priceTier": 2,
+        "pricingDesc": "$79/yr.",
+        "url": "https://skylum.com/luminar"
+    },
+    {
+        "category": "Image editing",
+        "name": "Remini",
+        "description": "AI photo enhancer app.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $4.99/wk.",
+        "url": "https://remini.ai"
+    },
+    {
+        "category": "Image editing",
+        "name": "Let's Enhance",
+        "description": "AI image upscaling.",
+        "priceTier": 2,
+        "pricingDesc": "5 images free, $12/mo.",
+        "url": "https://letsenhance.io"
+    },
+    {
+        "category": "Image editing",
+        "name": "Gigapixel AI",
+        "description": "AI image enlargement.",
+        "priceTier": 3,
+        "pricingDesc": "$99 one-time.",
+        "url": "https://topazlabs.com/gigapixel-ai"
+    },
+    {
+        "category": "Image editing",
+        "name": "Cutout.pro",
+        "description": "AI photo editing tools.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.90/mo.",
+        "url": "https://cutout.pro"
+    },
+    {
+        "category": "Image editing",
+        "name": "Photoroom",
+        "description": "Background removal & editing.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://photoroom.com"
+    },
+    {
+        "category": "Image editing",
+        "name": "Clipdrop",
+        "description": "AI image tools suite.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9/mo.",
+        "url": "https://clipdrop.co"
+    },
+    {
+        "category": "Email",
+        "name": "Mailmeteor",
+        "description": "Gmail mail-merge with AI.",
+        "priceTier": 2,
+        "pricingDesc": "50 emails/day free.",
+        "url": "https://mailmeteor.com"
+    },
+    {
+        "category": "Email",
+        "name": "Superhuman",
+        "description": "AI-powered email client.",
+        "priceTier": 3,
+        "pricingDesc": "$30/mo.",
+        "url": "https://superhuman.com"
+    },
+    {
+        "category": "Email",
+        "name": "Shortwave",
+        "description": "AI email assistant.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $7/mo.",
+        "url": "https://shortwave.com"
+    },
+    {
+        "category": "Email",
+        "name": "Flowrite",
+        "description": "AI email writer.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $5/mo.",
+        "url": "https://flowrite.com"
+    },
+    {
+        "category": "Email",
+        "name": "Lavender.ai",
+        "description": "Email coaching AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $29/mo.",
+        "url": "https://lavender.ai"
+    },
+    {
+        "category": "Email",
+        "name": "Smartwriter.ai",
+        "description": "Personalized cold emails.",
+        "priceTier": 2,
+        "pricingDesc": "$59/mo.",
+        "url": "https://smartwriter.ai"
+    },
+    {
+        "category": "Email",
+        "name": "Reply.io",
+        "description": "AI sales email automation.",
+        "priceTier": 2,
+        "pricingDesc": "$60/mo.",
+        "url": "https://reply.io"
+    },
+    {
+        "category": "Email",
+        "name": "Lemlist AI",
+        "description": "Cold email with AI personalization.",
+        "priceTier": 2,
+        "pricingDesc": "$59/mo.",
+        "url": "https://lemlist.com"
+    },
+    {
+        "category": "Email",
+        "name": "Instantly.ai",
+        "description": "Cold email automation.",
+        "priceTier": 2,
+        "pricingDesc": "$37/mo.",
+        "url": "https://instantly.ai"
+    },
+    {
+        "category": "Email",
+        "name": "Warmbox.ai",
+        "description": "Email warmup service.",
+        "priceTier": 2,
+        "pricingDesc": "$15/mo.",
+        "url": "https://warmbox.ai"
+    },
+    {
+        "category": "Email",
+        "name": "Sendinblue AI",
+        "description": "Email marketing with AI.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $25/mo.",
+        "url": "https://sendinblue.com"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Whisper.cpp",
+        "description": "OpenAI Whisper in C++ (local).",
+        "priceTier": 1,
+        "pricingDesc": "MIT licence.",
+        "benchmark": "WER 4.2",
+        "url": "https://github.com/ggerganov/whisper.cpp"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Rev AI",
+        "description": "Professional transcription AI.",
+        "priceTier": 2,
+        "pricingDesc": "$0.25/min.",
+        "benchmark": "WER 5.1",
+        "url": "https://rev.ai"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Trint",
+        "description": "AI transcription & editing.",
+        "priceTier": 2,
+        "pricingDesc": "$48/mo.",
+        "url": "https://trint.com"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Sonix.ai",
+        "description": "Automated transcription.",
+        "priceTier": 2,
+        "pricingDesc": "$10/hr.",
+        "url": "https://sonix.ai"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Happy Scribe",
+        "description": "Transcription & subtitles.",
+        "priceTier": 2,
+        "pricingDesc": "$0.20/min.",
+        "url": "https://happyscribe.com"
+    },
+    {
+        "category": "Transcriber",
+        "name": "AssemblyAI",
+        "description": "Speech-to-text API.",
+        "priceTier": 2,
+        "pricingDesc": "$0.00025/sec.",
+        "benchmark": "WER 4.8",
+        "url": "https://assemblyai.com"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Deepgram",
+        "description": "Real-time speech recognition.",
+        "priceTier": 2,
+        "pricingDesc": "$0.0125/min.",
+        "benchmark": "WER 4.5",
+        "url": "https://deepgram.com"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Speechmatics",
+        "description": "Enterprise transcription.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://speechmatics.com"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Transkriptor",
+        "description": "AI meeting transcriber.",
+        "priceTier": 2,
+        "pricingDesc": "$9.99/mo.",
+        "url": "https://transkriptor.com"
+    },
+    {
+        "category": "Transcriber",
+        "name": "Notta AI",
+        "description": "Real-time transcription.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $8.25/mo.",
+        "url": "https://notta.ai"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Bark",
+        "description": "Transformer-based emotional TTS.",
+        "priceTier": 1,
+        "pricingDesc": "MIT licence.",
+        "benchmark": "MOS 4.1",
+        "url": "https://github.com/suno-ai/bark"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Play.ht",
+        "description": "Realistic AI voice generation.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $19/mo.",
+        "url": "https://play.ht"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Murf AI",
+        "description": "AI voice generator for media.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $19/mo.",
+        "url": "https://murf.ai"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Speechify",
+        "description": "Text-to-speech reader.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $11.58/mo.",
+        "url": "https://speechify.com"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Natural Reader",
+        "description": "AI text reader.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://naturalreaders.com"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "WellSaid Labs",
+        "description": "Enterprise AI voice.",
+        "priceTier": 3,
+        "pricingDesc": "$49/mo.",
+        "url": "https://wellsaidlabs.com"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Resemble AI",
+        "description": "Voice cloning & synthesis.",
+        "priceTier": 2,
+        "pricingDesc": "$0.006/sec.",
+        "url": "https://resemble.ai"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Descript Overdub",
+        "description": "Voice cloning for editing.",
+        "priceTier": 2,
+        "pricingDesc": "Included in $12/mo.",
+        "url": "https://descript.com/overdub"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "LOVO AI",
+        "description": "AI voice & video.",
+        "priceTier": 2,
+        "pricingDesc": "$24/mo.",
+        "url": "https://lovo.ai"
+    },
+    {
+        "category": "Text-to-speech",
+        "name": "Amazon Polly",
+        "description": "AWS text-to-speech.",
+        "priceTier": 2,
+        "pricingDesc": "$4/1M chars.",
+        "url": "https://aws.amazon.com/polly"
+    },
+    {
+        "category": "Music",
+        "name": "Suno v3",
+        "description": "Text-to-song with vocals.",
+        "priceTier": 2,
+        "pricingDesc": "5 songs/day free.",
+        "url": "https://suno.ai"
+    },
+    {
+        "category": "Music",
+        "name": "AIVA",
+        "description": "AI music composition.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $11/mo.",
+        "url": "https://aiva.ai"
+    },
+    {
+        "category": "Music",
+        "name": "Soundraw",
+        "description": "Royalty-free AI music.",
+        "priceTier": 2,
+        "pricingDesc": "$16.99/mo.",
+        "url": "https://soundraw.io"
+    },
+    {
+        "category": "Music",
+        "name": "Boomy",
+        "description": "AI song creation platform.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://boomy.com"
+    },
+    {
+        "category": "Music",
+        "name": "Mubert",
+        "description": "Generative music platform.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $14/mo.",
+        "url": "https://mubert.com"
+    },
+    {
+        "category": "Music",
+        "name": "Amper Music",
+        "description": "AI music for content.",
+        "priceTier": 3,
+        "pricingDesc": "Contact sales.",
+        "url": "https://shutterstock.com/discover/ampermusic"
+    },
+    {
+        "category": "Music",
+        "name": "Beatoven.ai",
+        "description": "Mood-based music generation.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $20/mo.",
+        "url": "https://beatoven.ai"
+    },
+    {
+        "category": "Music",
+        "name": "Soundful",
+        "description": "AI music generator for creators.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://soundful.com"
+    },
+    {
+        "category": "Music",
+        "name": "Loudly",
+        "description": "AI music creation studio.",
+        "priceTier": 2,
+        "pricingDesc": "Free tier, $9.99/mo.",
+        "url": "https://loudly.com"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
         "_comment": "_____________________________________________________________________________________________________________________________________________________ DEV YOUTUBE"
     },
     {
