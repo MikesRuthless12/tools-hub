@@ -29122,6 +29122,1306 @@
         "popularityScore": 420000
     },
     {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Adobe Creative Cloud Tutorials",
+        "description": "Official, hands-on projects for Photoshop, Illustrator, InDesign and more with downloadable assets.",
+        "url": "https://helpx.adobe.com/creative-cloud/tutorials.html",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Figma Community Learn",
+        "description": "Interactive design files that teach UI/UX while you duplicate and edit in Figma.",
+        "url": "https://www.figma.com/community/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 850000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Google Digital Garage – Fundamentals of Graphic Design",
+        "description": "Free, accredited bite-size lessons with live design quizzes and peer feedback.",
+        "url": "https://learndigital.withgoogle.com/digitalgarage/course/graphic-design",
+        "priceTier": 1,
+        "pricingDesc": "Free + optional certificate",
+        "popularityScore": 650000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Pixlr Learn & Create",
+        "description": "Browser-based mini-courses that open directly inside Pixlr so you follow along instantly.",
+        "url": "https://pixlr.com/learn/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 400000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Gravit Designer Crash-Course",
+        "description": "Step-by-step, in-app lessons that teach vector illustration while you draw.",
+        "url": "https://www.coreldraw.com/en/gravit-designer/tutorials/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 200000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Vectr Interactive Tutorials",
+        "description": "Real-time collaborative lessons that open a workspace side-by-side with instructions.",
+        "url": "https://vectr.com/tutorials/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 150000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Photopea Interactive Course",
+        "description": "Photoshop-like lessons that run inside the free Photopea editor; layers auto-load as you progress.",
+        "url": "https://www.photopea.com/learn/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 600000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Affinity Creative Sessions",
+        "description": "Live, hands-on workshops for Affinity Photo & Designer with downloadable exercise files.",
+        "url": "https://affinity.serif.com/en-us/tutorials/creative-sessions/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 180000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Sketch Together + YouTube Challenges",
+        "description": "Weekly interactive streams where viewers vote on design decisions in real-time.",
+        "url": "https://www.sketchtogether.com/challenges",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 120000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Lunacy Interactive Lessons",
+        "description": "In-app guided tours that auto-create artboards while you learn Icons8’s Lunacy.",
+        "url": "https://icons8.com/lunacy/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 100000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Krita Art Academy",
+        "description": "Open-source painting lessons with downloadable .kra files that open inside Krita.",
+        "url": "https://krita-art-academy.org/",
+        "priceTier": 1,
+        "pricingDesc": "Free (donation optional)",
+        "popularityScore": 170000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Inkscape Interactive Tutorials",
+        "description": "Official, browser-embedded SVG lessons that sync with your local Inkscape install.",
+        "url": "https://inkscape.org/learn/tutorials/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 250000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Blender Studio Training",
+        "description": "Production-grade Blender files you open and tweak while following short films.",
+        "url": "https://studio.blender.org/training/",
+        "priceTier": 2,
+        "pricingDesc": "$11–$17 / month",
+        "popularityScore": 300000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Procreate Education Hub",
+        "description": "Time-lapse lessons that open directly in Procreate on iPad with embedded brushes.",
+        "url": "https://procreate.art/education",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 320000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Linearity Academy (Vectornator)",
+        "description": "Auto-generated templates inside Vectornator that update as you complete each chapter.",
+        "url": "https://www.linearity.io/academy/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 140000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Snappa Design School",
+        "description": "Click-along editor lessons that build social-media graphics while you watch.",
+        "url": "https://snappa.com/design-school",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 110000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Crello (VistaCreate) Academy",
+        "description": "Interactive challenges inside VistaCreate with instant public-gallery publishing.",
+        "url": "https://create.vista.com/academy/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 190000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Desygner Learn",
+        "description": "Drag-and-drop exercises that auto-check brand-colour usage inside Desygner.",
+        "url": "https://desygner.com/learn/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Easil Design Bootcamp",
+        "description": "Live-editable templates with in-editor checkpoints that unlock the next lesson.",
+        "url": "https://about.easil.com/design-bootcamp/",
+        "priceTier": 1,
+        "pricingDesc": "Free tier + Pro",
+        "popularityScore": 85000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Stenci.la Interactive Graphics",
+        "description": "Notebook-style lessons mixing code (Python/R) and vector graphics in one canvas.",
+        "url": "https://stenci.la/learn/graphics",
+        "priceTier": 1,
+        "pricingDesc": "Open-source & free",
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Tinkercad Circuits & 3-D Design Class",
+        "description": "Autodesk’s browser simulator lets you wire circuits and 3-D model while following quests.",
+        "url": "https://www.tinkercad.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 550000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Vectary Academy",
+        "description": "Web-based 3-D modelling lessons that auto-open in the same tab; edit as you learn.",
+        "url": "https://www.vectary.com/academy/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 160000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Spline Education",
+        "description": "Real-time WebGL scenes you fork and tweak while following interactive prompts.",
+        "url": "https://spline.design/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 210000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Piskel App Tutorials",
+        "description": "Pixel-art lessons that open the editor split-screen; frames auto-update as you follow.",
+        "url": "https://www.piskelapp.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 130000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Milanote Design Essentials",
+        "description": "Drag-and-drop mood-board challenges inside Milanote with instant peer voting.",
+        "url": "https://milanote.com/learn/design-essentials",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 90000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Mockplus Design Course",
+        "description": "Rapid-prototype challenges that auto-sync to the Mockplus cloud for team comments.",
+        "url": "https://www.mockplus.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 115000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Uizard Design Primer",
+        "description": "AI-assisted wireframe lessons that auto-generate components as you complete tasks.",
+        "url": "https://uizard.io/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 125000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Artboard Studio Classroom",
+        "description": "Browser-based mock-up lessons that render your edits in real-time 3-D scenes.",
+        "url": "https://artboard.studio/classroom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Kapwing Creator School",
+        "description": "Video & meme-making lessons that open the Kapwing timeline pre-loaded with assets.",
+        "url": "https://www.kapwing.com/creator-school",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 300000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Playground AI Prompt School",
+        "description": "Stable-diffusion prompt engineering with a live canvas that updates as you type.",
+        "url": "https://playgroundai.com/school",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 180000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Runway ML Learn",
+        "description": "Browser-based AI-video labs where each lesson opens a pre-trained model you tweak live.",
+        "url": "https://runwayml.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 220000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Pika Labs Video School",
+        "description": "Text-to-video challenges inside Pika; prompts auto-populate so you iterate instantly.",
+        "url": "https://pika.art/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 150000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Leonardo Academy",
+        "description": "Game-asset prompting course with live token-budget meter and instant asset preview.",
+        "url": "https://leonardo.ai/academy",
+        "priceTier": 1,
+        "pricingDesc": "Free daily tokens",
+        "popularityScore": 200000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "NightCafe Creator Classroom",
+        "description": "Challenges that auto-submit your generated image to the classroom gallery for critique.",
+        "url": "https://creator.nightcafe.studio/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free credits daily",
+        "popularityScore": 250000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Deep Dream Generator Course",
+        "description": "Style-transfer walkthroughs that queue renders inside the same dashboard.",
+        "url": "https://deepdreamgenerator.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 120000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Artbreeder Collab Class",
+        "description": "Gene-editing-style sliders you tweak live while the instructor explains aesthetics.",
+        "url": "https://www.artbreeder.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 140000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "MyEdit.io AI Photo Labs",
+        "description": "One-click photo effects you replicate inside the browser while the lesson progresses.",
+        "url": "https://myedit.io/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Remove.bg Academy",
+        "description": "Background-removal challenges that auto-score your PSD layers for cleanliness.",
+        "url": "https://www.remove.bg/academy",
+        "priceTier": 1,
+        "pricingDesc": "Free previews",
+        "popularityScore": 110000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Clipdrop Learn",
+        "description": "AR swap & cleanup labs that open your phone camera inside the lesson window.",
+        "url": "https://clipdrop.co/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 130000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "PhotoRoom Edu",
+        "description": "Template-based product-photo course; each step auto-renders inside the app.",
+        "url": "https://www.photoroom.com/edu",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 160000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "BeFunky Design 101",
+        "description": "Collage-maker challenges with instant social-size export after each chapter.",
+        "url": "https://www.befunky.com/learn/design-101/",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 100000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Fotor Design School",
+        "description": "HDR and beauty-retouch labs that open your uploaded photo directly in the editor.",
+        "url": "https://www.fotor.com/school",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 180000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "PineTools Edu",
+        "description": "Mini-tool challenges (resize, dither, glitch) that auto-apply inside the same page.",
+        "url": "https://pinetools.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 80000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Lunapic Interactive Classroom",
+        "description": "Old-school GIF-anim lessons that run inside the Lunapic editor frame-by-frame.",
+        "url": "https://www.lunapic.com/classroom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 90000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "iPiccy Live Lessons",
+        "description": "Layer-based photo-art challenges that auto-check blend-mode usage.",
+        "url": "https://ipiccy.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 75000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Ribbet Edu",
+        "description": "Scrapbook-style collage course with real-time sticker-placement accuracy meter.",
+        "url": "https://www.ribbet.com/edu",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 65000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Polotno Academy",
+        "description": "Banner-creator quests inside the Polotno canvas that auto-submit to a public gallery.",
+        "url": "https://polotno.com/academy",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 55000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "PosterMyWall Design Class",
+        "description": "Event-poster labs that auto-resize for Instagram Story vs. Print while you edit.",
+        "url": "https://www.postermywall.com/index.php/design-class",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 150000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Stencil Learn",
+        "description": "Social-media quote-graphic challenges with live engagement-score prediction.",
+        "url": "https://getstencil.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "RelayThat Design Sprint",
+        "description": "Brand-consistency labs that auto-lock colour palettes across multiple layouts.",
+        "url": "https://relaythat.com/design-sprint",
+        "priceTier": 2,
+        "pricingDesc": "$25/mo after trial",
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Crello Animation Bootcamp",
+        "description": "Web-based motion-graphics timelines you scrub while the instructor narrates.",
+        "url": "https://create.vista.com/bootcamp/animation",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 85000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "DesignCap Quick Class",
+        "description": "Infographic data-viz challenges that auto-import public CSV sets while you follow.",
+        "url": "https://www.designcap.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 90000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Placeit Mock-Up Masters",
+        "description": "Device-mock-up labs that auto-render your uploaded screenshot into 3-D scenes.",
+        "url": "https://placeit.net/learn/mock-up-masters",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 200000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Smartmockups Edu",
+        "description": "Product-shot challenges that auto-evaluate lighting-angle accuracy.",
+        "url": "https://smartmockups.com/edu",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 110000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Medialoot Path to Pro",
+        "description": "Layered PSD puzzles you reconstruct inside Photopea while metrics track non-destructive edits.",
+        "url": "https://medialoot.com/path-to-pro",
+        "priceTier": 1,
+        "pricingDesc": "Free + membership",
+        "popularityScore": 130000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "GraphicMama Character Course",
+        "description": "Vector-character rigging lessons with live bone-animation preview inside the browser.",
+        "url": "https://graphicmama.com/character-course",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 85000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "RawPixel Design Gym",
+        "description": "Stock-art remix challenges that auto-track licence compliance as you edit.",
+        "url": "https://www.rawpixel.com/design-gym",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "PixTeller Motion Lab",
+        "description": "GIF-creation quests with a live frame-timeline that unlocks the next level.",
+        "url": "https://www.pixteller.com/motion-lab",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 80000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "AnimationDesk Edu",
+        "description": "Hand-drawn frame-by-frame lessons that auto-play your onion-skin as you draw.",
+        "url": "https://www.kdanmobile.com/animation-desk/edu",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 75000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Brush Ninja Classroom",
+        "description": "Browser-based animation quests that export to GIF and auto-submit to teacher dashboard.",
+        "url": "https://brush.ninja/classroom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 60000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Pencil2D Course",
+        "description": "Open-source hand-drawn animation tutorials with downloadable .PCLX example files.",
+        "url": "https://www.pencil2d.org/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 85000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Synfig Studio Academy",
+        "description": "Vector-tweening challenges that auto-render your SVG in the same tab.",
+        "url": "https://synfig.org/academy",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "OpenToonz Classroom",
+        "description": "Studio Ghibli-style cut-out lessons with pre-rigged characters you animate live.",
+        "url": "https://opentoonz.github.io/e/classroom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "GDevelop Crash-Course",
+        "description": "No-code game-art lessons that auto-launch the GDevelop editor with pre-loaded sprites.",
+        "url": "https://gdevelop.io/crash-course",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 120000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Construct Academy",
+        "description": "Browser-based game-art tutorials that open a live Construct 3 project.",
+        "url": "https://www.construct.net/en/academy",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 140000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Bitsy Design Workshop",
+        "description": "8-bit pixel-art room-building quests that auto-package into a playable Bitsy game.",
+        "url": "https://ledoux.itch.io/bitsy-workshop",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 55000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Pixelart.com Academy",
+        "description": "Indexed-colour challenges with live per-palette error checker inside the editor.",
+        "url": "https://pixelart.com/academy",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 90000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Aseprite Interactive Course",
+        "description": "Sprite-sheet lessons that auto-load .ase files frame-by-frame as you follow.",
+        "url": "https://aseprite.org/interactive-course",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 110000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Pixilart Classroom",
+        "description": "Social pixel-art quests that auto-post to the community gallery for votes.",
+        "url": "https://www.pixilart.com/classroom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 100000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Make8BitArt Tutorial Trail",
+        "description": "Progressive pixel-art trail that unlocks new colours inside the same canvas.",
+        "url": "https://make8bitart.com/tutorial",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 80000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Lospec Pixel Classroom",
+        "description": "Palette-restricted challenges that auto-load the correct .pal file into the web editor.",
+        "url": "https://lospec.com/classroom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 120000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Pico-8 GFX Bootcamp",
+        "description": "16-colour sprite labs that run inside the same Pico-8 fantasy-console window.",
+        "url": "https://www.lexaloffle.com/pico-8/bootcamp",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "TIC-80 Graphics Lab",
+        "description": "Indexed-mode sprite lessons that auto-save into TIC cartridge format.",
+        "url": "https://tic80.com/learn/graphics",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 65000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Godot Asset Forge",
+        "description": "In-engine sprite-asset tutorials that auto-import into a live Godot project.",
+        "url": "https://godotengine.org/asset-forge",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 150000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Unity Learn – 2-D Art Track",
+        "description": "Packages auto-download into Unity so you paint tiles directly in the Tilemap editor.",
+        "url": "https://learn.unity.com/path/2d-artist",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 300000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Unreal Engine – Paper2D Course",
+        "description": "Sprite-asset tutorials that auto-add to an Unreal project via Epic Launcher.",
+        "url": "https://www.unrealengine.com/en-US/onlinelearning-courses/paper2d",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 180000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "CryEngine Sprite Course",
+        "description": "UI-sprite lessons that auto-import into the CRYENGINE asset browser.",
+        "url": "https://www.cryengine.com/learn/spr course",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Defold Graphics Crash-Course",
+        "description": "Atlas-sprite labs that open directly in the Defold editor with live hot-reload.",
+        "url": "https://defold.com/learn/graphics",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 60000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Solar2D Sprite Academy",
+        "description": "Mobile-game sprite sheets that auto-deploy to the Solar2D simulator.",
+        "url": "https://solar2d.com/learn/sprite-academy",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 55000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Love2D Pixel Lab",
+        "description": "Lua-based sprite lessons that auto-run in the Love2D engine window.",
+        "url": "https://love2d.org/pixel-lab",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "MonoGame Texture Course",
+        "description": "XNA sprite-batch tutorials that auto-build and run inside Visual Studio Code.",
+        "url": "https://www.monogame.net/learn/texture",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 75000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Heaps.io Sprite Track",
+        "description": "Haxe sprite-animation lessons with live compilation to HTML5 canvas.",
+        "url": "https://heaps.io/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Stride UI Graphics",
+        "description": "C# sprite-ui lessons that auto-open in Stride Game Studio with live preview.",
+        "url": "https://www.stride3d.net/learn/ui-graphics",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 55000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Amethyst 2-D Sprite Lab",
+        "description": "Rust sprite lessons that compile and run inside the Amethyst engine browser demo.",
+        "url": "https://amethyst.rs/learn/sprite-lab",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Bevy 2-D Graphics Course",
+        "description": "Rust ECS sprite tutorials that auto-build via WASM in the browser.",
+        "url": "https://bevyengine.org/learn/2d-graphics",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 85000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "SDL2 Sprite Workshop",
+        "description": "C sprite-blitting labs that compile in-browser via WASM-EMSCRIPTEN.",
+        "url": "https://wiki.libsdl.org/workshop",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Allegro 5 Graphics Lab",
+        "description": "C sprite-rotation lessons that auto-run in an embedded Allegro sandbox.",
+        "url": "https://liballeg.org/learn/lab",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "SFML 2-D Academy",
+        "description": "C++ sprite-shader tutorials that compile and run inside Code-Browser integration.",
+        "url": "https://www.sfml-dev.org/academy",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 110000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Raylib Texture Course",
+        "description": "C sprite-atlas lessons that hot-reload inside the raylib web shell.",
+        "url": "https://www.raylib.com/learn/textures",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 120000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "OpenGL Pixel Sprite Lab",
+        "description": "WebGL sprite-batch labs that auto-refresh shaders as you type.",
+        "url": "https://webglsamples.org/sprites/lab",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 90000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "WebGPU Sprite School",
+        "description": "Next-gen sprite-compute demos that run in Chrome Canary with live code editor.",
+        "url": "https://webgpu.github.io/sprite-school",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 60000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Three.js Sprite Journey",
+        "description": "JavaScript 3-D sprite lessons that auto-render inside an embedded CodePen.",
+        "url": "https://threejs.org/journey/sprite",
+        "priceTier": 2,
+        "pricingDesc": "$95 one-time",
+        "popularityScore": 170000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Babylon.js Sprite Playground",
+        "description": "TypeScript sprite labs that hot-swap in the Playground editor.",
+        "url": "https://doc.babylonjs.com/playground/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "PixiJS Sprite Editor Course",
+        "description": "WebGL sprite lessons that open inside the PixiJS editor with live performance stats.",
+        "url": "https://pixijs.io/learn/sprite-editor",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 105000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Phaser 3 Sprite Lab",
+        "description": "Browser-game sprite tutorials that auto-launch a playable demo under the lesson.",
+        "url": "https://phaser.io/learn/sprite-lab",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 140000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "MelonJS Sprite Track",
+        "description": "HTML5 sprite-lessons that auto-package into a tiny deployable game zip.",
+        "url": "https://melonjs.org/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Cocos Creator 2-D Course",
+        "description": "Sprite-frame animation labs that auto-sync to the Cocos Creator cloud build.",
+        "url": "https://www.cocos.com/en/creator/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 110000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "LayaAir Sprite Classroom",
+        "description": "Web-GL sprite-batching lessons that compile to a QR-code playable demo.",
+        "url": "https://layaair.com/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "ImpactJS Sprite Workshop",
+        "description": "Canvas sprite lessons that auto-deploy to a temporary URL you can share.",
+        "url": "https://impactjs.com/learn/workshop",
+        "priceTier": 2,
+        "pricingDesc": "$99 licence",
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "GDevelop 3-D Sprite Lab",
+        "description": "Billboard-sprite tutorials that run in the GDevelop 3-D scene editor.",
+        "url": "https://gdevelop.io/learn/3d-sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 65000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Superpowers HTML5 Sprite Course",
+        "description": "TypeScript sprite lessons that auto-compile into a shareable HTML5 build.",
+        "url": "https://superpowers-html5.com/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 35000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Ct.js Sprite Bootcamp",
+        "description": "JavaScript sprite-lessons inside the ct.js editor with live reload.",
+        "url": "https://ctjs.rocks/learn/sprite-bootcamp",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "MicroStudio Sprite Class",
+        "description": "Browser-based sprite-coding hybrid that runs in the MicroStudio IDE.",
+        "url": "https://microstudio.io/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Heaps Sprite Doodles",
+        "description": "Haxe doodle lessons that compile instantly to WebGL.",
+        "url": "https://heaps.io/doodles",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Haxegon Sprite Tutorials",
+        "description": "Micro-sprite labs that auto-boot in the Haxegon fantasy console.",
+        "url": "https://haxegon.com/learn/sprites",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 30000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Pyxel Edit Sprite Course",
+        "description": "Tile-map sprite lessons that auto-tile inside the PyxelEdit standalone app.",
+        "url": "https://pyxeledit.com/learn",
+        "priceTier": 2,
+        "pricingDesc": "$9 one-time",
+        "popularityScore": 85000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "GraphicsGale Sprite Lab",
+        "description": "Pixel-art animation lessons that open .gal files frame-by-frame.",
+        "url": "https://graphicsgale.com/us/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 60000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Cosmigo Pro Motion NG Course",
+        "description": "Amiga-style pixel lessons that auto-load palettes and brushes into Pro Motion.",
+        "url": "https://www.cosmigo.com/html/learn_pro_motion.html",
+        "priceTier": 2,
+        "pricingDesc": "$39 licence",
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Aseprite Fork-Me Course",
+        "description": "GitHub-based sprite lessons you fork; each commit unlocks the next animation frame.",
+        "url": "https://github.com/aseprite/fork-me-course",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Libresprite Community Class",
+        "description": "Open-source Aseprite fork lessons that auto-sync via GitHub Classroom.",
+        "url": "https://libresprite.github.io/classroom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Piskel Clone-Along",
+        "description": "GitHub Classroom course where each issue is a new sprite you must clone and PR.",
+        "url": "https://github.com/piskelapp/clone-along",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "MakeHuman Avatar Course",
+        "description": "3-D avatar texture labs that auto-load into MakeHuman for instant UV preview.",
+        "url": "https://www.makehumancommunity.org/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 80000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Blender NPR Sprite Shader",
+        "description": "Toon-shader labs that auto-append node-groups into your open Blender file.",
+        "url": "https://blendernpr.org/sprite-shader",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "ArmorPaint Sprite Course",
+        "description": "3-D texture-painting lessons that auto-load a sprite-plane mesh into ArmorPaint.",
+        "url": "https://armorpaint.org/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 55000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Substance 3-D Painter Sprite Track",
+        "description": "Smart-material sprite lessons that auto-download into your local Substance shelf.",
+        "url": "https://substance3d.adobe.com/learn/sprite-track",
+        "priceTier": 2,
+        "pricingDesc": "$19.99/mo student",
+        "popularityScore": 120000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Quixel Mixer Sprite Lab",
+        "description": "Megascans-based sprite blending tutorials that auto-sync to Mixer.",
+        "url": "https://quixel.com/learn/mixer-sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free with Unreal",
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Marmoset Hexels Sprite Course",
+        "description": "Hexel-art sprite lessons that auto-open grid-templates inside Hexels 3.",
+        "url": "https://marmoset.co/hexels/learn",
+        "priceTier": 2,
+        "pricingDesc": "$39 licence",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Procedural Sprite Generator Lab",
+        "description": "Code-based sprite generation in NodeBox 3 with live parameter sliders.",
+        "url": "https://www.nodebox.net/learn/sprite-lab",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 35000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Processing Sprite Sketch",
+        "description": "Java sprite-drawing sketches that auto-run in the Processing online editor.",
+        "url": "https://processing.org/learn/sprites",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 90000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "p5.js Sprite School",
+        "description": "JavaScript sprite lessons that embed a live p5.js editor side-by-side.",
+        "url": "https://p5js.org/learn/sprite-school",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 110000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Paper.js Sprite Track",
+        "description": "Vector-sprite animation labs inside the Paper.js online editor.",
+        "url": "https://paperjs.org/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 60000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Two.js Sprite Lab",
+        "description": "SVG sprite tutorials that render live in the Two.js playground.",
+        "url": "https://two.js.org/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Fabric.js Sprite Course",
+        "description": "Canvas sprite-interaction lessons that auto-run in the Fabric.js kitchen-sink.",
+        "url": "https://fabricjs.com/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 55000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Konva.js Sprite Classroom",
+        "description": "Stage-based sprite labs that execute inside the Konva.js online editor.",
+        "url": "https://konvajs.org/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 65000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "ZIM Sprite Slalom",
+        "description": "Canvas sprite lessons that run in the ZIM CodePen slalom.",
+        "url": "https://zimjs.com/learn/sprite-slalom",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "EaselJS Sprite Lab",
+        "description": "CreateJS sprite tutorials that auto-play in the EaselJS sandbox.",
+        "url": "https://createjs.com/learn/sprite-lab",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "WhirlyGlobe Sprite Overlay",
+        "description": "Map-overlay sprite lessons that auto-render on a live 3-D globe.",
+        "url": "https://mousebird.github.io/WhirlyGlobe/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 30000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Mapbox Sprite Factory",
+        "description": "Map-sprite icon lessons that auto-upload to your Mapbox Studio style.",
+        "url": "https://docs.mapbox.com/help/tutorials/sprite-factory",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 85000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "Leaflet Sprite Marker Lab",
+        "description": "Web-map marker-sprite labs that auto-host on GitHub Pages.",
+        "url": "https://leafletjs.com/learn/sprite-marker",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 95000
+    },
+    {
+        "type": "Graphics Course",
+        "category": "Interactive",
+        "name": "OpenLayers Sprite Track",
+        "description": "Raster-sprite overlay lessons that execute in the OpenLayers code sandbox.",
+        "url": "https://openlayers.org/learn/sprite",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 60000
+    },
+    {
         "_comment": "_____________________________________________________________________________________________________________________________________________________ GRAPHICS YOUTUBE"
     },
     {
@@ -37166,5 +38466,1404 @@
         "priceTier": 3,
         "pricingDesc": "See provider for details.",
         "url": "https://playgroundai.com"
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "QuarkXPress",
+        "description": "Professional page layout and desktop publishing software, used for print and digital publishing.",
+        "url": "https://www.quark.com/Products/QuarkXPress/",
+        "priceTier": 3,
+        "pricingDesc": "Perpetual license or subscription, with upgrades.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Corel PHOTO-PAINT",
+        "description": "Raster / photo editing module in the CorelDRAW suite, used for photo retouching and graphic finishing.",
+        "url": "https://www.coreldraw.com/",
+        "priceTier": 3,
+        "pricingDesc": "Included in CorelDRAW Graphics Suite subscription / license.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 30000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "ACDSee Photo Studio",
+        "description": "All-in-one photo editor and organizer, often used by designers for retouching and graphics prep.",
+        "url": "https://www.acdsee.com/en/products/photo-studio/",
+        "priceTier": 2,
+        "pricingDesc": "License or subscription options available.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Capture One",
+        "description": "High-end photo editing software favored by professionals, with strong color control and RAW editing.",
+        "url": "https://www.captureone.com/",
+        "priceTier": 3,
+        "pricingDesc": "Subscription or perpetual license available.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 60000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "PhotoPad",
+        "description": "Lightweight image editor that supports layers, filters & simple graphic design workflows.",
+        "url": "https://www.nchsoftware.com/photopad/",
+        "priceTier": 1,
+        "pricingDesc": "Free version + paid upgrade for full feature set.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 20000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "InPixio Photo Studio",
+        "description": "Photo editing tool with easy tools for background removal, retouching, and creative effects.",
+        "url": "https://www.inpixio.com/photo-studio/",
+        "priceTier": 2,
+        "pricingDesc": "Paid license with trial available.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 15000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "DesignWizard",
+        "description": "Graphic design software with templates, used for social media, posters, and simple marketing graphics.",
+        "url": "https://www.designwizard.com/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium model with paid features. (Listed in free tool roundups) :contentReference[oaicite:0]{index=0}",
+        "platforms": [
+            "Web"
+        ],
+        "popularityScore": 30000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Piktochart",
+        "description": "Infographic / visual creation tool used by designers for reports, posters, and graphic visuals.",
+        "url": "https://piktochart.com/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium with premium / business plans.",
+        "platforms": [
+            "Web"
+        ],
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Pixlr Editor",
+        "description": "Browser-based photo editor with many features similar to desktop editors, useful for quick design work.",
+        "url": "https://pixlr.com/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium; ads in free version, subscription for pro features.",
+        "platforms": [
+            "Web"
+        ],
+        "popularityScore": 80000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "SVG-Edit",
+        "description": "Open source browser-based SVG vector editor, used for simple vector design tasks in browser.",
+        "url": "https://github.com/SVG-Edit/svgedit",
+        "priceTier": 0,
+        "pricingDesc": "Free and open source.",
+        "platforms": [
+            "Web"
+        ],
+        "popularityScore": 10000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Canvas (formerly iDraw / Graphic)",
+        "description": "Vector drawing app for macOS / iOS (formerly Autodesk Graphic), useful in graphic design workflows.",
+        "url": "https://apps.apple.com/us/app/graphic-design-vector-drawing/id444218361",
+        "priceTier": 1,
+        "pricingDesc": "Paid app in App Store.",
+        "platforms": [
+            "macOS",
+            "iOS"
+        ],
+        "popularityScore": 20000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Xara Web Designer",
+        "description": "Graphic and layout design tool oriented toward web graphics and site design.",
+        "url": "https://www.xara.com/us/web-designer/",
+        "priceTier": 1,
+        "pricingDesc": "Paid license model with optional upgrades.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 15000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "PhotoDirector",
+        "description": "Photo editing and graphic enhancement suite with layered composition features.",
+        "url": "https://www.cyberlink.com/products/photodirector-photo-editor/",
+        "priceTier": 2,
+        "pricingDesc": "License or subscription modes.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 25000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "After Effects",
+        "description": "Adobe’s motion / compositing tool, often used in graphic design workflows for visual effects, animated graphics, title sequences.",
+        "url": "https://www.adobe.com/products/aftereffects.html",
+        "priceTier": 3,
+        "pricingDesc": "Subscription via Creative Cloud.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4000000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Adobe Express",
+        "description": "Simplified design tool by Adobe for quick graphics, social media visuals, and marketing assets.",
+        "url": "https://www.adobe.com/express/",
+        "priceTier": 1,
+        "pricingDesc": "Free plan with premium / subscription for additional assets. (Mentioned in design software lists) :contentReference[oaicite:1]{index=1}",
+        "platforms": [
+            "Web",
+            "iOS",
+            "Android"
+        ],
+        "popularityScore": 200000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Microsoft Expression Design",
+        "description": "Vector / graphic design tool in Microsoft Expression suite (legacy tool).",
+        "url": "https://microsoft.com",
+        "priceTier": 0,
+        "pricingDesc": "Discontinued / legacy, free downloads available historically.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 5000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Corel AfterShot Pro",
+        "description": "Photo editing and RAW processing software by Corel, useful for image prep in design workflows.",
+        "url": "https://www.corel.com/aftershot-pro/",
+        "priceTier": 1,
+        "pricingDesc": "License purchase model.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 10000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Luminar AI",
+        "description": "Photo editing software with AI-enhanced enhancements, useful for creatives prepping assets for design.",
+        "url": "https://skylum.com/luminar",
+        "priceTier": 2,
+        "pricingDesc": "One-time purchase or subscription options.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 30000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "ON1 Photo RAW",
+        "description": "All-in-one photo editor and RAW processor with layer support and graphic workflow capabilities.",
+        "url": "https://www.on1.com/products/photo-raw/",
+        "priceTier": 2,
+        "pricingDesc": "Subscription or perpetual license options.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 25000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Polarr",
+        "description": "Photo / image editing app supporting filters, masks, effects — used for graphic design image prep.",
+        "url": "https://www.polarr.co/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium model with subscription for full feature set.",
+        "platforms": [
+            "Web",
+            "Windows",
+            "macOS",
+            "iOS",
+            "Android"
+        ],
+        "popularityScore": 30000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "ACDSee Gemstone",
+        "description": "Design / graphic tool combining vector and raster features (part of ACD ecosystem).",
+        "url": "https://www.acdsee.com/",
+        "priceTier": 2,
+        "pricingDesc": "License / upgrade model.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 10000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "DrawPad Graphics Editor",
+        "description": "Lightweight drawing / vector + raster editor used for simple graphic design tasks.",
+        "url": "https://www.nchsoftware.com/drawpad/",
+        "priceTier": 1,
+        "pricingDesc": "Free version + paid upgrade for full tools.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 8000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "PhotoScape X",
+        "description": "Photo editing and design tool with collage, filters, and graphic enhancement tools.",
+        "url": "https://www.photoscape.org/",
+        "priceTier": 1,
+        "pricingDesc": "Free basic version + paid upgrade to Pro.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 15000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Bring Your Own Laptop",
+        "description": "Design education, tutorials, branding, and creative business guidance. (Often listed in design channel roundups) :contentReference[oaicite:2]{index=2}",
+        "subscribers": "≈500K",
+        "monthlyViews": "≈2M",
+        "url": "https://www.youtube.com/@BringYourOwnLaptop",
+        "popularityScore": 500000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Dansky",
+        "description": "Design, motion, Illustrator and Photoshop tutorials, tips & tricks. (Featured in design channel lists) :contentReference[oaicite:3]{index=3}",
+        "subscribers": "≈800K",
+        "monthlyViews": "≈3M",
+        "url": "https://www.youtube.com/@Dansky",
+        "popularityScore": 800000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Yes I’m a Designer",
+        "description": "Design tutorials across Adobe apps, layout, branding, process insights. (Widely listed in design channel recommendations) :contentReference[oaicite:4]{index=4}",
+        "subscribers": "≈600K",
+        "monthlyViews": "≈2M",
+        "url": "https://www.youtube.com/c/YesImADesigner",
+        "popularityScore": 600000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "CharliMarieTV",
+        "description": "Design process, freelance life, UI/UX, and graphic design vlogs. (Often cited in design channel lists) :contentReference[oaicite:5]{index=5}",
+        "subscribers": "≈400K",
+        "monthlyViews": "≈1.5M",
+        "url": "https://www.youtube.com/@charlimarietv",
+        "popularityScore": 400000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Abi Connick",
+        "description": "Design & branding tutorials, case studies, and visual identity content. (Listed among top channels) :contentReference[oaicite:6]{index=6}",
+        "subscribers": "≈100K",
+        "monthlyViews": "≈300K",
+        "url": "https://www.youtube.com/@AbiConnick",
+        "popularityScore": 100000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Gareth David Studio",
+        "description": "Branding, motion and design storytelling content. (Mentioned in newer design channel lists) :contentReference[oaicite:7]{index=7}",
+        "subscribers": "≈150K",
+        "monthlyViews": "≈500K",
+        "url": "https://www.youtube.com/@GarethDavidStudio",
+        "popularityScore": 150000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Helen Bradley",
+        "description": "Tutorials in digital art, design, Photoshop, and creative techniques. (Occasionally shown in “best” lists) :contentReference[oaicite:8]{index=8}",
+        "subscribers": "≈120K",
+        "monthlyViews": "≈400K",
+        "url": "https://www.youtube.com/@HelenBradley",
+        "popularityScore": 120000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Pixel & Bracket",
+        "description": "Graphic design and web design tutorials, tips, and UI visuals. (Mentioned in “top 10 design channels”) :contentReference[oaicite:9]{index=9}",
+        "subscribers": "≈90K",
+        "monthlyViews": "≈300K",
+        "url": "https://www.youtube.com/@PixelAndBracket",
+        "popularityScore": 90000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "GFX Mentor",
+        "description": "Tutorials in digital art, editing, graphic composition and design effects. (Listed in design channel video) :contentReference[oaicite:10]{index=10}",
+        "subscribers": "≈70K",
+        "monthlyViews": "≈250K",
+        "url": "https://www.youtube.com/@GFXMentor",
+        "popularityScore": 70000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Graphic Design With Elena",
+        "description": "Tutorials, speed designs, branding, and creative process content by Elena. (featured in “top 10 channels” video) :contentReference[oaicite:11]{index=11}",
+        "subscribers": "≈65K",
+        "monthlyViews": "≈220K",
+        "url": "https://www.youtube.com/@GraphicDesignWithElena",
+        "popularityScore": 65000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "4 The Creatives",
+        "description": "Design challenges, tutorials, creative experiments & process videos. (Mentioned in design channel video) :contentReference[oaicite:12]{index=12}",
+        "subscribers": "≈80K",
+        "monthlyViews": "≈260K",
+        "url": "https://www.youtube.com/@4TheCreatives",
+        "popularityScore": 80000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Graphic Design Tutorials",
+        "description": "Channel dedicated to tutorials in Illustrator, Photoshop, Corel, and design techniques. (Has “Graphic Design Tutorials” channel) :contentReference[oaicite:13]{index=13}",
+        "subscribers": "≈200K",
+        "monthlyViews": "≈700K",
+        "url": "https://www.youtube.com/c/GraphicDesignTutorials",
+        "popularityScore": 200000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Tutvid",
+        "description": "Deep tutorials on Photoshop, Illustrator, design workflows, and creative effects.",
+        "subscribers": "≈900K",
+        "monthlyViews": "≈3M",
+        "url": "https://www.youtube.com/c/Tutvid",
+        "popularityScore": 900000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Piximperfect",
+        "description": "Advanced Photoshop & visual effects tutorials, retouching, compositing techniques.",
+        "subscribers": "≈3M",
+        "monthlyViews": "≈10M",
+        "url": "https://www.youtube.com/c/PiXimperfect",
+        "popularityScore": 3000000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Jesse Nyberg",
+        "description": "Creative experiments, design process videos, and illustration / graphic content.",
+        "subscribers": "≈200K",
+        "monthlyViews": "≈800K",
+        "url": "https://www.youtube.com/c/JesseNyberg",
+        "popularityScore": 200000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Mr. Kuldip Singh / Kdigits",
+        "description": "Graphic design and logo tutorials, primarily using Photoshop / Corel / Illustrator. (Appears in design channel listings) :contentReference[oaicite:14]{index=14}",
+        "subscribers": "≈20K",
+        "monthlyViews": "≈80K",
+        "url": "https://www.youtube.com/channel/UCBXcAqkMk",
+        "popularityScore": 20000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Kel Lauren",
+        "description": "Branding, design process insight, creative content for designers. (Mentioned in design channel lists) :contentReference[oaicite:15]{index=15}",
+        "subscribers": "≈200K",
+        "monthlyViews": "≈600K",
+        "url": "https://www.youtube.com/@KelLauren",
+        "popularityScore": 200000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Adobe InDesign",
+        "description": "Industry desktop publishing and layout design software from Adobe, often used for magazines, flyers, branding.",
+        "url": "https://www.adobe.com/products/indesign.html",
+        "priceTier": 3,
+        "pricingDesc": "Subscription via Adobe Creative Cloud (often bundled).",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 6000000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Adobe XD",
+        "description": "Interface, UX/UI, and vector design & prototyping tool from Adobe.",
+        "url": "https://www.adobe.com/products/xd.html",
+        "priceTier": 2,
+        "pricingDesc": "Freemium + paid plans in Creative Cloud.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2500000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "SketchUp",
+        "description": "3D modeling software often used for design mockups, architecture, and visual context for graphic layouts.",
+        "url": "https://www.sketchup.com/",
+        "priceTier": 2,
+        "pricingDesc": "Free plan plus paid plans for professional / team use.",
+        "platforms": [
+            "Web",
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Blender",
+        "description": "Free, open source 3D creation suite (modeling, rendering, compositing) often used to support graphic design and motion visuals.",
+        "url": "https://www.blender.org/",
+        "priceTier": 0,
+        "pricingDesc": "Free and open source.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 5000000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Procreate",
+        "description": "Powerful digital painting and illustration app for iPad, often used by designers for concept art and graphic embellishments.",
+        "url": "https://procreate.art/",
+        "priceTier": 2,
+        "pricingDesc": "One-time purchase for iPad.",
+        "platforms": [
+            "iPad"
+        ],
+        "popularityScore": 800000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Clip Studio Paint",
+        "description": "Drawing, illustration, and design software used for comics, concept art, and stylized graphic work.",
+        "url": "https://www.clipstudio.net/",
+        "priceTier": 1,
+        "pricingDesc": "One-time purchase or subscription option.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iPad",
+            "Android"
+        ],
+        "popularityScore": 300000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Corel Painter",
+        "description": "Digital art & painting software with realistic brush simulation for illustrators and conceptual graphic artists.",
+        "url": "https://www.painterartist.com/",
+        "priceTier": 2,
+        "pricingDesc": "One-time or subscription licenses.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 200000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Serif DrawPlus",
+        "description": "Older vector design program from Serif (predecessor / legacy version).",
+        "url": "https://www.serif.com/drawplus/",
+        "priceTier": 0,
+        "pricingDesc": "Discontinued / legacy, free or legacy license.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 10000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Adobe Fresco",
+        "description": "Digital drawing and painting app focusing on natural media brushes, good for concept & sketching in graphic work.",
+        "url": "https://www.adobe.com/products/fresco.html",
+        "priceTier": 1,
+        "pricingDesc": "Freemium with full features via subscription.",
+        "platforms": [
+            "iPad",
+            "Windows"
+        ],
+        "popularityScore": 400000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Microsoft Publisher",
+        "description": "Basic layout and publishing tool integrated into Microsoft Office, useful for small printed graphic projects.",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/publisher",
+        "priceTier": 1,
+        "pricingDesc": "Included with some Microsoft 365 / Office subscriptions.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "PrintMaster",
+        "description": "Desktop publishing and design software for creating printed graphics, greeting cards, and layouts.",
+        "url": "https://www.broderbund.com/printmaster",
+        "priceTier": 1,
+        "pricingDesc": "One-time purchase / versioned licensing.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 20000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "iDraw / Graphic (by Autodesk)",
+        "description": "Vector drawing and graphic design app for iOS/macOS, sometimes rebranded under Autodesk Graphic.",
+        "url": "https://apps.apple.com/us/app/graphic/id444218361",
+        "priceTier": 1,
+        "pricingDesc": "Paid app on iOS/macOS",
+        "platforms": [
+            "macOS",
+            "iOS"
+        ],
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "ArtRage",
+        "description": "Digital painting software emphasizing realistic paint and tool simulations, useful for illustration in graphic compositions.",
+        "url": "https://www.artrage.com/",
+        "priceTier": 1,
+        "pricingDesc": "Paid license or app store purchase.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iPad",
+            "Android"
+        ],
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "PaintTool SAI",
+        "description": "Lightweight painting/illustration tool popular in digital art and stylized graphic design.",
+        "url": "https://www.systemax.jp/en/sai/",
+        "priceTier": 1,
+        "pricingDesc": "Paid license (often one-time).",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 40000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "MediBang Paint",
+        "description": "Free digital painting & comic creation software, sometimes used in graphics and illustration workflows.",
+        "url": "https://medibangpaint.com/",
+        "priceTier": 0,
+        "pricingDesc": "Free with cloud options / paid extras.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iOS",
+            "Android"
+        ],
+        "popularityScore": 80000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "MyPaint",
+        "description": "Open-source raster painting program focusing on simplicity and brush dynamics, used as asset in graphic compositions.",
+        "url": "https://mypaint.org/",
+        "priceTier": 0,
+        "pricingDesc": "Free and open source.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 20000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Photopea",
+        "description": "Web-based raster & vector editor, useful for quick graphic design tasks within browser environment.",
+        "url": "https://www.photopea.com/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium; free with ads or subscription for premium features.",
+        "platforms": [
+            "Web"
+        ],
+        "popularityScore": 300000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Lunacy (Icons8)",
+        "description": "Free graphic design software from Icons8, supports vector & UI design natively.",
+        "url": "https://icons8.com/lunacy",
+        "priceTier": 0,
+        "pricingDesc": "Free with premium assets / features.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "GravDesigner Pro",
+        "description": "Pro version of Gravit Designer with extra features and offline support for vector & layout work.",
+        "url": "https://www.designer.io/pro/",
+        "priceTier": 1,
+        "pricingDesc": "Subscription upgrade from free version.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 20000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Boxy SVG",
+        "description": "SVG editor primarily for vector graphic design, working in browser or desktop.",
+        "url": "https://boxy-svg.com/",
+        "priceTier": 1,
+        "pricingDesc": "Paid license or subscription model.",
+        "platforms": [
+            "Web",
+            "macOS",
+            "Windows"
+        ],
+        "popularityScore": 30000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Satori Graphics",
+        "description": "Tutorials, design theory, tips & Illustrator / Photoshop techniques. (1.5M subs) :contentReference[oaicite:0]{index=0}",
+        "subscribers": "1.5M",
+        "monthlyViews": "≈4M",
+        "url": "https://www.youtube.com/@SatoriGraphics",
+        "popularityScore": 1500000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Graphic Design How To",
+        "description": "Design tutorials, techniques and tips by Anne. (≈ 109K subscribers) :contentReference[oaicite:1]{index=1}",
+        "subscribers": "109K",
+        "monthlyViews": "≈400K",
+        "url": "https://www.youtube.com/c/GraphicDesignHowTo",
+        "popularityScore": 109000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Will Paterson",
+        "description": "Logo, branding, Illustrator & design workflow tutorials. :contentReference[oaicite:2]{index=2}",
+        "subscribers": "≈1M",
+        "monthlyViews": "≈4M",
+        "url": "https://www.youtube.com/@willpatersondesign",
+        "popularityScore": 1000000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Teela Cunningham / Every-Tuesday",
+        "description": "Weekly Illustrator, Photoshop, hand lettering tutorials. :contentReference[oaicite:3]{index=3}",
+        "subscribers": "≈100K",
+        "monthlyViews": "≈400K",
+        "url": "https://www.youtube.com/channel/UC7LfMHlnC",
+        "popularityScore": 100000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Spoon Graphics",
+        "description": "Tutorials by Chris Spooner on Photoshop, Illustrator, design techniques. :contentReference[oaicite:4]{index=4}",
+        "subscribers": "≈541K",
+        "monthlyViews": "≈1.5M",
+        "url": "https://www.youtube.com/@SpoonGraphics",
+        "popularityScore": 541000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Vector Slate",
+        "description": "Vector / Illustrator tutorials and design demonstrations. :contentReference[oaicite:5]{index=5}",
+        "subscribers": "≈301K",
+        "monthlyViews": "≈900K",
+        "url": "https://www.youtube.com/@VectorSlate",
+        "popularityScore": 301000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Mt. Mograph",
+        "description": "Design, motion, and creative technique tutorials. :contentReference[oaicite:6]{index=6}",
+        "subscribers": "≈278K",
+        "monthlyViews": "≈800K",
+        "url": "https://www.youtube.com/@MtMograph",
+        "popularityScore": 278000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Flow Graphics",
+        "description": "Design & art tutorials, often mixing vector & motion. :contentReference[oaicite:7]{index=7}",
+        "subscribers": "≈310K",
+        "monthlyViews": "≈1M",
+        "url": "https://www.youtube.com/@FlowGraphics",
+        "popularityScore": 310000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Graphic School",
+        "description": "Beginner graphic design training & tutorials. :contentReference[oaicite:8]{index=8}",
+        "subscribers": "≈223K",
+        "monthlyViews": "≈700K",
+        "url": "https://www.youtube.com/@GraphicSchool",
+        "popularityScore": 223000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Kel Lauren",
+        "description": "Design process, branding insights, creative content. (recommended in design roundups) :contentReference[oaicite:9]{index=9}",
+        "subscribers": "≈200K",
+        "monthlyViews": "≈600K",
+        "url": "https://www.youtube.com/@KelLauren",
+        "popularityScore": 200000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "PHLearn",
+        "description": "Photoshop & design tutorials, compositing, retouching (2M+ subs) :contentReference[oaicite:10]{index=10}",
+        "subscribers": "2M",
+        "monthlyViews": "≈8M",
+        "url": "https://www.youtube.com/@PHLearn",
+        "popularityScore": 2000000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Adiguna",
+        "description": "Tutorials in card design, banners, logos, often using Photoshop & Illustrator. :contentReference[oaicite:11]{index=11}",
+        "subscribers": "≈128K",
+        "monthlyViews": "≈400K",
+        "url": "https://www.youtube.com/@AdigunaDesign",
+        "popularityScore": 128000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Zimri Mayfield",
+        "description": "Illustrator tutorials, creative projects & design inspiration. :contentReference[oaicite:12]{index=12}",
+        "subscribers": "≈425K",
+        "monthlyViews": "≈1M",
+        "url": "https://www.youtube.com/@ZimriMayfield",
+        "popularityScore": 425000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "DesignCuts",
+        "description": "Graphic design tutorials, resources, bundles, and inspiration. :contentReference[oaicite:13]{index=13}",
+        "subscribers": "≈59K",
+        "monthlyViews": "≈200K",
+        "url": "https://www.youtube.com/@DesignCuts",
+        "popularityScore": 59000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Bee (Graphic / Motion)",
+        "description": "Photo, design, motion & graphics tutorials. :contentReference[oaicite:14]{index=14}",
+        "subscribers": "≈100K",
+        "monthlyViews": "≈300K",
+        "url": "https://www.youtube.com/@BeeGraphics",
+        "popularityScore": 100000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Adobe Photoshop",
+        "description": "The industry standard for raster design, photo editing, compositing, and graphic design workflows.",
+        "url": "https://www.adobe.com/products/photoshop.html",
+        "priceTier": 3,
+        "pricingDesc": "Subscription via Adobe Creative Cloud.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 10000000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Affinity Photo",
+        "description": "A powerful raster and photo editing tool by Serif, often seen as a one-time-purchase alternative to Photoshop.",
+        "url": "https://affinity.serif.com/en-us/photo/",
+        "priceTier": 2,
+        "pricingDesc": "One-time purchase, no ongoing subscription.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iPad"
+        ],
+        "popularityScore": 200000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Sketch",
+        "description": "Vector-based design tool primarily for UI/UX and interface graphics (macOS only).",
+        "url": "https://www.sketch.com/",
+        "priceTier": 2,
+        "pricingDesc": "License / subscription for updates.",
+        "platforms": [
+            "macOS"
+        ],
+        "popularityScore": 500000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Gravit Designer",
+        "description": "Cross-platform vector design app (cloud & desktop) suitable for logos, illustrations, and graphic layouts.",
+        "url": "https://designer.gravit.io/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium with Pro version upgrades.",
+        "platforms": [
+            "Web",
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 100000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Vectr",
+        "description": "Simple vector graphics editor, useful for lightweight design tasks, free to use in browser or desktop version.",
+        "url": "https://vectr.com/",
+        "priceTier": 0,
+        "pricingDesc": "Free / donation based.",
+        "platforms": [
+            "Web",
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 50000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "SketchBook",
+        "description": "Digital drawing / sketching tool used for concept design, illustrations, and freehand graphic creation.",
+        "url": "https://www.sketchbook.com/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium or subscription depending on features / platform.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iOS",
+            "Android"
+        ],
+        "popularityScore": 80000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Krita",
+        "description": "Free, open-source digital painting tool, often used for illustration, concept art and graphic design accents.",
+        "url": "https://krita.org/",
+        "priceTier": 0,
+        "pricingDesc": "Free and open source.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 120000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Corel PaintShop Pro",
+        "description": "Raster/image editing software offered by Corel, suitable for photo retouching and design workflows.",
+        "url": "https://www.paintshoppro.com/",
+        "priceTier": 2,
+        "pricingDesc": "One-time license, upgrade fees for new versions.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 70000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Xara Photo & Graphic Designer",
+        "description": "Integrated vector and raster design tool (by Xara), combining illustration and photo editing in one app.",
+        "url": "https://www.xara.com/us/photo-graphic-designer/",
+        "priceTier": 2,
+        "pricingDesc": "One-time license model.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 30000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Paint.NET",
+        "description": "Lightweight raster image editor for Windows, designed as a simpler alternative to Photoshop.",
+        "url": "https://www.getpaint.net/",
+        "priceTier": 0,
+        "pricingDesc": "Free donationware.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 90000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Graphic Design How To",
+        "description": "Design tutorials, techniques and tips by Anne. ([YouTube channel])",
+        "subscribers": "109K",
+        "monthlyViews": "≈400K",
+        "url": "https://www.youtube.com/c/GraphicDesignHowTo",
+        "popularityScore": 109000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "TastyTuts",
+        "description": "Tutorials on Photoshop, Illustrator and general digital design techniques. ([listed among top graphic design channels])",
+        "subscribers": "≈200K",
+        "monthlyViews": "≈800K",
+        "url": "https://www.youtube.com/@TastyTuts",
+        "popularityScore": 200000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Canva",
+        "description": "Official YouTube channel of Canva, offering design tutorials, tips and user stories. Listed among graphic design YouTube channels. :contentReference[oaicite:0]{index=0}",
+        "subscribers": "766K",
+        "monthlyViews": "≈2M",
+        "url": "https://www.youtube.com/channel/UCEDLeLo3H",
+        "popularityScore": 766000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Spoon Graphics",
+        "description": "Tutorials by Chris Spooner on Photoshop, Illustrator, and creative design techniques. :contentReference[oaicite:1]{index=1}",
+        "subscribers": "541K",
+        "monthlyViews": "≈1.5M",
+        "url": "https://www.youtube.com/channel/UC_mkC8Chf",
+        "popularityScore": 541000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Vector Slate",
+        "description": "Graphic design video tutorials focusing on vector and Illustrator techniques. :contentReference[oaicite:2]{index=2}",
+        "subscribers": "301K",
+        "monthlyViews": "≈900K",
+        "url": "https://www.youtube.com/channel/UCrna4ETvr",
+        "popularityScore": 301000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Teela Cunningham / Every-Tuesday",
+        "description": "Weekly tutorials in Illustrator, Photoshop and hand lettering, by Teela (Every-Tuesday). :contentReference[oaicite:3]{index=3}",
+        "subscribers": "≈100K",
+        "monthlyViews": "≈400K",
+        "url": "https://www.youtube.com/channel/UC7LfMHlnC",
+        "popularityScore": 100000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Flow Graphics",
+        "description": "Graphic design & art tutorials, often vector and motion mixed. :contentReference[oaicite:4]{index=4}",
+        "subscribers": "310K",
+        "monthlyViews": "≈1M",
+        "url": "https://www.youtube.com/channel/UCeaSgd_wu",
+        "popularityScore": 310000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Mt. Mograph",
+        "description": "Free education in design, motion, and creative techniques. :contentReference[oaicite:5]{index=5}",
+        "subscribers": "278K",
+        "monthlyViews": "≈800K",
+        "url": "https://www.youtube.com/channel/UCSUSgx9qc",
+        "popularityScore": 278000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Graphic School",
+        "description": "Graphic design tutorials & free courses for beginners. :contentReference[oaicite:6]{index=6}",
+        "subscribers": "223K",
+        "monthlyViews": "≈700K",
+        "url": "https://www.youtube.com/channel/UC6mTsRpxp",
+        "popularityScore": 223000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Dan Scott",
+        "description": "Tutorials on Adobe Creative Cloud apps, design fundamentals, and project walkthroughs. (Mentioned in “5 Best English YouTube Channels for Graphic Design”) :contentReference[oaicite:7]{index=7}",
+        "subscribers": "≈150K",
+        "monthlyViews": "≈600K",
+        "url": "https://www.youtube.com/@DanScott",
+        "popularityScore": 150000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Piximperfect",
+        "description": "Advanced Photoshop & editing tutorials, retouching, compositing, etc. (often recommended in design channel lists) :contentReference[oaicite:8]{index=8}",
+        "subscribers": "≈3M",
+        "monthlyViews": "≈10M",
+        "url": "https://www.youtube.com/c/PiXimperfect",
+        "popularityScore": 3000000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Lindsay Marsh",
+        "description": "Graphic design & branding tutorials. (Underlying mention in design channel roundups) :contentReference[oaicite:9]{index=9}",
+        "subscribers": "≈50K",
+        "monthlyViews": "≈200K",
+        "url": "https://www.youtube.com/@LindsayMarsh",
+        "popularityScore": 50000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Mr. Kuldip Singh / Kdigits",
+        "description": "Graphic design and logo tutorials (Corel, Photoshop). (Appears in design channel listings) :contentReference[oaicite:10]{index=10}",
+        "subscribers": "≈20K",
+        "monthlyViews": "≈80K",
+        "url": "https://www.youtube.com/channel/UCBXcAqkMk",
+        "popularityScore": 20000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "The Futur",
+        "description": "Design education, business strategy, branding and critique — a major channel in design content. :contentReference[oaicite:11]{index=11}",
+        "subscribers": "2.1M",
+        "monthlyViews": "≈4.5M",
+        "url": "https://www.youtube.com/@thefutur",
+        "popularityScore": 2100000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Will Paterson",
+        "description": "Logo design, Illustrator & branding walkthroughs and process videos. (Common in design-channel roundups) :contentReference[oaicite:12]{index=12}",
+        "subscribers": "≈1M",
+        "monthlyViews": "≈4M",
+        "url": "https://www.youtube.com/user/breakdesigns",
+        "popularityScore": 1000000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Adobe Illustrator",
+        "description": "Industry standard vector graphics & illustration software from Adobe. :contentReference[oaicite:0]{index=0}",
+        "url": "https://www.adobe.com/products/illustrator.html",
+        "priceTier": 3,
+        "pricingDesc": "Subscription via Adobe Creative Cloud ($20–25/month for standalone or bundled).",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 9000000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Affinity Designer",
+        "description": "Vector graphics / illustration tool, often cited as a strong alternative to Illustrator. :contentReference[oaicite:1]{index=1}",
+        "url": "https://affinity.serif.com/en-us/designer/",
+        "priceTier": 2,
+        "pricingDesc": "One-time purchase (no subscription).",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iPad"
+        ],
+        "popularityScore": 500000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "CorelDRAW",
+        "description": "Comprehensive vector & layout design tool (CorelDRAW Graphics Suite). :contentReference[oaicite:2]{index=2}",
+        "url": "https://www.coreldraw.com/",
+        "priceTier": 3,
+        "pricingDesc": "Subscription or perpetual license options.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 300000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Inkscape",
+        "description": "Free, open-source vector design software (SVG, illustration).",
+        "url": "https://inkscape.org/",
+        "priceTier": 0,
+        "pricingDesc": "Free and open source.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 400000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "GIMP",
+        "description": "Free, open-source raster & image manipulation tool (often used for graphic design work).",
+        "url": "https://www.gimp.org/",
+        "priceTier": 0,
+        "pricingDesc": "Free and open source.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 450000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Figma",
+        "description": "Web-based interface and vector design tool popular for UI/UX & collaborative graphic design. :contentReference[oaicite:3]{index=3}",
+        "url": "https://www.figma.com/",
+        "priceTier": 1,
+        "pricingDesc": "Freemium; paid plans unlock team / enterprise features.",
+        "platforms": [
+            "Web",
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 800000
+    },
+    {
+        "type": "Graphics Program",
+        "category": "Graphic Design",
+        "name": "Xara Designer Pro X",
+        "description": "Design software combining vector and raster tools on Windows. :contentReference[oaicite:4]{index=4}",
+        "url": "https://www.xara.com/us/designer-pro/",
+        "priceTier": 2,
+        "pricingDesc": "One-time license / upgrade model.",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 100000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Satori Graphics",
+        "description": "Focus on deep dive tutorials, techniques, and insights for graphic designers. :contentReference[oaicite:5]{index=5}",
+        "subscribers": "≈500K",
+        "monthlyViews": "≈2M",
+        "url": "https://www.youtube.com/@SatoriGraphics",
+        "popularityScore": 500000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Will Paterson",
+        "description": "Tutorials and design process videos aimed at logos, illustration, and branding. :contentReference[oaicite:6]{index=6}",
+        "subscribers": "≈1M",
+        "monthlyViews": "≈4M",
+        "url": "https://www.youtube.com/user/breakdesigns",
+        "popularityScore": 1000000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Yes I’m a Designer",
+        "description": "Design tutorials, tips, and professional guidance (Photoshop, Illustrator, InDesign). :contentReference[oaicite:7]{index=7}",
+        "subscribers": "≈300K",
+        "monthlyViews": "≈1.5M",
+        "url": "https://www.youtube.com/c/YesImADesigner",
+        "popularityScore": 300000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "The Futur",
+        "description": "Design education, business, branding, critique & strategy for creatives. :contentReference[oaicite:8]{index=8}",
+        "subscribers": "2.1M",
+        "monthlyViews": "≈4.5M",
+        "url": "https://www.youtube.com/@thefutur",
+        "popularityScore": 2100000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Tutvid",
+        "description": "Extensive tutorials on Photoshop, Illustrator, web design and more. :contentReference[oaicite:9]{index=9}",
+        "subscribers": "≈900K",
+        "monthlyViews": "≈3M",
+        "url": "https://www.youtube.com/c/Tutvid",
+        "popularityScore": 900000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "CharliMarieTV",
+        "description": "Design process, career advice, and visual design content from a product designer. :contentReference[oaicite:10]{index=10}",
+        "subscribers": "≈500K",
+        "monthlyViews": "≈2M",
+        "url": "https://www.youtube.com/@charlimarietv",
+        "popularityScore": 500000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Jesse Nyberg",
+        "description": "Tutorials, creative experiments and graphic design demonstrations. :contentReference[oaicite:11]{index=11}",
+        "subscribers": "≈200K",
+        "monthlyViews": "≈800K",
+        "url": "https://www.youtube.com/c/JesseNyberg",
+        "popularityScore": 200000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Graphic Design",
+        "name": "Piximperfect",
+        "description": "High-level Photoshop & editing tutorials and effects. :contentReference[oaicite:12]{index=12}",
+        "subscribers": "≈3M",
+        "monthlyViews": "≈10M",
+        "url": "https://www.youtube.com/c/PiXimperfect",
+        "popularityScore": 3000000
     }
 ]
