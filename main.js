@@ -23,7 +23,7 @@ const previousState = {
   resultCount: 0
 };
 
-const $ = s => document.querySelector(s);
+const $  = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 
 /* ---------- VISITOR COUNTER ---------- */
@@ -135,7 +135,9 @@ function setupWebsiteCategoryFilters() {
     </label>`).join('');
   $$('.website-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      e.target.checked ? state.websiteCategories.add(e.target.dataset.category) : state.websiteCategories.delete(e.target.dataset.category);
+      e.target.checked
+        ? state.websiteCategories.add(e.target.dataset.category)
+        : state.websiteCategories.delete(e.target.dataset.category);
       state.currentPage = 1; render();
     })
   );
@@ -151,7 +153,9 @@ function setupCourseCategoryFilters() {
     </label>`).join('');
   $$('.course-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      e.target.checked ? state.courseCategories.add(e.target.dataset.category) : state.courseCategories.delete(e.target.dataset.category);
+      e.target.checked
+        ? state.courseCategories.add(e.target.dataset.category)
+        : state.courseCategories.delete(e.target.dataset.category);
       state.currentPage = 1; render();
     })
   );
@@ -166,13 +170,15 @@ function setupGraphicsCourseCategoryFilters() {
     </label>`).join('');
   $$('.graphics-course-category-checkbox').forEach(box =>
     box.addEventListener('change', e => {
-      e.target.checked ? state.graphicsCourseCategories.add(e.target.dataset.category) : state.graphicsCourseCategories.delete(e.target.dataset.category);
+      e.target.checked
+        ? state.graphicsCourseCategories.add(e.target.dataset.category)
+        : state.graphicsCourseCategories.delete(e.target.dataset.category);
       state.currentPage = 1; render();
     })
   );
 }
 
-/* ---------- PRICE / LANG / PLATFORM / SEARCH / SORT ---------- */
+/* ---------- PRICE FILTERS ---------- */
 function setupPriceFilters() {
   const buttons = $$('.tier-btn');
   const paint = () => buttons.forEach((b, i) => {
@@ -187,25 +193,61 @@ function setupPriceFilters() {
 }
 
 /* ------------------------------------------------------------------ */
-/*  LANGUAGE FILTER – ONLY FOR DEV  CATEGORIES  &  AUTO-CLEAR         */
+/*  LANGUAGE FILTER – ONLY DEV CATEGORIES  &  HIDE ZERO-RESULT LANGS  */
 /* ------------------------------------------------------------------ */
 function setupLanguageFilters() {
-  const allLangs = new Set(allData.flatMap(i => i.languages || []));
+  const allLangs = [...new Set(allData.flatMap(i => i.languages || []))].sort();
+
+  function countPerLang() {
+    // temp remove language filter so we count "other filters only"
+    const langArr = [...state.languages];
+    state.languages.clear();
+
+    const platArr   = [...state.platforms];
+    const courseArr = [...state.courseCategories];
+    const webArr    = [...state.websiteCategories];
+    const gcArr     = [...state.graphicsCourseCategories];
+
+    const tally = {};
+    allLangs.forEach(l => tally[l] = 0);
+
+    allData.forEach(it => {
+      if (
+        buildTypeMatcher(state.type, it) &&
+        (state.tier === 0 || it.priceTier === state.tier) &&
+        (!state.query ||
+          (it.name && it.name.toLowerCase().includes(state.query)) ||
+          (it.description && it.description.toLowerCase().includes(state.query))) &&
+        (platArr.length === 0 || (it.platforms && platArr.some(p => it.platforms.includes(p)))) &&
+        (courseArr.length === 0 || (it.category && courseArr.includes(it.category))) &&
+        (webArr.length === 0 || ((it.category || it.websiteCategory) && webArr.includes(it.category || it.websiteCategory))) &&
+        (gcArr.length === 0 || (it.category && gcArr.includes(it.category)))
+      ) {
+        (it.languages || []).forEach(l => tally[l]++);
+      }
+    });
+
+    // restore user ticks
+    langArr.forEach(l => state.languages.add(l));
+    return tally;
+  }
 
   function paint() {
-    const devCategories = ['IDE', 'Dev Course', 'Dev Website', 'Dev YouTube'];
-    const isDev = devCategories.includes(state.type);
-
+    const devCats = ['IDE', 'Dev Course', 'Dev Website', 'Dev YouTube'];
+    const isDev   = devCats.includes(state.type);
     $('#lang-filter-container').classList.toggle('hidden', !isDev);
+    if (!isDev) return;
 
-    if (!isDev) return;               // nothing to draw
+    const tally = countPerLang();
 
-    $('#lang-filters').innerHTML = [...allLangs].sort().map(l => `
-      <label class="flex items-center gap-2 cursor-pointer">
-        <input type="checkbox" data-lang="${l}"
-               class="lang-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-        <span class="text-sm theme-text-secondary">${l}</span>
-      </label>`).join('');
+    $('#lang-filters').innerHTML = allLangs
+      .filter(l => tally[l] > 0) // hide 0-result languages
+      .map(l => `
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="checkbox" data-lang="${l}" ${state.languages.has(l) ? 'checked' : ''}
+                 class="lang-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+          <span class="text-sm theme-text-secondary">${l} <span class="text-xs text-gray-400">(${tally[l]})</span></span>
+        </label>`).join('');
 
     $$('.lang-checkbox').forEach(box =>
       box.addEventListener('change', e => {
@@ -214,37 +256,32 @@ function setupLanguageFilters() {
           : state.languages.delete(e.target.dataset.lang);
         state.currentPage = 1;
         render();
-      }));
+      })
+    );
   }
 
-  paint();                       // first draw
+  paint(); // first draw
 
   $$('.type-btn').forEach(btn =>
     btn.addEventListener('click', () => {
-      // leaving a dev category? → wipe language selections
-      const devCategories = ['IDE', 'Dev Course', 'Dev Website', 'Dev YouTube'];
-      if (devCategories.includes(previousState.type)) {
-        state.languages.clear();
-      }
+      const devCats = ['IDE', 'Dev Course', 'Dev Website', 'Dev YouTube'];
+      if (devCats.includes(previousState.type)) state.languages.clear();
       paint();
-    }));
+    })
+  );
 }
 
 /* ------------------------------------------------------------------ */
 /*  PLATFORM FILTER – RESTRICTED & AUTO-CLEAR                         */
 /* ------------------------------------------------------------------ */
 function setupPlatformFilters() {
-  // 1.  Build the master list once
   const allPlatforms = new Set(allData.flatMap(i => i.platforms || []));
-
-  // 2.  Helper – allowed platforms per category
   const whitelist = {
     'Music Production VSTs': ['Windows', 'macOS', 'Linux'],
     'Music DAW':             ['Windows', 'macOS', 'Linux'],
-    'Graphics Program':      ['Windows', 'macOS', 'Linux'],   // ChromeOS / iOS / iPad removed
+    'Graphics Program':      ['Windows', 'macOS', 'Linux'], // ChromeOS / iOS / iPad removed
   };
 
-  // 3.  Render function – draws only the allowed boxes
   function paint() {
     const activeType = state.type;
     const allowed = whitelist[activeType] || [...allPlatforms].sort();
@@ -256,7 +293,6 @@ function setupPlatformFilters() {
         <span class="text-sm theme-text-secondary">${p}</span>
       </label>`).join('');
 
-    // 4.  Wire the new boxes
     $$('.platform-checkbox').forEach(box =>
       box.addEventListener('change', e => {
         e.target.checked
@@ -264,24 +300,22 @@ function setupPlatformFilters() {
           : state.platforms.delete(e.target.dataset.platform);
         state.currentPage = 1;
         render();
-      }));
+      })
+    );
   }
 
-  // 5.  Initial paint
-  paint();
+  paint(); // initial
 
-  // 6.  Hook into the main filter buttons so we auto-clear when leaving
   $$('.type-btn').forEach(btn =>
     btn.addEventListener('click', () => {
-      // leaving any of the restricted categories? → wipe selections
       const restricted = ['Music Production VSTs', 'Music DAW', 'Graphics Program'];
-      if (restricted.includes(previousState.type)) {
-        state.platforms.clear();
-      }
-      paint();               // re-draw the correct boxes
-    }));
+      if (restricted.includes(previousState.type)) state.platforms.clear();
+      paint();
+    })
+  );
 }
 
+/* ---------- SEARCH ---------- */
 function setupSearch() {
   $('#search').addEventListener('input', e => {
     state.query = e.target.value.trim().toLowerCase();
@@ -290,6 +324,7 @@ function setupSearch() {
   });
 }
 
+/* ---------- SORT ---------- */
 function setupSorting() {
   $('#sort-by').addEventListener('change', e => {
     state.sortBy = e.target.value;
@@ -319,16 +354,16 @@ function getFilteredCount() {
     const typeMatch = buildTypeMatcher(state.type, item);
     const tierMatch = state.tier === 0 || item.priceTier === state.tier;
     const queryMatch = !state.query ||
-      (item.name && typeof item.name === 'string' && item.name.toLowerCase().includes(state.query)) ||
-      (item.description && typeof item.description === 'string' && item.description.toLowerCase().includes(state.query));
+      (item.name && item.name.toLowerCase().includes(state.query)) ||
+      (item.description && item.description.toLowerCase().includes(state.query));
     const langMatch = langArr.length === 0 ||
-      (item.languages && Array.isArray(item.languages) && langArr.every(l => item.languages.includes(l)));
+      (item.languages && langArr.every(l => item.languages.includes(l)));
     const platMatch = platArr.length === 0 ||
-      (item.platforms && Array.isArray(item.platforms) && platArr.some(p => item.platforms.includes(p)));
+      (item.platforms && platArr.some(p => item.platforms.includes(p)));
     const courseCatMatch = courseCatArr.length === 0 ||
       (item.category && courseCatArr.includes(item.category));
     const websiteCatMatch = websiteCatArr.length === 0 ||
-      (item.category && websiteCatArr.includes(item.category));
+      ((item.category || item.websiteCategory) && websiteCatArr.includes(item.category || item.websiteCategory));
     const graphicsCourseCatMatch = graphicsCourseCatArr.length === 0 ||
       (item.category && graphicsCourseCatArr.includes(item.category));
 
@@ -369,7 +404,7 @@ function restorePreviousState() {
   }
 }
 
-/* ---------- CARD ---------- */
+/* ---------- CARD TEMPLATE ---------- */
 function card(t) {
   const badge = t.priceTier === 1 ? 'Free' : t.priceTier === 2 ? 'Freemium' : 'Paid';
   let badgeClass = '';
@@ -478,9 +513,7 @@ function renderPagination(totalPages) {
   }
 
   ctr.appendChild(btn('Next', state.currentPage + 1, state.currentPage === totalPages));
-
-  // scroll to top after any pagination click
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 /* ---------- RENDER ---------- */
@@ -495,16 +528,16 @@ function render() {
     const typeMatch = buildTypeMatcher(state.type, item);
     const tierMatch = state.tier === 0 || item.priceTier === state.tier;
     const queryMatch = !state.query ||
-      (item.name && typeof item.name === 'string' && item.name.toLowerCase().includes(state.query)) ||
-      (item.description && typeof item.description === 'string' && item.description.toLowerCase().includes(state.query));
+      (item.name && item.name.toLowerCase().includes(state.query)) ||
+      (item.description && item.description.toLowerCase().includes(state.query));
     const langMatch = langArr.length === 0 ||
-      (item.languages && Array.isArray(item.languages) && langArr.every(l => item.languages.includes(l)));
+      (item.languages && langArr.every(l => item.languages.includes(l)));
     const platMatch = platArr.length === 0 ||
-      (item.platforms && Array.isArray(item.platforms) && platArr.some(p => item.platforms.includes(p)));
+      (item.platforms && platArr.some(p => item.platforms.includes(p)));
     const courseCatMatch = courseCatArr.length === 0 ||
       (item.category && courseCatArr.includes(item.category));
     const websiteCatMatch = websiteCatArr.length === 0 ||
-      (item.category && websiteCatArr.includes(item.category));
+      ((item.category || item.websiteCategory) && websiteCatArr.includes(item.category || item.websiteCategory));
     const graphicsCourseCatMatch = graphicsCourseCatArr.length === 0 ||
       (item.category && graphicsCourseCatArr.includes(item.category));
 
@@ -534,11 +567,11 @@ function render() {
 
   const startResult = sorted.length > 0 ? start + 1 : 0;
   const endResult = Math.min(start + ITEMS_PER_PAGE, sorted.length);
-  
+
   $('#results-count').textContent = sorted.length > 0
     ? `Showing results ${startResult}-${endResult} of ${sorted.length}`
     : 'Showing 0 results';
-  
+
   $('#grid').innerHTML = page.map(card).join('') ||
                    `<p class="col-span-full text-center theme-text-secondary">No results match your filters.</p>`;
   renderPagination(totalPages);
