@@ -11,6 +11,8 @@
       background-color:#2563eb !important;
       color:#fff !important;
     }
+
+    /* Light theme (default) */
     :root {
       --bg-primary: #f3f4f6;
       --bg-secondary: #ffffff;
@@ -24,6 +26,8 @@
       --button-active-bg: #2563eb;
       --button-active-text: #ffffff;
     }
+
+    /* Dark theme */
     .dark-mode {
       --bg-primary: #111827;
       --bg-secondary: #1f2937;
@@ -37,11 +41,13 @@
       --button-active-bg: #2563eb;
       --button-active-text: #ffffff;
     }
+
     body {
       background-color: var(--bg-primary);
       color: var(--text-primary);
       transition: background-color 0.3s, color 0.3s;
     }
+
     .theme-bg { background-color: var(--bg-primary) !important; }
     .theme-card { background-color: var(--bg-card) !important; }
     .theme-filter { background-color: var(--bg-tertiary) !important; }
@@ -56,23 +62,29 @@
     .theme-text { color: var(--text-primary) !important; }
     .theme-text-secondary { color: var(--text-secondary) !important; }
     .theme-border { border-color: var(--border-color) !important; }
+
     .theme-input {
       background-color: var(--bg-secondary) !important;
       color: var(--text-primary) !important;
       border-color: var(--border-color) !important;
     }
+
     #icon-light { display: none; }
     #icon-dark { display: none; }
+    
     :not(.dark-mode) #icon-light { display: block; }
     .dark-mode #icon-dark { display: block; }
+
     .bg-gray-100 { background-color: var(--bg-primary) !important; }
     .bg-white { background-color: var(--bg-card) !important; }
     .bg-gray-200 { background-color: var(--bg-tertiary) !important; }
     .bg-gray-300 { background-color: var(--button-bg) !important; }
+    
     .text-gray-800 { color: var(--text-primary) !important; }
     .text-gray-700 { color: var(--text-primary) !important; }
     .text-gray-600 { color: var(--text-tertiary) !important; }
     .text-gray-500 { color: var(--text-secondary) !important; }
+    
     .border-gray-200 { border-color: var(--border-color) !important; }
     .border-gray-300 { border-color: var(--border-color) !important; }
   </style>
@@ -81,7 +93,9 @@
   <header class="p-6 text-center">
     <div class="flex justify-center items-center gap-4">
       <h1 class="text-3xl font-bold mb-2 theme-text">The Ultimate Developer & Creator Hub</h1>
-      <button id="theme-toggle" type="button" class="p-2 rounded-md theme-button hover:opacity-80 transition" aria-label="Toggle theme">
+      <button id="theme-toggle" type="button"
+              class="p-2 rounded-md theme-button hover:opacity-80 transition"
+              aria-label="Toggle theme">
         <svg id="icon-light" class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 18a6 6 0 100-12 6 6 0 000 12zM12 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm0 18a1 1 0 01-1-1v-1a1 1 0 112 0v1a1 1 0 01-1 1zM3.515 4.929a1 1 0 011.414 0l.707.707a1 1 0 01-1.414 1.414l-.707-.707a1 1 0 010-1.414zM17.657 19.071a1 1 0 011.414 0l.707.707a1 1 0 01-1.414 1.414l-.707-.707a1 1 0 010-1.414zM2 12a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm18 0a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM4.929 17.657a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM16.364 5.636a1 1 0 010 1.414l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 0z"/>
         </svg>
@@ -95,19 +109,12 @@
   </header>
 
   <section class="max-w-7xl mx-auto px-4">
+    <!-- Main Category Filters -->
     <div class="flex flex-wrap justify-center gap-2 mb-6" id="main-filters">
       <button data-type="All" class="type-btn px-4 py-2 rounded-md font-semibold theme-button-active">All</button>
 
       <button data-type="AI Tool" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">AI Tools</button>
       <button data-type="IDE" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Dev IDEs</button>
-
-      <button data-type="Frontend YouTube" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Frontend YouTube</button>
-      <button data-type="Frontend Websites" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Frontend Websites</button>
-      <button data-type="Frontend Courses" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Frontend Courses</button>
-
-      <button data-type="Backend YouTube" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Backend YouTube</button>
-      <button data-type="Backend Websites" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Backend Websites</button>
-      <button data-type="Backend Courses" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Backend Courses</button>
 
       <button data-type="Dev Course" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Dev Courses</button>
       <button data-type="Dev Website" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Dev Websites</button>
@@ -124,6 +131,7 @@
       <button data-type="Music Production Websites" class="type-btn px-4 py-2 rounded-md font-semibold theme-button">Music Production Websites</button>
     </div>
 
+    <!-- Secondary Filters Panel -->
     <div class="flex flex-col md:flex-row md:flex-wrap gap-4 mb-6 md:items-end p-4 rounded-lg theme-filter">
       <div id="price-filter-container">
         <label class="text-sm font-medium theme-text-secondary">Price</label>
@@ -190,6 +198,7 @@
       const isDark = savedTheme === 'dark' || (!savedTheme && systemPrefersDark);
       if (isDark) document.documentElement.classList.add('dark-mode');
       else document.documentElement.classList.remove('dark-mode');
+
       const themeToggle = document.getElementById('theme-toggle');
       if (themeToggle) {
         themeToggle.addEventListener('click', () => {
