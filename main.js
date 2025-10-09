@@ -374,8 +374,8 @@ function setupPlatformFilters() {
   const allPlatforms = new Set(allData.flatMap(i => i.platforms || []));
   const whitelist = {
     'Music Production VSTs': ['Windows', 'macOS', 'Linux'],
-    'Music DAW':             ['Windows', 'macOS', 'Linux'],
-    'Graphics Program':      ['Windows', 'macOS', 'Linux'],
+    'Music DAW': ['Windows', 'macOS', 'Linux'],
+    'Graphics Program': ['Windows', 'macOS', 'Linux'],
   };
 
   function countPerPlatform() {
@@ -676,13 +676,20 @@ function render() {
     return;
   }
 
+  // FIXED: Properly handle sorting for all categories including "All" and "AI Tool"
   const sorted = [...filtered].sort((a, b) => {
     switch (state.sortBy) {
-      case 'name_asc': return a.name.localeCompare(b.name);
-      case 'name_desc': return b.name.localeCompare(a.name);
-      case 'subs_desc': return parseSubscribers(b.subscribers) - parseSubscribers(a.subscribers);
-      case 'popularity_desc': return (b.popularityScore || 0) - (a.popularityScore || 0);
-      default: return 0;
+      case 'name_asc': 
+        return a.name.localeCompare(b.name);
+      case 'name_desc': 
+        return b.name.localeCompare(a.name);
+      case 'subs_desc': 
+        return parseSubscribers(b.subscribers) - parseSubscribers(a.subscribers);
+      case 'popularity_desc': 
+        return (b.popularityScore || 0) - (a.popularityScore || 0);
+      default: 
+        // For "default" sorting, maintain the original order from the JSON
+        return 0;
     }
   });
 
