@@ -6356,117 +6356,6 @@
         "pricingDesc": "Free tier, $9.99/mo.",
         "url": "https://loudly.com"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "_comment": "_____________________________________________________________________________________________________________________________________________________ DEV YOUTUBE"
     },
@@ -34497,5 +34386,2785 @@
         "priceTier": 2,
         "pricingDesc": "Free + paid courses",
         "popularityScore": 123000
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Net Ninja (8531)",
+        "description": "The Net Ninja — YouTube channel covering JavaScript and more.",
+        "subscribers": "1.3M",
+        "monthlyViews": "1.5M+",
+        "url": "https://www.youtube.com/c/TheNetNinja",
+        "languages": [
+            "JavaScript"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "GitHub (7354)",
+        "description": "GitHub — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Simplilearn (3201)",
+        "description": "Simplilearn — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.simplilearn.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (1135)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "NightCafe",
+        "description": "NightCafe — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://creator.nightcafe.studio"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Simplilearn (5055)",
+        "description": "Simplilearn — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.simplilearn.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Remove.bg (8614)",
+        "description": "Remove.bg — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.remove.bg"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Weights & Biases (4742)",
+        "description": "Weights & Biases — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://wandb.ai"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Codecademy (3828)",
+        "description": "Codecademy — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.codecademy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Descript (4672)",
+        "description": "Descript — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://descript.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio Code (1535)",
+        "description": "Visual Studio Code — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://code.visualstudio.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Scribe",
+        "description": "Scribe — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://scribehow.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Skillshare",
+        "description": "Skillshare — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.skillshare.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Codeium (8352)",
+        "description": "Codeium — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://codeium.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "TechWorld with Nana",
+        "description": "TechWorld with Nana — YouTube channel covering Go, Python and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1.5M+",
+        "url": "https://www.youtube.com/c/TechWorldwithNana",
+        "languages": [
+            "Go",
+            "Python"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "QuillBot",
+        "description": "QuillBot — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://quillbot.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MIT OpenCourseWare",
+        "description": "MIT OpenCourseWare — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://ocw.mit.edu"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Pika",
+        "description": "Pika — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://pika.art"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (3752)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Atom",
+        "description": "Atom — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://atom.io"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Computerphile (8300)",
+        "description": "Computerphile — YouTube channel covering Python, C++ and more.",
+        "subscribers": "2.3M",
+        "monthlyViews": "1.2M+",
+        "url": "https://www.youtube.com/user/Computerphile",
+        "languages": [
+            "Python",
+            "C++",
+            "Java",
+            "Assembly"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udacity (2756)",
+        "description": "Udacity — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udacity.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Character.ai (1983)",
+        "description": "Character.ai — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://beta.character.ai"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Low Level Learning (4629)",
+        "description": "Low Level Learning — YouTube channel covering C, C++ and more.",
+        "subscribers": "300k",
+        "monthlyViews": "500k+",
+        "url": "https://www.youtube.com/@LowLevelLearning",
+        "languages": [
+            "C",
+            "C++",
+            "Rust",
+            "Assembly"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "LinkedIn Learning (5945)",
+        "description": "LinkedIn Learning — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.linkedin.com/learning"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Synthesia",
+        "description": "Synthesia — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://synthesia.io"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Khan Academy",
+        "description": "Khan Academy — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.khanacademy.org"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Corey Schafer (235)",
+        "description": "Corey Schafer — YouTube channel covering Python and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1.2M+",
+        "url": "https://www.youtube.com/c/Coreyms",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Khan Academy (2136)",
+        "description": "Khan Academy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.khanacademy.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Kubernetes",
+        "description": "Kubernetes — utility or developer tool.",
+        "platforms": [
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://kubernetes.io"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Anaconda (5104)",
+        "description": "Anaconda — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.anaconda.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Google Cloud SDK",
+        "description": "Google Cloud SDK — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://cloud.google.com/sdk"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Midjourney",
+        "description": "Midjourney — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://midjourney.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Codecademy (2050)",
+        "description": "Codecademy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.codecademy.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Coursera (4631)",
+        "description": "Coursera — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.coursera.org"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Phind",
+        "description": "Phind — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://phind.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MIT OpenCourseWare (55)",
+        "description": "MIT OpenCourseWare — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://ocw.mit.edu"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udacity (7880)",
+        "description": "Udacity — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udacity.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Vim (1073)",
+        "description": "Vim — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.vim.org"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Weights & Biases",
+        "description": "Weights & Biases — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://wandb.ai"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Academind (5446)",
+        "description": "Academind — YouTube channel covering JavaScript, React and more.",
+        "subscribers": "1.8M",
+        "monthlyViews": "3M+",
+        "url": "https://www.youtube.com/c/Academind",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Node"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Character.ai",
+        "description": "Character.ai — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://beta.character.ai"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Suno (3366)",
+        "description": "Suno — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://suno.ai"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Traversy Media (542)",
+        "description": "Traversy Media — YouTube channel covering JavaScript, PHP and more.",
+        "subscribers": "2.5M",
+        "monthlyViews": "4M+",
+        "url": "https://www.youtube.com/c/TraversyMedia",
+        "languages": [
+            "JavaScript",
+            "PHP",
+            "Python"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MasterClass (492)",
+        "description": "MasterClass — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.masterclass.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MasterClass (5093)",
+        "description": "MasterClass — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.masterclass.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (3711)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Tabnine",
+        "description": "Tabnine — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.tabnine.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Vim (7199)",
+        "description": "Vim — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.vim.org"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Skillshare (3825)",
+        "description": "Skillshare — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.skillshare.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Synthesia (1988)",
+        "description": "Synthesia — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://synthesia.io"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Skillshare (1716)",
+        "description": "Skillshare — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.skillshare.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "edX (5241)",
+        "description": "edX — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.edx.org"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Traversy Media (9580)",
+        "description": "Traversy Media — YouTube channel covering JavaScript, PHP and more.",
+        "subscribers": "2.5M",
+        "monthlyViews": "4M+",
+        "url": "https://www.youtube.com/c/TraversyMedia",
+        "languages": [
+            "JavaScript",
+            "PHP",
+            "Python"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "freeCodeCamp.org",
+        "description": "freeCodeCamp.org — YouTube channel covering JavaScript, Python and more.",
+        "subscribers": "9.5M",
+        "monthlyViews": "10M+",
+        "url": "https://www.youtube.com/c/freecodecamp",
+        "languages": [
+            "JavaScript",
+            "Python",
+            "HTML/CSS",
+            "SQL",
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MIT OpenCourseWare (1358)",
+        "description": "MIT OpenCourseWare — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://ocw.mit.edu"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "ArjanCodes (2066)",
+        "description": "ArjanCodes — YouTube channel covering Python and more.",
+        "subscribers": "450k",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/ArjanCodes",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Khan Academy (1035)",
+        "description": "Khan Academy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.khanacademy.org"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Simplilearn (2506)",
+        "description": "Simplilearn — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.simplilearn.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Vim (9834)",
+        "description": "Vim — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.vim.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "GitHub",
+        "description": "GitHub — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Sentdex",
+        "description": "Sentdex — YouTube channel covering Python, Machine Learning and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/sentdex",
+        "languages": [
+            "Python",
+            "Machine Learning"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Perplexity (6363)",
+        "description": "Perplexity — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://perplexity.ai"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Postman (3955)",
+        "description": "Postman — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.postman.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Blender",
+        "description": "Blender — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.blender.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "GitHub (349)",
+        "description": "GitHub — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "StatQuest with Josh Starmer",
+        "description": "StatQuest with Josh Starmer — YouTube channel covering Python, R and more.",
+        "subscribers": "1.1M",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/StatQuestwithJoshStarmer",
+        "languages": [
+            "Python",
+            "R"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Corey Schafer (8477)",
+        "description": "Corey Schafer — YouTube channel covering Python and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1.2M+",
+        "url": "https://www.youtube.com/c/Coreyms",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "DALL·E",
+        "description": "DALL·E — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://openai.com/dall-e-2"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Bark by Suno",
+        "description": "Bark by Suno — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://github.com/suno-ai/bark"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "code-server",
+        "description": "code-server — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com/cdr/code-server"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Perplexity",
+        "description": "Perplexity — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://perplexity.ai"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Pluralsight (7464)",
+        "description": "Pluralsight — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.pluralsight.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Low Level Learning",
+        "description": "Low Level Learning — YouTube channel covering C, C++ and more.",
+        "subscribers": "300k",
+        "monthlyViews": "500k+",
+        "url": "https://www.youtube.com/@LowLevelLearning",
+        "languages": [
+            "C",
+            "C++",
+            "Rust",
+            "Assembly"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Coursera (392)",
+        "description": "Coursera — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.coursera.org"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy (2382)",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "ArjanCodes",
+        "description": "ArjanCodes — YouTube channel covering Python and more.",
+        "subscribers": "450k",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/ArjanCodes",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Fireship (6091)",
+        "description": "Fireship — YouTube channel covering JavaScript, TypeScript and more.",
+        "subscribers": "2.8M",
+        "monthlyViews": "6M+",
+        "url": "https://www.youtube.com/c/Fireship",
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Go",
+            "Rust",
+            "Dart"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Google Cloud SDK (665)",
+        "description": "Google Cloud SDK — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://cloud.google.com/sdk"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Traversy Media",
+        "description": "Traversy Media — YouTube channel covering JavaScript, PHP and more.",
+        "subscribers": "2.5M",
+        "monthlyViews": "4M+",
+        "url": "https://www.youtube.com/c/TraversyMedia",
+        "languages": [
+            "JavaScript",
+            "PHP",
+            "Python"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "freeCodeCamp.org (7707)",
+        "description": "freeCodeCamp.org — YouTube channel covering JavaScript, Python and more.",
+        "subscribers": "9.5M",
+        "monthlyViews": "10M+",
+        "url": "https://www.youtube.com/c/freecodecamp",
+        "languages": [
+            "JavaScript",
+            "Python",
+            "HTML/CSS",
+            "SQL",
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Hugging Face (6748)",
+        "description": "Hugging Face — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://huggingface.co"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (1224)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Computerphile",
+        "description": "Computerphile — YouTube channel covering Python, C++ and more.",
+        "subscribers": "2.3M",
+        "monthlyViews": "1.2M+",
+        "url": "https://www.youtube.com/user/Computerphile",
+        "languages": [
+            "Python",
+            "C++",
+            "Java",
+            "Assembly"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Codeium (7202)",
+        "description": "Codeium — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://codeium.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MasterClass",
+        "description": "MasterClass — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.masterclass.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "AWS Training (2867)",
+        "description": "AWS Training — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://aws.amazon.com/training"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Scholarcy (6430)",
+        "description": "Scholarcy — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.scholarcy.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Xcode (7024)",
+        "description": "Xcode — utility or developer tool.",
+        "platforms": [
+            "macOS"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://developer.apple.com/xcode"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Sourcetree",
+        "description": "Sourcetree — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.sourcetreeapp.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Suno",
+        "description": "Suno — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://suno.ai"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Simplilearn (7627)",
+        "description": "Simplilearn — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.simplilearn.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "freeCodeCamp.org (1734)",
+        "description": "freeCodeCamp.org — YouTube channel covering JavaScript, Python and more.",
+        "subscribers": "9.5M",
+        "monthlyViews": "10M+",
+        "url": "https://www.youtube.com/c/freecodecamp",
+        "languages": [
+            "JavaScript",
+            "Python",
+            "HTML/CSS",
+            "SQL",
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "code-server (2221)",
+        "description": "code-server — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com/cdr/code-server"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Postman (1205)",
+        "description": "Postman — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.postman.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "StatQuest with Josh Starmer (5537)",
+        "description": "StatQuest with Josh Starmer — YouTube channel covering Python, R and more.",
+        "subscribers": "1.1M",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/StatQuestwithJoshStarmer",
+        "languages": [
+            "Python",
+            "R"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Anthropic Claude",
+        "description": "Anthropic Claude — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.anthropic.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy (4177)",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Midjourney (7255)",
+        "description": "Midjourney — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://midjourney.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "edX (8082)",
+        "description": "edX — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.edx.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Sublime Text (3183)",
+        "description": "Sublime Text — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.sublimetext.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "ArjanCodes (6488)",
+        "description": "ArjanCodes — YouTube channel covering Python and more.",
+        "subscribers": "450k",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/ArjanCodes",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Anaconda",
+        "description": "Anaconda — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.anaconda.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "StatQuest with Josh Starmer (7198)",
+        "description": "StatQuest with Josh Starmer — YouTube channel covering Python, R and more.",
+        "subscribers": "1.1M",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/StatQuestwithJoshStarmer",
+        "languages": [
+            "Python",
+            "R"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MIT OpenCourseWare (6334)",
+        "description": "MIT OpenCourseWare — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://ocw.mit.edu"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Runway (7099)",
+        "description": "Runway — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://runwayml.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Brackeys",
+        "description": "Brackeys — YouTube channel covering C# and more.",
+        "subscribers": "1.4M",
+        "monthlyViews": "500k+",
+        "url": "https://www.youtube.com/c/Brackeys",
+        "languages": [
+            "C#"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "freeCodeCamp.org (925)",
+        "description": "freeCodeCamp.org — YouTube channel covering JavaScript, Python and more.",
+        "subscribers": "9.5M",
+        "monthlyViews": "10M+",
+        "url": "https://www.youtube.com/c/freecodecamp",
+        "languages": [
+            "JavaScript",
+            "Python",
+            "HTML/CSS",
+            "SQL",
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio Code (9852)",
+        "description": "Visual Studio Code — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://code.visualstudio.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Khan Academy (8274)",
+        "description": "Khan Academy — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.khanacademy.org"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Khan Academy (3550)",
+        "description": "Khan Academy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.khanacademy.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Terraform",
+        "description": "Terraform — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.terraform.io"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Microsoft Learn (3278)",
+        "description": "Microsoft Learn — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://learn.microsoft.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Xcode (9330)",
+        "description": "Xcode — utility or developer tool.",
+        "platforms": [
+            "macOS"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://developer.apple.com/xcode"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio (2947)",
+        "description": "Visual Studio — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://visualstudio.microsoft.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Play.ht",
+        "description": "Play.ht — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://play.ht"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "H2O.ai",
+        "description": "H2O.ai — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.h2o.ai"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Cohere",
+        "description": "Cohere — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://cohere.ai"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Corey Schafer (1018)",
+        "description": "Corey Schafer — YouTube channel covering Python and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1.2M+",
+        "url": "https://www.youtube.com/c/Coreyms",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Copy.ai",
+        "description": "Copy.ai — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.copy.ai"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "DeepL Translate",
+        "description": "DeepL Translate — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.deepl.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "GitHub (9565)",
+        "description": "GitHub — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "PyCharm",
+        "description": "PyCharm — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.jetbrains.com/pycharm"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Hugging Face (8452)",
+        "description": "Hugging Face — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://huggingface.co"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "AWS CLI",
+        "description": "AWS CLI — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://aws.amazon.com/cli"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Codecademy (2345)",
+        "description": "Codecademy — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.codecademy.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio",
+        "description": "Visual Studio — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://visualstudio.microsoft.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy (1611)",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Kevin Powell",
+        "description": "Kevin Powell — YouTube channel covering HTML/CSS, JavaScript and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/KevinPowell",
+        "languages": [
+            "HTML/CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio Code (6837)",
+        "description": "Visual Studio Code — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://code.visualstudio.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Codeium",
+        "description": "Codeium — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://codeium.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Academind (5470)",
+        "description": "Academind — YouTube channel covering JavaScript, React and more.",
+        "subscribers": "1.8M",
+        "monthlyViews": "3M+",
+        "url": "https://www.youtube.com/c/Academind",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Node"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "LinkedIn Learning (6735)",
+        "description": "LinkedIn Learning — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.linkedin.com/learning"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy (3099)",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "FileZilla",
+        "description": "FileZilla — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://filezilla-project.org"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy (7036)",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Codeium (5984)",
+        "description": "Codeium — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://codeium.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Runway (714)",
+        "description": "Runway — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://runwayml.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Net Ninja (6495)",
+        "description": "The Net Ninja — YouTube channel covering JavaScript and more.",
+        "subscribers": "1.3M",
+        "monthlyViews": "1.5M+",
+        "url": "https://www.youtube.com/c/TheNetNinja",
+        "languages": [
+            "JavaScript"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Fireship (2600)",
+        "description": "Fireship — YouTube channel covering JavaScript, TypeScript and more.",
+        "subscribers": "2.8M",
+        "monthlyViews": "6M+",
+        "url": "https://www.youtube.com/c/Fireship",
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Go",
+            "Rust",
+            "Dart"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Phind (4037)",
+        "description": "Phind — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://phind.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Microsoft Learn (6897)",
+        "description": "Microsoft Learn — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://learn.microsoft.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udacity",
+        "description": "Udacity — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udacity.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Brackeys (9146)",
+        "description": "Brackeys — YouTube channel covering C# and more.",
+        "subscribers": "1.4M",
+        "monthlyViews": "500k+",
+        "url": "https://www.youtube.com/c/Brackeys",
+        "languages": [
+            "C#"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Runway",
+        "description": "Runway — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://runwayml.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy (6237)",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "ClipDrop",
+        "description": "ClipDrop — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://clipdrop.co"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Traversy Media (3977)",
+        "description": "Traversy Media — YouTube channel covering JavaScript, PHP and more.",
+        "subscribers": "2.5M",
+        "monthlyViews": "4M+",
+        "url": "https://www.youtube.com/c/TraversyMedia",
+        "languages": [
+            "JavaScript",
+            "PHP",
+            "Python"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Fireship",
+        "description": "Fireship — YouTube channel covering JavaScript, TypeScript and more.",
+        "subscribers": "2.8M",
+        "monthlyViews": "6M+",
+        "url": "https://www.youtube.com/c/Fireship",
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Go",
+            "Rust",
+            "Dart"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Vim",
+        "description": "Vim — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.vim.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio Code",
+        "description": "Visual Studio Code — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://code.visualstudio.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Bitwarden (9645)",
+        "description": "Bitwarden — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://bitwarden.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "edX (8766)",
+        "description": "edX — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.edx.org"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Suno (3007)",
+        "description": "Suno — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://suno.ai"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Net Ninja",
+        "description": "The Net Ninja — YouTube channel covering JavaScript and more.",
+        "subscribers": "1.3M",
+        "monthlyViews": "1.5M+",
+        "url": "https://www.youtube.com/c/TheNetNinja",
+        "languages": [
+            "JavaScript"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Xcode",
+        "description": "Xcode — utility or developer tool.",
+        "platforms": [
+            "macOS"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://developer.apple.com/xcode"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "StatQuest with Josh Starmer (9315)",
+        "description": "StatQuest with Josh Starmer — YouTube channel covering Python, R and more.",
+        "subscribers": "1.1M",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/StatQuestwithJoshStarmer",
+        "languages": [
+            "Python",
+            "R"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "edX (4772)",
+        "description": "edX — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.edx.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "AWS CLI (6796)",
+        "description": "AWS CLI — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://aws.amazon.com/cli"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Scribe (2107)",
+        "description": "Scribe — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://scribehow.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Sourcetree (9780)",
+        "description": "Sourcetree — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.sourcetreeapp.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Murf",
+        "description": "Murf — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://murf.ai"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Notepad++ (443)",
+        "description": "Notepad++ — utility or developer tool.",
+        "platforms": [
+            "Windows"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://notepad-plus-plus.org"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Academind",
+        "description": "Academind — YouTube channel covering JavaScript, React and more.",
+        "subscribers": "1.8M",
+        "monthlyViews": "3M+",
+        "url": "https://www.youtube.com/c/Academind",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Node"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Pluralsight (8447)",
+        "description": "Pluralsight — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.pluralsight.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy (9601)",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Replit AI",
+        "description": "Replit AI — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://replit.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Leonardo.ai",
+        "description": "Leonardo.ai — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://leonardo.ai"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Simplilearn",
+        "description": "Simplilearn — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.simplilearn.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Corey Schafer",
+        "description": "Corey Schafer — YouTube channel covering Python and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1.2M+",
+        "url": "https://www.youtube.com/c/Coreyms",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "OpenAI (2209)",
+        "description": "OpenAI — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://openai.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Brackeys (9996)",
+        "description": "Brackeys — YouTube channel covering C# and more.",
+        "subscribers": "1.4M",
+        "monthlyViews": "500k+",
+        "url": "https://www.youtube.com/c/Brackeys",
+        "languages": [
+            "C#"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Khan Academy (801)",
+        "description": "Khan Academy — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.khanacademy.org"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (391)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Codecademy",
+        "description": "Codecademy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.codecademy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Elicit",
+        "description": "Elicit — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://elicit.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "1Password",
+        "description": "1Password — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://1password.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "KeePass",
+        "description": "KeePass — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://keepass.info"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MIT OpenCourseWare (9506)",
+        "description": "MIT OpenCourseWare — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://ocw.mit.edu"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Udemy",
+        "description": "Udemy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.udemy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "D-ID (5365)",
+        "description": "D-ID — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.d-id.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Weights & Biases (214)",
+        "description": "Weights & Biases — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://wandb.ai"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Bark by Suno (4821)",
+        "description": "Bark by Suno — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://github.com/suno-ai/bark"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "edX",
+        "description": "edX — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.edx.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Neovim",
+        "description": "Neovim — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://neovim.io"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Pluralsight (2773)",
+        "description": "Pluralsight — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.pluralsight.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MasterClass (6896)",
+        "description": "MasterClass — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.masterclass.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Blender (7050)",
+        "description": "Blender — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.blender.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "OBS Studio",
+        "description": "OBS Studio — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://obsproject.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Hugging Face",
+        "description": "Hugging Face — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://huggingface.co"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Coursera",
+        "description": "Coursera — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.coursera.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio (439)",
+        "description": "Visual Studio — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://visualstudio.microsoft.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "GitHub Copilot",
+        "description": "GitHub Copilot — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://github.com/features/copilot"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Python.org",
+        "description": "Python.org — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.python.org"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Scholarcy (8908)",
+        "description": "Scholarcy — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.scholarcy.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "GIMP",
+        "description": "GIMP — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.gimp.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Bitwarden",
+        "description": "Bitwarden — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://bitwarden.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "ArjanCodes (987)",
+        "description": "ArjanCodes — YouTube channel covering Python and more.",
+        "subscribers": "450k",
+        "monthlyViews": "1M+",
+        "url": "https://www.youtube.com/c/ArjanCodes",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Net Ninja (2524)",
+        "description": "The Net Ninja — YouTube channel covering JavaScript, TypeScript and more.",
+        "subscribers": "1.3M",
+        "monthlyViews": "1.5M+",
+        "url": "https://www.youtube.com/c/TheNetNinja",
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "HTML/CSS",
+            "Dart"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Weights & Biases (7965)",
+        "description": "Weights & Biases — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://wandb.ai"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Khan Academy (8549)",
+        "description": "Khan Academy — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.khanacademy.org"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Academind (8186)",
+        "description": "Academind — YouTube channel covering JavaScript, React and more.",
+        "subscribers": "1.8M",
+        "monthlyViews": "3M+",
+        "url": "https://www.youtube.com/c/Academind",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Node"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Pluralsight",
+        "description": "Pluralsight — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.pluralsight.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Sublime Text",
+        "description": "Sublime Text — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.sublimetext.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Notepad++",
+        "description": "Notepad++ — utility or developer tool.",
+        "platforms": [
+            "Windows"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://notepad-plus-plus.org"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Bitbucket",
+        "description": "Bitbucket — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://bitbucket.org"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Brackeys (3856)",
+        "description": "Brackeys — YouTube channel covering C# and more.",
+        "subscribers": "1.4M",
+        "monthlyViews": "500k+",
+        "url": "https://www.youtube.com/c/Brackeys",
+        "languages": [
+            "C#"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "GitHub (9133)",
+        "description": "GitHub — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (6964)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Coursera (4350)",
+        "description": "Coursera — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.coursera.org"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Scholarcy (2645)",
+        "description": "Scholarcy — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.scholarcy.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Scholarcy",
+        "description": "Scholarcy — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.scholarcy.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Academind (9184)",
+        "description": "Academind — YouTube channel covering JavaScript, React and more.",
+        "subscribers": "1.8M",
+        "monthlyViews": "3M+",
+        "url": "https://www.youtube.com/c/Academind",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Node"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MasterClass (2720)",
+        "description": "MasterClass — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.masterclass.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "GitHub (6349)",
+        "description": "GitHub — utility or developer tool.",
+        "platforms": [
+            "Web"
+        ],
+        "priceTier": 1,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://github.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Remove.bg",
+        "description": "Remove.bg — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.remove.bg"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (6895)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "MIT OpenCourseWare (513)",
+        "description": "MIT OpenCourseWare — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://ocw.mit.edu"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "OpenAI (6755)",
+        "description": "OpenAI — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://openai.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Descript",
+        "description": "Descript — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://descript.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Traversy Media (5167)",
+        "description": "Traversy Media — YouTube channel covering JavaScript, PHP and more.",
+        "subscribers": "2.5M",
+        "monthlyViews": "4M+",
+        "url": "https://www.youtube.com/c/TraversyMedia",
+        "languages": [
+            "JavaScript",
+            "PHP",
+            "Python"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Codeium (3374)",
+        "description": "Codeium — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://codeium.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "Microsoft Learn",
+        "description": "Microsoft Learn — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://learn.microsoft.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Homebrew",
+        "description": "Homebrew — utility or developer tool.",
+        "platforms": [
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://brew.sh"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Suno (4215)",
+        "description": "Suno — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://suno.ai"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Corey Schafer (7331)",
+        "description": "Corey Schafer — YouTube channel covering Python and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1.2M+",
+        "url": "https://www.youtube.com/c/Coreyms",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Coding Train (6905)",
+        "description": "The Coding Train — YouTube channel covering JavaScript, Processing and more.",
+        "subscribers": "900k",
+        "monthlyViews": "2M+",
+        "url": "https://www.youtube.com/c/TheCodingTrain",
+        "languages": [
+            "JavaScript",
+            "Processing"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Phind (5783)",
+        "description": "Phind — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://phind.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "OBS Studio (3640)",
+        "description": "OBS Studio — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://obsproject.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Scholarcy (2734)",
+        "description": "Scholarcy — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.scholarcy.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "LinkedIn Learning",
+        "description": "LinkedIn Learning — platform offering online courses and certificates.",
+        "priceTier": 2,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.linkedin.com/learning"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "AWS Training (8824)",
+        "description": "AWS Training — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://aws.amazon.com/training"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Academind (8201)",
+        "description": "Academind — YouTube channel covering JavaScript, React and more.",
+        "subscribers": "1.8M",
+        "monthlyViews": "3M+",
+        "url": "https://www.youtube.com/c/Academind",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Node"
+        ]
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Low Level Learning (1097)",
+        "description": "Low Level Learning — YouTube channel covering C, C++ and more.",
+        "subscribers": "300k",
+        "monthlyViews": "500k+",
+        "url": "https://www.youtube.com/@LowLevelLearning",
+        "languages": [
+            "C",
+            "C++",
+            "Rust",
+            "Assembly"
+        ]
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "AWS Training",
+        "description": "AWS Training — platform offering online courses and certificates.",
+        "priceTier": 3,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://aws.amazon.com/training"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Hugging Face (9015)",
+        "description": "Hugging Face — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://huggingface.co"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "D-ID",
+        "description": "D-ID — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 1,
+        "pricingDesc": "See provider for details.",
+        "url": "https://www.d-id.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "JetBrains IntelliJ IDEA",
+        "description": "JetBrains IntelliJ IDEA — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.jetbrains.com/idea"
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "Postman",
+        "description": "Postman — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://www.postman.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "TechWorld with Nana (1762)",
+        "description": "TechWorld with Nana — YouTube channel covering Go, Python and more.",
+        "subscribers": "1M",
+        "monthlyViews": "1.5M+",
+        "url": "https://www.youtube.com/c/TechWorldwithNana",
+        "languages": [
+            "Go",
+            "Python"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Codeium (7370)",
+        "description": "Codeium — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://codeium.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "The Net Ninja (8957)",
+        "description": "The Net Ninja — YouTube channel covering JavaScript, TypeScript and more.",
+        "subscribers": "1.3M",
+        "monthlyViews": "1.5M+",
+        "url": "https://www.youtube.com/c/TheNetNinja",
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "HTML/CSS",
+            "Dart"
+        ]
+    },
+    {
+        "type": "Utility",
+        "category": "Utility",
+        "name": "1Password (8196)",
+        "description": "1Password — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "priceTier": 3,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://1password.com"
+    },
+    {
+        "type": "Utility",
+        "category": "Code Editor",
+        "name": "Visual Studio (1264)",
+        "description": "Visual Studio — utility or developer tool.",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "priceTier": 2,
+        "pricingDesc": "Free or paid depending on edition.",
+        "url": "https://visualstudio.microsoft.com"
+    },
+    {
+        "type": "Course Platform",
+        "category": "Video Courses",
+        "name": "edX (1653)",
+        "description": "edX — platform offering online courses and certificates.",
+        "priceTier": 1,
+        "pricingDesc": "Varies; free and paid options.",
+        "url": "https://www.edx.org"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "OpenAI",
+        "description": "OpenAI — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 2,
+        "pricingDesc": "See provider for details.",
+        "url": "https://openai.com"
+    },
+    {
+        "type": "YouTube Channel",
+        "category": "Web Development",
+        "name": "Fireship (1831)",
+        "description": "Fireship — YouTube channel covering JavaScript, TypeScript and more.",
+        "subscribers": "2.8M",
+        "monthlyViews": "6M+",
+        "url": "https://www.youtube.com/c/Fireship",
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Go",
+            "Rust",
+            "Dart"
+        ]
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "OpenAI (9510)",
+        "description": "OpenAI — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://openai.com"
+    },
+    {
+        "type": "AI Tool",
+        "category": "AI Tool",
+        "name": "Playground AI",
+        "description": "Playground AI — AI tool or platform providing models, APIs, or creative tools.",
+        "priceTier": 3,
+        "pricingDesc": "See provider for details.",
+        "url": "https://playgroundai.com"
     }
 ]
