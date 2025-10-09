@@ -125,57 +125,157 @@ function setupMainFilters() {
   });
 }
 
-/* ---------- WEBSITE CATEGORY FILTERS ---------- */
+/* ---------------------------------------------------------- */
+/*  CATEGORY-COUNT HELPERS – used by every checkbox group     */
+/* ---------------------------------------------------------- */
+function countByCourseCategory() {
+  const courseArr = [...state.courseCategories];
+  state.courseCategories.clear(); // temp remove
+  const tally = {};
+  ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'].forEach(c => tally[c] = 0);
+  allData.forEach(it => {
+    if (buildTypeMatcher(state.type, it) &&
+        (state.tier === 0 || it.priceTier === state.tier) &&
+        (!state.query || (it.name && it.name.toLowerCase().includes(state.query)) ||
+                         (it.description && it.description.toLowerCase().includes(state.query))) &&
+        (state.platforms.size === 0 || (it.platforms && [...state.platforms].some(p => it.platforms.includes(p)))) &&
+        (state.websiteCategories.size === 0 || ((it.category || it.websiteCategory) && [...state.websiteCategories].includes(it.category || it.websiteCategory))) &&
+        (state.graphicsCourseCategories.size === 0 || (it.category && [...state.graphicsCourseCategories].includes(it.category))) &&
+        (state.languages.size === 0 || (it.languages && [...state.languages].every(l => it.languages.includes(l))))
+    ) {
+      if (it.category && tally.hasOwnProperty(it.category)) tally[it.category]++;
+    }
+  });
+  courseArr.forEach(c => state.courseCategories.add(c)); // restore
+  return tally;
+}
+
+function countByGraphicsCourseCategory() {
+  const gcArr = [...state.graphicsCourseCategories];
+  state.graphicsCourseCategories.clear();
+  const tally = {};
+  ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'].forEach(c => tally[c] = 0);
+  allData.forEach(it => {
+    if (buildTypeMatcher(state.type, it) &&
+        (state.tier === 0 || it.priceTier === state.tier) &&
+        (!state.query || (it.name && it.name.toLowerCase().includes(state.query)) ||
+                         (it.description && it.description.toLowerCase().includes(state.query))) &&
+        (state.platforms.size === 0 || (it.platforms && [...state.platforms].some(p => it.platforms.includes(p)))) &&
+        (state.courseCategories.size === 0 || (it.category && [...state.courseCategories].includes(it.category))) &&
+        (state.websiteCategories.size === 0 || ((it.category || it.websiteCategory) && [...state.websiteCategories].includes(it.category || it.websiteCategory))) &&
+        (state.languages.size === 0 || (it.languages && [...state.languages].every(l => it.languages.includes(l))))
+    ) {
+      if (it.category && tally.hasOwnProperty(it.category)) tally[it.category]++;
+    }
+  });
+  gcArr.forEach(c => state.graphicsCourseCategories.add(c));
+  return tally;
+}
+
+function countByWebsiteCategory() {
+  const webArr = [...state.websiteCategories];
+  state.websiteCategories.clear();
+  const master = ['Community', 'Marketplace', 'Samples', 'Learning', 'Reference', 'Tools'];
+  const tally = {};
+  master.forEach(c => tally[c] = 0);
+  allData.forEach(it => {
+    if (buildTypeMatcher(state.type, it) &&
+        (state.tier === 0 || it.priceTier === state.tier) &&
+        (!state.query || (it.name && it.name.toLowerCase().includes(state.query)) ||
+                         (it.description && it.description.toLowerCase().includes(state.query))) &&
+        (state.platforms.size === 0 || (it.platforms && [...state.platforms].some(p => it.platforms.includes(p)))) &&
+        (state.courseCategories.size === 0 || (it.category && [...state.courseCategories].includes(it.category))) &&
+        (state.graphicsCourseCategories.size === 0 || (it.category && [...state.graphicsCourseCategories].includes(it.category))) &&
+        (state.languages.size === 0 || (it.languages && [...state.languages].every(l => it.languages.includes(l))))
+    ) {
+      const cat = it.category || it.websiteCategory;
+      if (cat && tally.hasOwnProperty(cat)) tally[cat]++;
+    }
+  });
+  webArr.forEach(c => state.websiteCategories.add(c));
+  return tally;
+}
+
+/* ---------- WEBSITE CATEGORY FILTERS (with counts) ---------- */
 function setupWebsiteCategoryFilters() {
-  const categories = ['Community', 'Marketplace', 'Samples', 'Learning', 'Reference', 'Tools'];
-  $('#website-category-filters').innerHTML = categories.map(cat => `
-    <label class="flex items-center gap-2 cursor-pointer">
-      <input type="checkbox" data-category="${cat}" class="website-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-      <span class="text-sm theme-text-secondary">${cat}</span>
-    </label>`).join('');
-  $$('.website-category-checkbox').forEach(box =>
-    box.addEventListener('change', e => {
-      e.target.checked
-        ? state.websiteCategories.add(e.target.dataset.category)
-        : state.websiteCategories.delete(e.target.dataset.category);
-      state.currentPage = 1; render();
-    })
-  );
+  function paint() {
+    const tally = countByWebsiteCategory();
+    // Hide Reference/Tools only for Music Production Websites
+    const hideThese = (state.type === 'Music Production Websites') ? ['Reference', 'Tools'] : [];
+    const categories = ['Community', 'Marketplace', 'Samples', 'Learning', 'Reference', 'Tools'].filter(c => !hideThese.includes(c));
+
+    $('#website-category-filters').innerHTML = categories.map(cat => `
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="checkbox" data-category="${cat}" class="website-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+        <span class="text-sm theme-text-secondary">${cat} <span class="text-xs text-gray-400">(${tally[cat]})</span></span>
+      </label>`).join('');
+
+    $$('.website-category-checkbox').forEach(box =>
+      box.addEventListener('change', e => {
+        e.target.checked
+          ? state.websiteCategories.add(e.target.dataset.category)
+          : state.websiteCategories.delete(e.target.dataset.category);
+        state.currentPage = 1; render();
+      })
+    );
+  }
+  paint();
+  // re-paint when filters change
+  $$('.type-btn').forEach(btn => btn.addEventListener('click', () => { state.currentPage = 1; paint(); }));
+  $('#search').addEventListener('input', () => { state.currentPage = 1; paint(); });
+  $$('.tier-btn').forEach(b => b.addEventListener('click', () => { state.currentPage = 1; paint(); }));
 }
 
-/* ---------- COURSE / GRAPHICS FILTERS ---------- */
+/* ---------- COURSE CATEGORY FILTERS (with counts) ---------- */
 function setupCourseCategoryFilters() {
-  const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
-  $('#course-category-filters').innerHTML = categories.map(cat => `
-    <label class="flex items-center gap-2 cursor-pointer">
-      <input type="checkbox" data-category="${cat}" class="course-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-      <span class="text-sm theme-text-secondary">${cat}</span>
-    </label>`).join('');
-  $$('.course-category-checkbox').forEach(box =>
-    box.addEventListener('change', e => {
-      e.target.checked
-        ? state.courseCategories.add(e.target.dataset.category)
-        : state.courseCategories.delete(e.target.dataset.category);
-      state.currentPage = 1; render();
-    })
-  );
+  function paint() {
+    const tally = countByCourseCategory();
+    const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
+    $('#course-category-filters').innerHTML = categories.map(cat => `
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="checkbox" data-category="${cat}" class="course-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+        <span class="text-sm theme-text-secondary">${cat} <span class="text-xs text-gray-400">(${tally[cat]})</span></span>
+      </label>`).join('');
+
+    $$('.course-category-checkbox').forEach(box =>
+      box.addEventListener('change', e => {
+        e.target.checked
+          ? state.courseCategories.add(e.target.dataset.category)
+          : state.courseCategories.delete(e.target.dataset.category);
+        state.currentPage = 1; render();
+      })
+    );
+  }
+  paint();
+  $$('.type-btn').forEach(btn => btn.addEventListener('click', () => { state.currentPage = 1; paint(); }));
+  $('#search').addEventListener('input', () => { state.currentPage = 1; paint(); });
+  $$('.tier-btn').forEach(b => b.addEventListener('click', () => { state.currentPage = 1; paint(); }));
 }
 
+/* ---------- GRAPHICS COURSE CATEGORY FILTERS (with counts) ---------- */
 function setupGraphicsCourseCategoryFilters() {
-  const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
-  $('#graphics-course-category-filters').innerHTML = categories.map(cat => `
-    <label class="flex items-center gap-2 cursor-pointer">
-      <input type="checkbox" data-category="${cat}" class="graphics-course-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-      <span class="text-sm theme-text-secondary">${cat}</span>
-    </label>`).join('');
-  $$('.graphics-course-category-checkbox').forEach(box =>
-    box.addEventListener('change', e => {
-      e.target.checked
-        ? state.graphicsCourseCategories.add(e.target.dataset.category)
-        : state.graphicsCourseCategories.delete(e.target.dataset.category);
-      state.currentPage = 1; render();
-    })
-  );
+  function paint() {
+    const tally = countByGraphicsCourseCategory();
+    const categories = ['Bootcamp', 'Documentation', 'Interactive', 'University', 'Video'];
+    $('#graphics-course-category-filters').innerHTML = categories.map(cat => `
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="checkbox" data-category="${cat}" class="graphics-course-category-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+        <span class="text-sm theme-text-secondary">${cat} <span class="text-xs text-gray-400">(${tally[cat]})</span></span>
+      </label>`).join('');
+
+    $$('.graphics-course-category-checkbox').forEach(box =>
+      box.addEventListener('change', e => {
+        e.target.checked
+          ? state.graphicsCourseCategories.add(e.target.dataset.category)
+          : state.graphicsCourseCategories.delete(e.target.dataset.category);
+        state.currentPage = 1; render();
+      })
+    );
+  }
+  paint();
+  $$('.type-btn').forEach(btn => btn.addEventListener('click', () => { state.currentPage = 1; paint(); }));
+  $('#search').addEventListener('input', () => { state.currentPage = 1; paint(); });
+  $$('.tier-btn').forEach(b => b.addEventListener('click', () => { state.currentPage = 1; paint(); }));
 }
 
 /* ---------- PRICE FILTERS ---------- */
@@ -199,10 +299,8 @@ function setupLanguageFilters() {
   const allLangs = [...new Set(allData.flatMap(i => i.languages || []))].sort();
 
   function countPerLang() {
-    // temp remove language filter so we count "other filters only"
     const langArr = [...state.languages];
-    state.languages.clear();
-
+    state.languages.clear(); // temp remove
     const platArr   = [...state.platforms];
     const courseArr = [...state.courseCategories];
     const webArr    = [...state.websiteCategories];
@@ -215,9 +313,8 @@ function setupLanguageFilters() {
       if (
         buildTypeMatcher(state.type, it) &&
         (state.tier === 0 || it.priceTier === state.tier) &&
-        (!state.query ||
-          (it.name && it.name.toLowerCase().includes(state.query)) ||
-          (it.description && it.description.toLowerCase().includes(state.query))) &&
+        (!state.query || (it.name && it.name.toLowerCase().includes(state.query)) ||
+                         (it.description && it.description.toLowerCase().includes(state.query))) &&
         (platArr.length === 0 || (it.platforms && platArr.some(p => it.platforms.includes(p)))) &&
         (courseArr.length === 0 || (it.category && courseArr.includes(it.category))) &&
         (webArr.length === 0 || ((it.category || it.websiteCategory) && webArr.includes(it.category || it.websiteCategory))) &&
@@ -226,8 +323,6 @@ function setupLanguageFilters() {
         (it.languages || []).forEach(l => tally[l]++);
       }
     });
-
-    // restore user ticks
     langArr.forEach(l => state.languages.add(l));
     return tally;
   }
@@ -241,7 +336,7 @@ function setupLanguageFilters() {
     const tally = countPerLang();
 
     $('#lang-filters').innerHTML = allLangs
-      .filter(l => tally[l] > 0) // hide 0-result languages
+      .filter(l => tally[l] > 0)
       .map(l => `
         <label class="flex items-center gap-2 cursor-pointer">
           <input type="checkbox" data-lang="${l}" ${state.languages.has(l) ? 'checked' : ''}
@@ -259,9 +354,7 @@ function setupLanguageFilters() {
       })
     );
   }
-
-  paint(); // first draw
-
+  paint();
   $$('.type-btn').forEach(btn =>
     btn.addEventListener('click', () => {
       const devCats = ['IDE', 'Dev Course', 'Dev Website', 'Dev YouTube'];
@@ -279,19 +372,51 @@ function setupPlatformFilters() {
   const whitelist = {
     'Music Production VSTs': ['Windows', 'macOS', 'Linux'],
     'Music DAW':             ['Windows', 'macOS', 'Linux'],
-    'Graphics Program':      ['Windows', 'macOS', 'Linux'], // ChromeOS / iOS / iPad removed
+    'Graphics Program':      ['Windows', 'macOS', 'Linux'],
   };
+
+  function countPerPlatform() {
+    const platArr = [...state.platforms];
+    state.platforms.clear();
+    const courseArr = [...state.courseCategories];
+    const webArr    = [...state.websiteCategories];
+    const gcArr     = [...state.graphicsCourseCategories];
+    const langArr   = [...state.languages];
+
+    const tally = {};
+    [...allPlatforms].forEach(p => tally[p] = 0);
+
+    allData.forEach(it => {
+      if (
+        buildTypeMatcher(state.type, it) &&
+        (state.tier === 0 || it.priceTier === state.tier) &&
+        (!state.query || (it.name && it.name.toLowerCase().includes(state.query)) ||
+                         (it.description && it.description.toLowerCase().includes(state.query))) &&
+        (courseArr.length === 0 || (it.category && courseArr.includes(it.category))) &&
+        (webArr.length === 0 || ((it.category || it.websiteCategory) && webArr.includes(it.category || it.websiteCategory))) &&
+        (gcArr.length === 0 || (it.category && gcArr.includes(it.category))) &&
+        (langArr.length === 0 || (it.languages && langArr.every(l => it.languages.includes(l))))
+      ) {
+        (it.platforms || []).forEach(p => tally[p]++);
+      }
+    });
+    platArr.forEach(p => state.platforms.add(p));
+    return tally;
+  }
 
   function paint() {
     const activeType = state.type;
     const allowed = whitelist[activeType] || [...allPlatforms].sort();
+    const tally = countPerPlatform();
 
-    $('#platform-filters').innerHTML = allowed.map(p => `
-      <label class="flex items-center gap-2 cursor-pointer">
-        <input type="checkbox" data-platform="${p}"
-               class="platform-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-        <span class="text-sm theme-text-secondary">${p}</span>
-      </label>`).join('');
+    $('#platform-filters').innerHTML = allowed
+      .filter(p => tally[p] > 0)
+      .map(p => `
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="checkbox" data-platform="${p}"
+                 class="platform-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+          <span class="text-sm theme-text-secondary">${p} <span class="text-xs text-gray-400">(${tally[p]})</span></span>
+        </label>`).join('');
 
     $$('.platform-checkbox').forEach(box =>
       box.addEventListener('change', e => {
@@ -303,9 +428,7 @@ function setupPlatformFilters() {
       })
     );
   }
-
-  paint(); // initial
-
+  paint();
   $$('.type-btn').forEach(btn =>
     btn.addEventListener('click', () => {
       const restricted = ['Music Production VSTs', 'Music DAW', 'Graphics Program'];
