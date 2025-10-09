@@ -416,7 +416,7 @@ function setupPlatformFilters() {
       .filter(p => tally[p] > 0)
       .map(p => `
         <label class="flex items-center gap-2 cursor-pointer">
-          <input type="checkbox" data-platform="${p}"
+          <input type="checkbox" data-platform="${p}" ${state.platforms.has(p) ? 'checked' : ''}
                  class="platform-checkbox h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
           <span class="text-sm theme-text-secondary">${p} <span class="text-xs text-gray-400">(${tally[p]})</span></span>
         </label>`).join('');
@@ -676,13 +676,13 @@ function render() {
     return;
   }
 
-  // FIXED: Properly handle sorting for all categories including "All" and "AI Tool"
+  // FIXED: Proper sorting for ALL categories including "All" and "AI Tool"
   const sorted = [...filtered].sort((a, b) => {
     switch (state.sortBy) {
       case 'name_asc': 
-        return a.name.localeCompare(b.name);
+        return (a.name || '').localeCompare(b.name || '');
       case 'name_desc': 
-        return b.name.localeCompare(a.name);
+        return (b.name || '').localeCompare(a.name || '');
       case 'subs_desc': 
         return parseSubscribers(b.subscribers) - parseSubscribers(a.subscribers);
       case 'popularity_desc': 
