@@ -34525,6 +34525,1686 @@
         "popularityScore": 89000
     },
     {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "LinkedIn Learning - Music Production Secrets",
+        "description": "Short, project-based videos on mixing, mastering and arrangement.",
+        "url": "https://www.linkedin.com/learning/music-production-secrets",
+        "priceTier": 2,
+        "pricingDesc": "$39.99/month subscription",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Udemy - Music Production in Logic Pro X",
+        "description": "Complete workflow course for Logic Pro X with downloadable projects.",
+        "url": "https://www.udemy.com/course/logic-pro-x-music-production/",
+        "priceTier": 2,
+        "pricingDesc": "$89 one-time",
+        "popularityScore": 134000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Skillshare - Beat-Making in Ableton Live",
+        "description": "Create four full tracks from scratch with built-in instruments.",
+        "url": "https://www.skillshare.com/classes/Beat-Making-in-Ableton-Live",
+        "priceTier": 2,
+        "pricingDesc": "$32/month subscription",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Coursera - Introduction to Music Production (Berklee)",
+        "description": "Five-week MOOC covering recording, editing and mixing basics.",
+        "url": "https://www.coursera.org/learn/music-production",
+        "priceTier": 2,
+        "pricingDesc": "$49/month subscription",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - deadmau5 Teaches Electronic Music",
+        "description": "Stage and studio workflow from the electronic icon.",
+        "url": "https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production",
+        "priceTier": 3,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 167000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "CreativeLive - Mixing Master Class with Ryan Hewitt",
+        "description": "Full-day workshop on modern mixing techniques.",
+        "url": "https://www.creativelive.com/photography-lighting-video-editing/classes/mixing-master-class",
+        "priceTier": 3,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Domestika - Introduction to Cubase",
+        "description": "Record, edit and mix your first song in Cubase Pro.",
+        "url": "https://www.domestika.org/en/courses/area/music/introduction-to-cubase",
+        "priceTier": 2,
+        "pricingDesc": "$29.90 one-time",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "PluralSight - Audio Production with Audition CC",
+        "description": "Podcast and music post-production in Adobe Audition.",
+        "url": "https://www.pluralsight.com/courses/audition-cc-audio-production",
+        "priceTier": 2,
+        "pricingDesc": "$29/month subscription",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "FutureLearn - Inside the Music Business",
+        "description": "University of Glasgow course on industry structure and revenue.",
+        "url": "https://www.futurelearn.com/courses/inside-the-music-business",
+        "priceTier": 1,
+        "pricingDesc": "Free 6-week audit",
+        "popularityScore": 39000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Kadenze - Sound Synthesis Using Reaktor",
+        "description": "Build your own synths in Native Instruments Reaktor.",
+        "url": "https://www.kadenze.com/courses/sound-synthesis-using-reaktor",
+        "priceTier": 2,
+        "pricingDesc": "$20/month premium",
+        "popularityScore": 22000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Open Studio - Jazz Piano Lessons with Peter Martin",
+        "description": "HD multi-angle lessons with downloadable PDFs.",
+        "url": "https://www.openstudiojazz.com/collections/jazz-piano",
+        "priceTier": 3,
+        "pricingDesc": "$129 per course",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Drumeo Edge - Ultimate Drum Curriculum",
+        "description": "10-level system with play-along tracks and Q&A.",
+        "url": "https://www.drumeo.com/edge",
+        "priceTier": 3,
+        "pricingDesc": "$29.99/month subscription",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Pianote Method - Learn Piano Online",
+        "description": "10-step curriculum with live weekly coaching.",
+        "url": "https://www.pianote.com/method",
+        "priceTier": 3,
+        "pricingDesc": "$29/month subscription",
+        "popularityScore": 145000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Guitareo - Guitar Mastery 101",
+        "description": "Progressive video path from chords to soloing.",
+        "url": "https://www.guitareo.com/guitar-mastery",
+        "priceTier": 3,
+        "pricingDesc": "$19/month subscription",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Singing Success 360 - Brett Manning",
+        "description": "Daily vocal workout system used by Nashville artists.",
+        "url": "https://www.singingsuccess.com/360",
+        "priceTier": 4,
+        "pricingDesc": "$297 one-time",
+        "popularityScore": 78000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Strings By Mail - Classical Guitar Corner",
+        "description": "Conservatory-level classical guitar syllabus online.",
+        "url": "https://www.classicalguitarcorner.com/courses",
+        "priceTier": 3,
+        "pricingDesc": "$39/month subscription",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Producertech - Complete Music Production Bundle",
+        "description": "40+ hours of streaming videos on writing, mixing and mastering.",
+        "url": "https://www.producertech.com/bundles/complete-music-production",
+        "priceTier": 3,
+        "pricingDesc": "$199 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Sonic Academy - How To Make Tech House 2024",
+        "description": "End-to-end track creation in Ableton Live 12.",
+        "url": "https://www.sonicacademy.com/products/how-to-make-tech-house-2024",
+        "priceTier": 2,
+        "pricingDesc": "$24.99 one-time",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Warp Academy - Sound Design with Serum",
+        "description": "60 HD videos on advanced wavetable synthesis.",
+        "url": "https://warpacademy.com/courses/sound-design-with-serum",
+        "priceTier": 3,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 39000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Ask.Video - Reason 12 Explained",
+        "description": "Fast-track overview of every Reason 12 device.",
+        "url": "https://ask.video/course/reason-12-explained",
+        "priceTier": 2,
+        "pricingDesc": "$15/month subscription",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Groove3 - Mixing Rock in Pro Tools",
+        "description": "Session files and 4-hour walkthrough.",
+        "url": "https://www.groove3.com/products/mixing-rock-in-pro-tools",
+        "priceTier": 2,
+        "pricingDesc": "$25 one-time download",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "PureMix - Mixing Singer-Songwriter with Ryan West",
+        "description": "Multi-platinum engineer shares template and recall.",
+        "url": "https://www.puremix.net/products/mixing-singer-songwriter-ryan-west",
+        "priceTier": 3,
+        "pricingDesc": "$24.99/month subscription",
+        "popularityScore": 48000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Mix With The Masters - Andrew Scheps Workshop",
+        "description": "5-hour seminar + Pro Tools session.",
+        "url": "https://www.mixwiththemasters.com/products/andrew-scheps-workshop",
+        "priceTier": 5,
+        "pricingDesc": "$349 one-time",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "FaderPro - In the Studio with Harry Romero",
+        "description": "Watch a full tech-house track built from scratch.",
+        "url": "https://faderpro.com/collections/in-the-studio/products/harry-romero",
+        "priceTier": 3,
+        "pricingDesc": "$69 one-time",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Noiselab - Ableton Live Hacks",
+        "description": "30 bite-sized workflow tips from certified trainers.",
+        "url": "https://noiselab.io/courses/ableton-live-hacks",
+        "priceTier": 2,
+        "pricingDesc": "$19/month subscription",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Loopmasters Produce - Deep House Masterclass",
+        "description": "Produce, mix and master a release-ready track.",
+        "url": "https://www.loopmasters.com/products/deep-house-masterclass",
+        "priceTier": 2,
+        "pricingDesc": "£39 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Berklee Online - Orchestration 101",
+        "description": "Write for strings, brass and winds using sample libraries.",
+        "url": "https://online.berklee.edu/courses/orchestration-101",
+        "priceTier": 4,
+        "pricingDesc": "$1,590 per course",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Point Blank - Complete Electronic Music Production Diploma",
+        "description": "12-month accredited online diploma with 1-2-1 feedback.",
+        "url": "https://www.pointblankmusicschool.com/online-diplomas/complete-em-production",
+        "priceTier": 5,
+        "pricingDesc": "$4,995 full program",
+        "popularityScore": 78000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Icon Collective - Ableton Live Weekend Intensive",
+        "description": "Two-day live-streamed bootcamp with guest artists.",
+        "url": "https://iconcollective.edu/ableton-live-weekend-intensive",
+        "priceTier": 3,
+        "pricingDesc": "$299 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Pyramind - Mixing & Mastering with Dylan Eiland",
+        "description": "8-week live cohort with weekly assignments.",
+        "url": "https://pyramind.com/courses/mixing-mastering-dylan-eiland",
+        "priceTier": 3,
+        "pricingDesc": "$899 one-time",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Hyperbits - Masterclass Bundle",
+        "description": "8 premium courses on writing, mixing & mastering.",
+        "url": "https://hyperbitsmusic.com/products/masterclass-bundle",
+        "priceTier": 4,
+        "pricingDesc": "$997 one-time",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "NYC Guitar School - Rock Guitar 101",
+        "description": "10-week on-demand curriculum with jam tracks.",
+        "url": "https://nycguitarschool.com/rock-guitar-101",
+        "priceTier": 2,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "London Sinfonietta - Composition Masterclass",
+        "description": "Contemporary classical writing for ensemble.",
+        "url": "https://education.londonsinfonietta.org.uk/composition-masterclass",
+        "priceTier": 2,
+        "pricingDesc": "£35 one-time",
+        "popularityScore": 22000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Soundfly - Orchestral Arrangements for Pop & Rock",
+        "description": "Add live orchestra to your songs on a budget.",
+        "url": "https://soundfly.com/courses/orchestral-arrangements-pop-rock",
+        "priceTier": 3,
+        "pricingDesc": "$499 one-time",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Evenant - Trailer Music Redefined",
+        "description": "Write high-impact music for movie trailers.",
+        "url": "https://evenant.com/trailer-music-redefined",
+        "priceTier": 4,
+        "pricingDesc": "$599 one-time",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Cinematic Composing - Music Business for Composers",
+        "description": "Negotiate contracts, PROs and sync licensing.",
+        "url": "https://cinematiccomposing.com/music-business-for-composers",
+        "priceTier": 3,
+        "pricingDesc": "$297 one-time",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Bobby Owsinski - Music Producer's Handbook Video Course",
+        "description": "Companion videos to best-selling producer book.",
+        "url": "https://bobbyowsinski.com/product/music-producers-handbook-video-course",
+        "priceTier": 2,
+        "pricingDesc": "$99 one-time",
+        "popularityScore": 39000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Recording Revolution - 5-Minute Mixing",
+        "description": "Streamlined mixing workflow in under 5 minutes per move.",
+        "url": "https://recordingrevolution.com/5-minute-mixing",
+        "priceTier": 2,
+        "pricingDesc": "$97 one-time",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Mix With The Masters - Jaycen Joshua Workshop",
+        "description": "3-day mixing clinic with multi-platinum engineer.",
+        "url": "https://www.mixwiththemasters.com/products/jaycen-joshua-workshop",
+        "priceTier": 5,
+        "pricingDesc": "$349 one-time",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Slate Academy - Mixing Hip-Hop with MixedByAli",
+        "description": "Session breakdowns and plugin presets included.",
+        "url": "https://slateacademy.com/courses/mixing-hip-hop-mixedbyali",
+        "priceTier": 3,
+        "pricingDesc": "$24.99/month subscription",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Plugin Boutique Learn - Serum Sound Design",
+        "description": "25 bite-sized videos + 50 presets.",
+        "url": "https://pluginboutique.com/learn/serum-sound-design",
+        "priceTier": 1,
+        "pricingDesc": "Free with purchase",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Berklee Online - Vocal Production",
+        "description": "Produce radio-ready vocals in any DAW.",
+        "url": "https://online.berklee.edu/courses/vocal-production",
+        "priceTier": 4,
+        "pricingDesc": "$1,590 per course",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Soundtrap EDU - Songwriting & Production",
+        "description": "K-12 certified curriculum delivered inside Soundtrap.",
+        "url": "https://www.soundtrap.com/edu",
+        "priceTier": 1,
+        "pricingDesc": "Free for teachers",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MacProVideo - Logic Pro 10.8 New Features",
+        "description": "Stay current with every dot-release feature.",
+        "url": "https://macprovideo.com/course/logic-pro-108-new-features",
+        "priceTier": 2,
+        "pricingDesc": "$19.50/month subscription",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Groove3 - Studio One 6 Explained",
+        "description": "Quick-start guide for PreSonus Studio One 6.",
+        "url": "https://www.groove3.com/products/studio-one-6-explained",
+        "priceTier": 2,
+        "pricingDesc": "$25 one-time",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "PureMix - Recording Rock Drums with Andrew Scheps",
+        "description": "Mic placement, editing and mixing multi-track drums.",
+        "url": "https://www.puremix.net/products/recording-rock-drums-andrew-scheps",
+        "priceTier": 3,
+        "pricingDesc": "$24.99/month subscription",
+        "popularityScore": 39000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Ask.Video - Bitwig Studio 5 Beginners Guide",
+        "description": "Learn the modular DAW from the ground up.",
+        "url": "https://ask.video/course/bitwig-studio-5-beginners-guide",
+        "priceTier": 2,
+        "pricingDesc": "$15/month subscription",
+        "popularityScore": 22000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Sonic Academy - How To Make Trance 2024",
+        "description": "Write, mix and master an uplifting trance anthem.",
+        "url": "https://www.sonicacademy.com/products/how-to-make-trance-2024",
+        "priceTier": 2,
+        "pricingDesc": "$24.99 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "FaderPro - In the Studio with Marshall Jefferson",
+        "description": "House music pioneer builds a track from scratch.",
+        "url": "https://faderpro.com/collections/in-the-studio/products/marshall-jefferson",
+        "priceTier": 3,
+        "pricingDesc": "$69 one-time",
+        "popularityScore": 25000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Hyperbits - Side-Chain Masterclass",
+        "description": "Creative side-chain techniques for modern dance music.",
+        "url": "https://hyperbitsmusic.com/courses/side-chain-masterclass",
+        "priceTier": 2,
+        "pricingDesc": "$97 one-time",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "NYC Guitar School - Blues Guitar 101",
+        "description": "12-bar, turnarounds and soloing concepts.",
+        "url": "https://nycguitarschool.com/blues-guitar-101",
+        "priceTier": 2,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Evenant - Cinematic Music Production",
+        "description": "Write epic orchestral hybrid tracks for media.",
+        "url": "https://evenant.com/cinematic-music",
+        "priceTier": 4,
+        "pricingDesc": "$599 one-time",
+        "popularityScore": 39000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Cinematic Composing - Orchestral Sketching",
+        "description": "Speed-write large orchestral cues on piano.",
+        "url": "https://cinematiccomposing.com/orchestral-sketching",
+        "priceTier": 3,
+        "pricingDesc": "$297 one-time",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Soundfly - Advanced Synths & Patch Design",
+        "description": "Create signature sounds on any synthesizer.",
+        "url": "https://soundfly.com/courses/advanced-synths-patch-design",
+        "priceTier": 3,
+        "pricingDesc": "$499 one-time",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Bobby Owsinski - Mixing Engineer's Handbook Video",
+        "description": "Companion to the industry-standard print book.",
+        "url": "https://bobbyowsinski.com/product/mixing-handbook-video-course",
+        "priceTier": 2,
+        "pricingDesc": "$99 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Recording Revolution - Home Studio Blueprint",
+        "description": "Turn any room into a pro recording space.",
+        "url": "https://recordingrevolution.com/home-studio-blueprint",
+        "priceTier": 2,
+        "pricingDesc": "$197 one-time",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Mix With The Masters - Al Schmitt Vintage Recording",
+        "description": "Legendary engineer records jazz trio with vintage gear.",
+        "url": "https://www.mixwiththemasters.com/products/al-schmitt-vintage-recording",
+        "priceTier": 5,
+        "pricingDesc": "$349 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Slate Academy - Mixing Pop with Spencer Bastian",
+        "description": "Modern pop vocal chains and FX tricks.",
+        "url": "https://slateacademy.com/courses/mixing-pop-spencer-bastian",
+        "priceTier": 3,
+        "pricingDesc": "$24.99/month subscription",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Plugin Boutique Learn - Vital Sound Design",
+        "description": "25 videos on wavetable morphing and MPE.",
+        "url": "https://pluginboutique.com/learn/vital-sound-design",
+        "priceTier": 1,
+        "pricingDesc": "Free with purchase",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Berklee Online - Music Licensing",
+        "description": "Place your music in film, TV and games.",
+        "url": "https://online.berklee.edu/courses/music-licensing",
+        "priceTier": 4,
+        "pricingDesc": "$1,590 per course",
+        "popularityScore": 39000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Soundfly - Songwriting for Producers",
+        "description": "Turn loops into finished songs using arrangement hacks.",
+        "url": "https://soundfly.com/courses/songwriting-for-producers",
+        "priceTier": 3,
+        "pricingDesc": "$499 one-time",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "ADSR - Serum Sound Design Masterclass",
+        "description": "Create 50 pro presets from the ground up.",
+        "url": "https://adsrsounds.com/product/serum-sound-design-masterclass",
+        "priceTier": 2,
+        "pricingDesc": "$49 one-time",
+        "popularityScore": 39000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - deadmau5 Teaches Electronic Music Production",
+        "description": "2+ hours of philosophy, sound design and arrangement.",
+        "url": "https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 167000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Herbie Hancock Teaches Jazz",
+        "description": "25 lessons on improvisation and harmony.",
+        "url": "https://www.masterclass.com/classes/herbie-hancock-teaches-jazz",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 145000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Carlos Santana Teaches the Art and Soul of Guitar",
+        "description": "Explore tone, feel and Latin-rock rhythm.",
+        "url": "https://www.masterclass.com/classes/carlos-santana-teaches-guitar",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 134000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Christina Aguilera Teaches Singing",
+        "description": "Vocal technique, range extension and performance.",
+        "url": "https://www.masterclass.com/classes/christina-aguilera-teaches-singing",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Timbaland Teaches Producing and Beatmaking",
+        "description": "Create trap beats from scratch using samples.",
+        "url": "https://www.masterclass.com/classes/timbaland-teaches-producing-and-beatmaking",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 178000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Hans Zimmer Teaches Film Scoring",
+        "description": "Compose character themes and orchestral cues.",
+        "url": "https://www.masterclass.com/classes/hans-zimmer-teaches-film-scoring",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 156000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Itzhak Perlman Teaches Violin",
+        "description": "Technique, intonation and expressive phrasing.",
+        "url": "https://www.masterclass.com/classes/itzhak-perlman-teaches-violin",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Danny Elfman Teaches Music for Film",
+        "description": "From theme writing to orchestral mock-ups.",
+        "url": "https://www.masterclass.com/classes/danny-elfman-teaches-music-for-film",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 134000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - St. Vincent Teaches Creativity and Songwriting",
+        "description": "Guitar textures, effects chains and lyric writing.",
+        "url": "https://www.masterclass.com/classes/st-vincent-teaches-creativity-and-songwriting",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 112000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Tom Morello Teaches Electric Guitar",
+        "description": "Riff building, pedalboards and sonic experimentation.",
+        "url": "https://www.masterclass.com/classes/tom-morello-teaches-electric-guitar",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 145000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Reba McEntire Teaches Country Music",
+        "description": "Vocal delivery, song selection and storytelling.",
+        "url": "https://www.masterclass.com/classes/reba-mcentire-teaches-country-music",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Usher Teaches the Art of Performance",
+        "description": "Stage presence, set lists and vocal stamina.",
+        "url": "https://www.masterclass.com/classes/usher-teaches-the-art-of-performance",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 167000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Alicia Keys Teaches Songwriting and Producing",
+        "description": "From chord progressions to final production.",
+        "url": "https://www.masterclass.com/classes/alicia-keys-teaches-songwriting-and-producing",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 189000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - John Legend Teaches Piano and Songwriting",
+        "description": "Voice leading, lyrics and soulful accompaniment.",
+        "url": "https://www.masterclass.com/classes/john-legend-teaches-piano-and-songwriting",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 167000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Armin van Buuren Teaches Dance Music",
+        "description": "Build trance anthems from kick to mastering.",
+        "url": "https://www.masterclass.com/classes/armin-van-buuren-teaches-dance-music",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 145000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Ringo Starr Teaches Drumming and Creative Collaboration",
+        "description": "Feel, fills and playing for the song.",
+        "url": "https://www.masterclass.com/classes/ringo-starr-teaches-drumming",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 134000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Yo-Yo Ma Teaches Music and Connection",
+        "description": "Interpretation, phrasing and musical storytelling.",
+        "url": "https://www.masterclass.com/classes/yo-yo-ma-teaches-music-and-connection",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Misty Copeland Teaches Ballet Technique",
+        "description": "Musicality and rhythm for dancers.",
+        "url": "https://www.masterclass.com/classes/misty-copeland-teaches-ballet-technique",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 112000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Lin-Manuel Miranda Teaches Storytelling for Songwriters",
+        "description": "Rhyme schemes, character voices and narrative arc.",
+        "url": "https://www.masterclass.com/classes/lin-manuel-miranda-teaches-storytelling-for-songwriters",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 167000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Metallica Teaches Being a Band",
+        "description": "Arranging, rehearsal and studio workflow.",
+        "url": "https://www.masterclass.com/classes/metallica-teaches-being-a-band",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 145000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Bonnie Raitt Teaches Blues Guitar and Slide",
+        "description": "Open tunings, phrasing and emotional soloing.",
+        "url": "https://www.masterclass.com/classes/bonnie-raitt-teaches-blues-guitar",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 123000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Questlove Teaches Music Curation and DJing",
+        "description": "Set-building, crate digging and live remixing.",
+        "url": "https://www.masterclass.com/classes/questlove-teaches-music-curation-and-djing",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 134000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Jake Shimabukuro Teaches Ukulele",
+        "description": "Strumming patterns, finger-style and performance tips.",
+        "url": "https://www.masterclass.com/classes/jake-shimabukuro-teaches-ukulele",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "SonicPi Live Coding",
+        "description": "Free creative coding course for live electronic music performance.",
+        "url": "https://sonic-pi.net/tutorial",
+        "priceTier": 1,
+        "pricingDesc": "Free open-source course",
+        "popularityScore": 31000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Ableton Learning Music",
+        "description": "Browser-based interactive lessons on rhythm, melody, harmony.",
+        "url": "https://learningmusic.ableton.com",
+        "priceTier": 1,
+        "pricingDesc": "Free interactive site",
+        "popularityScore": 89000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Berkleemusic MOOC - Introduction to Music Production",
+        "description": "Archived Coursera edition of Berklee’s classic MOOC.",
+        "url": "https://coursera.org/learn/music-production",
+        "priceTier": 1,
+        "pricingDesc": "Free audit option",
+        "popularityScore": 125000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "University of Edinburgh - Music Technology Fundamentals",
+        "description": "EdX micro-masters module on audio DSP and music tech.",
+        "url": "https://edx.org/course/music-technology-fundamentals",
+        "priceTier": 2,
+        "pricingDesc": "$99 verified certificate",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "IO Music Academy - Live Online Bootcamp",
+        "description": "4-week real-time cohort classes in Ableton & Logic.",
+        "url": "https://iomusic.academy",
+        "priceTier": 3,
+        "pricingDesc": "$499 per 4-week block",
+        "popularityScore": 22000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Kadenze - Sound Synthesis Using Reaktor",
+        "description": "Stanford-affiliated course on building synths in Reaktor.",
+        "url": "https://kadenze.com/courses/sound-synthesis-using-reaktor",
+        "priceTier": 2,
+        "pricingDesc": "$20/month membership",
+        "popularityScore": 18000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Roli Learn - Equator2 Masterclass",
+        "description": "Interactive Roli Seaboard & Equator2 sound-design course.",
+        "url": "https://roli.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free with registration",
+        "popularityScore": 15000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Producertech - Maschine Complete",
+        "description": "Native Instruments-accredited Maschine workflow course.",
+        "url": "https://producertech.com/course/maschine-complete",
+        "priceTier": 2,
+        "pricingDesc": "$99 one-time",
+        "popularityScore": 12000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "University of Newcastle - Bachelor of Music",
+        "description": "Production & performance major with industry placement.",
+        "url": "https://newcastle.edu.au/degree/bachelor-of-music",
+        "priceTier": 3,
+        "pricingDesc": "AUD 7,950/year domestic",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Seedj - Electronic Music Bootcamp",
+        "description": "6-week Brazilian-Portuguese bootcamp for electronic producers.",
+        "url": "https://seedj.com.br",
+        "priceTier": 2,
+        "pricingDesc": "R$ 1,497",
+        "popularityScore": 8000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Playground Sessions - Intermediate Piano",
+        "description": "Gamified piano course co-developed by Quincy Jones.",
+        "url": "https://playgroundsessions.com",
+        "priceTier": 2,
+        "pricingDesc": "$17.99/month",
+        "popularityScore": 67000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Ask.Video - Logic Pro 303",
+        "description": "Advanced mixing & automation tutorials for Logic.",
+        "url": "https://ask.video/course/logic-pro-303",
+        "priceTier": 2,
+        "pricingDesc": "$15/month subscription",
+        "popularityScore": 14000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "University of Gloucestershire - Music Production BA",
+        "description": "3-year UK degree with optional industrial placement year.",
+        "url": "https://glos.ac.uk/degree/music-production",
+        "priceTier": 3,
+        "pricingDesc": "£9,250/year UK",
+        "popularityScore": 21000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Bobby Owsinski - 101 Mixing Tricks",
+        "description": "Downloadable video set with 101 pro mixing hacks.",
+        "url": "https://bobbyowsinski.com/101-mixing-tricks",
+        "priceTier": 2,
+        "pricingDesc": "$97 one-time",
+        "popularityScore": 32000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "ToneSavvy - ABRSM Music Theory Grade 5",
+        "description": "Interactive quizzes aligned to ABRSM syllabus.",
+        "url": "https://tonesavvy.com/exercises/abrsm-grade-5",
+        "priceTier": 1,
+        "pricingDesc": "Free limited access",
+        "popularityScore": 9000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Nimbus Recording Arts Diploma",
+        "description": "12-month Canadian program with 24/7 studio access.",
+        "url": "https://nimbusrecording.com",
+        "priceTier": 4,
+        "pricingDesc": "CAD 24,900",
+        "popularityScore": 16000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Samplecraze - Compression Masterclass",
+        "description": "In-depth 4-hour course on compression for producers.",
+        "url": "https://samplecraze.com/course/compression-masterclass",
+        "priceTier": 2,
+        "pricingDesc": "$29 one-time",
+        "popularityScore": 7000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "Leeds Conservatoire - MA Music Production",
+        "description": "1-year UK master’s focused on creative production.",
+        "url": "https://leedsconservatoire.ac.uk",
+        "priceTier": 4,
+        "pricingDesc": "£11,500 UK",
+        "popularityScore": 19000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Skoove - Pop Piano Intermediate",
+        "description": "AI feedback piano course with chart-hit arrangements.",
+        "url": "https://skoove.com/pop-piano",
+        "priceTier": 2,
+        "pricingDesc": "$19.99/month",
+        "popularityScore": 56000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Warp Academy - Serum Sound Design",
+        "description": "Xfer Serum deep-dive with 40+ presets included.",
+        "url": "https://warpacademy.com/course/serum-sound-design",
+        "priceTier": 3,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 21000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Abbey Road Institute - Advanced Production",
+        "description": "12-week part-time advanced production at Abbey Road.",
+        "url": "https://abbeyroadinstitute.com/london",
+        "priceTier": 5,
+        "pricingDesc": "£8,500",
+        "popularityScore": 34000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "LinkedIn Learning - Music Theory for Songwriters",
+        "description": "Short course on diatonic harmony for pop writers.",
+        "url": "https://linkedin.com/learning/music-theory-for-songwriters",
+        "priceTier": 2,
+        "pricingDesc": "$39.99/month subscription",
+        "popularityScore": 45000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "ModularGrid - Eurorack 101",
+        "description": "Community-built interactive curriculum for modular synthesis.",
+        "url": "https://modulargrid.net/eurorack-101",
+        "priceTier": 1,
+        "pricingDesc": "Free community course",
+        "popularityScore": 18000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "Western Sydney U - Bachelor of Music Production",
+        "description": "3-year degree with Ableton & Pro Tools certification.",
+        "url": "https://westernsydney.edu.au/musicproduction",
+        "priceTier": 3,
+        "pricingDesc": "AUD 7,950/year domestic",
+        "popularityScore": 25000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "CreativeLive - Advanced Mixing Techniques",
+        "description": "Multi-camera class with Ryan Hewitt (Red Hot Chili Peppers).",
+        "url": "https://creativelive.com/advanced-mixing-techniques",
+        "priceTier": 3,
+        "pricingDesc": "$99 one-time",
+        "popularityScore": 29000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "PianoWithWillie - Jazz Improv Accelerator",
+        "description": "12-week interactive jazz piano cohort with live Q&A.",
+        "url": "https://pianowillie.com/jazz-accelerator",
+        "priceTier": 3,
+        "pricingDesc": "$299 one-time",
+        "popularityScore": 13000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "BIMM Berlin - Creative Production Bootcamp",
+        "description": "4-week summer bootcamp in Berlin studios.",
+        "url": "https://bimm-institute.de/berlin",
+        "priceTier": 3,
+        "pricingDesc": "€1,950",
+        "popularityScore": 9000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MasterClass - Herbie Hancock Teaches Jazz",
+        "description": "2+ hours of jazz piano and composition lessons.",
+        "url": "https://masterclass.com/herbie-hancock-teaches-jazz",
+        "priceTier": 2,
+        "pricingDesc": "$180/year all-access",
+        "popularityScore": 167000
+    },
+    {
+        "type": "Music Course",
+        "category": "Documentation",
+        "name": "VCV Rack Manual",
+        "description": "Official manual for open-source modular synth VCV Rack.",
+        "url": "https://vcvrack.com/manual",
+        "priceTier": 1,
+        "pricingDesc": "Free documentation",
+        "popularityScore": 35000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "LightNote - Music Theory Simplified",
+        "description": "Interactive lessons up to grade-5 level.",
+        "url": "https://lightnote.com",
+        "priceTier": 1,
+        "pricingDesc": "Free core lessons",
+        "popularityScore": 24000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Hit Songs Deconstructed - Crafting Hit Songs",
+        "description": "Data-driven songwriting course used by Billboard writers.",
+        "url": "https://hitsongsdeconstructed.com/course",
+        "priceTier": 4,
+        "pricingDesc": "$349 one-time",
+        "popularityScore": 22000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "University of Stavanger - Nordic Master in Jazz",
+        "description": "2-year Nordic joint degree with production electives.",
+        "url": "https://uis.no/music",
+        "priceTier": 2,
+        "pricingDesc": "No tuition (Nordic citizens)",
+        "popularityScore": 8000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Amplify DJ Academy - Production & DJ Certificate",
+        "description": "8-week London bootcamp with daily studio access.",
+        "url": "https://amplifydjacademy.com",
+        "priceTier": 3,
+        "pricingDesc": "£1,999",
+        "popularityScore": 11000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Musition - Music Theory Trainer",
+        "description": "Cloud-based theory drills for schools and self-study.",
+        "url": "https://musition.com",
+        "priceTier": 2,
+        "pricingDesc": "$7.50/month",
+        "popularityScore": 15000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MixMasterWyatt - Mixing Modern Metal",
+        "description": "Genre-specific mixing with downloadable stems.",
+        "url": "https://mixmasterwyatt.com/metal",
+        "priceTier": 3,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 9000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "Queensland Conservatorium - Bachelor of Music Tech",
+        "description": "3-year AU degree with immersive-audio lab.",
+        "url": "https://griffith.edu.au/conservatorium",
+        "priceTier": 3,
+        "pricingDesc": "AUD 9,500/year domestic",
+        "popularityScore": 26000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "PianoIn21Days - Jazz Standards Challenge",
+        "description": "21-day interactive jazz-standards sprint.",
+        "url": "https://pianoin21days.com/jazz",
+        "priceTier": 2,
+        "pricingDesc": "$97 one-time",
+        "popularityScore": 31000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Production Music Live - Start to Finish Melodic Techno",
+        "description": "Full 6-hour start-to-finish Ableton project.",
+        "url": "https://productionmusiclive.com/melodic-techno",
+        "priceTier": 3,
+        "pricingDesc": "€119",
+        "popularityScore": 27000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "dBs Berlin - Electronic Music Production MA",
+        "description": "1-year German master’s with weekly 1-to-1 mentoring.",
+        "url": "https://dbs-music.com/berlin",
+        "priceTier": 4,
+        "pricingDesc": "€12,900",
+        "popularityScore": 14000
+    },
+    {
+        "type": "Music Course",
+        "category": "Documentation",
+        "name": "Ardour Manual",
+        "description": "Official user manual for the open-source DAW Ardour.",
+        "url": "https://manual.ardour.org",
+        "priceTier": 1,
+        "pricingDesc": "Free documentation",
+        "popularityScore": 21000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Meludia - Melody Ear Trainer",
+        "description": "Web-based melodic dictation game.",
+        "url": "https://meludia.com",
+        "priceTier": 2,
+        "pricingDesc": "$9.90/month",
+        "popularityScore": 17000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Slate Academy - Mixing with Virtual Console Collection",
+        "description": "Console-emulation mixing walkthroughs.",
+        "url": "https://slateacademy.com/mixing-vcc",
+        "priceTier": 2,
+        "pricingDesc": "Free with Slate All-Access Pass",
+        "popularityScore": 23000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "University of Salford - BSc Music Production",
+        "description": "UK degree with BBC studio partnerships.",
+        "url": "https://salford.ac.uk/music-production",
+        "priceTier": 3,
+        "pricingDesc": "£9,250/year UK",
+        "popularityScore": 31000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Ujam - Finisher Micro Course",
+        "description": "Free interactive course for Ujam’s Finisher plugin.",
+        "url": "https://ujam.com/finisher-course",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 12000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "SubBass Academy - 12-Week Production Diploma",
+        "description": "London weekend diploma with Ableton certification exam.",
+        "url": "https://subbassdj.com",
+        "priceTier": 3,
+        "pricingDesc": "£1,395",
+        "popularityScore": 16000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Groove3 - KORG opsix Explained",
+        "description": "Deep-dive video series on KORG opsix FM synth.",
+        "url": "https://groove3.com/KORG-opsix-Explained",
+        "priceTier": 2,
+        "pricingDesc": "$15/month",
+        "popularityScore": 8000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Pianote Essentials - Gospel Foundations",
+        "description": "Interactive gospel chord course with downloadable MIDI.",
+        "url": "https://pianote.com/gospel",
+        "priceTier": 2,
+        "pricingDesc": "$129 one-time",
+        "popularityScore": 21000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "Solent University - BA Popular Music Production",
+        "description": "UK degree with JAMES accreditation and SSL lab.",
+        "url": "https://solent.ac.uk",
+        "priceTier": 3,
+        "pricingDesc": "£9,250/year UK",
+        "popularityScore": 24000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "ADSR - Ableton Wavetable Masterclass",
+        "description": "Complete Ableton Wavetable synthesis course.",
+        "url": "https://adsrsounds.com/product/ableton-wavetable-masterclass",
+        "priceTier": 2,
+        "pricingDesc": "$37 one-time",
+        "popularityScore": 13000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Point Blank China - EMP Diploma",
+        "description": "Mandarin-language 6-month electronic-music diploma.",
+        "url": "https://pointblank.cn",
+        "priceTier": 3,
+        "pricingDesc": "¥ 16,800",
+        "popularityScore": 17000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "SoundGym - EQ Warrior Game",
+        "description": "Gamified ear-training for EQ frequency recognition.",
+        "url": "https://soundgym.co/game/eq-warrior",
+        "priceTier": 2,
+        "pricingDesc": "$24.95/month",
+        "popularityScore": 25000
+    },
+    {
+        "type": "Music Course",
+        "category": "Documentation",
+        "name": "Tracktion Waveform User Guide",
+        "description": "Official manual for Tracktion Waveform DAW.",
+        "url": "https://tracktion.com/waveform-guide",
+        "priceTier": 1,
+        "pricingDesc": "Free",
+        "popularityScore": 14000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MixWithTheMasters - Jaycen Joshua Workflows",
+        "description": "Exclusive multi-part series with Jaycen Joshua.",
+        "url": "https://mixwiththemasters.com/jaycen-joshua",
+        "priceTier": 4,
+        "pricingDesc": "$349/year",
+        "popularityScore": 41000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "University of West London - London College of Music",
+        "description": "BMus Music Production with Pro Tools 210M exam.",
+        "url": "https://uwl.ac.uk",
+        "priceTier": 3,
+        "pricingDesc": "£9,250/year UK",
+        "popularityScore": 37000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Rising Software - Musition & Auralia Bundle",
+        "description": "Cloud theory & ear-training used by 1000+ schools.",
+        "url": "https://risingsoftware.com/bundle",
+        "priceTier": 2,
+        "pricingDesc": "$12.50/month",
+        "popularityScore": 19000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Lost in Audio - 5-Day Mixing Retreat",
+        "description": "Residential mixing retreat in French countryside.",
+        "url": "https://lostinaudio.com/retreat",
+        "priceTier": 4,
+        "pricingDesc": "€1,950 inc. accommodation",
+        "popularityScore": 7000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Evenant - Trailer Music Redefined",
+        "description": "Orchestral production for movie trailers.",
+        "url": "https://evenant.com/trailer-music",
+        "priceTier": 3,
+        "pricingDesc": "$297 one-time",
+        "popularityScore": 15000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "Landr Studio Courses - AI Mastering Workflow",
+        "description": "Interactive Landr mastering workflow with quizzes.",
+        "url": "https://landr.com/courses/ai-mastering",
+        "priceTier": 2,
+        "pricingDesc": "Free with Landr subscription",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "SRH Berlin - Audio Production BA",
+        "description": "English-taught German degree with EU passport visa benefit.",
+        "url": "https://srh-berlin.de/audio-production",
+        "priceTier": 3,
+        "pricingDesc": "€ 9,900/year",
+        "popularityScore": 22000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "PureMix - FabFilter Pro-Q 3 Deep Dive",
+        "description": "Genre-agnostic EQ walkthrough with FabFilter team.",
+        "url": "https://puremix.net/fabfilter-pro-q3",
+        "priceTier": 3,
+        "pricingDesc": "$24.99/month",
+        "popularityScore": 18000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Berklee Summer - Electronic Music Production & Sound Design",
+        "description": "5-week on-campus summer intensive.",
+        "url": "https://college.berklee.edu/summer/electronic-production",
+        "priceTier": 4,
+        "pricingDesc": "$4,995",
+        "popularityScore": 29000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "PianoMaestro - Sight-Reading Bootcamp",
+        "description": "USB-connected app that scores real-piano sight-reading.",
+        "url": "https://pianomaestro.com/bootcamp",
+        "priceTier": 2,
+        "pricingDesc": "$99/year",
+        "popularityScore": 11000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Slate Academy - Drum Recording Bootcamp",
+        "description": "Multi-mic drum recording with Steven Slate.",
+        "url": "https://slateacademy.com/drum-recording",
+        "priceTier": 2,
+        "pricingDesc": "Free with All-Access Pass",
+        "popularityScore": 16000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "University of Derby - BSc Music Technology",
+        "description": "UK degree with Avid & Ableton certification pathways.",
+        "url": "https://derby.ac.uk/music-tech",
+        "priceTier": 3,
+        "pricingDesc": "£9,250/year UK",
+        "popularityScore": 27000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "EarBeater - Harmonic Ear Training",
+        "description": "Web app for recognizing chord progressions by ear.",
+        "url": "https://earbeater.com",
+        "priceTier": 1,
+        "pricingDesc": "Free tier",
+        "popularityScore": 12000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "RhythmicViz - Polyrhythm Builder",
+        "description": "Interactive polyrhythm visualiser and exercises.",
+        "url": "https://rhythmicviz.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free web app",
+        "popularityScore": 6000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Garnish Music London - Logic Producer Bootcamp",
+        "description": "36-hour intensive Logic Pro X bootcamp.",
+        "url": "https://garnishmusicproduction.com/london",
+        "priceTier": 3,
+        "pricingDesc": "£1,299",
+        "popularityScore": 19000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Evenant - Cinematic Music Production",
+        "description": "Orchestral mock-ups in Logic Pro X.",
+        "url": "https://evenant.com/cinematic",
+        "priceTier": 3,
+        "pricingDesc": "$297 one-time",
+        "popularityScore": 21000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "Leeds Conservatoire - MA Music Production",
+        "description": "1-year UK master’s with surround-sound theatre.",
+        "url": "https://leedsconservatoire.ac.uk",
+        "priceTier": 4,
+        "pricingDesc": "£11,500 UK",
+        "popularityScore": 17000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "FunctionalEarTrainer.com",
+        "description": "Free web app for function-based ear training.",
+        "url": "https://functionaleartrainer.com",
+        "priceTier": 1,
+        "pricingDesc": "Free web app",
+        "popularityScore": 28000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Samplecraze - Compression Masterclass",
+        "description": "3-hour deep-dive into audio compression.",
+        "url": "https://samplecraze.com/compression",
+        "priceTier": 2,
+        "pricingDesc": "$29 one-time",
+        "popularityScore": 8000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Access Creative College - DJ & Electronic CertHE",
+        "description": "1-year UK certificate with weekly gigs.",
+        "url": "https://accb.co.uk",
+        "priceTier": 2,
+        "pricingDesc": "£7,500",
+        "popularityScore": 12000
+    },
+    {
+        "type": "Music Course",
+        "category": "Documentation",
+        "name": "Harrison Mixbus Manual",
+        "description": "Official manual for Harrison’s Mixbus DAW.",
+        "url": "https://harrisonconsoles.com/mixbus-manual",
+        "priceTier": 1,
+        "pricingDesc": "Free documentation",
+        "popularityScore": 12000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "SoundGym - Mixing Games",
+        "description": "Game-style mixing challenges with leaderboards.",
+        "url": "https://soundgym.co/mixing",
+        "priceTier": 2,
+        "pricingDesc": "$24/month",
+        "popularityScore": 26000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "Warp Academy - Sound Design with Serum",
+        "description": "Xfer Serum sound-design masterclass.",
+        "url": "https://warpacademy.com/serum",
+        "priceTier": 3,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 18000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "Solent University - BA Music Production",
+        "description": "UK degree with Dolby Atmos suite.",
+        "url": "https://solent.ac.uk/music",
+        "priceTier": 3,
+        "pricingDesc": "£9,250/year UK",
+        "popularityScore": 24000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "ChordChord - AI Progression Generator",
+        "description": "Interactive chord-progression sandbox with export.",
+        "url": "https://chordchord.com/learn",
+        "priceTier": 1,
+        "pricingDesc": "Free with watermark",
+        "popularityScore": 35000
+    },
+    {
+        "type": "Music Course",
+        "category": "Bootcamp",
+        "name": "Lost Stories Academy - Electronic Music Pro",
+        "description": "12-week Mumbai bootcamp with label demo drop.",
+        "url": "https://loststoriesacademy.com",
+        "priceTier": 3,
+        "pricingDesc": "₹1,20,000",
+        "popularityScore": 15000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "MixBetterNow - Home-Studio Acoustics 101",
+        "description": "Room-treatment walkthrough for bedroom producers.",
+        "url": "https://mixbetternow.com/acoustics",
+        "priceTier": 2,
+        "pricingDesc": "$49 one-time",
+        "popularityScore": 7000
+    },
+    {
+        "type": "Music Course",
+        "category": "Documentation",
+        "name": "Tracktion Waveform User Guide",
+        "description": "Official manual for Tracktion Waveform DAW.",
+        "url": "https://tracktion.com/waveform-manual",
+        "priceTier": 1,
+        "pricingDesc": "Free documentation",
+        "popularityScore": 9000
+    },
+    {
+        "type": "Music Course",
+        "category": "Interactive",
+        "name": "RhythmLab - Latin Percussion Trainer",
+        "description": "Interactive conga & timbaal pattern trainer.",
+        "url": "https://rhythmlab.app",
+        "priceTier": 1,
+        "pricingDesc": "Free web app",
+        "popularityScore": 5000
+    },
+    {
+        "type": "Music Course",
+        "category": "Video",
+        "name": "NailTheMix - Monthly Mix Contests",
+        "description": "Monthly raw-tracks mixing contest with feedback.",
+        "url": "https://nailthemix.com",
+        "priceTier": 3,
+        "pricingDesc": "$19.99/month",
+        "popularityScore": 43000
+    },
+    {
+        "type": "Music Course",
+        "category": "University",
+        "name": "SRH Berlin - Audio Production BA",
+        "description": "English-taught German degree with game-audio focus.",
+        "url": "https://srh-berlin.de/audio",
+        "priceTier": 3,
+        "pricingDesc": "€10,800/year",
+        "popularityScore": 16000
+    },
+    {
         "_comment": "_____________________________________________________________________________________________________________________________________________________ MUSIC PRODUCTION WEBSITES"
     },
     {
@@ -39865,5 +41545,2163 @@
         "monthlyViews": "≈10M",
         "url": "https://www.youtube.com/c/PiXimperfect",
         "popularityScore": 3000000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Vital",
+        "description": "Free spectral warping wavetable synthesizer with powerful modulation capabilities.",
+        "url": "https://vital.audio/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 6800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Surge XT",
+        "description": "Open-source hybrid synthesizer with multiple synthesis modes and extensive modulation.",
+        "url": "https://surge-synthesizer.github.io/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 3200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "VCV Rack 2 Pro",
+        "description": "Virtual Eurorack modular synthesizer with thousands of available modules.",
+        "url": "https://vcvrack.com/Rack2",
+        "priceTier": 3,
+        "pricingDesc": "$149",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 2800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Zebra 2",
+        "description": "Modular wireless synthesizer with powerful sound design capabilities.",
+        "url": "https://u-he.com/products/zebra2/",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Hive 2",
+        "description": "Streamlined synthesizer with powerful features and low CPU usage.",
+        "url": "https://u-he.com/products/hive/",
+        "priceTier": 3,
+        "pricingDesc": "$149",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Bazille",
+        "description": "Modular FM and phase distortion synthesizer.",
+        "url": "https://u-he.com/products/bazille/",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Tyrell N6",
+        "description": "Free analog-style synthesizer with warm sound and intuitive interface.",
+        "url": "https://u-he.com/products/tyrelln6/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Dexed",
+        "description": "Free FM synthesizer based on the Yamaha DX7.",
+        "url": "https://asb2m10.github.io/dexed/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 2800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "OB-Xd",
+        "description": "Free Oberheim synthesizer emulation with authentic analog sound.",
+        "url": "https://www.discodsp.com/obxd/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 2400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Synth1",
+        "description": "Free software synthesizer modeled after the Nord Lead 2.",
+        "url": "https://www.geocities.jp/daichi1969/softsynth/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 4200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "ZynAddSubFX",
+        "description": "Open-source software synthesizer with multiple synthesis engines.",
+        "url": "https://zynaddsubfx.sourceforge.io/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Crystal",
+        "description": "Semi-modular synthesizer with effects and sequencing capabilities.",
+        "url": "https://www.greenoak.com/crystal/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Komplete Start",
+        "description": "Free bundle with virtual instruments and effects from Native Instruments.",
+        "url": "https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 5200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Lokomotiv",
+        "description": "Free analog synthesizer with vintage character.",
+        "url": "https://www.analogobsession.com/products/lokomotiv/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Tunefish",
+        "description": "Tiny virtual analog synthesizer with big sound.",
+        "url": "https://www.discodsp.com/tunefish/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Full Bucket Music FB-3300",
+        "description": "Free Korg PS-3300 synthesizer emulation.",
+        "url": "https://www.fullbucket.de/music/fb3300.html",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Full Bucket Music FB-3100",
+        "description": "Free Korg PS-3100 synthesizer emulation.",
+        "url": "https://www.fullbucket.de/music/fb3100.html",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Full Bucket Music Ragnarok",
+        "description": "Free experimental synthesizer with unique features.",
+        "url": "https://www.fullbucket.de/music/ragnarok.html",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1000000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "PG-8X v2",
+        "description": "Updated free Roland JX-8P synthesizer emulation.",
+        "url": "https://www.kvraudio.com/product/pg-8x-by-martin-lueders/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Odin 2",
+        "description": "Free 24-voice polyphonic synthesizer with analog modeling.",
+        "url": "https://www.thewaveward.com/odin",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Synthesizer",
+        "name": "Exakt Lite",
+        "description": "Free FM synthesizer with user-friendly interface.",
+        "url": "https://www.sonicbits.com/exakt-lite/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Pro-Q 4",
+        "description": "Professional equalizer with dynamic and spectral features.",
+        "url": "https://www.fabfilter.com/products/pro-q-4-equalizer-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$169",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Pro-C 2",
+        "description": "Professional compressor with versatile sidechain options.",
+        "url": "https://www.fabfilter.com/products/pro-c-2-compressor-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$179",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Pro-R 2",
+        "description": "High-end reverb with natural sound and musical controls.",
+        "url": "https://www.fabfilter.com/products/pro-r-2-reverb-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Pro-L 2",
+        "description": "Feature-packed true peak limiter with advanced algorithms.",
+        "url": "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Saturn 2",
+        "description": "Multiband distortion and saturation with modulation options.",
+        "url": "https://www.fabfilter.com/products/saturn-2-multiband-distortion-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$154",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Timeless 3",
+        "description": "Ultra-flexible tape delay with high-quality filters.",
+        "url": "https://www.fabfilter.com/products/timeless-3-tape-delay-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Volcano 3",
+        "description": "Filter effect with vintage-sounding filters and modulation.",
+        "url": "https://www.fabfilter.com/products/volcano-3-filter-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$169",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Pro-DS",
+        "description": "Intelligent de-essing plugin for vocal processing.",
+        "url": "https://www.fabfilter.com/products/pro-ds-de-esser-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$179",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Pro-G",
+        "description": "Flexible gate/expander with advanced sidechain options.",
+        "url": "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$169",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Pro-MB",
+        "description": "Multiband compressor/expander with exceptional sound quality.",
+        "url": "https://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$219",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter One",
+        "description": "Basic synthesizer with perfectly tuned controls.",
+        "url": "https://www.fabfilter.com/products/one-synthesizer-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$59",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "FabFilter Twin 3",
+        "description": "Powerful synthesizer with flexible modulation system.",
+        "url": "https://www.fabfilter.com/products/twin-3-synthesizer-plug-in",
+        "priceTier": 3,
+        "pricingDesc": "$179",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla Room",
+        "description": "Algorithmic reverb with natural room acoustics.",
+        "url": "https://valhalladsp.com/shop/reverb/valhalla-room/",
+        "priceTier": 3,
+        "pricingDesc": "$50",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla Vintage Verb",
+        "description": "Classic hardware digital reverb emulation.",
+        "url": "https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/",
+        "priceTier": 3,
+        "pricingDesc": "$50",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 5200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla Plate",
+        "description": "Algorithmic plate reverb with vintage character.",
+        "url": "https://valhalladsp.com/shop/reverb/valhalla-plate/",
+        "priceTier": 3,
+        "pricingDesc": "$50",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla Shimmer",
+        "description": "Pitch-shifting reverb for ambient soundscapes.",
+        "url": "https://valhalladsp.com/shop/reverb/valhalla-shimmer/",
+        "priceTier": 3,
+        "pricingDesc": "$50",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla Delay",
+        "description": "Modern delay with vintage character and stereo processing.",
+        "url": "https://valhalladsp.com/shop/delay/valhalla-delay/",
+        "priceTier": 3,
+        "pricingDesc": "$50",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla ÜberMod",
+        "description": "Multitap delay and modulation processor.",
+        "url": "https://valhalladsp.com/shop/delay/valhalla-ubermod/",
+        "priceTier": 3,
+        "pricingDesc": "$50",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla Freq Echo",
+        "description": "Frequency shifter with analog echo emulation.",
+        "url": "https://valhalladsp.com/shop/modulation/valhalla-freq-echo/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Valhalla Space Modulator",
+        "description": "Free phaser and frequency shifter effect.",
+        "url": "https://valhalladsp.com/shop/modulation/valhalla-space-modulator/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys 5 Bundle",
+        "description": "Complete collection of creative effects plugins.",
+        "url": "https://www.soundtoys.com/product/soundtoys-5/",
+        "priceTier": 3,
+        "pricingDesc": "$499",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 6100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys Decapitator",
+        "description": "Analog saturation modeler with five different saturation models.",
+        "url": "https://www.soundtoys.com/product/decapitator/",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys EchoBoy",
+        "description": "Versatile delay plugin with vintage echo machine emulation.",
+        "url": "https://www.soundtoys.com/product/echoboy/",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys Crystallizer",
+        "description": "Granular delay and pitch-shifting effect for creative sound design.",
+        "url": "https://www.soundtoys.com/product/crystallizer/",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys Little Plate",
+        "description": "Simple plate reverb with vintage character.",
+        "url": "https://www.soundtoys.com/product/little-plate/",
+        "priceTier": 3,
+        "pricingDesc": "$99",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys MicroShift",
+        "description": "Stereo widening effect modeled after classic hardware.",
+        "url": "https://www.soundtoys.com/product/microshift/",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys FilterFreak",
+        "description": "Dual filter with modulation and analog-modeled saturation.",
+        "url": "https://www.soundtoys.com/product/filterfreak/",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys Tremolator",
+        "description": "Tremolo effect with programmable rhythm patterns.",
+        "url": "https://www.soundtoys.com/product/tremolator/",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys PanMan",
+        "description": "Auto-panning effect with tempo-sync and rhythm patterns.",
+        "url": "https://www.soundtoys.com/product/panman/",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys Devil-Loc Deluxe",
+        "description": "Extreme compressor and distortion effect.",
+        "url": "https://www.soundtoys.com/product/devil-loc-deluxe/",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2000000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys Radiator",
+        "description": "Vintage preamp and overdrive emulation.",
+        "url": "https://www.soundtoys.com/product/radiator/",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys Little AlterBoy",
+        "description": "Pitch and formant shifting effect for vocal processing.",
+        "url": "https://www.soundtoys.com/product/little-alterboy/",
+        "priceTier": 3,
+        "pricingDesc": "$99",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Soundtoys PrimalTap",
+        "description": "Vintage digital delay emulation with lo-fi character.",
+        "url": "https://www.soundtoys.com/product/primaltap/",
+        "priceTier": 3,
+        "pricingDesc": "$129",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope Ozone 11 Advanced",
+        "description": "Complete mastering suite with AI-powered assistance.",
+        "url": "https://www.izotope.com/en/products/ozone.html",
+        "priceTier": 3,
+        "pricingDesc": "$499",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 5900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope Neutron 4",
+        "description": "Intelligent mixing suite with AI-powered processing.",
+        "url": "https://www.izotope.com/en/products/neutron.html",
+        "priceTier": 3,
+        "pricingDesc": "$299",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope RX 11 Standard",
+        "description": "Industry-standard audio repair and restoration suite.",
+        "url": "https://www.izotope.com/en/products/rx.html",
+        "priceTier": 3,
+        "pricingDesc": "$399",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope Nectar 4",
+        "description": "Complete vocal processing suite with pitch correction.",
+        "url": "https://www.izotope.com/en/products/nectar.html",
+        "priceTier": 3,
+        "pricingDesc": "$299",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope Trash 2",
+        "description": "Multiband distortion and dynamics processor.",
+        "url": "https://www.izotope.com/en/products/trash.html",
+        "priceTier": 3,
+        "pricingDesc": "$99",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope Vinyl",
+        "description": "Free vintage vinyl emulation with dust and scratches.",
+        "url": "https://www.izotope.com/en/products/vinyl.html",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope Imager",
+        "description": "Free stereo imaging and width control plugin.",
+        "url": "https://www.izotope.com/en/products/ozone-imager.html",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "iZotope VocalSynth 2",
+        "description": "Vocal effects processor with harmonizer and vocoder.",
+        "url": "https://www.izotope.com/en/products/vocalsynth.html",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves SSL E-Channel",
+        "description": "SSL 4000E console channel strip emulation.",
+        "url": "https://www.waves.com/plugins/ssl-e-channel",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves CLA-76",
+        "description": "Classic 1176 compressor emulation with black and blue models.",
+        "url": "https://www.waves.com/plugins/cla-76-compressor-limiter",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves API 2500",
+        "description": "API bus compressor with punchy analog character.",
+        "url": "https://www.waves.com/plugins/api-2500-stereo-bus-compressor",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves Renaissance EQ",
+        "description": "Classic parametric EQ with warm analog sound.",
+        "url": "https://www.waves.com/plugins/renaissance-eq",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves H-Delay",
+        "description": "Hybrid delay with analog and digital characteristics.",
+        "url": "https://www.waves.com/plugins/h-delay-hybrid-delay",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves L1 Ultramaximizer",
+        "description": "Classic peak limiter for mastering applications.",
+        "url": "https://www.waves.com/plugins/l1-ultramaximizer",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves RCompressor",
+        "description": "Vintage-style compressor with smooth character.",
+        "url": "https://www.waves.com/plugins/renaissance-compressor",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves C4 Multiband",
+        "description": "4-band multiband compressor for precise dynamics control.",
+        "url": "https://www.waves.com/plugins/c4-multiband-compressor",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves DeEsser",
+        "description": "Specialized de-esser for vocal sibilance control.",
+        "url": "https://www.waves.com/plugins/deesser",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves MaxxBass",
+        "description": "Psychoacoustic bass enhancer for low-end enhancement.",
+        "url": "https://www.waves.com/plugins/maxxbass",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves Doubler",
+        "description": "Vocal doubling effect for thickening and stereo width.",
+        "url": "https://www.waves.com/plugins/doubler",
+        "priceTier": 3,
+        "pricingDesc": "$29",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves Vitamin",
+        "description": "Multiband harmonic enhancer and tone sculpting tool.",
+        "url": "https://www.waves.com/plugins/vitamin",
+        "priceTier": 3,
+        "pricingDesc": "$79",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves Tune Real-Time",
+        "description": "Real-time vocal pitch correction and manipulation.",
+        "url": "https://www.waves.com/plugins/waves-tune-real-time",
+        "priceTier": 3,
+        "pricingDesc": "$79",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Waves Tune",
+        "description": "Graphical vocal pitch editing and correction.",
+        "url": "https://www.waves.com/plugins/waves-tune",
+        "priceTier": 3,
+        "pricingDesc": "$99",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "TDR Nova",
+        "description": "Free parallel dynamic equalizer with parametric and multiband modes.",
+        "url": "https://www.tokyodawn.net/tdr-nova/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "TDR Kotelnikov GE",
+        "description": "Gentleman's edition mastering compressor with transparent sound.",
+        "url": "https://www.tokyodawn.net/tdr-kotelnikov-ge/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "TDR VOS SlickEQ",
+        "description": "Free mixing and mastering equalizer with vintage character.",
+        "url": "https://www.tokyodawn.net/slickeq/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "TDR Limiter 6 GE",
+        "description": "Advanced mastering limiter with five processing stages.",
+        "url": "https://www.tokyodawn.net/limiter6/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "TDR Molot GE",
+        "description": "Vintage compressor with Russian-style tube character.",
+        "url": "https://www.tokyodawn.net/molot/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "TDR Proximity",
+        "description": "Free distance-based equalizer for depth and space control.",
+        "url": "https://www.tokyodawn.net/proximity/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "TDR SlickEQ M",
+        "description": "Mastering equalizer with advanced stereo processing.",
+        "url": "https://www.tokyodawn.net/slickeq-m/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo SPAN",
+        "description": "Free real-time audio spectrum analyzer with FFT processing.",
+        "url": "https://www.voxengo.com/product/span/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 5100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Marvel GEQ",
+        "description": "Free graphic equalizer with 16 frequency bands.",
+        "url": "https://www.voxengo.com/product/marvelgeq/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo OldSkoolVerb",
+        "description": "Free classic stereo reverb with wide sound palette.",
+        "url": "https://www.voxengo.com/product/oldskoolverb/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Boogex",
+        "description": "Free guitar amplifier with cabinet modeling and effects.",
+        "url": "https://www.voxengo.com/product/boogex/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Correlometer",
+        "description": "Free stereo correlation meter for phase analysis.",
+        "url": "https://www.voxengo.com/product/correlometer/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Stereo Touch",
+        "description": "Free stereo widening effect for mono audio sources.",
+        "url": "https://www.voxengo.com/product/stereotouch/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Tube Amp",
+        "description": "Free tube amplifier and saturation effect.",
+        "url": "https://www.voxengo.com/product/tubeamp/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Tempo Delay",
+        "description": "Free stereo delay with filter and tremolo effects.",
+        "url": "https://www.voxengo.com/product/tempodelay/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2000000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Sound Delay",
+        "description": "Free sample-accurate delay with mid/side processing.",
+        "url": "https://www.voxengo.com/product/sounddelay/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Peakbuster",
+        "description": "Multiband transient enhancer with harmonic generation.",
+        "url": "https://www.voxengo.com/product/peakbuster/",
+        "priceTier": 3,
+        "pricingDesc": "$79.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Elephant",
+        "description": "Transparent mastering limiter with loudness maximization.",
+        "url": "https://www.voxengo.com/product/elephant/",
+        "priceTier": 3,
+        "pricingDesc": "$119.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo GlissEQ",
+        "description": "Dynamic equalizer with real-time spectrum analysis.",
+        "url": "https://www.voxengo.com/product/glisseq/",
+        "priceTier": 3,
+        "pricingDesc": "$119.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo HarmoniEQ",
+        "description": "Harmonically-enhanced equalizer with smooth sound.",
+        "url": "https://www.voxengo.com/product/harmonieq/",
+        "priceTier": 3,
+        "pricingDesc": "$99.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo CurveEQ",
+        "description": "Spline equalizer with spectrum matching capabilities.",
+        "url": "https://www.voxengo.com/product/curveeq/",
+        "priceTier": 3,
+        "pricingDesc": "$89.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Polysquasher",
+        "description": "Mastering compressor with transparent sound.",
+        "url": "https://www.voxengo.com/product/polysquasher/",
+        "priceTier": 3,
+        "pricingDesc": "$89.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo Crunchessor",
+        "description": "Vintage compressor with coloration modes.",
+        "url": "https://www.voxengo.com/product/crunchessor/",
+        "priceTier": 3,
+        "pricingDesc": "$69.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Effects",
+        "name": "Voxengo LF Max Punch",
+        "description": "Low-frequency enhancement and punch processor.",
+        "url": "https://www.voxengo.com/product/lfmaxpunch/",
+        "priceTier": 3,
+        "pricingDesc": "$79.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "EQ",
+        "name": "Voxengo PrimeEQ",
+        "description": "Parametric equalizer with real-time spectrum display.",
+        "url": "https://www.voxengo.com/product/primeeq/",
+        "priceTier": 3,
+        "pricingDesc": "$79.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "EQ",
+        "name": "Voxengo Overtone GEQ",
+        "description": "Free 7-band graphic equalizer with harmonic enhancement.",
+        "url": "https://www.voxengo.com/product/overtonegeq/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2000000
+    },
+    {
+        "type": "Music VST",
+        "category": "EQ",
+        "name": "Voxengo TEOTE",
+        "description": "Automatic spectral balancer for mixing and mastering.",
+        "url": "https://www.voxengo.com/product/teote/",
+        "priceTier": 3,
+        "pricingDesc": "$89.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Compressor",
+        "name": "Voxengo Deft Compressor",
+        "description": "Audio signal compressor with clean sound character.",
+        "url": "https://www.voxengo.com/product/deftcompressor/",
+        "priceTier": 3,
+        "pricingDesc": "$69.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Compressor",
+        "name": "Voxengo Marquis Compressor",
+        "description": "Universal compressor with harmonic enhancement.",
+        "url": "https://www.voxengo.com/product/marquiscompressor/",
+        "priceTier": 3,
+        "pricingDesc": "$89.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Reverb",
+        "name": "Voxengo OldSkoolVerb Plus",
+        "description": "Extended version of classic stereo reverb algorithm.",
+        "url": "https://www.voxengo.com/product/oldskoolverbplus/",
+        "priceTier": 3,
+        "pricingDesc": "$49.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Reverb",
+        "name": "Voxengo Pristine Space",
+        "description": "Convolution reverb processor with 8 convolution channels.",
+        "url": "https://www.voxengo.com/product/pristinespace/",
+        "priceTier": 3,
+        "pricingDesc": "$99.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Reverb",
+        "name": "Voxengo Impulse Modeler",
+        "description": "Free tool for designing room impulse responses.",
+        "url": "https://www.voxengo.com/product/impulsemodeler/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 1200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Analyzer",
+        "name": "Voxengo SPAN Plus",
+        "description": "Extended real-time spectrum analyzer with advanced features.",
+        "url": "https://www.voxengo.com/product/spanplus/",
+        "priceTier": 3,
+        "pricingDesc": "$49.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Analyzer",
+        "name": "Voxengo AnSpec",
+        "description": "Free 1/3 octave spectrum analyzer with level indication.",
+        "url": "https://www.voxengo.com/product/anspec/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Analyzer",
+        "name": "Voxengo Beeper",
+        "description": "Free audio signal generator for testing and calibration.",
+        "url": "https://www.voxengo.com/product/beeper/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo MSED",
+        "description": "Free mid/side encoder/decoder utility plugin.",
+        "url": "https://www.voxengo.com/product/msed/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo Recorder",
+        "description": "Free recording plugin for DAW master output capture.",
+        "url": "https://www.voxengo.com/product/recorder/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo r8brain",
+        "description": "Free sample rate converter with high-quality processing.",
+        "url": "https://www.voxengo.com/product/r8brain/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo r8brain PRO",
+        "description": "Professional sample rate converter with advanced features.",
+        "url": "https://www.voxengo.com/product/r8brain-pro/",
+        "priceTier": 3,
+        "pricingDesc": "$79.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo Deconvolver",
+        "description": "Utility for creating custom impulse responses.",
+        "url": "https://www.voxengo.com/product/deconvolver/",
+        "priceTier": 3,
+        "pricingDesc": "$49.95",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 1200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Delay",
+        "name": "Voxengo Tempo Delay",
+        "description": "Stereo delay with filter and tremolo modulation.",
+        "url": "https://www.voxengo.com/product/tempodelay/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Delay",
+        "name": "Voxengo Sound Delay",
+        "description": "Sample-accurate delay with mid/side channel processing.",
+        "url": "https://www.voxengo.com/product/sounddelay/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Delay",
+        "name": "Voxengo Latency Delay",
+        "description": "Free auxiliary latency compensation plugin.",
+        "url": "https://www.voxengo.com/product/latencydelay/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Chorus",
+        "name": "Voxengo Water Chorus",
+        "description": "Free chorus effect with smooth modulation.",
+        "url": "https://www.voxengo.com/product/waterchorus/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Compressor",
+        "name": "Voxengo Crunchessor",
+        "description": "Vintage compressor with coloration modes.",
+        "url": "https://www.voxengo.com/product/crunchessor/",
+        "priceTier": 3,
+        "pricingDesc": "$69.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Compressor",
+        "name": "Voxengo Deft Compressor",
+        "description": "Clean-sounding audio compressor with flexible controls.",
+        "url": "https://www.voxengo.com/product/deftcompressor/",
+        "priceTier": 3,
+        "pricingDesc": "$69.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Distortion",
+        "name": "Voxengo Tube Amp",
+        "description": "Free tube amplifier and saturation effect.",
+        "url": "https://www.voxengo.com/product/tubeamp/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Distortion",
+        "name": "Voxengo VariSaturator",
+        "description": "Two-band saturation and loudness maximization.",
+        "url": "https://www.voxengo.com/product/varisaturator/",
+        "priceTier": 3,
+        "pricingDesc": "$69.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Filter",
+        "name": "Voxengo Simplon",
+        "description": "Free simplified filter with smooth modulation.",
+        "url": "https://www.voxengo.com/product/simplon/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Filter",
+        "name": "Voxengo Peakbuster",
+        "description": "Multiband transient enhancer with harmonic generation.",
+        "url": "https://www.voxengo.com/product/peakbuster/",
+        "priceTier": 3,
+        "pricingDesc": "$79.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Pitch",
+        "name": "Voxengo Sound Delay",
+        "description": "Sample-accurate delay with pitch shifting capabilities.",
+        "url": "https://www.voxengo.com/product/sounddelay/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Transient Shaper",
+        "name": "Voxengo TransGainer",
+        "description": "Transient shaper for attack and sustain manipulation.",
+        "url": "https://www.voxengo.com/product/transgainer/",
+        "priceTier": 3,
+        "pricingDesc": "$69.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Transient Shaper",
+        "name": "Voxengo OVC-128",
+        "description": "Transparent oversampling clipper and limiter.",
+        "url": "https://www.voxengo.com/product/ovc-128/",
+        "priceTier": 3,
+        "pricingDesc": "$49.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Exciter",
+        "name": "Voxengo Shinechilla",
+        "description": "Harmonic generator and enhancer for creative sound design.",
+        "url": "https://www.voxengo.com/product/shinechilla/",
+        "priceTier": 3,
+        "pricingDesc": "$89.95",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Stereo Imaging",
+        "name": "Voxengo Stereo Touch",
+        "description": "Free stereo widening effect for mono sources.",
+        "url": "https://www.voxengo.com/product/stereotouch/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Stereo Imaging",
+        "name": "Voxengo MSED",
+        "description": "Free mid/side processing utility plugin.",
+        "url": "https://www.voxengo.com/product/msed/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo SPAN",
+        "description": "Free spectrum analyzer with correlation metering.",
+        "url": "https://www.voxengo.com/product/span/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 4900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo AnSpec",
+        "description": "Free 1/3 octave spectrum analyzer.",
+        "url": "https://www.voxengo.com/product/anspec/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo Beeper",
+        "description": "Free audio signal generator for testing purposes.",
+        "url": "https://www.voxengo.com/product/beeper/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo Recorder",
+        "description": "Free recording plugin for DAW output capture.",
+        "url": "https://www.voxengo.com/product/recorder/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo r8brain",
+        "description": "Free sample rate converter utility.",
+        "url": "https://www.voxengo.com/product/r8brain/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo Deconvolver",
+        "description": "Impulse response creation and processing utility.",
+        "url": "https://www.voxengo.com/product/deconvolver/",
+        "priceTier": 3,
+        "pricingDesc": "$49.95",
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 1300000
+    },
+    {
+        "type": "Music VST",
+        "category": "Utility",
+        "name": "Voxengo Impulse Modeler",
+        "description": "Free tool for designing room impulse responses.",
+        "url": "https://www.voxengo.com/product/impulsemodeler/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 1100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "Native Instruments Battery 4",
+        "description": "Professional drum sampler with extensive sound library.",
+        "url": "https://www.native-instruments.com/en/products/komplete/drums/battery-4/",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 3800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "FXpansion Geist2",
+        "description": "Advanced drum machine and sampling workstation.",
+        "url": "https://www.fxpansion.com/products/geist2/",
+        "priceTier": 3,
+        "pricingDesc": "$199",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "Sonic Charge Microtonic",
+        "description": "Synthesized drum machine with pattern-based sequencing.",
+        "url": "https://soniccharge.com/microtonic",
+        "priceTier": 3,
+        "pricingDesc": "$99",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2000000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "D16 Group Nepheton",
+        "description": "Roland TR-808 drum machine emulation.",
+        "url": "https://d16.pl/nepheton",
+        "priceTier": 3,
+        "pricingDesc": "$119",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "D16 Group Drumazon",
+        "description": "Roland TR-909 drum machine emulation.",
+        "url": "https://d16.pl/drumazon",
+        "priceTier": 3,
+        "pricingDesc": "$119",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1700000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "D16 Group Phoscyon",
+        "description": "Roland TB-303 bassline synthesizer emulation.",
+        "url": "https://d16.pl/phoscyon",
+        "priceTier": 3,
+        "pricingDesc": "$119",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "AudioRealism ADM",
+        "description": "Booming analog drum machine with modern features.",
+        "url": "https://www.audiorealism.se/adm.php",
+        "priceTier": 3,
+        "pricingDesc": "$89",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "AudioRealism Bass Line 3",
+        "description": "TB-303 emulation with enhanced features.",
+        "url": "https://www.audiorealism.se/abl3.php",
+        "priceTier": 3,
+        "pricingDesc": "$119",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Drum Machine",
+        "name": "Synapse Audio Dune 3",
+        "description": "Powerful synthesizer with wavetable and VA synthesis.",
+        "url": "https://www.synapse-audio.com/dune3.html",
+        "priceTier": 3,
+        "pricingDesc": "$179",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "Native Instruments Kontakt 7",
+        "description": "Industry-standard sampler with extensive library support.",
+        "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-7/",
+        "priceTier": 3,
+        "pricingDesc": "$399",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 9500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "TX16Wx Software Sampler",
+        "description": "Free professional sampler with advanced features.",
+        "url": "https://www.tx16wx.com/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1900000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "Decent Sampler",
+        "description": "Free sample player with extensive library support.",
+        "url": "https://www.decentsamples.com/decent-sampler",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "popularityScore": 2800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "Plogue Sforzando",
+        "description": "Free SFZ player with advanced sample playback.",
+        "url": "https://www.plogue.com/products/sforzando.html",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2200000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "One Small Clue Grace",
+        "description": "Free sample player and library manager.",
+        "url": "https://www.onesmallclue.com/plugin/grace/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "Shortcircuit 2",
+        "description": "Free sampler with deep editing capabilities.",
+        "url": "https://www.vst4free.com/free_vst.php?plugin=ShortCircuit2&id=939",
+        "priceTier": 1,
+        "platforms": [
+            "Windows"
+        ],
+        "popularityScore": 1600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "Independence Free",
+        "description": "Free version of Independence sampler workstation.",
+        "url": "https://www.magix.com/audio-music/samplitude/independence/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1400000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "SampleTank 4 Custom Shop",
+        "description": "Free version of SampleTank with essential sounds.",
+        "url": "https://www.ikmultimedia.com/products/sampletank4cs/",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2000000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "UVI Workstation",
+        "description": "Free sample player and instrument workstation.",
+        "url": "https://www.uvi.net/workstation",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 2600000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "Structure Free",
+        "description": "Free sample player from AIR Music Technology.",
+        "url": "https://www.airmusictech.com/structure-free",
+        "priceTier": 1,
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "popularityScore": 1500000
+    },
+    {
+        "type": "Music VST",
+        "category": "Sampler",
+        "name": "EXS24 MkII",
+        "description": "Logic Pro's built-in sampler instrument.",
+        "url": "https://www.apple.com/logic-pro/",
+        "priceTier": 1,
+        "platforms": [
+            "macOS"
+        ],
+        "popularityScore": 3200000
     }
 ]
