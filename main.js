@@ -58,6 +58,8 @@ function buildTypeMatcher(stateType, item) {
 
   if (stateType.includes('Courses')) {
     if (item.type !== 'Dev Course' && item.type !== 'Music Course') return false;
+    const cat = (item.category || '').toLowerCase();
+    if (cat === 'frontend' || cat === 'backend') return false;
     return true;
   }
 
@@ -359,13 +361,7 @@ function renderPagination(totalPages) {
     b.className = disabled
       ? 'px-3 py-1 rounded border bg-gray-200 text-gray-400 cursor-not-allowed'
       : 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
-    if (!disabled) {
-      b.addEventListener('click', () => {
-        window.scrollTo({top: 0, behavior: 'smooth'});
-        state.currentPage = page;
-        render();
-      });
-    }
+    if (!disabled) b.addEventListener('click', () => { state.currentPage = page; render(); });
     return b;
   };
 
@@ -380,11 +376,7 @@ function renderPagination(totalPages) {
     const b = document.createElement('button');
     b.textContent = '1';
     b.className = 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
-    b.addEventListener('click', () => {
-      window.scrollTo({top: 0, behavior: 'smooth'});
-      state.currentPage = 1;
-      render();
-    });
+    b.addEventListener('click', () => { state.currentPage = 1; render(); });
     ctr.appendChild(b);
     if (startPage > 2) {
       const ellipsis = document.createElement('span');
@@ -401,11 +393,7 @@ function renderPagination(totalPages) {
     b.className = active
       ? 'px-3 py-1 rounded border bg-blue-600 text-white border-blue-600'
       : 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
-    b.addEventListener('click', () => {
-      window.scrollTo({top: 0, behavior: 'smooth'});
-      state.currentPage = p;
-      render();
-    });
+    b.addEventListener('click', () => { state.currentPage = p; render(); });
     ctr.appendChild(b);
   }
 
@@ -419,15 +407,14 @@ function renderPagination(totalPages) {
     const b = document.createElement('button');
     b.textContent = totalPages;
     b.className = 'px-3 py-1 rounded border theme-card theme-border hover:bg-gray-100';
-    b.addEventListener('click', () => {
-      window.scrollTo({top: 0, behavior: 'smooth'});
-      state.currentPage = totalPages;
-      render();
-    });
+    b.addEventListener('click', () => { state.currentPage = totalPages; render(); });
     ctr.appendChild(b);
   }
 
   ctr.appendChild(btn('Next', state.currentPage + 1, state.currentPage === totalPages));
+
+  // scroll to top after any pagination click
+  window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 /* ---------- RENDER ---------- */
