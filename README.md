@@ -8,7 +8,7 @@ This project helps **developers, designers, musicians, and creators** quickly di
 
 ## 🚀 Live Demo
 
-> Coming soon — host via **GitHub Pages**, **Vercel**, or your preferred web host.
+> Hosted via **GitHub Pages**.
 
 ---
 
