@@ -8,7 +8,7 @@ This project helps **developers, designers, musicians, and creators** quickly di
 
 ## 🚀 Live Demo
 
-> Hosted via **GitHub Pages**.
+> Hosted via **GitHub Pages**. https://mikesruthless12.github.io/tools-hub/
 
 ---
 
