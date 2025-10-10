@@ -36266,5 +36266,115 @@
             "macOS"
         ],
         "popularityScore": 3200000
+    },
+    {
+        "type": "Music Samples",
+        "category": "Hip Hop",
+        "name": "Sauceware Audio",
+        "description": "Premium modern hip hop & trap sample packs with processed loops & MIDI.",
+        "url": "https://saucewareaudio.com",
+        "priceTier": 2,
+        "pricingDesc": "Free starter packs; premium packs $29-$79",
+        "popularityScore": 320000
+    },
+    {
+        "type": "Music Samples",
+        "category": "Hip Hop",
+        "name": "Output",
+        "description": "Curated royalty-free samples & loops for hip hop, trap, pop and cinematic productions.",
+        "url": "https://output.com",
+        "priceTier": 2,
+        "pricingDesc": "Free daily samples; full packs $29-$99",
+        "popularityScore": 2100000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Arcade",
+        "description": "Subscription-based loop & sample synthesizer with real-time playback engine.",
+        "url": "https://output.com/products/arcade",
+        "priceTier": 2,
+        "pricingDesc": "$10/mo after 30-day free trial",
+        "popularityScore": 1800000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Portal",
+        "description": "Granular effects processor for transforming any audio into lush textures & rhythms.",
+        "url": "https://output.com/products/portal",
+        "priceTier": 2,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 950000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Movement",
+        "description": "Rhythmic FX plugin that adds motion to synths, drums, guitars & vocals.",
+        "url": "https://output.com/products/movement",
+        "priceTier": 2,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 880000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Thermal",
+        "description": "Interactive distortion & saturation plugin with multi-stage modulation.",
+        "url": "https://output.com/products/thermal",
+        "priceTier": 2,
+        "pricingDesc": "$149 one-time",
+        "popularityScore": 760000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Substance",
+        "description": "Bass engine combining layered sources & powerful modulation for low-end creation.",
+        "url": "https://output.com/products/substance",
+        "priceTier": 3,
+        "pricingDesc": "$199 one-time",
+        "popularityScore": 650000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Exhale",
+        "description": "Modern vocal engine with sliced, looped & tempo-synced vocal phrases & pads.",
+        "url": "https://output.com/products/exhale",
+        "priceTier": 3,
+        "pricingDesc": "$199 one-time",
+        "popularityScore": 720000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Signal",
+        "description": "Pulse engine blending organic & synthetic sounds for rhythmic pulses & pads.",
+        "url": "https://output.com/products/signal",
+        "priceTier": 3,
+        "pricingDesc": "$199 one-time",
+        "popularityScore": 580000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Rev",
+        "description": "Reverse instrument suite with real-time reversed loops, swells & textures.",
+        "url": "https://output.com/products/rev",
+        "priceTier": 3,
+        "pricingDesc": "$199 one-time",
+        "popularityScore": 610000
+    },
+    {
+        "type": "Music VST",
+        "category": "Hip Hop",
+        "name": "Output Co-Producer",
+        "description": "AI-powered sample-finder plug-in that listens to your track and suggests royalty-free samples matched to key/tempo, with drag-and-drop straight into any DAW.",
+        "url": "https://output.com/products/co-producer",
+        "priceTier": 2,
+        "pricingDesc": "$9.99/mo (7-day free trial); $6.67/mo if billed yearly",
+        "popularityScore": 2100000
     }
 ]
