@@ -6827,19 +6827,6 @@
     },
     {
         "type": "YouTube Channel",
-        "category": "Software Engineering",
-        "name": "Clement Mihailescu",
-        "description": "Coding interviews and algorithms.",
-        "subscribers": "400k",
-        "monthlyViews": "250k+",
-        "url": "https://www.youtube.com/@clem",
-        "languages": [
-            "JavaScript",
-            "Python"
-        ]
-    },
-    {
-        "type": "YouTube Channel",
         "category": "Mobile Development",
         "name": "Flutter Community",
         "description": "Flutter tips and community projects.",
